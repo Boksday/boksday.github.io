@@ -19,6 +19,12 @@
 
     <p>부모님 음력 생신, 결혼기념일, 아이 기념일, 시험일까지. 남은 날과 함께한 날을 세고, 그날이 오기 전에 먼저 알려 드려요.</p>
 
+    <!-- 앱의 공유 문구가 이 페이지로 연결된다. 스토어 주소가 바뀌면 아래 data-store-url만 고친다(비어 있으면 '준비 중'). -->
+    <div class="store-buttons">
+      <a class="store-button" data-platform="android" data-store-url="https://play.google.com/store/apps/details?id=com.naegyeot.dday" data-ready-label="Google Play에서 받기" data-pending-label="Google Play 출시 준비 중" data-ready-label-en="Get it on Google Play" data-pending-label-en="Coming soon to Google Play">Google Play에서 받기</a>
+      <a class="store-button" data-platform="ios" data-store-url="" data-ready-label="App Store에서 받기" data-pending-label="App Store 출시 준비 중" data-ready-label-en="Download on the App Store" data-pending-label-en="Coming soon to the App Store">App Store에서 받기</a>
+    </div>
+
     <h2>주요 기능</h2>
     <ul>
       <li>음력 생신을 해마다 양력으로 자동 계산 (윤달 포함)</li>
@@ -30,8 +36,6 @@
       <li>Pro 평생 이용권(한 번 구매): 광고 제거, 홈 화면·잠금 화면 위젯, 디데이 사진</li>
     </ul>
 
-    <p>Android·iPhone에서 이용할 수 있어요.</p>
-
     <p class="muted"><a href="/dday/support/">고객 지원</a> · <a href="/dday/privacy/">개인정보처리방침</a> · 문의 <a href="mailto:ekqlszzzz@naver.com">ekqlszzzz@naver.com</a></p>
 
     <hr>
@@ -42,5 +46,26 @@
       <p class="muted"><a href="/dday/support/#en">Support</a> · <a href="/dday/privacy/#en">Privacy Policy</a></p>
     </section>
   </main>
+  <script>
+    // 스토어 주소가 있으면 링크로, 없으면 '준비 중'으로 보인다. 지금 기기에 맞는 버튼을 앞에 둔다.
+    (function () {
+      var buttons = Array.prototype.slice.call(document.querySelectorAll('.store-button'));
+      var ua = navigator.userAgent;
+      var suffix = /^ko/i.test(navigator.language || '') ? '' : '-en';
+      var current = /android/i.test(ua) ? 'android' : /iphone|ipad|ipod/i.test(ua) ? 'ios' : null;
+      buttons.forEach(function (button) {
+        var url = button.getAttribute('data-store-url');
+        if (url) {
+          button.href = url;
+          button.textContent = button.getAttribute('data-ready-label' + suffix);
+        } else {
+          button.removeAttribute('href');
+          button.classList.add('pending');
+          button.textContent = button.getAttribute('data-pending-label' + suffix);
+        }
+        if (button.getAttribute('data-platform') === current) button.parentNode.insertBefore(button, button.parentNode.firstChild);
+      });
+    })();
+  </script>
 </body>
 </html>
