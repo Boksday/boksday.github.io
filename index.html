@@ -3,22 +3,131 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>내곁의</title>
-  <link rel="stylesheet" href="/style.css">
+  <title>내곁의 · BySide</title>
+  <meta name="description" content="내곁의(BySide)는 일상 곁에 두는 작은 앱을 만드는 1인 앱 스튜디오예요. 내곁의 디데이, 내곁의 여행계산기를 만들고 있어요.">
+  <meta name="theme-color" content="#156B67" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#151817" media="(prefers-color-scheme: dark)">
+  <meta name="color-scheme" content="light dark">
+  <link rel="canonical" href="https://boksday.github.io/">
+  <link rel="icon" type="image/png" href="/dday/icon.png">
+  <link rel="apple-touch-icon" href="/dday/icon.png">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="내곁의">
+  <meta property="og:locale" content="ko_KR">
+  <meta property="og:url" content="https://boksday.github.io/">
+  <meta property="og:title" content="내곁의 · BySide">
+  <meta property="og:description" content="일상 곁에 두는 작은 앱을 만들어요. 내곁의 디데이, 내곁의 여행계산기.">
+  <meta property="og:image" content="https://boksday.github.io/dday/icon.png">
+  <meta name="twitter:card" content="summary">
+
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+  <link rel="stylesheet" href="/home.css">
 </head>
 <body>
-  <main>
-    <h1>내곁의</h1>
-    <p class="muted">일상 곁에 두는 작은 앱을 만듭니다.</p>
-    <div class="card">
-      <img src="/dday/icon.png" alt="">
-      <div>
-        <strong>내곁의 디데이</strong><br>
-        <span class="muted">기다리는 날과 기념일을 세고, 잊지 않게 알려 드려요.</span><br>
-        <a href="/dday/">소개</a> · <a href="/dday/support/">고객 지원</a> · <a href="/dday/privacy/">개인정보처리방침</a>
-      </div>
+  <header class="top">
+    <div class="wrap">
+      <a class="wordmark" href="/">내곁의<span>BySide</span></a>
+      <nav aria-label="바로가기"><a href="#apps">앱</a></nav>
     </div>
-    <p class="muted" style="margin-top:32px">문의: <a href="mailto:ekqlszzzz@naver.com">ekqlszzzz@naver.com</a></p>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap">
+        <p class="eyebrow">1인 앱 스튜디오</p>
+        <h1>내곁의<span class="en" lang="en">BySide</span></h1>
+        <p class="lead">일상 곁에 두는 작은 앱을 만들어요.</p>
+        <p class="intro">혼자서 작은 앱을 만들고 있어요. 꼭 필요한 일 하나를 편하게 해 주는 앱이면 충분하다고 생각해요. 매일 손이 가고, 오래 곁에 두고 싶은 앱이 되도록 하나씩 정성껏 다듬고 있어요.</p>
+      </div>
+    </section>
+
+    <section id="apps" aria-labelledby="apps-title">
+      <div class="wrap">
+        <h2 class="section-title" id="apps-title">만든 앱</h2>
+        <p class="section-sub">지금 쓸 수 있는 앱과 준비 중인 앱이에요.</p>
+
+        <div class="apps">
+          <article class="app">
+            <div class="app-head">
+              <img class="app-icon" src="/dday/icon.png" alt="내곁의 디데이 아이콘" width="64" height="64">
+              <div>
+                <span class="badge live">출시</span>
+                <h3 class="app-name">내곁의 디데이</h3>
+                <p class="app-en" lang="en">BySide: D-Day</p>
+              </div>
+            </div>
+            <p class="app-desc">음력 생신부터 기념일, 시험일까지. 남은 날과 함께한 날을 세고, 그날이 오기 전에 먼저 알려 드려요.</p>
+            <ul class="app-points">
+              <li>음력 생신을 해마다 양력으로 자동 계산</li>
+              <li>홈 화면·잠금 화면 위젯</li>
+              <li>회원가입 없이, 기록은 내 폰에만</li>
+            </ul>
+            <div class="app-foot">
+              <div class="stores">
+                <a class="store ready" href="https://play.google.com/store/apps/details?id=com.naegyeot.dday" rel="noopener">Google Play에서 받기</a>
+                <span class="store pending">App Store 출시 준비 중</span>
+              </div>
+              <p class="app-links">
+                <a href="/dday/">소개</a><span class="sep" aria-hidden="true">·</span><a href="/dday/support/">고객 지원</a><span class="sep" aria-hidden="true">·</span><a href="/dday/privacy/">개인정보처리방침</a>
+              </p>
+            </div>
+          </article>
+
+          <article class="app">
+            <div class="app-head">
+              <img class="app-icon" src="/trip/icon.png" alt="내곁의 여행계산기 아이콘" width="64" height="64">
+              <div>
+                <span class="badge soon">출시 준비 중</span>
+                <h3 class="app-name">내곁의 여행계산기</h3>
+                <p class="app-en" lang="en">BySide Trip</p>
+              </div>
+            </div>
+            <p class="app-desc">인터넷이 안 되는 곳에서도 쓸 수 있는 여행 환율 계산기예요.</p>
+            <ul class="app-points">
+              <li>세계 여러 나라 통화 지원</li>
+              <li>현금·카드 지출 기록</li>
+              <li>남은 현금을 한눈에</li>
+            </ul>
+            <div class="app-foot">
+              <p class="app-note">곧 만나요. 출시되면 이곳에 스토어 링크를 올려 둘게요.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section aria-labelledby="values-title">
+      <div class="wrap">
+        <h2 class="section-title" id="values-title">이렇게 만들어요</h2>
+        <p class="section-sub">앱마다 지키려고 하는 세 가지예요.</p>
+        <div class="values">
+          <div class="value">
+            <span class="num">01</span>
+            <h3>가볍게</h3>
+            <p>필요한 기능만 담아서, 열자마자 바로 쓸 수 있게 만들어요.</p>
+          </div>
+          <div class="value">
+            <span class="num">02</span>
+            <h3>오프라인에서도</h3>
+            <p>인터넷이 없을 때도 쓸 수 있도록 기기 안에서 동작하게 만들어요.</p>
+          </div>
+          <div class="value">
+            <span class="num">03</span>
+            <h3>내 데이터는 내 기기에</h3>
+            <p>회원가입 없이 쓰고, 기록은 내 기기에 저장돼요.</p>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
+
+  <footer>
+    <div class="wrap">
+      <p>문의 <a href="mailto:ekqlszzzz@naver.com">ekqlszzzz@naver.com</a></p>
+      <p>© 2026 내곁의</p>
+    </div>
+  </footer>
 </body>
 </html>
