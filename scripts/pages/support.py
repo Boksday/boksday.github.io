@@ -1,0 +1,86 @@
+"""고객 지원(5개 언어). faq는 (질문, HTML 답)."""
+
+E = '<a href="mailto:ekqlszzzz@naver.com">ekqlszzzz@naver.com</a>'
+
+SUPPORT = {
+    'ko': {
+        'title': '내곁의 여비 고객 지원',
+        'intro': '궁금한 점이나 불편한 점은 아래 메일로 보내 주세요. 보통 2일 안에 답장드려요.',
+        'contact': '문의',
+        'hint': '앱의 <strong>설정 → 문의하기</strong>를 누르면 메일이 바로 열려요. 앱 버전, 기기 종류, 어떤 화면에서 무엇을 했는지 적어 주시면 더 빨리 도와드릴 수 있어요.',
+        'faq_h': '자주 묻는 질문',
+        'faq': [
+            ('환율은 언제 업데이트되나요?', '환율 제공처(ExchangeRate-API)가 하루 한 번 새 환율을 내고, 앱은 인터넷이 연결돼 있을 때 이를 받아요(약 2KB). 인터넷이 없으면 마지막으로 받은 환율로 계산하고, 처음부터 인터넷이 없어도 앱에 넣어 둔 환율로 바로 쓸 수 있어요. 기준 시각은 계산 화면과 <strong>설정 → 환율</strong>에서 볼 수 있어요.'),
+            ('계산한 금액이 은행·카드 결제 금액과 달라요.', '앱은 시장 기준 환율(매매기준율에 가까운 값)로 계산해요. 실제 환전이나 카드 결제에는 은행·카드사의 환율과 수수료, 해외 결제 수수료가 붙고, 카드는 결제한 날이 아니라 매입되는 날의 환율이 적용되기도 해서 조금 차이가 날 수 있어요. 여행 예산을 가늠하는 용도로 써 주세요.'),
+            ('위젯은 어떻게 추가하나요? 보여 줄 통화를 바꿀 수 있나요?', '홈 화면 빈 곳을 길게 누르고 <strong>편집 → 위젯 추가</strong>에서 "내곁의 여비"를 찾으면 여행 위젯과 환율 위젯이 있어요. 추가한 위젯을 길게 눌러 <strong>위젯 편집</strong>을 고르면 배경색을 바꿀 수 있고, 환율 위젯은 보여 줄 통화도 직접 고를 수 있어요. 통화를 고르지 않으면 여행지 통화와 환율 탭 순서를 따라요. 위젯은 지금 iPhone에서만 쓸 수 있어요.'),
+            ('지출 기록을 백업하거나 새 폰으로 옮기고 싶어요.', '지출 기록은 폰 안에만 저장돼요. <strong>설정 → 지출 기록 백업 → 백업 파일 내보내기</strong>로 파일을 만들어 카카오톡 나에게 보내기나 드라이브에 보관하고, 새 폰에서 <strong>백업 불러오기</strong>로 그 파일을 고르면 돼요. 불러오면 지금 없는 기록만 더해져서 두 번 불러와도 겹치지 않아요. 표로 보고 싶다면 <strong>엑셀(CSV)로 내보내기</strong>를 써 보세요.'),
+            ('여행이 끝나면 어떻게 하나요? 지난 여행은 어디서 보나요?', '<strong>지출</strong> 탭에서 <strong>여행 끝내기</strong>를 누르면 여행 화면이 비워지고, 기록한 지출은 그대로 <strong>지난 여행</strong>에 남아요. 지출 탭 아래쪽의 지난 여행을 누르면 그 여행의 지출과 합계를 다시 볼 수 있고, <strong>이 여행 이어서 기록하기</strong>로 다시 이어 갈 수도 있어요. 여행지 통화를 바꾸면 새 여행으로 따로 묶여요.'),
+            ('지출이나 환전 기록을 고치거나 지우고 싶어요.', '지출 탭에서 지출 기록을 누르면 고칠 수 있고, 지출·환전 기록을 길게 누르면 지울 수 있어요. VoiceOver를 쓰면 기록에서 위아래로 쓸어 <strong>삭제</strong> 동작을 고를 수 있어요.'),
+            ('앱 언어를 바꾸고 싶어요.', '<strong>설정 → 언어</strong>에서 한국어, English, 日本語, 简体中文, 繁體中文 중에 고를 수 있어요. \'기기 설정 따르기\'를 고르면 휴대폰 언어를 따라가요.'),
+        ],
+    },
+    'en': {
+        'title': 'BySide Trip Support',
+        'intro': 'If you have a question or a problem, email us. We usually reply within 2 days.',
+        'contact': 'Contact',
+        'hint': 'Tap <strong>Settings → Contact us</strong> in the app to open an email right away. Including your app version, device model, and what you did on which screen helps us help you faster.',
+        'faq_h': 'FAQ',
+        'faq': [
+            ('How often are exchange rates updated?', "Our rate provider (ExchangeRate-API) publishes new rates once a day, and the App downloads them when you're online (about 2 KB). When you're offline, the App uses the last rates it downloaded, and it works out of the box even with no connection thanks to rates bundled with the App. You can see the rate time on the converter screen and under <strong>Settings → Exchange rates</strong>."),
+            ('Why is the result different from my bank or card charge?', 'The App uses mid-market rates. Banks and card issuers apply their own rates plus fees and foreign transaction charges, and card payments are sometimes converted on the day they settle rather than the day you paid, so the amounts can differ a little. Use the App to estimate your travel budget.'),
+            ('How do I add a widget, and can I choose its currencies?', 'Touch and hold an empty area of the Home Screen, tap <strong>Edit → Add Widget</strong>, and search for "BySide Trip" to find the trip widget and the rates widget. Touch and hold a widget and choose <strong>Edit Widget</strong> to change its background color. For the rates widget you can also choose which currencies to show. If you choose none, it follows your destination and the order in the Rates tab. Widgets are currently available on iPhone only.'),
+            ('How do I back up my expenses or move them to a new phone?', "Expenses are stored only on your phone. Use <strong>Settings → Expense backup → Export backup file</strong> and keep the file somewhere safe (a messenger, email, or a cloud drive). On the new phone, choose <strong>Import backup</strong> and pick that file. Only records you don't already have are added, so importing twice won't create duplicates. For a spreadsheet, use <strong>Export to Excel (CSV)</strong>."),
+            ('How do I end a trip, and where are past trips?', 'In the <strong>Expenses</strong> tab, tap <strong>End trip</strong>. The trip screen is cleared and your expenses stay under <strong>Past trips</strong>, further down the Expenses tab, where you can see each trip again or tap <strong>Continue this trip</strong> to pick it back up. Changing the trip currency starts a separate trip.'),
+            ('How do I edit or delete a record?', 'In the Expenses tab, tap an expense to edit it, or touch and hold an expense or exchange record to delete it. With VoiceOver, swipe up or down on a record to choose the <strong>Delete</strong> action.'),
+            ('How do I change the app language?', 'Go to <strong>Settings → Language</strong> and choose 한국어, English, 日本語, 简体中文, or 繁體中文. Choose "Use device language" to follow your phone\'s language.'),
+        ],
+    },
+    'ja': {
+        'title': 'BySide 旅行 サポート',
+        'intro': 'ご不明な点やお困りのことがあれば、下記のメールアドレスまでお送りください。通常2日以内にお返事します。',
+        'contact': 'お問い合わせ',
+        'hint': 'アプリの<strong>設定 → お問い合わせ</strong>を押すと、メールがすぐに開きます。アプリのバージョン、端末の機種、どの画面で何をしたかを書いていただくと、より早くご案内できます。',
+        'faq_h': 'よくある質問',
+        'faq': [
+            ('為替レートはいつ更新されますか？', 'レート提供元（ExchangeRate-API）が1日1回新しいレートを公開し、アプリはインターネットに接続しているときにそれを受け取ります（約2KB）。オフラインのときは最後に受け取ったレートで換算し、初めからインターネットがなくてもアプリに内蔵されたレートですぐに使えます。基準時刻は換算画面と<strong>設定 → 為替レート</strong>で確認できます。'),
+            ('換算した金額が銀行やカードの請求額と違います。', 'アプリは市場の参考レート（仲値に近い値）で換算します。実際の両替やカード決済では、銀行・カード会社のレートや手数料、海外事務手数料がかかり、カードは決済日ではなく売上確定日のレートが適用されることもあるため、少し差が出ることがあります。旅行の予算の目安としてお使いください。'),
+            ('ウィジェットはどう追加しますか？表示する通貨は変えられますか？', 'ホーム画面の空いている場所を長押しし、<strong>編集 → ウィジェットを追加</strong>で「BySide 旅行」を探すと、旅行ウィジェットとレートウィジェットがあります。追加したウィジェットを長押しして<strong>ウィジェットを編集</strong>を選ぶと背景色を変えられ、レートウィジェットでは表示する通貨も選べます。通貨を選ばない場合は、行き先の通貨と為替タブの順に表示します。ウィジェットは現在 iPhone でのみ使えます。'),
+            ('支出の記録をバックアップしたり、新しい端末に移したりしたいです。', '支出の記録は端末の中にだけ保存されます。<strong>設定 → 支出の記録のバックアップ → バックアップファイルを書き出す</strong>でファイルを作り、メッセージアプリやクラウドドライブに保管してください。新しい端末で<strong>バックアップを読み込む</strong>からそのファイルを選べば完了です。読み込むと今ない記録だけが追加されるので、2回読み込んでも重複しません。表で見たい場合は<strong>Excel（CSV）で書き出す</strong>をお使いください。'),
+            ('旅行が終わったらどうしますか？過去の旅行はどこで見られますか？', '<strong>支出</strong>タブで<strong>旅行を終える</strong>を押すと旅行画面が空になり、記録した支出はそのまま<strong>過去の旅行</strong>に残ります。支出タブの下にある過去の旅行を押すと、その旅行の支出と合計をもう一度見られ、<strong>この旅行の記録を続ける</strong>で再開することもできます。旅行先の通貨を変えると、別の旅行としてまとめられます。'),
+            ('支出や両替の記録を修正・削除したいです。', '支出タブで支出の記録を押すと修正でき、支出・両替の記録を長押しすると削除できます。VoiceOver を使っている場合は、記録の上で上下にスワイプして<strong>削除</strong>を選べます。'),
+            ('アプリの言語を変えたいです。', '<strong>設定 → 言語</strong>で 한국어、English、日本語、简体中文、繁體中文 から選べます。「端末の設定に合わせる」を選ぶと、端末の言語に合わせます。'),
+        ],
+    },
+    'zh-hans': {
+        'title': 'BySide 旅行 客户支持',
+        'intro': '如有疑问或遇到问题，请发邮件到下方地址。我们通常会在 2 天内回复。',
+        'contact': '联系我们',
+        'hint': '在应用中点按<strong>设置 → 联系我们</strong>即可直接打开邮件。写明应用版本、设备型号以及在哪个页面做了什么，我们能更快帮到你。',
+        'faq_h': '常见问题',
+        'faq': [
+            ('汇率什么时候更新？', '汇率提供方（ExchangeRate-API）每天发布一次新汇率，应用在联网时获取（约 2KB）。没有网络时使用最后一次获取的汇率换算；即使从一开始就没有网络，也可以用应用内置的汇率直接使用。更新时间可在换算页面和<strong>设置 → 汇率</strong>中查看。'),
+            ('换算的金额和银行、信用卡扣款不一样。', '应用使用市场参考汇率（接近中间价）换算。实际兑换或刷卡时，会有银行或发卡行的汇率和手续费、境外交易手续费；信用卡有时也按入账日而不是消费日的汇率结算，因此可能略有差异。请把它当作估算旅行预算的参考。'),
+            ('怎样添加小组件？可以更换显示的货币吗？', '在主屏幕空白处长按，点按<strong>编辑 → 添加小组件</strong>，搜索“BySide 旅行”，就能找到旅行小组件和汇率小组件。长按已添加的小组件并选择<strong>编辑小组件</strong>，可以更换背景颜色；汇率小组件还可以自选要显示的货币。不选择时，按目的地货币和“汇率”页面的顺序显示。小组件目前仅支持 iPhone。'),
+            ('想备份支出记录或迁移到新手机。', '支出记录只保存在手机上。用<strong>设置 → 支出记录备份 → 导出备份文件</strong>生成文件，保存到聊天应用或云盘；在新手机上选择<strong>导入备份</strong>并选中该文件即可。导入时只会添加当前没有的记录，导入两次也不会重复。想用表格查看，可以使用<strong>导出为 Excel（CSV）</strong>。'),
+            ('旅行结束后怎么办？以往的旅行在哪里看？', '在<strong>支出</strong>页面点按<strong>结束旅行</strong>，旅行页面会清空，记录的支出会保留在<strong>以往旅行</strong>中。点按支出页面下方的以往旅行，可以再次查看该次旅行的支出和合计，也可以点按<strong>继续记录这次旅行</strong>接着记。更换旅行地货币会作为一次新的旅行单独归类。'),
+            ('想修改或删除支出、兑换记录。', '在支出页面点按支出记录即可修改，长按支出或兑换记录即可删除。使用 VoiceOver 时，可在记录上上下轻扫选择<strong>删除</strong>操作。'),
+            ('想更换应用语言。', '在<strong>设置 → 语言</strong>中可选择 한국어、English、日本語、简体中文、繁體中文。选择“跟随系统”则跟随手机语言。'),
+        ],
+    },
+    'zh-hant': {
+        'title': 'BySide 旅行 客戶支援',
+        'intro': '如有疑問或遇到問題，請寄信到下方地址。我們通常會在 2 天內回覆。',
+        'contact': '聯絡我們',
+        'hint': '在 App 中點一下<strong>設定 → 聯絡我們</strong>即可直接開啟郵件。寫明 App 版本、裝置型號以及在哪個頁面做了什麼，我們能更快協助你。',
+        'faq_h': '常見問題',
+        'faq': [
+            ('匯率什麼時候更新？', '匯率提供者（ExchangeRate-API）每天發布一次新匯率，App 在連網時取得（約 2KB）。沒有網路時使用最後一次取得的匯率換算；即使一開始就沒有網路，也能用 App 內建的匯率直接使用。更新時間可在換算頁面和<strong>設定 → 匯率</strong>中查看。'),
+            ('換算的金額和銀行、信用卡扣款不一樣。', 'App 使用市場參考匯率（接近中價）換算。實際換匯或刷卡時，會有銀行或發卡機構的匯率與手續費、海外交易手續費；信用卡有時也按入帳日而非消費日的匯率結算，因此可能略有差異。請當作估算旅行預算的參考。'),
+            ('怎麼新增小工具？可以更換顯示的貨幣嗎？', '在主畫面空白處長按，點一下<strong>編輯 → 加入小工具</strong>，搜尋「BySide 旅行」，就能找到旅行小工具和匯率小工具。長按已加入的小工具並選擇<strong>編輯小工具</strong>，可以更換背景顏色；匯率小工具還能自選要顯示的貨幣。不選擇時，會依目的地貨幣和「匯率」頁面的順序顯示。小工具目前僅支援 iPhone。'),
+            ('想備份支出記錄或搬到新手機。', '支出記錄只儲存在手機上。用<strong>設定 → 支出記錄備份 → 匯出備份檔案</strong>產生檔案，存到通訊 App 或雲端硬碟；在新手機上選擇<strong>匯入備份</strong>並選取該檔案即可。匯入時只會加入目前沒有的記錄，匯入兩次也不會重複。想用試算表查看，可以使用<strong>匯出為 Excel（CSV）</strong>。'),
+            ('旅行結束後怎麼辦？過去的旅行在哪裡看？', '在<strong>支出</strong>頁面點一下<strong>結束旅行</strong>，旅行頁面會清空，記錄的支出會保留在<strong>過去的旅行</strong>中。點一下支出頁面下方的過去的旅行，可以再次查看該次旅行的支出和合計，也能點一下<strong>繼續記錄這次旅行</strong>接著記。更換旅行地貨幣會作為一次新的旅行另外歸類。'),
+            ('想修改或刪除支出、換匯記錄。', '在支出頁面點一下支出記錄即可修改，長按支出或換匯記錄即可刪除。使用 VoiceOver 時，可在記錄上上下滑動選擇<strong>刪除</strong>動作。'),
+            ('想更換 App 語言。', '在<strong>設定 → 語言</strong>中可選擇 한국어、English、日本語、简体中文、繁體中文。選擇「跟隨系統」則會跟隨手機語言。'),
+        ],
+    },
+}
