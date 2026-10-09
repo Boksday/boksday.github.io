@@ -3,76 +3,57 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>내곁의 여비 고객 지원 · Support</title>
+  <title>내곁의 여비 고객 지원 · 내곁의 여비</title>
+  <meta name="description" content="내곁의 여비 고객 지원">
+  <link rel="alternate" hreflang="ko" href="https://boksday.github.io/trip/support/">
+  <link rel="alternate" hreflang="en" href="https://boksday.github.io/trip/support/en/">
+  <link rel="alternate" hreflang="ja" href="https://boksday.github.io/trip/support/ja/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://boksday.github.io/trip/support/zh-hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://boksday.github.io/trip/support/zh-hant/">
+  <link rel="alternate" hreflang="x-default" href="https://boksday.github.io/trip/support/">
+  <link rel="icon" href="/trip/icon.png">
   <link rel="stylesheet" href="/style.css">
+  <script>
+    (function () {
+      if (/[?&]lang=ko\b/.test(location.search)) return;
+      var target = null;
+      if (location.hash === '#en') target = 'en';
+      else {
+        var l = ((navigator.languages && navigator.languages[0]) || navigator.language || '').toLowerCase();
+        if (!l || /^ko/.test(l)) return;
+        if (/^ja/.test(l)) target = 'ja';
+        else if (/^zh-(hant|tw|hk|mo)/.test(l)) target = 'zh-hant';
+        else if (/^zh/.test(l)) target = 'zh-hans';
+        else target = 'en';
+      }
+      location.replace(location.pathname.replace(/\/?$/, '/') + target + '/');
+    })();
+  </script>
 </head>
 <body>
   <main>
-    <p class="muted"><a href="/trip/">내곁의 여비</a> · <a href="#ko">한국어</a> · <a href="#en">English</a></p>
-
-    <section id="ko" lang="ko">
-      <h1>내곁의 여비 고객 지원</h1>
-      <p>궁금한 점이나 불편한 점은 아래 메일로 보내 주세요. 보통 2일 안에 답장드려요.</p>
-      <p><strong>문의:</strong> <a href="mailto:ekqlszzzz@naver.com">ekqlszzzz@naver.com</a></p>
-      <p class="muted">앱의 <strong>설정 → 문의하기</strong>를 누르면 메일이 바로 열려요. 앱 버전, 기기 종류, 어떤 화면에서 무엇을 했는지 적어 주시면 더 빨리 도와드릴 수 있어요.</p>
-
-      <h2>자주 묻는 질문</h2>
-      <p><strong>환율은 언제 업데이트되나요?</strong><br>
-      환율 제공처(ExchangeRate-API)가 하루 한 번 새 환율을 내고, 앱은 인터넷이 연결돼 있을 때 이를 받아요(약 2KB). 인터넷이 없으면 마지막으로 받은 환율로 계산하고, 처음부터 인터넷이 없어도 앱에 넣어 둔 환율로 바로 쓸 수 있어요. 기준 시각은 계산 화면과 <strong>설정 → 환율</strong>에서 볼 수 있어요.</p>
-
-      <p><strong>계산한 금액이 은행·카드 결제 금액과 달라요.</strong><br>
-      앱은 시장 기준 환율(매매기준율에 가까운 값)로 계산해요. 실제 환전이나 카드 결제에는 은행·카드사의 환율과 수수료, 해외 결제 수수료가 붙고, 카드는 결제한 날이 아니라 매입되는 날의 환율이 적용되기도 해서 조금 차이가 날 수 있어요. 여행 예산을 가늠하는 용도로 써 주세요.</p>
-
-      <p><strong>지출 기록을 백업하거나 새 폰으로 옮기고 싶어요.</strong><br>
-      지출 기록은 폰 안에만 저장돼요. <strong>설정 → 지출 기록 백업 → 백업 파일 내보내기</strong>로 파일을 만들어 카카오톡 나에게 보내기나 드라이브에 보관하고, 새 폰에서 <strong>백업 불러오기</strong>로 그 파일을 고르면 돼요. 불러오면 지금 없는 기록만 더해져서 두 번 불러와도 겹치지 않아요. 표로 보고 싶다면 <strong>엑셀(CSV)로 내보내기</strong>를 써 보세요.</p>
-
-      <p><strong>여행이 끝나면 어떻게 하나요? 지난 여행은 어디서 보나요?</strong><br>
-      <strong>지출</strong> 탭에서 <strong>여행 끝내기</strong>를 누르면 여행 화면이 비워지고, 기록한 지출은 그대로 <strong>지난 여행</strong>에 남아요. 지출 탭 아래쪽의 지난 여행을 누르면 그 여행의 지출과 합계를 다시 볼 수 있어요. 여행지 통화를 바꿔도 새 여행으로 따로 묶여요.</p>
-
-      <p><strong>지출이나 환전 기록을 고치거나 지우고 싶어요.</strong><br>
-      지출 탭에서 지출 기록을 누르면 고칠 수 있고, 지출·환전 기록을 길게 누르면 지울 수 있어요.</p>
-
-      <p><strong>앱 언어를 바꾸고 싶어요.</strong><br>
-      <strong>설정 → 언어</strong>에서 한국어, English, 日本語, 简体中文, 繁體中文 중에 고를 수 있어요. '기기 설정 따르기'를 고르면 휴대폰 언어를 따라가요.</p>
-
-      <p><strong>문의는 어디로 하나요?</strong><br>
-      <a href="mailto:ekqlszzzz@naver.com">ekqlszzzz@naver.com</a>으로 메일 보내 주세요. 앱의 <strong>설정 → 문의하기</strong>로도 보낼 수 있어요.</p>
-
-      <p><a href="/trip/privacy/">개인정보처리방침</a></p>
-    </section>
-
-    <hr>
-
-    <section id="en" lang="en">
-      <h1>BySide Trip Support</h1>
-      <p>If you have a question or a problem, email us. We usually reply within 2 days.</p>
-      <p><strong>Contact:</strong> <a href="mailto:ekqlszzzz@naver.com">ekqlszzzz@naver.com</a></p>
-      <p class="muted">Tap <strong>Settings → Contact us</strong> in the app to open an email right away. Including your app version, device model, and what you did on which screen helps us help you faster.</p>
-
-      <h2>FAQ</h2>
-      <p><strong>How often are exchange rates updated?</strong><br>
-      Our rate provider (ExchangeRate-API) publishes new rates once a day, and the App downloads them when you're online (about 2 KB). When you're offline, the App uses the last rates it downloaded, and it works out of the box even with no connection thanks to rates bundled with the App. You can see the rate time on the converter screen and under <strong>Settings → Rates</strong>.</p>
-
-      <p><strong>Why is the result different from my bank or card charge?</strong><br>
-      The App uses mid-market rates. Banks and card issuers apply their own rates plus fees and foreign transaction charges, and card payments are sometimes converted on the day they settle rather than the day you paid, so the amounts can differ a little. Use the App to estimate your travel budget.</p>
-
-      <p><strong>How do I back up my expenses or move them to a new phone?</strong><br>
-      Expenses are stored only on your phone. Use <strong>Settings → Expense backup → Export backup file</strong> and keep the file somewhere safe (a messenger, email, or a cloud drive). On the new phone, choose <strong>Import backup</strong> and pick that file. Only records you don't already have are added, so importing twice won't create duplicates. For a spreadsheet, use <strong>Export to Excel (CSV)</strong>.</p>
-
-      <p><strong>How do I end a trip, and where are past trips?</strong><br>
-      In the <strong>Expenses</strong> tab, tap <strong>End trip</strong>. The trip screen is cleared and your expenses stay under <strong>Past trips</strong>, further down the Expenses tab, where you can see each trip's expenses and total again. Changing the trip currency also starts a separate trip.</p>
-
-      <p><strong>How do I edit or delete a record?</strong><br>
-      In the Expenses tab, tap an expense to edit it, or touch and hold an expense or exchange record to delete it.</p>
-
-      <p><strong>How do I change the app language?</strong><br>
-      Go to <strong>Settings → Language</strong> and choose 한국어, English, 日本語, 简体中文, or 繁體中文. Choose "Use device language" to follow your phone's language.</p>
-
-      <p><strong>How do I contact you?</strong><br>
-      Email <a href="mailto:ekqlszzzz@naver.com">ekqlszzzz@naver.com</a>, or tap <strong>Settings → Contact us</strong> in the app.</p>
-
-      <p><a href="/trip/privacy/#en">Privacy Policy</a></p>
-    </section>
+    <p class="muted crumbs"><a href="/trip/">내곁의 여비</a></p>
+    <nav class="langs" aria-label="언어"><a href="/trip/support/?lang=ko" hreflang="ko" lang="ko" aria-current="page">한국어</a><a href="/trip/support/en/" hreflang="en" lang="en">English</a><a href="/trip/support/ja/" hreflang="ja" lang="ja">日本語</a><a href="/trip/support/zh-hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a><a href="/trip/support/zh-hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></nav>
+    <h1>내곁의 여비 고객 지원</h1>
+    <p>궁금한 점이나 불편한 점은 아래 메일로 보내 주세요. 보통 2일 안에 답장드려요.</p>
+    <p><strong>문의:</strong> <a href="mailto:ekqlszzzz@naver.com">ekqlszzzz@naver.com</a></p>
+    <p class="muted">앱의 <strong>설정 → 문의하기</strong>를 누르면 메일이 바로 열려요. 앱 버전, 기기 종류, 어떤 화면에서 무엇을 했는지 적어 주시면 더 빨리 도와드릴 수 있어요.</p>
+    <h2>자주 묻는 질문</h2>
+    <p><strong>환율은 언제 업데이트되나요?</strong><br>
+    환율 제공처(ExchangeRate-API)가 하루 한 번 새 환율을 내고, 앱은 인터넷이 연결돼 있을 때 이를 받아요(약 2KB). 인터넷이 없으면 마지막으로 받은 환율로 계산하고, 처음부터 인터넷이 없어도 앱에 넣어 둔 환율로 바로 쓸 수 있어요. 기준 시각은 계산 화면과 <strong>설정 → 환율</strong>에서 볼 수 있어요.</p>
+    <p><strong>계산한 금액이 은행·카드 결제 금액과 달라요.</strong><br>
+    앱은 시장 기준 환율(매매기준율에 가까운 값)로 계산해요. 실제 환전이나 카드 결제에는 은행·카드사의 환율과 수수료, 해외 결제 수수료가 붙고, 카드는 결제한 날이 아니라 매입되는 날의 환율이 적용되기도 해서 조금 차이가 날 수 있어요. 여행 예산을 가늠하는 용도로 써 주세요.</p>
+    <p><strong>위젯은 어떻게 추가하나요? 보여 줄 통화를 바꿀 수 있나요?</strong><br>
+    홈 화면 빈 곳을 길게 누르고 <strong>편집 → 위젯 추가</strong>에서 "내곁의 여비"를 찾으면 여행 위젯과 환율 위젯이 있어요. 추가한 위젯을 길게 눌러 <strong>위젯 편집</strong>을 고르면 배경색을 바꿀 수 있고, 환율 위젯은 보여 줄 통화도 직접 고를 수 있어요. 통화를 고르지 않으면 여행지 통화와 환율 탭 순서를 따라요. 위젯은 지금 iPhone에서만 쓸 수 있어요.</p>
+    <p><strong>지출 기록을 백업하거나 새 폰으로 옮기고 싶어요.</strong><br>
+    지출 기록은 폰 안에만 저장돼요. <strong>설정 → 지출 기록 백업 → 백업 파일 내보내기</strong>로 파일을 만들어 카카오톡 나에게 보내기나 드라이브에 보관하고, 새 폰에서 <strong>백업 불러오기</strong>로 그 파일을 고르면 돼요. 불러오면 지금 없는 기록만 더해져서 두 번 불러와도 겹치지 않아요. 표로 보고 싶다면 <strong>엑셀(CSV)로 내보내기</strong>를 써 보세요.</p>
+    <p><strong>여행이 끝나면 어떻게 하나요? 지난 여행은 어디서 보나요?</strong><br>
+    <strong>지출</strong> 탭에서 <strong>여행 끝내기</strong>를 누르면 여행 화면이 비워지고, 기록한 지출은 그대로 <strong>지난 여행</strong>에 남아요. 지출 탭 아래쪽의 지난 여행을 누르면 그 여행의 지출과 합계를 다시 볼 수 있고, <strong>이 여행 이어서 기록하기</strong>로 다시 이어 갈 수도 있어요. 여행지 통화를 바꾸면 새 여행으로 따로 묶여요.</p>
+    <p><strong>지출이나 환전 기록을 고치거나 지우고 싶어요.</strong><br>
+    지출 탭에서 지출 기록을 누르면 고칠 수 있고, 지출·환전 기록을 길게 누르면 지울 수 있어요. VoiceOver를 쓰면 기록에서 위아래로 쓸어 <strong>삭제</strong> 동작을 고를 수 있어요.</p>
+    <p><strong>앱 언어를 바꾸고 싶어요.</strong><br>
+    <strong>설정 → 언어</strong>에서 한국어, English, 日本語, 简体中文, 繁體中文 중에 고를 수 있어요. '기기 설정 따르기'를 고르면 휴대폰 언어를 따라가요.</p>
+    <p><a href="/trip/privacy/">내곁의 여비 개인정보처리방침</a></p>
   </main>
 </body>
 </html>

@@ -45,3 +45,11 @@ th { background: var(--surface); }
   background: var(--brand); color: var(--bg); font-weight: 700; text-decoration: none;
 }
 .store-button.pending { background: var(--surface); color: var(--muted); border: 1px solid var(--border); }
+/* 언어 고르기(여비 개인정보·지원 페이지) */
+.crumbs { margin: 0 0 8px; }
+.langs { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 24px; }
+.langs a {
+  padding: 3px 10px; border-radius: 999px; border: 1px solid var(--border);
+  color: var(--muted); text-decoration: none; font-size: 0.82rem; font-weight: 600; background: var(--surface); white-space: nowrap;
+}
+.langs a[aria-current="page"] { background: var(--brand); border-color: var(--brand); color: var(--bg); }

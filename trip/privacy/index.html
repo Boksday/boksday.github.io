@@ -3,114 +3,67 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>내곁의 여비 개인정보처리방침 · Privacy Policy</title>
+  <title>내곁의 여비 개인정보처리방침 · 내곁의 여비</title>
+  <meta name="description" content="내곁의 여비 개인정보처리방침">
+  <link rel="alternate" hreflang="ko" href="https://boksday.github.io/trip/privacy/">
+  <link rel="alternate" hreflang="en" href="https://boksday.github.io/trip/privacy/en/">
+  <link rel="alternate" hreflang="ja" href="https://boksday.github.io/trip/privacy/ja/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://boksday.github.io/trip/privacy/zh-hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://boksday.github.io/trip/privacy/zh-hant/">
+  <link rel="alternate" hreflang="x-default" href="https://boksday.github.io/trip/privacy/">
+  <link rel="icon" href="/trip/icon.png">
   <link rel="stylesheet" href="/style.css">
+  <script>
+    (function () {
+      if (/[?&]lang=ko\b/.test(location.search)) return;
+      var target = null;
+      if (location.hash === '#en') target = 'en';
+      else {
+        var l = ((navigator.languages && navigator.languages[0]) || navigator.language || '').toLowerCase();
+        if (!l || /^ko/.test(l)) return;
+        if (/^ja/.test(l)) target = 'ja';
+        else if (/^zh-(hant|tw|hk|mo)/.test(l)) target = 'zh-hant';
+        else if (/^zh/.test(l)) target = 'zh-hans';
+        else target = 'en';
+      }
+      location.replace(location.pathname.replace(/\/?$/, '/') + target + '/');
+    })();
+  </script>
 </head>
 <body>
   <main>
-    <p class="muted"><a href="/trip/">내곁의 여비</a> · <a href="#ko">한국어</a> · <a href="#en">English</a></p>
-
-    <section id="ko" lang="ko">
-      <h1>내곁의 여비 개인정보처리방침</h1>
-      <p class="muted">시행일: 2026년 10월 9일</p>
-
-      <p>'내곁의 여비'(이하 "앱", Android·iOS)는 이용자의 개인정보를 소중히 다루며, 「개인정보 보호법」 등 관련 법령을 지킵니다. 이 방침은 앱이 어떤 정보를 어떻게 다루는지 설명합니다.</p>
-
-      <h2>1. 앱이 직접 수집하는 정보</h2>
-      <p>앱은 회원가입이나 로그인이 없으며, 운영자가 운영하는 서버가 없어 이용자의 정보를 운영자에게 보내지 않습니다.</p>
-      <p>이용자가 고른 통화 설정(내 나라 통화, 여행지 통화, 환율 목록), 지출 기록(금액, 통화, 분류, 결제 수단, 메모, 기록 시각), 환전 기록, 화면 테마·언어 설정, 마지막으로 받은 환율은 <strong>이용자의 기기 안에만 저장</strong>됩니다. 운영자는 이 내용을 볼 수 없습니다.</p>
-      <p>처음 실행할 때 기본 통화와 언어를 정하기 위해 기기의 지역·언어 설정을 기기 안에서 읽습니다. 이 정보는 앱이 외부로 보내지 않습니다.</p>
-      <p>휴대폰 자체 백업(iCloud, Google 계정 백업 등)을 켜 두었다면 운영체제가 다른 앱 데이터와 함께 이 앱의 데이터를 백업할 수 있습니다. 이 백업은 이용자와 Apple·Google 사이의 서비스이며 운영자는 접근할 수 없습니다.</p>
-
-      <h2>2. 백업 파일·내보내기·공유</h2>
-      <p>이용자가 직접 <strong>백업 파일 내보내기</strong>(JSON)나 <strong>엑셀(CSV)로 내보내기</strong>, <strong>지출 내역 공유하기</strong>를 누르면 기기의 공유 창이 열리고, 파일이나 글을 보낼 곳(메신저, 드라이브, 파일 앱 등)은 이용자가 고릅니다. <strong>백업 불러오기</strong>는 이용자가 고른 파일 하나만 읽습니다. 이 과정에서 운영자에게 전송되는 정보는 없으며, 보낸 곳에서의 처리는 해당 서비스의 방침을 따릅니다.</p>
-
-      <h2>3. 환율 정보 받기</h2>
-      <p>앱은 최신 환율을 받기 위해 대략 하루 한 번 ExchangeRate-API(<a href="https://www.exchangerate-api.com">exchangerate-api.com</a>)의 공개 주소(open.er-api.com)에 환율을 요청합니다. 이 요청에는 이용자가 입력한 금액이나 기록 등 개인정보가 들어가지 않습니다. 다만 일반적인 인터넷 요청과 마찬가지로 제공자는 요청을 보낸 기기의 IP 주소를 알 수 있습니다. 인터넷이 없으면 앱에 넣어 두었거나 마지막으로 받은 환율로 계산합니다.</p>
-
-      <h2>4. 광고·추적 없음</h2>
-      <p>앱에는 광고가 없고, 광고·분석·추적 SDK를 넣지 않았습니다. 광고 식별자(Android 광고 ID, iOS IDFA)를 읽지 않으며, 다른 회사의 앱·웹사이트에 걸친 추적을 하지 않습니다.</p>
-
-      <h2>5. 홈 화면 위젯·리뷰 요청</h2>
-      <ul>
-        <li>iOS 홈·잠금 화면 위젯을 쓰면, 앱이 이번 여행 합계·오늘 쓴 돈·환율 같은 표시용 값을 같은 기기의 위젯과 함께 쓰는 저장 공간(App Group)에 저장합니다. 이 값도 기기 밖으로 나가지 않습니다.</li>
-        <li>앱은 지출을 몇 번 기록한 뒤 App Store·Google Play의 평점 창을 한 번 띄울 수 있고, 설정의 '리뷰 남기기'로 스토어 리뷰 페이지를 엽니다. 평점과 리뷰는 Apple·Google에 직접 남기며, 운영자는 그 내용을 앱으로 받지 않습니다.</li>
-      </ul>
-
-      <h2>6. 기기 권한</h2>
-      <p>앱은 카메라, 위치, 연락처, 사진, 마이크, 알림 권한을 사용하지 않습니다. Android에서는 인터넷(환율 받기)과 진동(버튼을 누를 때의 가벼운 진동) 권한만 선언되어 있습니다. iOS에서는 따로 묻는 권한이 없습니다.</p>
-
-      <h2>7. 개인정보의 처리 목적·제3자 제공·처리 위탁</h2>
-      <p>운영자는 이용자의 개인정보를 수집하지 않으므로 이를 제3자에게 제공하거나 처리를 위탁하지 않습니다.</p>
-
-      <h2>8. 보관 및 파기</h2>
-      <p>기기에 저장된 정보는 이용자가 앱에서 지출·환전 기록을 지우거나 앱을 삭제하면 함께 지워집니다. 이용자가 내보낸 백업·CSV 파일은 이용자가 보관한 곳에서 직접 지워야 합니다. 운영자가 따로 보관하는 정보는 없습니다. 환율 제공자(ExchangeRate-API)가 받은 요청 정보의 보관 기간은 해당 회사의 방침을 따릅니다.</p>
-
-      <h2>9. 아동의 개인정보</h2>
-      <p>앱은 만 14세 미만 아동(해외는 만 13세 미만)을 주 대상으로 하지 않으며, 아동의 개인정보를 의도적으로 수집하지 않습니다.</p>
-
-      <h2>10. 이용자의 권리</h2>
-      <p>앱에 저장된 정보는 모두 이용자의 기기에 있으므로 이용자가 앱에서 직접 열람·수정·삭제할 수 있습니다. 그 밖의 요청은 아래 연락처로 보내 주세요.</p>
-
-      <h2>11. 개인정보 보호책임자·문의</h2>
-      <p>개인정보 보호책임자: 내곁의 운영자<br>
-      연락처: <a href="mailto:ekqlszzzz@naver.com">ekqlszzzz@naver.com</a></p>
-
-      <h2>12. 방침의 변경</h2>
-      <p>이 방침이 바뀌면 이 페이지에 시행일과 함께 알립니다.</p>
-    </section>
-
-    <hr>
-
-    <section id="en" lang="en">
-      <h1>BySide Trip Privacy Policy</h1>
-      <p class="muted">Effective date: October 9, 2026</p>
-
-      <p>BySide Trip (내곁의 여비, the "App", for Android and iOS) respects your privacy. This policy explains what information the App handles and how.</p>
-
-      <h2>1. Information the App collects</h2>
-      <p>The App has no sign-up or login, and we do not run a server for it, so your information is never sent to us.</p>
-      <p>Your currency settings (home currency, trip currency, currency list), expenses (amount, currency, category, payment method, memo, time recorded), cash exchanges, theme and language settings, and the most recently downloaded exchange rates are <strong>stored only on your device</strong>. We cannot see them.</p>
-      <p>On first launch, the App reads your device's region and language settings on the device to choose a default currency and language. The App does not send this anywhere.</p>
-      <p>If you have turned on your phone's own backup (such as iCloud or Google account backup), the operating system may back up this App's data along with other app data. That backup is a service between you and Apple or Google, and we have no access to it.</p>
-
-      <h2>2. Backup files, export, and sharing</h2>
-      <p>When you tap <strong>Export backup file</strong> (JSON), <strong>Export to Excel (CSV)</strong>, or <strong>Share expenses</strong>, your device's share sheet opens and you choose where the file or text goes (a messenger, a cloud drive, the Files app, and so on). <strong>Import backup</strong> reads only the one file you pick. Nothing is sent to us in this process; wherever you send it handles it under its own policy.</p>
-
-      <h2>3. Exchange rates</h2>
-      <p>To get current exchange rates, the App requests rates from ExchangeRate-API's open endpoint (open.er-api.com, <a href="https://www.exchangerate-api.com">exchangerate-api.com</a>) about once a day. The request contains no personal information such as amounts or records you entered. As with any web request, the provider can see your device's IP address. Without an internet connection, the App uses the rates bundled with the App or the last rates it downloaded.</p>
-
-      <h2>4. No ads, no tracking</h2>
-      <p>The App has no ads and includes no advertising, analytics, or tracking SDKs. It does not read advertising identifiers (the Android Advertising ID or the iOS IDFA) and does not track you across other companies' apps or websites.</p>
-
-      <h2>5. Home Screen widget and review requests</h2>
-      <ul>
-        <li>If you use the iOS Home Screen or Lock Screen widget, the App saves display values such as this trip's total, today's spending, and the rate to storage shared with the widget on the same device (an App Group). These values never leave your device.</li>
-        <li>After you log a few expenses, the App may show the App Store or Google Play rating prompt once, and <strong>Settings → Write a review</strong> opens the store's review page. Ratings and reviews go directly to Apple or Google; we do not receive them through the App.</li>
-      </ul>
-
-      <h2>6. Device permissions</h2>
-      <p>The App does not use the camera, location, contacts, photos, microphone, or notifications. On Android it declares only internet access (to download rates) and vibration (a light tap when you press buttons). On iOS it asks for no permissions.</p>
-
-      <h2>7. Purpose of processing, sharing, and processors</h2>
-      <p>We do not collect your personal information, so we do not share it with or entrust its processing to anyone.</p>
-
-      <h2>8. Retention and deletion</h2>
-      <p>Data on your device is deleted when you delete expense or exchange records in the App or uninstall the App. Backup and CSV files you exported must be deleted from wherever you saved them. We do not keep any copy. Request information received by the rate provider (ExchangeRate-API) is retained according to its policy.</p>
-
-      <h2>9. Children</h2>
-      <p>The App is not directed at children under 14 in Korea or under 13 elsewhere, and does not knowingly collect children's personal information.</p>
-
-      <h2>10. Your rights</h2>
-      <p>All information stored by the App is on your device, so you can view, edit, and delete it directly in the App. For any other request, contact us below.</p>
-
-      <h2>11. Privacy contact</h2>
-      <p>Privacy officer: BySide (내곁의) developer<br>
-      Email: <a href="mailto:ekqlszzzz@naver.com">ekqlszzzz@naver.com</a></p>
-
-      <h2>12. Changes to this policy</h2>
-      <p>If this policy changes, we will post the update on this page with a new effective date.</p>
-    </section>
+    <p class="muted crumbs"><a href="/trip/">내곁의 여비</a></p>
+    <nav class="langs" aria-label="언어"><a href="/trip/privacy/?lang=ko" hreflang="ko" lang="ko" aria-current="page">한국어</a><a href="/trip/privacy/en/" hreflang="en" lang="en">English</a><a href="/trip/privacy/ja/" hreflang="ja" lang="ja">日本語</a><a href="/trip/privacy/zh-hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a><a href="/trip/privacy/zh-hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></nav>
+    <h1>내곁의 여비 개인정보처리방침</h1>
+    <p class="muted">시행일: 2026년 10월 9일</p>
+    <p>&#x27;내곁의 여비&#x27;(이하 &quot;앱&quot;, Android·iOS)는 이용자의 개인정보를 소중히 다루며, 「개인정보 보호법」 등 관련 법령을 지킵니다. 이 방침은 앱이 어떤 정보를 어떻게 다루는지 설명합니다.</p>
+    <h2>1. 앱이 직접 수집하는 정보</h2>
+    <p>앱은 회원가입이나 로그인이 없으며, 운영자가 운영하는 서버가 없어 이용자의 정보를 운영자에게 보내지 않습니다.</p>
+    <p>이용자가 고른 통화 설정(내 나라 통화, 여행지 통화, 환율 목록), 지출 기록(금액, 통화, 분류, 결제 수단, 메모, 기록 시각), 환전 기록, 화면 테마·언어 설정, 마지막으로 받은 환율은 <strong>이용자의 기기 안에만 저장</strong>됩니다. 운영자는 이 내용을 볼 수 없습니다.</p>
+    <p>처음 실행할 때 기본 통화와 언어를 정하기 위해 기기의 지역·언어 설정을 기기 안에서 읽습니다. 이 정보는 앱이 외부로 보내지 않습니다.</p>
+    <p>휴대폰 자체 백업(iCloud, Google 계정 백업 등)을 켜 두었다면 운영체제가 다른 앱 데이터와 함께 이 앱의 데이터를 백업할 수 있습니다. 이 백업은 이용자와 Apple·Google 사이의 서비스이며 운영자는 접근할 수 없습니다.</p>
+    <h2>2. 백업 파일·내보내기·공유</h2>
+    <p>이용자가 직접 <strong>백업 파일 내보내기</strong>(JSON)나 <strong>엑셀(CSV)로 내보내기</strong>, <strong>지출 내역 공유하기</strong>를 누르면 기기의 공유 창이 열리고, 파일이나 글을 보낼 곳(메신저, 드라이브, 파일 앱 등)은 이용자가 고릅니다. <strong>백업 불러오기</strong>는 이용자가 고른 파일 하나만 읽습니다. 이 과정에서 운영자에게 전송되는 정보는 없으며, 보낸 곳에서의 처리는 해당 서비스의 방침을 따릅니다.</p>
+    <h2>3. 환율 정보 받기</h2>
+    <p>앱은 최신 환율을 받기 위해 대략 하루 한 번 ExchangeRate-API(<a href="https://www.exchangerate-api.com">exchangerate-api.com</a>)의 공개 주소(open.er-api.com)에 환율을 요청합니다. 이 요청에는 이용자가 입력한 금액이나 기록 등 개인정보가 들어가지 않습니다. 다만 일반적인 인터넷 요청과 마찬가지로 제공자는 요청을 보낸 기기의 IP 주소를 알 수 있습니다. 인터넷이 없으면 앱에 넣어 두었거나 마지막으로 받은 환율로 계산합니다.</p>
+    <h2>4. 광고·분석·추적</h2>
+    <p>현재 버전의 앱에는 광고, 분석, 추적 SDK가 들어 있지 않습니다. 광고 식별자(Android 광고 ID, iOS IDFA)를 읽지 않으며, 다른 회사의 앱·웹사이트에 걸친 추적을 하지 않습니다. 앞으로 광고를 넣게 되면 시행 전에 이 방침을 고쳐 알리고, 필요한 동의를 받습니다.</p>
+    <h2>5. 위젯·리뷰 요청</h2>
+    <ul><li>iOS 홈·잠금 화면 위젯(여행 위젯, 환율 위젯)을 쓰면, 앱이 이번 여행 합계·오늘 쓴 돈·환율 같은 표시용 값을 같은 기기의 위젯과 함께 쓰는 저장 공간(App Group)에 저장합니다. 위젯 편집에서 고른 통화와 배경색도 기기에만 저장됩니다. 이 값들은 기기 밖으로 나가지 않습니다.</li><li>앱은 지출을 몇 번 기록한 뒤 App Store·Google Play의 평점 창을 한 번 띄울 수 있고, 설정의 '리뷰 남기기'로 스토어 리뷰 페이지를 엽니다. 평점과 리뷰는 Apple·Google에 직접 남기며, 운영자는 그 내용을 앱으로 받지 않습니다.</li></ul>
+    <h2>6. 기기 권한</h2>
+    <p>앱은 카메라, 위치, 연락처, 사진, 마이크, 알림 권한을 사용하지 않습니다. Android에서는 인터넷(환율 받기)과 진동(버튼을 누를 때의 가벼운 진동) 권한만 선언되어 있습니다. iOS에서는 따로 묻는 권한이 없습니다.</p>
+    <h2>7. 개인정보의 처리 목적·제3자 제공·처리 위탁</h2>
+    <p>운영자는 이용자의 개인정보를 수집하지 않으므로 이를 제3자에게 제공하거나 처리를 위탁하지 않습니다.</p>
+    <h2>8. 보관 및 파기</h2>
+    <p>기기에 저장된 정보는 이용자가 앱에서 지출·환전 기록을 지우거나 앱을 삭제하면 함께 지워집니다. 이용자가 내보낸 백업·CSV 파일은 이용자가 보관한 곳에서 직접 지워야 합니다. 운영자가 따로 보관하는 정보는 없습니다. 환율 제공자(ExchangeRate-API)가 받은 요청 정보의 보관 기간은 해당 회사의 방침을 따릅니다.</p>
+    <h2>9. 아동의 개인정보</h2>
+    <p>앱은 만 14세 미만 아동(해외는 만 13세 미만)을 주 대상으로 하지 않으며, 아동의 개인정보를 의도적으로 수집하지 않습니다.</p>
+    <h2>10. 이용자의 권리</h2>
+    <p>앱에 저장된 정보는 모두 이용자의 기기에 있으므로 이용자가 앱에서 직접 열람·수정·삭제할 수 있습니다. 그 밖의 요청은 아래 연락처로 보내 주세요.</p>
+    <h2>11. 개인정보 보호책임자·문의</h2>
+    <p>개인정보 보호책임자: 내곁의 운영자<br>연락처: <a href="mailto:ekqlszzzz@naver.com">ekqlszzzz@naver.com</a></p>
+    <h2>12. 방침의 변경</h2>
+    <p>이 방침이 바뀌면 이 페이지에 시행일과 함께 알립니다. 이 방침은 한국어 원문을 기준으로 하며, 다른 언어판과 뜻이 다르면 한국어판을 따릅니다.</p>
   </main>
 </body>
 </html>
