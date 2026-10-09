@@ -3,49 +3,65 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>내곁의 디데이 · Naegyeot D-Day</title>
+  <title>내곁의 디데이 · 사진으로 꾸미는 디데이</title>
   <meta name="description" content="좋아하는 사진으로 디데이를 꾸미고, 음력 생신·100일 기념일까지 그날이 오기 전에 먼저 알려 주는 디데이 앱">
-  <!-- 카카오톡 등에 링크를 보낼 때 보이는 미리보기 -->
   <meta property="og:type" content="website">
   <meta property="og:title" content="내곁의 디데이">
-  <meta property="og:description" content="좋아하는 사진으로 디데이 앨범을 만들고, 그날이 오기 전에 먼저 알려 드려요.">
+  <meta property="og:description" content="좋아하는 사진으로 디데이를 꾸미고, 음력 생신·100일 기념일까지 그날이 오기 전에 먼저 알려 주는 디데이 앱">
   <meta property="og:image" content="https://boksday.github.io/dday/img/header.jpg">
   <meta property="og:url" content="https://boksday.github.io/dday/">
+  <link rel="alternate" hreflang="ko" href="https://boksday.github.io/dday/">
+  <link rel="alternate" hreflang="en" href="https://boksday.github.io/dday/en/">
+  <link rel="alternate" hreflang="ja" href="https://boksday.github.io/dday/ja/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://boksday.github.io/dday/zh-hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://boksday.github.io/dday/zh-hant/">
+  <link rel="alternate" hreflang="x-default" href="https://boksday.github.io/dday/">
   <link rel="icon" href="/dday/icon.png">
   <link rel="stylesheet" href="/dday/dday.css">
+  <script>
+    (function () {
+      if (/[?&]lang=ko\b/.test(location.search)) return;
+      var target = null;
+      if (location.hash === '#en') target = 'en';
+      else {
+        var l = ((navigator.languages && navigator.languages[0]) || navigator.language || '').toLowerCase();
+        if (!l || /^ko/.test(l)) return;
+        if (/^ja/.test(l)) target = 'ja';
+        else if (/^zh-(hant|tw|hk|mo)/.test(l)) target = 'zh-hant';
+        else if (/^zh/.test(l)) target = 'zh-hans';
+        else target = 'en';
+      }
+      location.replace(location.pathname.replace(/\/?$/, '/') + target + '/');
+    })();
+  </script>
 </head>
 <body>
   <header class="top">
     <div class="wrap">
       <a class="wordmark" href="/">내곁의</a>
-      <nav>
+      <nav class="sections">
         <a href="#screens">화면</a>
         <a href="#features">기능</a>
         <a href="/dday/support/">고객 지원</a>
       </nav>
     </div>
+    <div class="wrap"><nav class="langs" aria-label="언어"><a href="/dday/?lang=ko" hreflang="ko" lang="ko" aria-current="page">한국어</a><a href="/dday/en/" hreflang="en" lang="en">English</a><a href="/dday/ja/" hreflang="ja" lang="ja">日本語</a><a href="/dday/zh-hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a><a href="/dday/zh-hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></nav></div>
   </header>
 
   <section class="hero">
     <div class="wrap">
       <div class="hero-text">
-        <img class="app-icon" src="/dday/icon.png" alt="내곁의 디데이 앱 아이콘">
+        <img class="app-icon" src="/dday/icon.png" alt="내곁의 디데이">
+        <p class="app-name">내곁의 디데이</p>
         <h1>소중한 날을<br><em>곁에</em> 두세요</h1>
         <p class="lead">좋아하는 사진으로 디데이를 꾸미고,<br>그날이 오기 전에 먼저 알려 드려요.</p>
-        <ul class="chips">
-          <li>사진 앨범·위젯 무료</li>
-          <li>100일마다 알림</li>
-          <li>음력 생신 자동 계산</li>
-        </ul>
-        <!-- 앱의 공유 문구가 이 페이지로 연결된다. 스토어 주소가 바뀌면 아래 data-store-url만 고친다(비어 있으면 '준비 중'). -->
+        <ul class="chips"><li>사진 앨범·위젯 무료</li><li>100일마다 알림</li><li>음력 생신 자동 계산</li></ul>
         <div class="store-buttons">
-          <a class="store-button" data-platform="android" data-store-url="https://play.google.com/store/apps/details?id=com.naegyeot.dday" data-ready-label="Google Play에서 받기" data-pending-label="Google Play 출시 준비 중" data-ready-label-en="Get it on Google Play" data-pending-label-en="Coming soon to Google Play">Google Play에서 받기</a>
-          <a class="store-button" data-platform="ios" data-store-url="" data-ready-label="App Store에서 받기" data-pending-label="App Store 출시 준비 중" data-ready-label-en="Download on the App Store" data-pending-label-en="Coming soon to the App Store">App Store에서 받기</a>
+          <span class="store-button pending">App Store 출시 준비 중</span>
+          <a class="store-button" href="https://play.google.com/store/apps/details?id=com.naegyeot.dday">Google Play에서 받기</a>
         </div>
       </div>
-      <div class="hero-shot">
-        <img src="/dday/img/01-album.jpg" width="600" height="1304" alt="사진으로 꾸민 디데이가 앨범처럼 모여 있는 첫 화면">
-      </div>
+      <div class="hero-shot"><img src="/dday/img/01-album.jpg" width="600" height="1304" alt="사진으로 꾸민 디데이가 앨범처럼 모여 있는 첫 화면"></div>
     </div>
   </section>
 
@@ -53,7 +69,7 @@
     <section class="block" id="screens">
       <h2>이렇게 생겼어요</h2>
       <p class="sub">옆으로 넘겨 보세요.</p>
-      <div class="gallery" tabindex="0" aria-label="앱 화면 모음">
+      <div class="gallery" tabindex="0" aria-label="이렇게 생겼어요">
         <figure><img src="/dday/img/02-milestones.jpg" width="600" height="1304" loading="lazy" alt="100일·1000일 기념일까지 남은 날을 보여 주는 화면"></figure>
         <figure><img src="/dday/img/03-lunar.jpg" width="600" height="1304" loading="lazy" alt="음력 생신을 해마다 양력으로 바꿔 주는 화면"></figure>
         <figure><img src="/dday/img/04-calendar.jpg" width="600" height="1304" loading="lazy" alt="이번 달 디데이를 달력으로 보는 화면"></figure>
@@ -79,15 +95,9 @@
     <section class="block">
       <div class="promise">
         <h2>내 기록은 내 폰에만</h2>
-        <p>회원가입이 없어요. 날짜와 사진은 서버로 보내지 않고 폰에만 저장해요.</p>
-        <p>폰을 바꿀 때는 백업 파일 하나로 사진까지 그대로 옮겨요.</p>
+        <p>회원가입이 없어요. 날짜와 사진은 서버로 보내지 않고 폰에만 저장해요.</p><p>폰을 바꿀 때는 백업 파일 하나로 사진까지 그대로 옮겨요.</p>
       </div>
-    </section>
 
-    <section class="block en" lang="en">
-      <h2>Naegyeot D-Day</h2>
-      <p>Count the days until — and since — the days that matter, from lunar birthdays to anniversaries and exams, with reminders before they arrive. Add a photo to each D-Day and see them as an album. Lunar dates are recalculated every year, milestones like 100 and 1,000 days are tracked automatically, and everything stays on your phone. Home and Lock Screen widgets are free, and a one-time purchase removes all ads.</p>
-      <p><a href="/dday/support/#en">Support</a> · <a href="/dday/privacy/#en">Privacy Policy</a></p>
     </section>
   </main>
 
@@ -96,27 +106,5 @@
       <a href="/dday/support/">고객 지원</a> · <a href="/dday/privacy/">개인정보처리방침</a> · 문의 <a href="mailto:ekqlszzzz@naver.com">ekqlszzzz@naver.com</a>
     </div>
   </footer>
-
-  <script>
-    // 스토어 주소가 있으면 링크로, 없으면 '준비 중'으로 보인다. 지금 기기에 맞는 버튼을 앞에 둔다.
-    (function () {
-      var buttons = Array.prototype.slice.call(document.querySelectorAll('.store-button'));
-      var ua = navigator.userAgent;
-      var suffix = /^ko/i.test(navigator.language || '') ? '' : '-en';
-      var current = /android/i.test(ua) ? 'android' : /iphone|ipad|ipod/i.test(ua) ? 'ios' : null;
-      buttons.forEach(function (button) {
-        var url = button.getAttribute('data-store-url');
-        if (url) {
-          button.href = url;
-          button.textContent = button.getAttribute('data-ready-label' + suffix);
-        } else {
-          button.removeAttribute('href');
-          button.classList.add('pending');
-          button.textContent = button.getAttribute('data-pending-label' + suffix);
-        }
-        if (button.getAttribute('data-platform') === current) button.parentNode.insertBefore(button, button.parentNode.firstChild);
-      });
-    })();
-  </script>
 </body>
 </html>
