@@ -1,4 +1,4 @@
-"""boksday.github.io 의 여비(/trip/)·디데이(/dday/) 소개·개인정보·지원 페이지를 5개 언어로 만든다."""
+"""boksday.github.io 의 여비(/trip/)·디데이(/dday/)·스도쿠(/sudoku/) 소개·개인정보·지원 페이지를 5개 언어로 만든다."""
 import html
 import os
 import sys
@@ -6,6 +6,7 @@ import sys
 sys.path.insert(0, os.path.dirname(__file__))
 import content  # noqa: E402
 import dday_content  # noqa: E402
+import sudoku_content  # noqa: E402
 from content import EMAIL, HTML_LANG, LANG_NAME, LANGS  # noqa: E402
 from privacy import PRIVACY as TRIP_PRIVACY  # noqa: E402
 from support import SUPPORT as TRIP_SUPPORT  # noqa: E402
@@ -63,10 +64,10 @@ class App:
         """[(src, alt)] 언어별 스크린샷. 없으면 빈 목록."""
         if self.slug == 'dday':
             return DDAY_KO_SHOTS if lang == 'ko' else []
-        img_dir = os.path.join(SITE, 'trip/img', lang)
+        img_dir = os.path.join(SITE, self.slug, 'img', lang)
         files = sorted(f[:-4] for f in os.listdir(img_dir) if f[0].isdigit() and f.endswith('.jpg'))
         alts = dict(self.intro[lang]['shots'])
-        return [(f'/trip/img/{lang}/{f}.jpg', alts.get(f, DARK_ALT[lang] if 'dark' in f else '')) for f in files]
+        return [(f'/{self.slug}/img/{lang}/{f}.jpg', alts.get(f, DARK_ALT[lang] if 'dark' in f else '')) for f in files]
 
 
 def lang_menu(app, section, lang):
@@ -155,7 +156,7 @@ def intro(app, lang):
     promise = ''.join(f'<p>{e(p)}</p>' for p in c['promise'])
     n_screens, n_feat, n_support = c['nav']
     f_support, f_privacy, f_contact = c['footer']
-    og = f'/trip/img/{lang}/header.jpg' if app.slug == 'trip' else '/dday/img/header.jpg'
+    og = '/dday/img/header.jpg' if app.slug == 'dday' else f'/{app.slug}/img/{lang}/header.jpg'
     css = f'/{app.slug}/{app.slug}.css'
     screens_nav = f'<a href="#screens">{e(n_screens)}</a>' if len(shots) > 1 else ''
     hero_shot = (f'<div class="hero-shot"><img src="{shots[0][0]}" width="600" height="1304" alt="{e(shots[0][1])}"></div>'
@@ -278,6 +279,7 @@ APPS = [
     App('trip', content.APP, content.INTRO, TRIP_PRIVACY, TRIP_SUPPORT),
     App('dday', dday_content.APP, dday_content.INTRO, dday_content.privacy, dday_content.SUPPORT,
         ('', 'https://play.google.com/store/apps/details?id=com.naegyeot.dday')),
+    App('sudoku', sudoku_content.APP, sudoku_content.INTRO, sudoku_content.privacy, sudoku_content.SUPPORT),
 ]
 
 for app in APPS:

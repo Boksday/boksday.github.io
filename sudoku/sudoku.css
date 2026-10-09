@@ -1,0 +1,126 @@
+/* 내곁의 스도쿠 소개(/sudoku/) 전용 스타일. /trip/trip.css와 같은 틀. /dday/dday.css와 같은 토큰. 개인정보·지원 페이지는 /style.css를 쓴다. */
+:root {
+  --bg: #fbf7f1;
+  --surface: #ffffff;
+  --tint: #e6f1ef;
+  --text: #2f2624;
+  --muted: #73655f;
+  --brand: #0e6a6b;
+  --brand-ink: #ffffff;
+  --accent: #f0ae81;
+  --border: #ebe2d6;
+  --shadow: 0 1px 2px rgba(47, 38, 36, 0.04), 0 12px 32px rgba(14, 106, 107, 0.1);
+  --hero: linear-gradient(160deg, #fdf1e4 0%, #f7efe3 45%, #e3f1ee 100%);
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #151817;
+    --surface: #1f2423;
+    --tint: #1b2b29;
+    --text: #f1ece7;
+    --muted: #aab1ae;
+    --brand: #84d0c4;
+    --brand-ink: #0f2523;
+    --accent: #f0ae81;
+    --border: #2f3634;
+    --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 12px 32px rgba(0, 0, 0, 0.3);
+    --hero: linear-gradient(160deg, #1d211f 0%, #221d20 45%, #17201f 100%);
+  }
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Pretendard", -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  word-break: keep-all;
+  overflow-wrap: break-word;
+  -webkit-font-smoothing: antialiased;
+}
+a { color: var(--brand); text-underline-offset: 3px; }
+a:focus-visible { outline: 2px solid var(--brand); outline-offset: 3px; border-radius: 6px; }
+img { display: block; max-width: 100%; height: auto; }
+
+.wrap { max-width: 1040px; margin: 0 auto; padding: 0 16px; }
+@media (min-width: 720px) { .wrap { padding: 0 32px; } }
+
+/* 머리 */
+.top { padding: 18px 0; }
+.top .wrap { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.wordmark { font-weight: 800; color: var(--text); text-decoration: none; }
+.top nav { display: flex; gap: 16px; }
+.top nav a { color: var(--muted); text-decoration: none; font-size: 0.92rem; font-weight: 600; }
+.top nav a:hover { color: var(--brand); }
+
+/* 첫 화면 */
+.hero { background: var(--hero); padding: 32px 0 0; overflow: hidden; }
+.hero .wrap { display: grid; gap: 32px; align-items: end; }
+@media (min-width: 860px) { .hero .wrap { grid-template-columns: 1.1fr 0.9fr; padding-top: 24px; } }
+.hero-text { padding-bottom: 8px; }
+@media (min-width: 860px) { .hero-text { padding-bottom: 72px; } }
+.app-icon { width: 72px; height: 72px; border-radius: 18px; box-shadow: var(--shadow); }
+.hero h1 { font-size: clamp(2.1rem, 6vw, 3.2rem); line-height: 1.2; letter-spacing: -0.03em; margin: 20px 0 12px; }
+.hero h1 em { font-style: normal; color: var(--brand); }
+.lead { font-size: 1.08rem; color: var(--muted); margin: 0 0 20px; }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 24px; padding: 0; list-style: none; }
+.chips li { background: var(--surface); border: 1px solid var(--border); border-radius: 999px; padding: 4px 14px; font-size: 0.9rem; font-weight: 600; }
+.hero-shot { justify-self: center; width: min(320px, 78vw); }
+.hero-shot img { border-radius: 28px 28px 0 0; box-shadow: var(--shadow); }
+
+/* 스토어 버튼(앱 공유 링크가 이 페이지로 온다) */
+.store-buttons { display: flex; flex-wrap: wrap; gap: 10px; }
+.store-button {
+  display: inline-flex; align-items: center; min-height: 48px; padding: 0 22px; border-radius: 14px;
+  background: var(--brand); color: var(--brand-ink); font-weight: 700; text-decoration: none;
+}
+.store-button:hover { filter: brightness(1.06); }
+.store-button.pending { background: var(--surface); color: var(--muted); border: 1px solid var(--border); cursor: default; }
+
+/* 구역 */
+section.block { padding: 56px 0 8px; }
+.block h2 { font-size: clamp(1.5rem, 4vw, 2rem); letter-spacing: -0.02em; line-height: 1.3; margin: 0 0 8px; }
+.block .sub { color: var(--muted); margin: 0 0 24px; }
+
+/* 스크린샷 가로 넘기기 */
+.gallery {
+  display: flex; gap: 16px; overflow-x: auto; scroll-snap-type: x mandatory;
+  padding: 4px 16px 20px; margin: 0 -16px; scrollbar-width: thin;
+}
+@media (min-width: 720px) { .gallery { padding: 4px 32px 20px; margin: 0 -32px; } }
+.gallery figure { flex: 0 0 auto; width: min(230px, 62vw); margin: 0; scroll-snap-align: start; }
+.gallery img { border-radius: 22px; border: 1px solid var(--border); box-shadow: var(--shadow); }
+
+/* 기능 카드 */
+.features { display: grid; gap: 14px; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); padding: 0; margin: 0; list-style: none; }
+.features li { background: var(--surface); border: 1px solid var(--border); border-radius: 20px; padding: 20px; }
+.features strong { display: block; font-size: 1.05rem; margin-bottom: 4px; }
+.features span { color: var(--muted); font-size: 0.95rem; }
+
+/* 약속 */
+.promise { background: var(--tint); border-radius: 24px; padding: 24px; display: grid; gap: 8px; }
+.promise p { margin: 0; }
+
+/* 영어·바닥 */
+.en { color: var(--muted); }
+.en h2 { color: var(--text); }
+footer { padding: 40px 0 48px; color: var(--muted); font-size: 0.92rem; }
+footer .wrap { border-top: 1px solid var(--border); padding-top: 20px; }
+
+/* 여비 전용 */
+body:lang(ja), body:lang(zh-Hans), body:lang(zh-Hant) { word-break: normal; line-break: strict; }
+.app-name { margin: 16px 0 0; font-weight: 700; color: var(--muted); }
+.hero h1 { margin-top: 6px; }
+.note { color: var(--muted); font-size: 0.9rem; margin: 16px 0 0; }
+.top .wrap + .wrap { margin-top: 10px; }
+
+/* 언어 고르기 */
+.langs { display: flex; flex-wrap: wrap; gap: 6px; }
+.langs a {
+  padding: 3px 10px; border-radius: 999px; border: 1px solid var(--border);
+  color: var(--muted); text-decoration: none; font-size: 0.82rem; font-weight: 600; background: var(--surface); white-space: nowrap;
+}
+.langs a[aria-current="page"] { background: var(--brand); border-color: var(--brand); color: var(--brand-ink); }
