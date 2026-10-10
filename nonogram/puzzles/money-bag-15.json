@@ -1,0 +1,17 @@
+{"id":"money-bag-15","name":{"ko":"돈주머니","en":"money bag","ja":"ドル袋","zh-Hans":"钱袋","zh-Hant":"錢袋"},"palette":{"a":"#FDD888","b":"#FCD888","c":"#FAD688","d":"#D1BB85","e":"#9E9A82","f":"#91736D"},"rows":[
+  ".....ababa.....",
+  ".....aaaaa.....",
+  ".....fffff.....",
+  ".....baaab.....",
+  "....aacdcaa....",
+  "....aadfdca....",
+  "...baefeeeab...",
+  "..aaaedaacaaa..",
+  ".baaadfedcaaa..",
+  ".aaaaacdfeaaa..",
+  ".baaadcadfaaab.",
+  ".baaaefefdaaaa.",
+  ".baaaadfdaaaab.",
+  "..baaacdcaaab..",
+  "...baaaaaaaa..."
+]}

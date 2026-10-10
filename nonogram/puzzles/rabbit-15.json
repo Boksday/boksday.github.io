@@ -1,0 +1,17 @@
+{"id":"rabbit-15","name":{"ko":"토끼","en":"rabbit","ja":"ウサギ","zh-Hans":"兔子","zh-Hant":"兔子"},"palette":{"a":"#DDB2BF","b":"#B3AEBA","c":"#99AAB5","d":"#99AAB4","e":"#98AAB5","f":"#96A0AB"},"rows":[
+  "...c...........",
+  "db.bb..........",
+  ".abba..........",
+  ".aabab.........",
+  "..aba..........",
+  "..bbb..........",
+  ".dcccccccce....",
+  "ccfcccccccccd..",
+  "bcccccccccccc..",
+  "bccccccccccccd.",
+  ".ceccccccccccc.",
+  "....cccccccccba",
+  "....dccccccccba",
+  "....ddecccccc..",
+  "....c.dcccdce.."
+]}

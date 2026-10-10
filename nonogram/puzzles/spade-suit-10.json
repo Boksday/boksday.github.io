@@ -1,0 +1,12 @@
+{"id":"spade-suit-10","name":{"ko":"스페이드","en":"spade suit","ja":"スペード","zh-Hans":"黑桃","zh-Hant":"黑桃"},"palette":{"a":"#31373D","b":"#31363D","c":"#31363C","d":"#2F373D","e":"#30363D","f":"#2F363D"},"rows":[
+  "....bb....",
+  "...daad...",
+  "..faaaaf..",
+  "..aaaaaa..",
+  ".eaaaaaae.",
+  ".aaaaaaaa.",
+  ".baaaaaab.",
+  "..aacaaa..",
+  "....aa....",
+  "..eaaaae.."
+]}

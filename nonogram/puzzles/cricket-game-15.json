@@ -1,0 +1,17 @@
+{"id":"cricket-game-15","name":{"ko":"크리켓","en":"cricket game","ja":"クリケット","zh-Hans":"板球","zh-Hant":"板球"},"palette":{"a":"#D99E82","b":"#D99E81","c":"#D99D82","d":"#C8795F","e":"#543E3C","f":"#A71B29"},"rows":[
+  "de.............",
+  "eee............",
+  ".eee...........",
+  "..eed.c........",
+  "...dddcc.......",
+  "....dddac......",
+  "...ccddcac.....",
+  "....cacaaac....",
+  ".....caaaaab...",
+  "......caaaaac..",
+  ".......dcaaaac.",
+  "......fffdaaaac",
+  "......ffffaaaac",
+  "......ffffcaab.",
+  "......fff..cc.."
+]}

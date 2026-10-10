@@ -1,0 +1,22 @@
+{"id":"pouring-liquid-20","name":{"ko":"쏟아져 나오는 액체","en":"pouring liquid","ja":"コップから注ぐ","zh-Hans":"倾倒液体","zh-Hant":"倒出液體"},"palette":{"a":"#D6DAD9","b":"#C5C9C8","c":"#C4C9C8","d":"#C4C9C7","e":"#BBB7B7","f":"#AA4749"},"rows":[
+  "..bbd...............",
+  ".baacccd............",
+  ".aaaccbaabdd........",
+  "baabccbaaaaabccd....",
+  "baabccccbaaaaaed....",
+  "babcccccccccbdee....",
+  "bbcddcccccccceed....",
+  "..deffecccccdeed....",
+  "....deffedcceee.....",
+  ".......efffeeed.....",
+  ".........efefe......",
+  "...........deff.....",
+  "..............f.....",
+  "..............ff....",
+  "...............f....",
+  "...............ff...",
+  "...............ff...",
+  "...............ff...",
+  "..............fffff.",
+  ".............fffffff"
+]}

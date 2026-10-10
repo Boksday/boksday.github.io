@@ -1,0 +1,22 @@
+{"id":"derelict-house-20","name":{"ko":"낡은 주택 건물","en":"derelict house","ja":"廃屋","zh-Hans":"废墟","zh-Hant":"廢墟"},"palette":{"a":"#BFB9B8","b":"#D99E82","c":"#D89E82","d":"#CF9378","e":"#A96852","f":"#522C25"},"rows":[
+  ".........ff.........",
+  "........ffff........",
+  ".......ffddff.......",
+  "...ff.ffdbbef.......",
+  "...ffffebbbef.......",
+  "...fffdbbbbfffff....",
+  "...ffdbbbbdffffff...",
+  "..ffebbbbbdffffeff..",
+  "..fdbbbbbbbceffddf..",
+  "..bbbeefdbbbeffdbb..",
+  "..bbdffecbbcffdbbb..",
+  "..bbcdddbbbefdbbcb..",
+  "..bcbbbbbbbecbbbbb..",
+  "..bcbbbbbbbcbbbbbb..",
+  "..bbbdddbbbbdddbbb..",
+  "..bbefefdbbbeffebb..",
+  "..bbdfffdbbbdeeebb..",
+  "..bbeeeedbbbbbbbbb..",
+  ".aaaaaaaaaaaaaaaaaa.",
+  ".aaaaaaaaaaaaaaaaaa."
+]}

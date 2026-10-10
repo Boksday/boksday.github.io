@@ -1,0 +1,22 @@
+{"id":"butter-20","name":{"ko":"버터","en":"butter","ja":"バター","zh-Hans":"黄油","zh-Hant":"奶油"},"palette":{"a":"#FFE8B6","b":"#FFDD8F","c":"#E6DBBB","d":"#F3D074","e":"#FFCC4D","f":"#B3BFC5"},"rows":[
+  "....................",
+  "....................",
+  ".............aaa....",
+  "............aaaaa...",
+  "..........aaaaaaab..",
+  "........aaaaaaabee..",
+  ".......baaaaaadeee..",
+  ".......bbbaadeeeeed.",
+  ".......bbbbeeeeeeecf",
+  ".......bbbbeeeeedcff",
+  ".....cccbbbeeedcfff.",
+  "...caaaccbbeecffff..",
+  ".caaaaaaaccdcfff....",
+  "fcbaaaaaddffff......",
+  "ffcbbbdebcfff.......",
+  ".fffcdbcfff.........",
+  "...ffffff...........",
+  ".....ff.............",
+  "....................",
+  "...................."
+]}

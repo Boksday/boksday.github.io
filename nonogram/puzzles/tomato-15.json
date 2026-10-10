@@ -1,0 +1,17 @@
+{"id":"tomato-15","name":{"ko":"토마토","en":"tomato","ja":"トマト","zh-Hans":"西红柿","zh-Hant":"番茄"},"palette":{"a":"#85A053","b":"#C74A48","c":"#DD2E44","d":"#DD2E43","e":"#DC2E43","f":"#DD2D43"},"rows":[
+  "...............",
+  "....aa.a.......",
+  "....baaaabb....",
+  "..febaaaaccff..",
+  ".fceccebbccccd.",
+  ".ccccccccccccc.",
+  "fcccccccccccccd",
+  "ecccccccccccccf",
+  "dcccccccccccccd",
+  "ecccccccccccccf",
+  ".ccccccccccccc.",
+  ".fccccccccccce.",
+  "..ccccccccccc..",
+  "...ecccccccc...",
+  "....ccdcef....."
+]}

@@ -1,0 +1,22 @@
+{"id":"fish-20","name":{"ko":"물고기","en":"fish","ja":"魚","zh-Hans":"鱼","zh-Hant":"魚"},"palette":{"a":"#55ACEE","b":"#55ACED","c":"#55ABEE","d":"#54ABED","e":"#4291CE","f":"#2C6590"},"rows":[
+  "....................",
+  "....................",
+  "......ee............",
+  ".....eeeee..........",
+  ".....eeeeeee........",
+  "....adaaadeee....eee",
+  "..baaaaaaaaade..eeee",
+  ".adffaadedaaaddeeee.",
+  ".aeffaadfeaaaaaeeee.",
+  "aadffaaaeeaaaaacee..",
+  "aaaaaaaaefaaaaaade..",
+  ".eaaaaaaefaaaaaade..",
+  ".ffdaaaaeeaaaaadee..",
+  ".effdaadfeaaaaaeeee.",
+  ".caaaaadedaaac.eeee.",
+  "..daaaaaaaad....eeee",
+  ".....ddcdeee.....eee",
+  "...........e........",
+  "....................",
+  "...................."
+]}

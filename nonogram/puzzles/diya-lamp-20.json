@@ -1,0 +1,22 @@
+{"id":"diya-lamp-20","name":{"ko":"기름 램프","en":"diya lamp","ja":"ディヤランプ","zh-Hans":"印度油灯","zh-Hant":"陶碗油燈"},"palette":{"a":"#FFC648","b":"#FFAD34","c":"#F5961A","d":"#BB4D25","e":"#BC1930","f":"#830B20"},"rows":[
+  ".................c..",
+  "................ccc.",
+  "................ccc.",
+  "...............cccc.",
+  "...............ccccc",
+  "...............cbabc",
+  "...............caabc",
+  "...............caaac",
+  "...............caabc",
+  "...ffffefffff...bac.",
+  ".fddbbbbbbbcdfff.f..",
+  "fdbbaaaaaabbbbcfff..",
+  "fbbaaaaaaaabbdffffe.",
+  "ebbaaaaaaabbbddbde..",
+  "edbbbbbbbbbbbcdee...",
+  "eeedcbbbbbcdeeee....",
+  ".eeeeeeeeeeeeee.....",
+  "..eeeeeeeeeeee......",
+  "...eeeeeeeee........",
+  ".....eeeee.........."
+]}

@@ -1,0 +1,22 @@
+{"id":"elephant-20","name":{"ko":"코끼리","en":"elephant","ja":"ゾウ","zh-Hans":"大象","zh-Hant":"大象"},"palette":{"a":"#99ABB5","b":"#9AAAB4","c":"#99AAB5","d":"#99AAB4","e":"#98AAB4","f":"#85959F"},"rows":[
+  "....................",
+  "..eecccccc..........",
+  ".dcccccccceeeca.....",
+  "eccccccccccfccccd...",
+  "cccccccccccfeccccc..",
+  "cccccccccccffccccce.",
+  "ecfffccccccffcccccd.",
+  "ccfffcccccefecccccc.",
+  "ccccccccccffccccccc.",
+  "cccccccccffecccccccd",
+  "ccccffffffecccccccce",
+  "dccefffffeccccccccce",
+  "ccc.ccccccccccccccec",
+  "ecc.cccccccccccccc.c",
+  "ecc..ccccccccccccd.d",
+  ".ccd.cccccccccccce..",
+  ".dcc.ccccc..dcccc...",
+  "..ce.ecccd..bcccc...",
+  ".....ecccd...eccd...",
+  "...................."
+]}

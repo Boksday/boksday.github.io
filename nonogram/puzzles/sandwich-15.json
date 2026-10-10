@@ -1,0 +1,17 @@
+{"id":"sandwich-15","name":{"ko":"샌드위치","en":"sandwich","ja":"サンドイッチ","zh-Hans":"三明治","zh-Hant":"三明治"},"palette":{"a":"#FFD983","b":"#FBC964","c":"#FCAC34","d":"#B1AB41","e":"#EF9717","f":"#E57E17"},"rows":[
+  "...............",
+  ".....cbbc......",
+  "....caaaab.....",
+  "..cbaaaaaabc...",
+  ".bbaaaaaaaaabc.",
+  "caaaaaaaaaaaaac",
+  "ecbaaaaaaaaaace",
+  "deecbaaaaaabeee",
+  "ddceebaaaceeffd",
+  "edbceecbcefffdd",
+  ".ecdddeeeddcce.",
+  "...dddddddee...",
+  ".....eecee.....",
+  "......eee......",
+  "..............."
+]}

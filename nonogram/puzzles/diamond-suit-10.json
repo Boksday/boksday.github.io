@@ -1,0 +1,12 @@
+{"id":"diamond-suit-10","name":{"ko":"다이아몬드","en":"diamond suit","ja":"ダイヤ","zh-Hans":"方片","zh-Hant":"方塊"},"palette":{"a":"#BE1931","b":"#BE1930","c":"#BD1931","d":"#BE1831"},"rows":[
+  "..........",
+  "....dd....",
+  "...aaaa...",
+  "..baaaab..",
+  "..caaaac..",
+  "..caaaac..",
+  "..baaaab..",
+  "...aaaa...",
+  "....dd....",
+  ".........."
+]}

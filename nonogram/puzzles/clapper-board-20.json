@@ -1,0 +1,22 @@
+{"id":"clapper-board-20","name":{"ko":"슬레이트","en":"clapper board","ja":"カチンコ","zh-Hans":"场记板","zh-Hant":"場記板"},"palette":{"a":"#CCD6DD","b":"#96A79E","c":"#3F7123","d":"#3E7123","e":"#333D39","f":"#282E33"},"rows":[
+  "................aaa.",
+  "............fffeaaa.",
+  "........aaaaefffeaa.",
+  "....ffffbaaaaefffea.",
+  "baaabffffbaaaaeff...",
+  "eaaaabffffba........",
+  "feaaaabff...........",
+  ".feaa...............",
+  ".ffaaaaeffeaaabfffea",
+  ".fcaaabfffbaaaefffba",
+  ".eaaabfffeaaabfffbaa",
+  ".baaaefffbaaaefffaaa",
+  ".ccccddddccccdddcccc",
+  ".ccccccccccccccccccd",
+  ".ccccccccccccccccccd",
+  ".ccccccccccccccccccd",
+  ".ccccccccccccccccccd",
+  ".ccccccccccccccccccd",
+  ".dcccccccccccccccccd",
+  "..ccccccccccccccccc."
+]}

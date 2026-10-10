@@ -1,0 +1,22 @@
+{"id":"ping-pong-20","name":{"ko":"탁구","en":"ping pong","ja":"卓球","zh-Hans":"乒乓球","zh-Hant":"桌球"},"palette":{"a":"#DFA682","b":"#DE2E44","c":"#DD2E44","d":"#DD2E43","e":"#DC2E44","f":"#DD2D44"},"rows":[
+  "....efdfdc..........",
+  "..fcccccccdf.....aa.",
+  ".cccccccccccd...aaaa",
+  ".cccccccccccce..aaaa",
+  "fccccccccccccce..aa.",
+  "fccccccccccccce.....",
+  "ccccccccccccccc.....",
+  "ccccccccccccccc.....",
+  "ccccccccccccccc.....",
+  "bccccccccccccca.....",
+  ".ccccccccccccaa.....",
+  ".dccccccccccaa......",
+  "..fccccccccaaa......",
+  "...fccccccaaaaa.....",
+  "....edcccaa.aaaa....",
+  "..............aaa...",
+  "...............aaaa.",
+  "...............aaaaa",
+  "................aaa.",
+  ".................a.."
+]}

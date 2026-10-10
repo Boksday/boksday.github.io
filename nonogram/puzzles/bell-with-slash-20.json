@@ -1,0 +1,22 @@
+{"id":"bell-with-slash-20","name":{"ko":"음소거","en":"bell with slash","ja":"ベル消音","zh-Hans":"禁止响铃","zh-Hant":"靜音"},"palette":{"a":"#FFAC33","b":"#FFAC32","c":"#FEA833","d":"#F48439","e":"#E13D42","f":"#DD2E44"},"rows":[
+  ".........aa.........",
+  "........aaa.........",
+  "..f....aaaaaa.......",
+  "..ff.aaaaaaaaa......",
+  "...ffdaaaaaaaaa.....",
+  "....efdaaaaaaaa.....",
+  "....cefdaaaaaaa.....",
+  "....acefdaaaaaa.....",
+  "....aacefdaaaaa.....",
+  "....aaacefdaaaa.....",
+  "....aaaacefdaaab....",
+  "...aaaaaacefdaaa....",
+  "...aaaaaaacefdaaa...",
+  "..aaaaaaaaacefdaa...",
+  "..aaaaaaaaaacefdaa..",
+  ".aaaaaaaaaaaacefda..",
+  "..aaaaaaaaaaaacffd..",
+  "................ff..",
+  "........aaaa.....f..",
+  "........bba........."
+]}

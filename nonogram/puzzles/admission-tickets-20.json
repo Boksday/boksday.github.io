@@ -1,0 +1,22 @@
+{"id":"admission-tickets-20","name":{"ko":"입장 티켓","en":"admission tickets","ja":"入場券","zh-Hans":"入场券","zh-Hant":"入場券"},"palette":{"a":"#EA596E","b":"#E9586D","c":"#DE485E","d":"#D0344A","e":"#C01B33","f":"#BE1931"},"rows":[
+  "...........ba.......",
+  "..........bcda......",
+  ".........bcefc......",
+  "........bbdffc......",
+  ".......bcecdedb.....",
+  "......bcefeccedcbb..",
+  ".....bcefffecceffda.",
+  "....bceedcdfecceffda",
+  "...bcefcaaacfecdfeca",
+  "..bbeffcaaaadfecccb.",
+  ".bcccefdaaaacffebb..",
+  "acefccfecaaacfecb...",
+  "adffecceedcceecb....",
+  ".accdeccffffecb.....",
+  "....bdeccefecb......",
+  ".....cfeccecb.......",
+  ".....bfffcbb........",
+  ".....bdfecb.........",
+  "......adcb..........",
+  ".......ab..........."
+]}

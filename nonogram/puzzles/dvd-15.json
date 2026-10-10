@@ -1,0 +1,17 @@
+{"id":"dvd-15","name":{"ko":"디비디","en":"dvd","ja":"DVD","zh-Hans":"DVD","zh-Hant":"DVD"},"palette":{"a":"#FFE4A8","b":"#FFD984","c":"#FFD983","d":"#FFD982","e":"#FFD27A","f":"#FFAF38"},"rows":[
+  ".....bbccd.....",
+  "...baaaccccc...",
+  "..caaaacccccc..",
+  ".efeaaabcccccc.",
+  ".fffeaabcccccc.",
+  "dffffeabccccccd",
+  "efffffd.dcccccc",
+  "cccdee...eedccc",
+  "ccccccd.dfffffe",
+  "dccccccbaeffffd",
+  ".ccccccbaaefff.",
+  ".ccccccbaaaefe.",
+  "..ccccccaaaac..",
+  "...cccccaaab...",
+  ".....dccbb....."
+]}

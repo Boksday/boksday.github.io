@@ -1,0 +1,12 @@
+{"id":"triangular-ruler-10","name":{"ko":"삼각자","en":"triangular ruler","ja":"三角定規","zh-Hans":"三角尺","zh-Hant":"三角尺"},"palette":{"a":"#FFCC4D","b":"#FFCC4C","c":"#FFCB4C"},"rows":[
+  "b.........",
+  "aa........",
+  "aaa.......",
+  "aaaa......",
+  "aaaaa.....",
+  "aa.aaa....",
+  "aa..aaa...",
+  "aab..aaa..",
+  "aaaaaaaaa.",
+  "caaaaaaaab"
+]}

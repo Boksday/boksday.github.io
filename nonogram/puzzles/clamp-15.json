@@ -1,0 +1,17 @@
+{"id":"clamp-15","name":{"ko":"압축기","en":"clamp","ja":"万力","zh-Hans":"夹钳","zh-Hant":"壓縮機"},"palette":{"a":"#7D838E","b":"#E1455C","c":"#DA2F47","d":"#DA2F46","e":"#D92F47","f":"#D92E46"},"rows":[
+  ".ecccccccce....",
+  ".cccccccccc....",
+  ".bbb...eccf....",
+  ".bbb...........",
+  ".bbb...........",
+  ".bbb...........",
+  ".bbb...aaaa....",
+  ".bbb....aa.....",
+  ".bbb...ebbd....",
+  ".cccdefcccc....",
+  ".cccccccccc....",
+  ".......cccf....",
+  "........aa.....",
+  "....aaaaaaaaaa.",
+  "....aa..aa..aa."
+]}

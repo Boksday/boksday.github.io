@@ -1,0 +1,22 @@
+{"id":"baby-chick-20","name":{"ko":"병아리","en":"baby chick","ja":"ひよこ","zh-Hans":"小鸡","zh-Hant":"小雞的臉"},"palette":{"a":"#FFCD4D","b":"#FFCC4D","c":"#FFCC4C","d":"#FFC94B","e":"#FDBD42","f":"#F3A22F"},"rows":[
+  "......c.bb..........",
+  "......bbb...........",
+  "....bbbbbbb.........",
+  "...cbbbbbbba........",
+  "..abbbbbbbbb........",
+  "..bbbefbbbbbb.......",
+  ".fbbbffbbbbbb.......",
+  "ffbbbefbbbbcbb......",
+  ".fbbbbbbbbbebbc.....",
+  "..cbbbbbbbeebbbbbbbc",
+  "...cbbbbbbeebbbbbbbc",
+  "....cbbbbbdfebbbbbbb",
+  "......bbbbbefdbbbbc.",
+  "......cbbbbdefeeed..",
+  ".......bbbbbcefff...",
+  "........bbbbbbbc....",
+  ".........edbbee.....",
+  "........fff.fff.....",
+  "........fff.fff.....",
+  ".............f......"
+]}

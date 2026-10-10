@@ -1,0 +1,22 @@
+{"id":"seat-20","name":{"ko":"좌석","en":"seat","ja":"座席","zh-Hans":"座位","zh-Hant":"座位"},"palette":{"a":"#D5E0E7","b":"#9FAEB8","c":"#78AFD9","d":"#5D93BE","e":"#4289C1","f":"#3E6C90"},"rows":[
+  "......eeaaaaabee....",
+  ".....eeeaaaaabeed...",
+  ".....eeeaaaaabeed...",
+  ".....eeeaaaaabeed...",
+  ".....eeecccccceed...",
+  ".....eeeeeeeeeeed...",
+  ".....eeeeeeeeeeed...",
+  ".....eeeeeeeeeeed...",
+  "....beeeeeeeeeedba..",
+  "...baeeeeeeeeebaaa..",
+  "..bbbeeeeeeeedbbb...",
+  "...dccccccccccdbb...",
+  "..eeeeeeeeeeecdbb...",
+  "..fffffffffffcdbc...",
+  "..fffffffffffccc....",
+  "..fffffffffffcbb....",
+  "..ffdbbb..ffdbbb....",
+  "..ffdbbb..ffdbbb....",
+  "..ffdbb...ffdbb.....",
+  "..ffd.....ffd......."
+]}

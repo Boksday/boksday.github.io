@@ -1,0 +1,22 @@
+{"id":"coin-20","name":{"ko":"동전","en":"coin","ja":"コイン","zh-Hans":"硬币","zh-Hant":"硬幣"},"palette":{"a":"#FFD67B","b":"#FFCD54","c":"#FFC54F","d":"#FFB53E","e":"#FFAC33","f":"#F79F21"},"rows":[
+  ".......bbbbbb.......",
+  ".....cbbccccbbc.....",
+  "....bcdeeeeeedcb....",
+  "...bceeeeddeeeecb...",
+  "..cceeecaaaaceeecc..",
+  ".cbdecaadeedaabedbc.",
+  ".bceebaaaaaaaabeecb.",
+  ".bdeedbdbccbdbdeedb.",
+  ".bdeedadaccadadeedb.",
+  "cbdeedadaccadadeedbc",
+  "cbdeedadaccadadeedbc",
+  ".bceedbbbbbbbbdeecb.",
+  ".cbedaaaaaaaaaadebc.",
+  ".dbceeeeeeeeeeeecbd.",
+  ".fcadeeeeeeeeeedacf.",
+  "..fcaceeeeeeeecacf..",
+  "...fcaadeeeedaacf...",
+  "....fdbaaaaaabdf....",
+  ".....ffdcbbcdff.....",
+  ".......ffffff......."
+]}

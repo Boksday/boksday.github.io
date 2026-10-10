@@ -1,0 +1,22 @@
+{"id":"railway-car-20","name":{"ko":"전철","en":"railway car","ja":"電車","zh-Hans":"轨道车","zh-Hant":"有軌電車"},"palette":{"a":"#FFE0A4","b":"#A0C5A2","c":"#B5A052","d":"#5C944B","e":"#55ACEE","f":"#5D6063"},"rows":[
+  "....................",
+  "....................",
+  "....................",
+  "....................",
+  "dddddddddddddddddddd",
+  "aaaaaaaaaaaaaaaaaaaa",
+  "abaabbaabaabaabbaaba",
+  "beeaeeaeebbeeaeeaeeb",
+  "beeaeeaeebbeeaeeaeeb",
+  "aaaaaaaaaaaaaaaaaaaa",
+  "aaaaaaaaaaaaaaaaaaaa",
+  "cccccccccccccccccccc",
+  "dddddddddddddddddddd",
+  "dddddddddddddddddddd",
+  ".fff..fff...fff.fff.",
+  "bbffbbffbbbbffbbbffb",
+  "....................",
+  "....................",
+  "....................",
+  "...................."
+]}

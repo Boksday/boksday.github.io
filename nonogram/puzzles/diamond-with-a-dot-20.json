@@ -1,0 +1,22 @@
+{"id":"diamond-with-a-dot-20","name":{"ko":"점이 찍힌 다이아몬드 모양","en":"diamond with a dot","ja":"ドット付きひし形","zh-Hans":"带圆点的菱形","zh-Hant":"菱形加圓點"},"palette":{"a":"#BBDDF5","b":"#92C3E8","c":"#55ACEE","d":"#54ACEE","e":"#57ABEB","f":"#4495D2"},"rows":[
+  ".........cc.........",
+  "........cccd........",
+  ".......dccccc.......",
+  "......cccccccd......",
+  ".....ccccccccc......",
+  "....c.cccccccc.d....",
+  "...dcc.effffe.ccc...",
+  "..cccce.baab.ecccd..",
+  ".dccccfbaaaaefccccc.",
+  "ccccccfaaaaabfcccccc",
+  "ccccccfaaaaabfcccccc",
+  ".dccccfbaaaaefccccc.",
+  "..cccce.ebbe.ecccd..",
+  "...dcc.effffe.ccc...",
+  "......cccccccc......",
+  ".....ccccccccc......",
+  "......cccccccd......",
+  ".......dccccc.......",
+  "........cccd........",
+  ".........cc........."
+]}

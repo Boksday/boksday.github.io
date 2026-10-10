@@ -1,0 +1,22 @@
+{"id":"shield-20","name":{"ko":"방패","en":"shield","ja":"盾","zh-Hans":"盾牌","zh-Hant":"盾牌"},"palette":{"a":"#CCD6DD","b":"#CBD5DC","c":"#90BFE2","d":"#55ACEE","e":"#4D83AA","f":"#226699"},"rows":[
+  ".....baabaabaab.....",
+  "..babccdddffeecbab..",
+  ".acdddddddffffffeca.",
+  ".acdddddddfffffffea.",
+  ".bcdddddddfffffffeb.",
+  ".addddddddfffffffea.",
+  ".addddddddfffffffea.",
+  ".addddddddfffffffea.",
+  ".addddddddfffffffea.",
+  ".acdddddddfffffffea.",
+  ".acdddddddfffffffea.",
+  "..cdddddddfffffffc..",
+  "..bdddddddfffffffb..",
+  "..acddddddffffffca..",
+  "...bddddddfffffeb...",
+  "....bdddddfffffb....",
+  "....abddddffffca....",
+  ".....bbcddffebb.....",
+  ".......abceca.......",
+  "........baab........"
+]}

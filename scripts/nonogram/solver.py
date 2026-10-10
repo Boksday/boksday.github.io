@@ -1,8 +1,5 @@
-"""내곁의 노노그램 퍼즐 묶음(nonogram/packs.json) 검사.
-
-앱은 받은 퍼즐 중 모양·색이 바르고, 찍지 않고 줄 단위 추론만으로 답 하나로 풀리는 것만 쓴다.
-올리기 전에 같은 기준으로 확인한다. 사용법: python3 scripts/nonogram/check.py [nonogram/packs.json]
-"""
+"""노노그램 줄 단위 풀이기. 앱의 lineSolver.ts와 같은 방식으로, 찍지 않고 줄 추론만으로 답 하나로 풀리는지 본다.
+build.py가 쓴다."""
 import sys, json
 from functools import lru_cache
 def clue(line):
@@ -68,28 +65,3 @@ def stats(rows):
     return ok,passes,first,fill,unk,rc,cc
 LANGS = ['ko', 'en', 'ja', 'zh-Hans', 'zh-Hant']
 BUILT_IN_IDS = set('heart mushroom sun tree house cat apple duck umbrella star penguin ghost coffee fox whale cherry icecream sailboat frog cactus owl rocket teapot snowman balloon lighthouse'.split())
-if __name__ == '__main__':
-    import re
-    doc = json.load(open(sys.argv[1] if len(sys.argv) > 1 else 'nonogram/packs.json'))
-    assert doc.get('version') == 1, 'version은 1'
-    seen = set(); bad = 0
-    for pack in doc['packs']:
-        for p in pack['puzzles']:
-            pid = p['id']; rows = p['rows']; errs = []
-            if not re.fullmatch(r'[a-z0-9-]{1,40}', pid): errs.append('ID는 소문자·숫자·- 40자 이내')
-            if pid in seen or pid in BUILT_IN_IDS: errs.append('ID 중복(앱에 든 퍼즐과도 겹치면 안 됨)')
-            seen.add(pid)
-            missing = [l for l in LANGS if not p['name'].get(l)]
-            if missing: errs.append(f'이름 없는 언어 {missing}(영어로 대신 보임)')
-            if len(set(map(len, rows))) != 1: errs.append('줄 길이가 다름')
-            if not (5 <= len(rows) <= 30 and 5 <= len(rows[0]) <= 30): errs.append('크기는 5~30')
-            if any(ch != '.' and ch not in p['palette'] for r in rows for ch in r): errs.append('팔레트에 없는 글자')
-            if not errs:
-                ok, passes, first, fill, unk, *_ = stats(rows)
-                if not ok: errs.append(f'줄 추론만으로 안 풀림(정해지지 않는 칸 {unk[:6]}…)')
-                info = f'{len(rows[0])}x{len(rows)} 바퀴 {passes} 첫바퀴 {first:.0%} 칠함 {fill:.0%}'
-            else:
-                info = ''
-            bad += bool(errs)
-            print(f"{'✗' if errs else '✓'} {pack['id']}/{pid} {info} {' / '.join(errs)}")
-    sys.exit(1 if bad else 0)

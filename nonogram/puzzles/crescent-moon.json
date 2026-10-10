@@ -1,0 +1,12 @@
+{"id":"crescent-moon","name":{"ko":"초승달","en":"Crescent Moon","ja":"三日月","zh-Hans":"月牙","zh-Hant":"月牙"},"palette":{"y":"#F7C948","w":"#FFE38A"},"rows":[
+  "...yyyy...",
+  ".yyyy.....",
+  "yyy.......",
+  "yyy.......",
+  "yyy....w..",
+  "yyy...www.",
+  "yyyy..w.w.",
+  ".yyyy.....",
+  "..yyyyy...",
+  "....yyyy.."
+]}

@@ -1,0 +1,22 @@
+{"id":"carrot-20","name":{"ko":"당근","en":"carrot","ja":"人参","zh-Hans":"胡萝卜","zh-Hant":"胡蘿蔔"},"palette":{"a":"#F4910B","b":"#F4900C","c":"#F3900C","d":"#F38F0C","e":"#E48208","f":"#80AF4F"},"rows":[
+  "..............f...ff",
+  ".............ff.ffff",
+  ".............ffffff.",
+  "............effffff.",
+  ".........ecbbbcfff..",
+  "........eeebbbbeffff",
+  ".......cdeedbbbbfff.",
+  "......abbbeedbbbf...",
+  ".....dbbbbbddbbb....",
+  "....eedbbddbbbbd....",
+  "....eeebbeedbbd.....",
+  "...dbeeebbeeed......",
+  "..bbbbdedbdee.......",
+  "..bbdbbbbbbd........",
+  ".bbbedbbbbd.........",
+  ".dbbdeebbc..........",
+  ".bbbbeee............",
+  "abbbbde.............",
+  "bbbcc...............",
+  "cd.................."
+]}

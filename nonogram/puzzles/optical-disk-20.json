@@ -1,0 +1,22 @@
+{"id":"optical-disk-20","name":{"ko":"씨디","en":"optical disk","ja":"CD","zh-Hans":"光盘","zh-Hant":"光碟"},"palette":{"a":"#F0F4F6","b":"#CDD7DE","c":"#AAB7C1","d":"#8899A6","e":"#8799A6","f":"#8898A5"},"rows":[
+  ".......dddddd.......",
+  ".....fcbacddddf.....",
+  "...edbaaacdddddde...",
+  "..edaaaaacddddddde..",
+  "..dbaaaaabdddddddd..",
+  ".fcbbaaaabddddddddf.",
+  ".dbbbbaaabddddddddd.",
+  "dcbbbbbaacdddddddddd",
+  "dbbbbbbbdffddddddddd",
+  "ddccccccf..fdddddddd",
+  "ddddddddf..fccccccdd",
+  "ddddddddddfdbbbbbbbd",
+  "ddddddddddcaabbbbbcd",
+  ".dddddddddbaaabbbbd.",
+  ".fddddddddbaaaabbcf.",
+  "..ddddddddcaaaaabd..",
+  "..edddddddcaaaaade..",
+  "...eddddddcaaabde...",
+  ".....fddddcabcf.....",
+  ".......dddddd......."
+]}

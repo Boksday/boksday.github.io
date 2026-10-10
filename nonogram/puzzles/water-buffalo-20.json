@@ -1,0 +1,22 @@
+{"id":"water-buffalo-20","name":{"ko":"물소","en":"water buffalo","ja":"水牛","zh-Hans":"水牛","zh-Hant":"水牛"},"palette":{"a":"#88969F","b":"#32373D","c":"#31373D","d":"#31373C","e":"#30373D","f":"#31363D"},"rows":[
+  "....................",
+  "......a.............",
+  "....aaaaa...........",
+  ".......aa...........",
+  "......aaaa..........",
+  "..fcaaaaabccccccce..",
+  ".cccbaaabcccccccccf.",
+  ".cbacccccccccccccccc",
+  "eccccccccccccccccccc",
+  "ccccccccccccccccccfc",
+  ".ecfccccccccccccccfc",
+  ".....dccccccccccccfc",
+  "......fccccccccccc.c",
+  ".......ccccccccccc.c",
+  ".......eccfffffccf.c",
+  ".......ccc.....dcb.d",
+  ".......ece.....cc...",
+  "........c......fe...",
+  "........f...........",
+  "...................."
+]}

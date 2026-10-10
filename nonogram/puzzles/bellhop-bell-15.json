@@ -1,0 +1,17 @@
+{"id":"bellhop-bell-15","name":{"ko":"호출 벨","en":"bellhop bell","ja":"ベルボーイベル","zh-Hans":"服务铃","zh-Hant":"服務鈴"},"palette":{"a":"#FFAC33","b":"#FFAC32","c":"#FDA62C","d":"#C1694F","e":"#C0694F","f":"#C1684F"},"rows":[
+  "...............",
+  ".......a.......",
+  "......bab......",
+  "....baaaaab....",
+  "...aaaaaaaaa...",
+  "..baaaaaaaaab..",
+  "..aaaaaaaaaaa..",
+  "..baaaaaaaaab..",
+  ".aaaaaaaaaaaaa.",
+  ".aaaaaaaaaaaaa.",
+  "......ccc......",
+  ".eddddddddddde.",
+  "ddddddddddddddd",
+  "fdddddddddddddf",
+  "..............."
+]}

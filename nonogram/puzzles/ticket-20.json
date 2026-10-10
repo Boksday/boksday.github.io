@@ -1,0 +1,22 @@
+{"id":"ticket-20","name":{"ko":"티켓","en":"ticket","ja":"チケット","zh-Hans":"票","zh-Hant":"門票"},"palette":{"a":"#CDD6DD","b":"#CCD6DE","c":"#CCD6DD","d":"#CCD6DC","e":"#CBD6DD","f":"#B7C4CC"},"rows":[
+  "...........ccc......",
+  "..........cccce.....",
+  ".........acffcca....",
+  "........eccffffcc...",
+  "........cccfffffea..",
+  "......ecedccffffcce.",
+  ".....ccb..ccffccccca",
+  "....accc.eecefeccccc",
+  "...ecefecc..cccccccd",
+  "..aceffecc..ccccccc.",
+  ".cceffeffccce.dcca..",
+  "dceffefffccc..ece...",
+  "ccffefffccccdec.....",
+  "aceefffefccccce.....",
+  ".eccffeffccccc......",
+  "..accfffcccca.......",
+  "...ccffcccce........",
+  "....accccca.........",
+  ".....ecccc..........",
+  "......ccd..........."
+]}

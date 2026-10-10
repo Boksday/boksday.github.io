@@ -1,0 +1,22 @@
+{"id":"black-bird-20","name":{"ko":"검은 새","en":"black bird","ja":"黒い鳥","zh-Hans":"黑色的鸟","zh-Hant":"黑鳥"},"palette":{"a":"#E19B34","b":"#31373D","c":"#31373C","d":"#30373D","e":"#2F353B","f":"#131618"},"rows":[
+  "....................",
+  "......bbcbdbd.......",
+  "....cbbbbbbbb.......",
+  "...defebbbbbb......c",
+  "...bfffbbbbbb.....cc",
+  ".aabefebbbbbb...cbbb",
+  "aaabbbbbbbbbddbbefb.",
+  ".aabbbbbbbbbbbbbffb.",
+  "...cbbbbbbebbbbffeb.",
+  "....dbbbbbffeefffd..",
+  ".....bbbbbefffffe...",
+  "......bbbbbbbbbbdcb.",
+  "......cbbbbbbbbbbbb.",
+  ".......cbbbbbbbbbc..",
+  "........dbbbbbbc....",
+  "..........ccbca.....",
+  "...........aa.aaa...",
+  "...........aa.aaa...",
+  "..........aaa.a.....",
+  "...................."
+]}

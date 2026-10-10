@@ -1,0 +1,22 @@
+{"id":"ring-20","name":{"ko":"반지","en":"ring","ja":"指輪","zh-Hans":"戒指","zh-Hant":"戒指"},"palette":{"a":"#89C6F2","b":"#63AEE9","c":"#9AAAB4","d":"#99AAB5","e":"#9AAAB3","f":"#9AA9B3"},"rows":[
+  "......aaaabbbb......",
+  ".....aaaaabbbbb.....",
+  "....aaaaaabbbbbb....",
+  ".....bbbbbaaaaa.....",
+  "......bbbbaaaa......",
+  ".......bbbaaa.......",
+  "......ecccccce......",
+  "......fccccccf......",
+  ".....ecccccccce.....",
+  ".....ccc....ccc.....",
+  "....fcf......fcf....",
+  "....cf........fc....",
+  "...ece........ece...",
+  "...fce........ecf...",
+  "...fcc........ccf...",
+  "....ce........ec....",
+  "....fcf......fcf....",
+  ".....cced..decc.....",
+  "......cccccccc......",
+  ".......dccccd......."
+]}

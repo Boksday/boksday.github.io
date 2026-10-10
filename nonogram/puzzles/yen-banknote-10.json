@@ -1,0 +1,12 @@
+{"id":"yen-banknote-10","name":{"ko":"엔","en":"yen banknote","ja":"円札","zh-Hans":"日元","zh-Hant":"日幣"},"palette":{"a":"#FFE7B3","b":"#FCD482","c":"#FACB7B","d":"#F8C976","e":"#F2BF78","f":"#ECA957"},"rows":[
+  "..........",
+  "dddcaacddd",
+  "ddbbaabcbd",
+  "deebaaeecd",
+  "defbaaeeed",
+  "dbebaaeebd",
+  "dbbbaabbbd",
+  "eeeeddeeee",
+  "ffffffffff",
+  ".........."
+]}

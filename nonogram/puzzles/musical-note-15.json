@@ -1,0 +1,17 @@
+{"id":"musical-note-15","name":{"ko":"음표","en":"musical note","ja":"音符","zh-Hans":"音符","zh-Hant":"音符"},"palette":{"a":"#5DADED","b":"#5DADEC","c":"#5CADEC","d":"#5DADEB","e":"#5CACEC","f":"#5DABEB"},"rows":[
+  "............cef",
+  ".....eedbbbbbbb",
+  "....ebbbbbbbbbb",
+  "....ebbbbbbbebb",
+  "....eee......bb",
+  "....ee.......bb",
+  "....ee.......bb",
+  "....ee.......bb",
+  "....ee.......bb",
+  "....ee....dedeb",
+  ".ebbbe...ebbbbb",
+  "dbbbbe...ebbbbd",
+  "dbbbbe...abbbbc",
+  "bbbbb.....dedc.",
+  ".eed..........."
+]}

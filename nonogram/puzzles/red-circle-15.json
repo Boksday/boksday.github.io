@@ -1,0 +1,17 @@
+{"id":"red-circle-15","name":{"ko":"빨간 원","en":"red circle","ja":"赤い丸","zh-Hans":"红色圆","zh-Hant":"大紅色圓形"},"palette":{"a":"#DD2E44","b":"#DC2E44","c":"#DC2D44"},"rows":[
+  ".....acaca.....",
+  "...caaaaaaac...",
+  "..aaaaaaaaaaa..",
+  ".caaaaaaaaaaac.",
+  ".aaaaaaaaaaaaa.",
+  "caaaaaaaaaaaaac",
+  "baaaaaaaaaaaaab",
+  "aaaaaaaaaaaaaaa",
+  "baaaaaaaaaaaaab",
+  "caaaaaaaaaaaaac",
+  ".aaaaaaaaaaaaa.",
+  ".caaaaaaaaaaac.",
+  "..aaaaaaaaaaa..",
+  "...caaaaaaac...",
+  ".....acaca....."
+]}

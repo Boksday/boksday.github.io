@@ -1,0 +1,22 @@
+{"id":"ringed-planet-20","name":{"ko":"고리가 있는 행성","en":"ringed planet","ja":"環のある惑星","zh-Hans":"有环行星","zh-Hant":"帶行星環的行星"},"palette":{"a":"#FFCB4C","b":"#FCBA3B","c":"#F7A123","d":"#F4900C","e":"#F0810B","f":"#E96302"},"rows":[
+  "....................",
+  "....................",
+  "....................",
+  "....................",
+  ".......aaaaacffffff.",
+  "......aaaaacddfffeff",
+  ".....babaacdddc.ffef",
+  "....ddddddddddbafeff",
+  "....ddddddddcbaeeef.",
+  "...fddddddcbabeeef..",
+  "..ffbccbbbaacedef...",
+  ".ff.aaaaaacfedfe....",
+  "fef.cbbcefedeeba....",
+  "feffffeeddeebaa.....",
+  "ffeeeeeeecbabc......",
+  "..ffff.babcdd.......",
+  "....................",
+  "....................",
+  "....................",
+  "...................."
+]}

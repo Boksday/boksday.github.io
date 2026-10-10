@@ -1,0 +1,22 @@
+{"id":"closed-umbrella-20","name":{"ko":"접힌 우산","en":"closed umbrella","ja":"閉じた傘","zh-Hans":"收起的伞","zh-Hant":"收合的傘"},"palette":{"a":"#9266CC","b":"#9065CA","c":"#756D9A","d":"#7C55B2","e":"#744EAA","f":"#744DAA"},"rows":[
+  "...ccc..............",
+  "..ccccc.............",
+  "..cc................",
+  "..c......a..........",
+  "..cc.....aa.........",
+  "...cc..eebab........",
+  "....cceeedaa........",
+  ".....ceeeebaa.......",
+  "....aabdeedba.......",
+  "....aaabdeedaa......",
+  "..eedbaabdeeba......",
+  "..feeebaabdeeba.....",
+  "...eeeedbabdeda.....",
+  ".....eeedbabdeba....",
+  ".......feedabdeb....",
+  ".........eedbbdda...",
+  "...........eebbdb...",
+  ".............edbdb..",
+  "...............ebc..",
+  ".................cc."
+]}

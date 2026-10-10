@@ -1,0 +1,22 @@
+{"id":"petri-dish-20","name":{"ko":"페트리 접시","en":"petri dish","ja":"ペトリ皿","zh-Hans":"培养皿","zh-Hant":"培養皿"},"palette":{"a":"#D0D8DF","b":"#B7C0C9","c":"#C0B1BB","d":"#99AAB5","e":"#D48393","f":"#EA596E"},"rows":[
+  "....................",
+  "....................",
+  "....................",
+  ".....abbbbbbbba.....",
+  "...bbddddddddddbb...",
+  ".abddeffffffffeddba.",
+  ".bdffeeffffffffffdb.",
+  "acffeeceaeffffffffca",
+  "aefeaeefefffffffffea",
+  "bcfffcaffffecfffffcb",
+  "bacffffffffecffffcab",
+  "baaaeeffffffffeeabab",
+  "baabbaaccccccaabbdab",
+  ".aaddddbbbbbbddddda.",
+  ".aadddddddddddddddb.",
+  "...dddddddddddddd...",
+  ".....dddddddddd.....",
+  "....................",
+  "....................",
+  "...................."
+]}

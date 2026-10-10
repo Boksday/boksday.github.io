@@ -1,0 +1,22 @@
+{"id":"multiply-20","name":{"ko":"곱하기","en":"multiply","ja":"掛け算","zh-Hans":"乘","zh-Hant":"乘"},"palette":{"a":"#31373D","b":"#31373C","c":"#32363D","d":"#31363D","e":"#31363C","f":"#30363D"},"rows":[
+  ".aab.............ee.",
+  "caaab...........aaae",
+  "caaaab.........aaaae",
+  ".daaaab.......aaaaa.",
+  "..daaaab.....aaaaa..",
+  "...daaaab...aaaaa...",
+  "....daaaab.aaaaa....",
+  ".....daaaaaaaaa.....",
+  "......daaaaaaa......",
+  ".......daaaaa.......",
+  ".......aaaaaab......",
+  "......aaaaaaaab.....",
+  ".....aaaaadaaaab....",
+  "....aaaaa..daaaab...",
+  "...aaaaa....daaaab..",
+  "..aaaaa......daaaab.",
+  ".aaaaa........daaaab",
+  "baaaa..........daaaa",
+  "baaa............daaa",
+  ".bb..............ff."
+]}

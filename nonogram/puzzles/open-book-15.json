@@ -1,0 +1,17 @@
+{"id":"open-book-15","name":{"ko":"펼쳐진 책","en":"open book","ja":"開いた本","zh-Hans":"打开的书本","zh-Hant":"打開來的書本"},"palette":{"a":"#E1E8ED","b":"#D9E1E6","c":"#CCD6DD","d":"#B6C3CB","e":"#8CA4B5","f":"#35709B"},"rows":[
+  "...............",
+  "...............",
+  "....aaabccc....",
+  ".daaaaabcccccd.",
+  "fdaaaaabcccccdf",
+  "fdaaaaabcccccdf",
+  "fdaaaaabcccccdf",
+  "fdaaaaabcccccdf",
+  "fdaaaaabcccccdf",
+  "fdaaaaabcccccdf",
+  "fdabcddcdddccdf",
+  "feeeeeefeeeeeef",
+  ".fffffffffffff.",
+  "...............",
+  "..............."
+]}

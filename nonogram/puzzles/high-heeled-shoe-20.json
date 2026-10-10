@@ -1,0 +1,22 @@
+{"id":"high-heeled-shoe-20","name":{"ko":"하이힐","en":"high-heeled shoe","ja":"ハイヒール","zh-Hans":"高跟鞋","zh-Hant":"高跟鞋"},"palette":{"a":"#DD2F44","b":"#DD2E44","c":"#DD2E43","d":"#DD2D44","e":"#9A2E3E","f":"#2A2F33"},"rows":[
+  "....................",
+  ".db.................",
+  "bbbbb...............",
+  "bbbbbd..............",
+  "bbbbbbb.............",
+  "bbbbbbbd............",
+  "bbbbbbbb............",
+  "ccbbbbbbc...........",
+  "ffffecbbbc..........",
+  "ffffffebbb..........",
+  "fff..ffcbbd.........",
+  ".ff...ffbbc.........",
+  ".ff....febbc........",
+  ".f.....febbbd.......",
+  ".f......fcbbbbbbbb..",
+  ".f......febbbbbbbbba",
+  ".f.......fcbbbbbbbbb",
+  ".f.......ffffffffffe",
+  ".f..................",
+  "...................."
+]}

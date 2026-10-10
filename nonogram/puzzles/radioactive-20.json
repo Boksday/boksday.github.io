@@ -1,0 +1,22 @@
+{"id":"radioactive-20","name":{"ko":"방사능","en":"radioactive","ja":"放射能","zh-Hans":"辐射","zh-Hant":"放射性"},"palette":{"a":"#FFFEFD","b":"#F8B762","c":"#F4900C","d":"#F4900B","e":"#F3900B","f":"#F38E0B"},"rows":[
+  ".......ddccdd.......",
+  ".....ecccccccce.....",
+  "...fccccccccccccf...",
+  "..ecccccccccccccce..",
+  "..cccbaccccccabccc..",
+  ".cccbaaaccccaaabccc.",
+  ".ccbaaaabccbaaaabcc.",
+  "dccbaaaaaccaaaaabccd",
+  "dccaaaaacbbcaaaaaccd",
+  "cccaaaabbaabbaaaaccc",
+  "cccbbbbcbaabcbbbbccc",
+  "dccccccccbbccccccccd",
+  "dcccccccabbacccccccd",
+  ".ccccccbaaaabcccccc.",
+  ".ccccccaaaaaacccccc.",
+  "..ccccbaaaaaabcccc..",
+  "..ecccbbaaaabbccce..",
+  "...fccccccccccccf...",
+  ".....ecccccccce.....",
+  ".......ddccdd......."
+]}

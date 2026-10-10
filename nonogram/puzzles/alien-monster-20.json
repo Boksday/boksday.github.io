@@ -1,0 +1,22 @@
+{"id":"alien-monster-20","name":{"ko":"에일리언","en":"alien monster","ja":"インベーダー","zh-Hans":"外星怪物","zh-Hant":"怪物"},"palette":{"a":"#563985","b":"#553986","c":"#553985","d":"#553886","e":"#533985"},"rows":[
+  "....................",
+  ".......b....b.......",
+  ".......b....b.......",
+  "b....cbbbbbbbbc....b",
+  "b....cbbbbbbbbc....b",
+  "b..ccbbbbbbbbbbcc..b",
+  "b..cbbbbbbbbbbbbc..b",
+  "b..cbbc..bb..cbbc..b",
+  "b..cbbc..bb..cbbc..b",
+  ".bbdbbc..bb..cbbdbb.",
+  "...cbbc..bb..cbbc...",
+  "...cbbcccbbcccbbc...",
+  "...cbbbbbbbbbbbbc...",
+  "...cbbbbbbbbbbbbc...",
+  ".....abbe..ebba.....",
+  ".....cbb....bbc.....",
+  ".....cbb....bbc.....",
+  "...cbc........cbc...",
+  "...cbc........cbc...",
+  "...................."
+]}

@@ -1,0 +1,12 @@
+{"id":"deciduous-tree-10","name":{"ko":"나무","en":"deciduous tree","ja":"落葉樹","zh-Hans":"落叶树","zh-Hant":"落葉樹"},"palette":{"a":"#5C913B","b":"#5B913B","c":"#5A8F39","d":"#568B35","e":"#548833","f":"#596427"},"rows":[
+  "...abba...",
+  "..baaaab..",
+  ".baeddeab.",
+  ".edaaaade.",
+  ".aeceecea.",
+  ".eccbbcce.",
+  ".cdeddedc.",
+  "..eceece..",
+  "....ff....",
+  "....ff...."
+]}

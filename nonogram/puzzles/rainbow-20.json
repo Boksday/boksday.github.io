@@ -1,0 +1,22 @@
+{"id":"rainbow-20","name":{"ko":"무지개","en":"rainbow","ja":"虹","zh-Hans":"彩虹","zh-Hant":"彩虹"},"palette":{"a":"#FCC346","b":"#F29323","c":"#729148","d":"#EC2E26","e":"#EB1F27","f":"#5367A1"},"rows":[
+  "...............eeeee",
+  "............eeeeeddd",
+  "..........eeeddbbbbb",
+  ".........eedbbbbbbaa",
+  ".......eedbbbbaaaaaa",
+  "......eedbbbaaaacccc",
+  ".....eedbbaaaccccccc",
+  "....eedbbaaacccfffff",
+  "....edbbaacccfffffff",
+  "...edbbaacccffffffff",
+  "..eebbaacccffffff...",
+  "..edbbaaccfffff.....",
+  ".eebbaaccfffff......",
+  ".edbbaccfffff.......",
+  ".edbaaccffff........",
+  "eebbaacffff.........",
+  "eebbaccffff.........",
+  "edbbaccfff..........",
+  "edbaaccfff..........",
+  "edbaaccfff.........."
+]}

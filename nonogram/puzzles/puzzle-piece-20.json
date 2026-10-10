@@ -1,0 +1,22 @@
+{"id":"puzzle-piece-20","name":{"ko":"퍼즐","en":"puzzle piece","ja":"ジグソーパズル","zh-Hans":"拼图","zh-Hant":"拼圖"},"palette":{"a":"#78B259","b":"#78B159","c":"#78B158","d":"#77B159","e":"#77B059","f":"#78AF58"},"rows":[
+  "........db..........",
+  ".......ebbd.........",
+  "......dbbbbc..dbbe..",
+  "......bbbbbbeebbbb..",
+  "......ecebbbbbbbbe..",
+  "........dbbbbbbbe...",
+  "..dbe...bbbbbbbb....",
+  ".ebbc...bbbbbbbbc...",
+  "dbbbedbbbbbbbbbbbc..",
+  "dbbbbbbbbbbbbbbbbbc.",
+  ".ebbbbbbbbbbbbbbbbbc",
+  "..cbbbbbbbbbcccbbbb.",
+  "...ebbbbbbbc...ebbe.",
+  "...ebbbbbbbd...fba..",
+  "..dbbbbbbbbc........",
+  "..bbbbbbbbbbbf......",
+  "..bbbd.cbbbbbb......",
+  "..ebe...cbbbba......",
+  ".........bbbd.......",
+  "..........d........."
+]}

@@ -1,0 +1,22 @@
+{"id":"rooster-20","name":{"ko":"수탉","en":"rooster","ja":"おんどり","zh-Hans":"公鸡","zh-Hant":"公雞"},"palette":{"a":"#E1E8ED","b":"#E1E8EC","c":"#E0E8ED","d":"#E1E5EB","e":"#F5B153","f":"#DD5E5F"},"rows":[
+  "...ff...............",
+  "..ffffff............",
+  ".ffeddff............",
+  ".ffaaaaf............",
+  "..edfaaa.........b..",
+  ".eeaaaaab.......aa..",
+  "..eaaaaaa......daab.",
+  "..daaaaaaab...baaac.",
+  "..faaaaaaaaaaaaaaaa.",
+  ".ffaaaaaaaaaaaaaaaa.",
+  ".ffaaaaaaaaaaaaaaab.",
+  "...aaaaaaaaaaaaaaab.",
+  "....aaaaaaaaaaaaaa..",
+  "....baaaaaaaaaaaaa..",
+  ".....aaaaaaaaaaab...",
+  "......aaaaaaaaac....",
+  "........daaaabd.....",
+  "........ee.ee.......",
+  ".......eee.eee......",
+  ".......ee..ee......."
+]}

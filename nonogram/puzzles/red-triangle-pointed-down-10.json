@@ -1,0 +1,12 @@
+{"id":"red-triangle-pointed-down-10","name":{"ko":"빨간색 아래쪽 삼각형","en":"red triangle pointed down","ja":"赤い下三角","zh-Hans":"红色倒三角","zh-Hant":"向下紅色三角"},"palette":{"a":"#E85A70","b":"#E75A70","c":"#E75A6F","d":"#E85970","e":"#E65A6F","f":"#E55970"},"rows":[
+  "..........",
+  "ebbbbbbbbe",
+  ".bbbbbbbc.",
+  ".dbbbbbb..",
+  "..bbbbbc..",
+  "...bbbe...",
+  "...fbbf...",
+  "....ba....",
+  "..........",
+  ".........."
+]}

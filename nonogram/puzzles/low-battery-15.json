@@ -1,0 +1,17 @@
+{"id":"low-battery-15","name":{"ko":"배터리 부족","en":"low battery","ja":"バッテリー残量低下","zh-Hans":"电池电量不足","zh-Hant":"電量不足"},"palette":{"a":"#E1E8ED","b":"#DCE2E8","c":"#BFC2CB","d":"#F56376","e":"#EB3751","f":"#D42544"},"rows":[
+  "...bbbcccbbb...",
+  "..abcccccccca..",
+  "..aabcccccbaa..",
+  "..aaaaabaaaaa..",
+  "..aaaaacaaaaa..",
+  "..aaabcccbaaa..",
+  "..aaaaacaaaaa..",
+  "..aaaaaaaaaaa..",
+  "..aaaaaaaaaaa..",
+  "..bcdddddddcb..",
+  "..eeeeeeeeeee..",
+  "..ffeeeeeeeff..",
+  "..ffffdedffff..",
+  "...fffcccfff...",
+  "....fffffff...."
+]}

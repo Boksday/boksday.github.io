@@ -1,0 +1,17 @@
+{"id":"warning-15","name":{"ko":"주의","en":"warning","ja":"警告","zh-Hans":"警告","zh-Hant":"警告"},"palette":{"a":"#FFCC4D","b":"#FFCC4C","c":"#FFCB4D","d":"#EDBE49","e":"#9D7F39","f":"#322B23"},"rows":[
+  ".......a.......",
+  "......aaa......",
+  "......cac......",
+  ".....cdedc.....",
+  ".....cefec.....",
+  "....aaefeaa....",
+  "....aaefeaa....",
+  "...baaefeaab...",
+  "...aaaefeaaa...",
+  "..caaaefeaaab..",
+  "..aaaadedaaaa..",
+  ".baaaaefeaaaab.",
+  ".aaaaaefeaaaaa.",
+  "aaaaaacdcaaaaaa",
+  "ccccccccccccccc"
+]}

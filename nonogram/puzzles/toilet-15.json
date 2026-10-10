@@ -1,0 +1,17 @@
+{"id":"toilet-15","name":{"ko":"변기","en":"toilet","ja":"便器","zh-Hans":"马桶","zh-Hant":"馬桶"},"palette":{"a":"#E1E8ED","b":"#D3DBE2","c":"#BDC9D1","d":"#AAB8C2","e":"#A8B8C0","f":"#9BACB7"},"rows":[
+  "........f......",
+  "........fbbbbb.",
+  "........fbbbbb.",
+  "........fbaaaa.",
+  "........fbaaaa.",
+  "........ebaaaa.",
+  ".......cbaaaaa.",
+  ".bccccccbaaaaa.",
+  ".cccccccccccc..",
+  ".bbbbbbbbddd...",
+  ".aaaaaaabddd...",
+  "...aaabcdddd...",
+  "....dddddddd...",
+  "...edddddddd...",
+  "...ddddddddd..."
+]}

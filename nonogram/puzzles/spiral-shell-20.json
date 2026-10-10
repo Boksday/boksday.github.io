@@ -1,0 +1,22 @@
+{"id":"spiral-shell-20","name":{"ko":"달팽이집","en":"spiral shell","ja":"巻き貝","zh-Hans":"海螺","zh-Hant":"海螺"},"palette":{"a":"#CCD7DE","b":"#CDD6DD","c":"#CCD6DD","d":"#CCD6DC","e":"#CBD6DC","f":"#A3B1BA"},"rows":[
+  "..ccccb.............",
+  "..cccceffcd.........",
+  "..ccccefecc.........",
+  "..ccccffcccefeea....",
+  "..cccefecccffecce...",
+  "..ccefeccceffcccc...",
+  "..eeffccccffeccccc..",
+  "...ffeccceffccccfe..",
+  "...feccccffecccfff..",
+  "....ccccefeccccfff..",
+  "....ccceffccccffff..",
+  "....cceffeccccffff..",
+  "......ffeccccfffff..",
+  "......ffccccefffff..",
+  "......ecccccfffffe..",
+  "......ecccccfffffe..",
+  ".......ccccccffffc..",
+  ".......eccccceffc...",
+  "........ecccccccc...",
+  "..........acedc....."
+]}

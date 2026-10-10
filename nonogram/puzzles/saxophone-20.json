@@ -1,0 +1,22 @@
+{"id":"saxophone-20","name":{"ko":"색소폰","en":"saxophone","ja":"サックス","zh-Hans":"萨克斯管","zh-Hant":"薩克斯風"},"palette":{"a":"#FDCB58","b":"#FDC050","c":"#FCAB40","d":"#FCAA40","e":"#FAAD43","f":"#C6BFAF"},"rows":[
+  "....................",
+  "...............def..",
+  "..............fcbfff",
+  ".............ffcefff",
+  ".............ffc....",
+  "..aaaa.....ffac.....",
+  "aaaaaaaa...ffbd.....",
+  "aaaaaaaa..ffcc......",
+  "aaaaaaaa..ffcd......",
+  ".bbbbbb..ebec.......",
+  "..ccccd.dccc........",
+  ".dcccdcccccd........",
+  ".cccc..cccc.........",
+  ".cccc.dcccc.........",
+  "dccccccccc..........",
+  ".cccccccc...........",
+  ".cccccccd...........",
+  "..dccccc............",
+  "...dcc..............",
+  "...................."
+]}

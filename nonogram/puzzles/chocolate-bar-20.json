@@ -1,0 +1,22 @@
+{"id":"chocolate-bar-20","name":{"ko":"초콜렛","en":"chocolate bar","ja":"チョコレート","zh-Hans":"巧克力","zh-Hant":"巧克力"},"palette":{"a":"#CCD1D8","b":"#BA6852","c":"#DD2F45","d":"#DD2E44","e":"#A94541","f":"#D3273E"},"rows":[
+  "......bb............",
+  ".....bbbb...........",
+  "....bbbbee..........",
+  "...eebbeebb.........",
+  "..bbeeeebbba........",
+  ".bbbbeebbbaaaa......",
+  "bbbbeeeebaaaabf.....",
+  ".bbeebbeaaaaafdd....",
+  "..eebbbaaaaabfddd...",
+  "...bbbaaaaaafddddd..",
+  "....baaaaaabfdddddd.",
+  "....aaaaaaafdddddddc",
+  "....aaaaaabfdddddddd",
+  "....aaaaaaffdddddddd",
+  ".....aaaabfdddddddd.",
+  "......aaaffddddddd..",
+  ".........fddddddd...",
+  "..........dddddd....",
+  "...........dddd.....",
+  "............dd......"
+]}

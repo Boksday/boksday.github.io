@@ -1,0 +1,12 @@
+{"id":"bullet-train-10","name":{"ko":"고속철","en":"bullet train","ja":"0系新幹線","zh-Hans":"子弹头高速列车","zh-Hant":"高鐡車頭"},"palette":{"a":"#D1D3D4","b":"#C1CBD3","c":"#6CA4CE","d":"#4F8FC0","e":"#337CB5","f":"#326D99"},"rows":[
+  "..........",
+  "....cccbaa",
+  "....cccaaa",
+  "..aaaaaaaa",
+  ".caaaaaaaa",
+  "ecaaaabbbb",
+  "ecaaaaceee",
+  ".dcccdeeee",
+  ".fffffffff",
+  ".........."
+]}

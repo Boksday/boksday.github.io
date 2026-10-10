@@ -1,0 +1,12 @@
+{"id":"locked-10","name":{"ko":"자물쇠","en":"locked","ja":"閉じた錠","zh-Hans":"合上的锁","zh-Hant":"上鎖"},"palette":{"a":"#FFAC33","b":"#FFAC32","c":"#FFAB33","d":"#FFAB32","e":"#AEB7BB","f":"#A9B7C2"},"rows":[
+  "...ffff...",
+  "...f..f...",
+  "..f....f..",
+  "..e....e..",
+  ".aaaaaaac.",
+  ".caaaaaac.",
+  ".caaaaaac.",
+  ".caaaaaac.",
+  ".caaaaaac.",
+  ".dcaaaacb."
+]}

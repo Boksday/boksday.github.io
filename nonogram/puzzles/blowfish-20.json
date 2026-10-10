@@ -1,0 +1,22 @@
+{"id":"blowfish-20","name":{"ko":"복어","en":"blowfish","ja":"フグ","zh-Hans":"河豚","zh-Hant":"河豚"},"palette":{"a":"#D99E82","b":"#D89E82","c":"#D39075","d":"#C47056","e":"#C1694F","f":"#A1533E"},"rows":[
+  "....................",
+  "....................",
+  "....................",
+  ".....eeeee..........",
+  "...eeeeeeee.eee.....",
+  "..eeeeeeeeffee......",
+  ".eeffeeeeeefeee.....",
+  ".eeffeeeffeeffee..ba",
+  "eeeeeeeeffeeffeedaab",
+  "deeeeddddddddededaab",
+  "aaaaaaaaaabbbdcaaaaa",
+  ".aaaaaaaaacdceca..aa",
+  ".aaaaaaaccaaaab.....",
+  "..aaaaaceeaaaa......",
+  "..baaaabddabaa......",
+  "...aaaaaaab..b......",
+  ".....baba...........",
+  "....................",
+  "....................",
+  "...................."
+]}

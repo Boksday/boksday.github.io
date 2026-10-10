@@ -1,0 +1,22 @@
+{"id":"game-die-20","name":{"ko":"주사위","en":"game die","ja":"サイコロ","zh-Hans":"骰子","zh-Hant":"骰子"},"palette":{"a":"#E8AAB4","b":"#EA596E","c":"#EA596D","d":"#E9596E","e":"#DD3D52","f":"#A30923"},"rows":[
+  ".........dd.........",
+  "........bbbb........",
+  "......dbbbbbdc......",
+  ".....dbbbbbbbbd.....",
+  "....cbbbbbbbbbbc....",
+  "...dbbbbbaaabbbbb...",
+  "..cbbbbbbaaabbbbbc..",
+  "..febbbbbaabbbbbee..",
+  "..ffebbbbbbbbbbeee..",
+  "..ffffcbbbbbbcebae..",
+  "..faaffebbbbceeaae..",
+  "..faaeffebbeeeedee..",
+  "..ffdffffeeeedadee..",
+  "..fffffffeeeeaacee..",
+  "...fffdafeeeeedee...",
+  "....ffaadeedadee....",
+  ".....ffafeeaace.....",
+  ".......ffeeec.......",
+  "........feee........",
+  ".........ee........."
+]}

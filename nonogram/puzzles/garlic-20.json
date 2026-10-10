@@ -1,0 +1,22 @@
+{"id":"garlic-20","name":{"ko":"마늘","en":"garlic","ja":"ニンニク","zh-Hans":"蒜","zh-Hant":"大蒜"},"palette":{"a":"#E2E9EE","b":"#E1E8ED","c":"#E0E8ED","d":"#E0E7EC","e":"#D1DAE0","f":"#AEBCC5"},"rows":[
+  "......ab............",
+  "......bb............",
+  "......bbd...........",
+  "......dbd...........",
+  "......bbbb..........",
+  "......bbbec.........",
+  "......edbeedda......",
+  ".....deebdfbeebbd...",
+  "....ddeebbffdefebd..",
+  "...deefebbdfebefeb..",
+  "..bdfbfebbbffdbefdb.",
+  ".bbfebffbbbdffbbfeb.",
+  ".bdfdbffbbbbffbbefa.",
+  ".befbbffbbbbffbbeeb.",
+  ".cefbbefebbbefbbed..",
+  ".bdfdbdffbbbefbbe...",
+  "..cfebbefdbbeeb.....",
+  "...bfebbeebdef......",
+  "....dedbdffff.......",
+  ".........f.........."
+]}

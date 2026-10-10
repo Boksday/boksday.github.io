@@ -1,0 +1,17 @@
+{"id":"horizontal-traffic-light-15","name":{"ko":"가로 신호등","en":"horizontal traffic light","ja":"信号横","zh-Hans":"横向的红绿灯","zh-Hant":"紅綠燈"},"palette":{"a":"#CDBE4F","b":"#64924F","c":"#434940","d":"#31373D","e":"#B33042","f":"#3D363E"},"rows":[
+  "...............",
+  "...............",
+  "...............",
+  "...............",
+  "ddddddddddddddd",
+  "ddccddfcfddffdd",
+  "dbbbcfaaafceeed",
+  "dbbbbcaaaceeeed",
+  "dbbbcfaaafceeed",
+  "ddccddfcfddffdd",
+  "ddddddddddddddd",
+  "...............",
+  "...............",
+  "...............",
+  "..............."
+]}

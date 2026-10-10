@@ -1,0 +1,17 @@
+{"id":"pizza-15","name":{"ko":"피자","en":"pizza","ja":"ピザ","zh-Hans":"披萨","zh-Hant":"披薩"},"palette":{"a":"#FFCC4D","b":"#FEC74B","c":"#F7B141","d":"#F39316","e":"#D34F35","f":"#BE1931"},"rows":[
+  "....ddddddd....",
+  "..ddccdcbccdd..",
+  ".dcaaeffcaaacd.",
+  "..ecafffcbcba..",
+  "...fcefecffe...",
+  "...fcaaacfff...",
+  "....ccbabef....",
+  "....ffeaaaa....",
+  "....fffabcb....",
+  ".....feaef.....",
+  ".....aaaff.....",
+  "......ebe......",
+  "......fea......",
+  "......fca......",
+  ".......a......."
+]}

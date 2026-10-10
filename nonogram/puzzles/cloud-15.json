@@ -1,0 +1,17 @@
+{"id":"cloud-15","name":{"ko":"구름","en":"cloud","ja":"雲","zh-Hans":"云","zh-Hant":"雲"},"palette":{"a":"#E1E8ED","b":"#E0E8EC","c":"#D9E1E7","d":"#CCD6DD","e":"#CBD6DC","f":"#CBD5DC"},"rows":[
+  "...............",
+  ".......ff......",
+  "......dddf.....",
+  "...dfddddd.....",
+  "..ddddddddddd..",
+  "..ddddccdddddd.",
+  "..fdcaaabddddd.",
+  "..aabaaaabacdd.",
+  ".aaaaaaaaaaace.",
+  "baaaaaaaaaaab..",
+  "aaaaaaaaaaaaaab",
+  "aaaaaaaaaaaaaab",
+  ".aaaaaaaaaaaaab",
+  "..baaaaaaaaaab.",
+  "..............."
+]}

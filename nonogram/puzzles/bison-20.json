@@ -1,0 +1,22 @@
+{"id":"bison-20","name":{"ko":"들소","en":"bison","ja":"バイソン","zh-Hans":"大野牛","zh-Hant":"野牛"},"palette":{"a":"#BA8574","b":"#C1694F","c":"#A9604D","d":"#702B1D","e":"#662113","f":"#662013"},"rows":[
+  "....................",
+  "....................",
+  ".....deeeeee........",
+  "....aceeeeeeeee.....",
+  "eeecaceeeeeeedcbb...",
+  "eeecceeeeeeeebbbbb..",
+  "edcbceeeeeeeebbbbbb.",
+  "ecbccdeeeeeeebbbbbbb",
+  "dbbdceeeeeeeebbbbbbb",
+  ".bbbbeeeeeeeebbbbbbb",
+  "aabbbeeeeeeedbbbbbbb",
+  ".abbbdeeeeeedbbbbbbb",
+  "..bb.feeeeeecbbbbb.b",
+  "......eeeeedbbbbbb..",
+  "......feede....bbb..",
+  ".......bbb.....bbb..",
+  "........bb.....bb...",
+  "........b......bb...",
+  "....................",
+  "...................."
+]}

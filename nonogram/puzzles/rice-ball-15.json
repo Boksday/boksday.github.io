@@ -1,0 +1,17 @@
+{"id":"rice-ball-15","name":{"ko":"삼각 김밥","en":"rice ball","ja":"おにぎり","zh-Hans":"饭团","zh-Hant":"飯糰"},"palette":{"a":"#EFEFEF","b":"#EEEEEE","c":"#EDEEEE","d":"#EDEDED","e":"#BBBFC2","f":"#292F33"},"rows":[
+  "......bdb......",
+  ".....bbbbd.....",
+  "....bbbbbbb....",
+  "...bbbbbbbbd...",
+  "..bbbbbbbbbb...",
+  "..dbbbbbbbbbb..",
+  ".bddbbbbbbddb..",
+  ".bddbbddbbddbb.",
+  "dbbbeeeeeedbdd.",
+  "ddddfffffffbddb",
+  "dddbfffffffbbbb",
+  "dbbdfffffffddbd",
+  "dbbdfffffffdcbb",
+  ".dbbfffffffbbd.",
+  "..abfffffffb..."
+]}
