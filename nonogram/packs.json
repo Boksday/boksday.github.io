@@ -1,0 +1,121 @@
+{
+  "version": 1,
+  "packs": [
+    {
+      "id": "autumn-2026",
+      "name": {
+        "ko": "가을",
+        "en": "Autumn",
+        "ja": "秋",
+        "zh-Hans": "秋天",
+        "zh-Hant": "秋天"
+      },
+      "puzzles": [
+        {
+          "id": "maple-leaf",
+          "name": {
+            "ko": "단풍잎",
+            "en": "Maple Leaf",
+            "ja": "もみじ",
+            "zh-Hans": "枫叶",
+            "zh-Hant": "楓葉"
+          },
+          "palette": {
+            "r": "#D9452B",
+            "b": "#7A4A2A"
+          },
+          "rows": [
+            "....r.....",
+            "..r.rr.r..",
+            "..r.rrrr..",
+            "r.rrrrrr.r",
+            "rrrrrrr.rr",
+            ".rr.rr.rr.",
+            "..rrrrrr..",
+            ".rrr.rrrr.",
+            "....b.....",
+            "....b....."
+          ]
+        },
+        {
+          "id": "acorn",
+          "name": {
+            "ko": "도토리",
+            "en": "Acorn",
+            "ja": "どんぐり",
+            "zh-Hans": "橡果",
+            "zh-Hant": "橡實"
+          },
+          "palette": {
+            "b": "#7A4A2A",
+            "t": "#C98F4F"
+          },
+          "rows": [
+            "....b.....",
+            "..bbbbb...",
+            ".bbbbbbb..",
+            "bbbbbbbbb.",
+            ".ttttttt..",
+            ".t.ttttt..",
+            ".tt.tttt..",
+            "..ttttt...",
+            "...ttt....",
+            "....t....."
+          ]
+        },
+        {
+          "id": "pumpkin",
+          "name": {
+            "ko": "호박",
+            "en": "Pumpkin",
+            "ja": "かぼちゃ",
+            "zh-Hans": "南瓜",
+            "zh-Hant": "南瓜"
+          },
+          "palette": {
+            "o": "#F08C2E",
+            "g": "#4E8C3A"
+          },
+          "rows": [
+            "....g.....",
+            "...g......",
+            ".ooo.ooo..",
+            "oo.o.o.oo.",
+            "o...o...o.",
+            "ooo.o.ooo.",
+            "o.o.o.o.o.",
+            "oo.o.o.oo.",
+            "ooo.o.ooo.",
+            ".ooo.ooo.."
+          ]
+        },
+        {
+          "id": "crescent-moon",
+          "name": {
+            "ko": "초승달",
+            "en": "Crescent Moon",
+            "ja": "三日月",
+            "zh-Hans": "月牙",
+            "zh-Hant": "月牙"
+          },
+          "palette": {
+            "y": "#F7C948",
+            "w": "#FFE38A"
+          },
+          "rows": [
+            "...yyyy...",
+            ".yyyy.....",
+            "yyy.......",
+            "yyy.......",
+            "yyy....w..",
+            "yyy...www.",
+            "yyyy..w.w.",
+            ".yyyy.....",
+            "..yyyyy...",
+            "....yyyy.."
+          ]
+        }
+      ]
+    }
+  ]
+}
