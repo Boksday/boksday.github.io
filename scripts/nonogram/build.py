@@ -20,7 +20,7 @@ from solver import BUILT_IN_IDS, LANGS, stats  # noqa: E402
 
 ROOT = os.path.join(os.path.dirname(__file__), '..', '..', 'nonogram')
 FORMAT_VERSION = 2
-MAX_SIZE = 20  # 25×25 이상은 앱에 확대 기능이 생긴 뒤에 올린다.
+MAX_SIZE = 30
 
 
 def stars_of(rows, passes, first):
