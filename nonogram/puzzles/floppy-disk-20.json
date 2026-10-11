@@ -1,0 +1,22 @@
+{"id":"floppy-disk-20","name":{"ko":"플로피 디스크","en":"floppy disk","ja":"フロッピー","zh-Hans":"软盘","zh-Hant":"磁碟片"},"palette":{"a":"#91B3CC","b":"#5E676F","c":"#31373D"},"rows":[
+  ".ccccccccccccccccc..",
+  "cccccb......aaa.acc.",
+  "ccccca......bcc.accc",
+  "ccccca......bcc.accc",
+  "ccccca......bcc.accc",
+  "ccccca......bcc.accc",
+  "ccccca......bcc.accc",
+  "cccccbaaaaaaaaaabccc",
+  "cccccccccccccccccccc",
+  "cccaaaaaaaaaaaaabccc",
+  "ccbaaaaaaaaaaaaaaccc",
+  "ccb.............accc",
+  "ccb.............accc",
+  "ccb.............accc",
+  "ccb.............accc",
+  "ccb.............accc",
+  "ccb.............accc",
+  "ccb.............accc",
+  "ccc.............bccc",
+  ".cccccccccccccccccc."
+]}

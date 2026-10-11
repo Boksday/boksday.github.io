@@ -1,0 +1,22 @@
+{"id":"carousel-horse-20","name":{"ko":"회전 목마","en":"carousel horse","ja":"メリーゴーランド","zh-Hans":"旋转木马","zh-Hant":"旋轉木馬"},"palette":{"a":"#C0CED9","b":"#A6A287","c":"#C45458"},"rows":[
+  ".......b............",
+  ".......cc...........",
+  "..cc...cc...........",
+  "acccc..bb...........",
+  "aabbcc.cc...........",
+  "aaba.c.cb...........",
+  "bbbaab.bc...........",
+  "aa.aacccc..baa.ccc..",
+  "...abcbbbbbbaaa..cc.",
+  "...bcbbbbbbbaaaa.cc.",
+  "...c.aabbbbaaaaa.c..",
+  "..aaaaaaaaaaaaaa.c..",
+  ".aaaaaaaaaaaaaaa....",
+  "aab....b.....aaa....",
+  "aab....bc......aaa..",
+  "aabb...cc.......ba..",
+  ".a.....bb.......ba..",
+  ".......cc........aaa",
+  ".......cc..........a",
+  ".......bb..........."
+]}

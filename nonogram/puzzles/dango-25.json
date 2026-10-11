@@ -1,4 +1,4 @@
-{"id":"dango-25","name":{"ko":"떡꼬치","en":"dango","ja":"だんご","zh-Hans":"团子","zh-Hant":"糥米丸子"},"palette":{"a":"#FFD983","b":"#E3D785","c":"#A6D388","d":"#FCB3DF","e":"#B9C795","f":"#E1A399"},"rows":[
+{"id":"dango-25","name":{"ko":"떡꼬치","en":"dango","ja":"だんご","zh-Hans":"团子","zh-Hant":"糥米丸子"},"palette":{"a":"#FFD983","c":"#A6D388","d":"#EFAAD3","e":"#B9C795","f":"#E1A399"},"rows":[
   ".f.dddd..................",
   "ffddddddd................",
   ".dddddddd................",
@@ -10,9 +10,9 @@
   ".dddddaaaaaaaaa..........",
   "..ddddaaaaaaaaa..........",
   ".....aaaaaaaaaa..........",
-  "......aaaaaaabcccc.......",
-  "......aaaaaabccccccc.....",
-  "......aaaaabcccccccc.....",
+  "......aaaaaaaacccc.......",
+  "......aaaaaaaccccccc.....",
+  "......aaaaaacccccccc.....",
   ".......aaaacccccccccc....",
   "..........acccccccccc....",
   "...........cccccccccc....",

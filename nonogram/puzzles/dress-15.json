@@ -1,17 +1,17 @@
-{"id":"dress-15","name":{"ko":"원피스","en":"dress","ja":"ワンピース","zh-Hans":"连衣裙","zh-Hant":"洋裝"},"palette":{"a":"#7ABDEF","b":"#55ACEE","c":"#54ACEE","d":"#54ABED","e":"#53AAEB","f":"#4899D8"},"rows":[
+{"id":"dress-15","name":{"ko":"원피스","en":"dress","ja":"ワンピース","zh-Hans":"连衣裙","zh-Hant":"洋裝"},"palette":{"a":"#7ABDEF","b":"#55ACEE","f":"#4899D8"},"rows":[
   "...............",
-  "....dbd.dbd....",
+  "....bbb.bbb....",
   ".....bbbbb.....",
-  ".....dbbbd.....",
+  ".....bbbbb.....",
   ".....aaaaa.....",
   ".....aaaaa.....",
-  "....dfbfbfd....",
-  "...dffbfbffd...",
-  "..dbfebfbdfbd..",
-  ".cbbebbfbbebbc.",
+  "....bfbfbfb....",
+  "...bffbfbffb...",
+  "..bbfbbfbbfbb..",
+  ".bbbbbbfbbbbbb.",
   ".bbbbbbbbbbbbb.",
-  ".dbbbbbbbbbbbd.",
+  ".bbbbbbbbbbbbb.",
   "..bbbbbbbbbbb..",
   "...bbbbbbbbb...",
-  ".....dbbbd....."
+  ".....bbbbb....."
 ]}

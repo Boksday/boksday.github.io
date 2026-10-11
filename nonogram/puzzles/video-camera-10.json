@@ -1,12 +1,12 @@
-{"id":"video-camera-10","name":{"ko":"캠코더","en":"video camera","ja":"ビデオカメラ","zh-Hans":"摄像机","zh-Hant":"攝影機"},"palette":{"a":"#66757F","b":"#66747E","c":"#475159","d":"#383F45","e":"#31373D","f":"#31363D"},"rows":[
+{"id":"video-camera-10","name":{"ko":"캠코더","en":"video camera","ja":"ビデオカメラ","zh-Hans":"摄像机","zh-Hant":"攝影機"},"palette":{"a":"#66757F","c":"#475159","e":"#31373D"},"rows":[
   "..........",
-  "....aaaabb",
-  "..f.aaaaaa",
-  "efe.baaabb",
-  "eeefffff..",
-  "eedcccde..",
-  ".fccccce..",
-  ".fceeece..",
+  "....aaaaaa",
+  "..e.aaaaaa",
+  "eee.aaaaaa",
+  "eeeeeeee..",
+  "eeecccee..",
+  ".eccccce..",
+  ".eceeece..",
   ".eceeece..",
   ".........."
 ]}

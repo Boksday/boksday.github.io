@@ -1,0 +1,12 @@
+{"id":"ring-buoy-10","name":{"ko":"구명부환","en":"ring buoy","ja":"救命浮環","zh-Hans":"救生圈","zh-Hant":"救生圈"},"palette":{"a":"#E8B8AE","b":"#EF7F6B","c":"#FF4018"},"rows":[
+  "....aa....",
+  "..bccccb..",
+  ".aabccbaa.",
+  ".cb....bc.",
+  "acc....cca",
+  "acc....cca",
+  ".cb....bc.",
+  ".babccbab.",
+  "..bcccc...",
+  "....aa...."
+]}

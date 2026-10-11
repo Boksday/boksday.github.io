@@ -1,4 +1,4 @@
-{"id":"cherries-30","name":{"ko":"체리","en":"cherries","ja":"さくらんぼ","zh-Hans":"樱桃","zh-Hant":"櫻桃"},"palette":{"a":"#6A9A45","b":"#BE1932","c":"#BE1931","d":"#BE1930","e":"#BD1931","f":"#BD1831"},"rows":[
+{"id":"cherries-30","name":{"ko":"체리","en":"cherries","ja":"さくらんぼ","zh-Hans":"樱桃","zh-Hant":"櫻桃"},"palette":{"a":"#6A9A45","c":"#BE1931"},"rows":[
   "......a.......................",
   "......aaaaaaaaa...............",
   "......aaaaaaaaaaa.............",
@@ -16,17 +16,17 @@
   ".......aa......aa.............",
   ".......aa.......aa............",
   ".......aa........aa...........",
-  ".....efccccc......eccccfe.....",
-  "....ecccccccc....cccccccce....",
-  "...fccccccccce..ecccccccccf...",
-  "...cccccccccccbbccccccccccc...",
-  "..dccccccccccccccccccccccccd..",
+  ".....ccccccc......ccccccc.....",
+  "....ccccccccc....ccccccccc....",
+  "...ccccccccccc..ccccccccccc...",
+  "...cccccccccccccccccccccccc...",
   "..cccccccccccccccccccccccccc..",
   "..cccccccccccccccccccccccccc..",
-  "..ecccccccccccccccccccccccce..",
-  "..ecccccccccccccccccccccccce..",
-  "...fccccccccccceccccccccccf...",
-  "...fcccccccccd..dcccccccccf...",
-  "....fcccccccf....fcccccccf....",
-  "......eeccc........cccee......"
+  "..cccccccccccccccccccccccccc..",
+  "..cccccccccccccccccccccccccc..",
+  "..cccccccccccccccccccccccccc..",
+  "...cccccccccccccccccccccccc...",
+  "...ccccccccccc..ccccccccccc...",
+  "....ccccccccc....ccccccccc....",
+  "......ccccc........ccccc......"
 ]}

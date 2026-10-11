@@ -1,4 +1,4 @@
-{"id":"locked-with-pen-25","name":{"ko":"자물쇠와 펜","en":"locked with pen","ja":"閉じた錠とペン","zh-Hans":"墨水笔和锁","zh-Hant":"鋼筆和鎖"},"palette":{"a":"#FFAD33","b":"#FFAC33","c":"#B0B7B8","d":"#B59158","e":"#66757F","f":"#2F363B"},"rows":[
+{"id":"locked-with-pen-25","name":{"ko":"자물쇠와 펜","en":"locked with pen","ja":"閉じた錠とペン","zh-Hans":"墨水笔和锁","zh-Hant":"鋼筆和鎖"},"palette":{"b":"#FFAC33","c":"#B0B7B8","d":"#B59158","e":"#66757F","f":"#2F363B"},"rows":[
   ".......ccccc.............",
   ".....ccccccccc...........",
   "....ccccccccccc..........",
@@ -9,7 +9,7 @@
   "...ccc........ccc........",
   "...ccc........ccc........",
   "..dccc........ccc........",
-  ".bbbbbbbbbbbbbbbbba......",
+  ".bbbbbbbbbbbbbbbbbb......",
   "bbbbbbbbbbbbbbbbbbb......",
   "bbbbbbbbbbeeeddbbbb...fff",
   "bbbbbbbbdeeeeeeeddb...fff",

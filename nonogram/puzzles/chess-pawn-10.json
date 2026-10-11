@@ -1,12 +1,12 @@
-{"id":"chess-pawn-10","name":{"ko":"체스 폰","en":"chess pawn","ja":"チェスの駒","zh-Hans":"兵","zh-Hant":"卒"},"palette":{"a":"#454E56","b":"#373F44","c":"#333A40","d":"#31373D","e":"#30373C","f":"#31363C"},"rows":[
+{"id":"chess-pawn-10","name":{"ko":"체스 폰","en":"chess pawn","ja":"チェスの駒","zh-Hans":"兵","zh-Hant":"卒"},"palette":{"a":"#454E56","d":"#31373D"},"rows":[
   "....aa....",
-  "...bccb...",
-  "...edde...",
-  "...baab...",
+  "...dddd...",
+  "...dddd...",
+  "...daad...",
   "....dd....",
-  "...edde...",
-  "...fddf...",
+  "...dddd...",
+  "...dddd...",
   "..dddddd..",
-  "..fddddf..",
-  "..baaaab.."
+  "..dddddd..",
+  "..daaaad.."
 ]}

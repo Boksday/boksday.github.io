@@ -1,0 +1,22 @@
+{"id":"tear-off-calendar-20","name":{"ko":"뜯어진 달력","en":"tear-off calendar","ja":"日めくりカレンダー","zh-Hans":"手撕日历","zh-Hant":"日曆"},"palette":{"a":"#C9C7CE","b":"#A18F99","c":"#9F6773","d":"#CC3246","e":"#322F34"},"rows":[
+  ".....b........b.....",
+  ".....b........b.....",
+  "..eeebeeeeeeeebeee..",
+  ".edddbddddddddbddde.",
+  "eedddcddddddddcdddee",
+  "eeddaadabbdddddcddee",
+  "eedcaadabbdddddbdcee",
+  "eecaa.b.badddcdbdcee",
+  "eedbddbddcddddddddee",
+  "ec....a...aaaa....ce",
+  "ec...bcb.bccccb...ce",
+  "ec....bc.aaabcb...ce",
+  "ec....bc....bca...ce",
+  "ec....bc...acb....ce",
+  "ec....bc...bca....ce",
+  "ec....bc..acb.....ce",
+  "ec....bc..bca.....ce",
+  "ec....ab..bb......ce",
+  ".e................e.",
+  ".eeeeeeeeeeeeeeeeee."
+]}

@@ -1,0 +1,22 @@
+{"id":"sushi-20","name":{"ko":"초밥","en":"sushi","ja":"すし","zh-Hans":"寿司","zh-Hant":"壽司"},"palette":{"a":"#C5CAB3","b":"#CA6060","c":"#D42A41","d":"#56202C"},"rows":[
+  "...........cc.......",
+  "........ccbcccb.....",
+  "......cbccbbccbcc...",
+  "....cccbcccbccbccc..",
+  "...cbccbcccbccbbcc..",
+  ".cccbccbbccbcccccc..",
+  "ccccbccbbccbcccccc..",
+  "ccccbcccbccccccccb..",
+  "ccccbbccbccccccba...",
+  "ccccbbccbccdddddda..",
+  ".acccccccdda.aaa.ad.",
+  "...ccccccda.abbbb.ad",
+  "....bcccbd.abbbbba.d",
+  "......ba.d.abbbba..d",
+  ".........da.aaaaa.ad",
+  ".........dda.....add",
+  ".........ddddbbbdddd",
+  ".........ddddddddddd",
+  "..........ddddddddd.",
+  "............ddddd..."
+]}

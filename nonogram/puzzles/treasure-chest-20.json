@@ -1,0 +1,22 @@
+{"id":"treasure-chest-20","name":{"ko":"보물 상자","en":"treasure chest","ja":"宝箱","zh-Hans":"宝箱","zh-Hant":"藏寶箱"},"palette":{"a":"#DCA852","b":"#A39A93","c":"#C17F5F","d":"#A7623F"},"rows":[
+  ".....bbc............",
+  "....bccccbb.........",
+  "...bccccbbcccc......",
+  "..bbcccbbcccccbbd...",
+  "..bbbbbbcccccbddddd.",
+  "....ddbbbbbcbdddddd.",
+  "......ddddbbbddddddd",
+  ".......ddddddddddddd",
+  ".....aaaaaaddddddddd",
+  "...aaaaaaaccaaadddd.",
+  "bbaaadaaaaaaccaaadd.",
+  "bbbbaaaaaaabbaaacb..",
+  ".ccbbbbaaaaaaabddd..",
+  ".ccccbbbbbabbddddd..",
+  ".bcccbccbbbddddddd..",
+  ".bbccbccccbddddddc..",
+  "...bbbccccbdddddaaa.",
+  ".aa...bbccbdddddaaaa",
+  "........bbbdd..aaac.",
+  "..........b........."
+]}

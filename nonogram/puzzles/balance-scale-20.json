@@ -1,0 +1,22 @@
+{"id":"balance-scale-20","name":{"ko":"접시저울","en":"balance scale","ja":"天秤","zh-Hans":"天平","zh-Hant":"天平"},"palette":{"a":"#FFAC33","b":"#8B826C","c":"#65747F"},"rows":[
+  "....................",
+  ".........aa.........",
+  ".........aa.........",
+  "........aaaa........",
+  ".....aaaaaaaaaa.....",
+  "...aaaaaaaaaaaaaa...",
+  "...bab...aa...bab...",
+  "...c.c...aa...c.c...",
+  "...c.c...aa...c.c...",
+  "..c..cc..aa..cc..c..",
+  "..c...c..aa..c...c..",
+  ".cc...c..aa..c...cc.",
+  "aaaaaaaaaaaaaaaaaaaa",
+  "aaaaaaaaaaaaaaaaaaaa",
+  ".aaaaaaa.aa.aaaaaaa.",
+  ".........aa.........",
+  "........aaaa........",
+  "......aaaaaaaa......",
+  "......aaaaaaaa......",
+  "...................."
+]}

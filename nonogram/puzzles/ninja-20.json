@@ -1,0 +1,22 @@
+{"id":"ninja-20","name":{"ko":"닌자","en":"ninja","ja":"忍者","zh-Hans":"忍者","zh-Hant":"忍者"},"palette":{"a":"#AF9E5D","b":"#4A4F4E","c":"#292F33"},"rows":[
+  ".........ccccc......",
+  ".......cccccccc.....",
+  ".......ccccccccc....",
+  "......cccccccccc....",
+  "......cccccccccc....",
+  ".....cbaaaaaaaaac...",
+  ".....caacaaaacaac...",
+  ".b...cbaaaaaaaaac...",
+  "bbc..ccbaaccbaacc...",
+  ".cc...cccccccccc....",
+  "..cc..cccccccccc....",
+  "...cc..cccccccccc...",
+  "...cbb..ccccccccc...",
+  "....bcc.cccccc.c....",
+  "....cccbccccccbb....",
+  "....cccbbccccbbbcc..",
+  "...ccccbbbccbbbccccc",
+  "..ccccccbbbbbbcccccc",
+  "..cccccccbbbbccccccc",
+  "...cccccccbbbccccccc"
+]}

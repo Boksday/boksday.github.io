@@ -1,0 +1,22 @@
+{"id":"sunrise-20","name":{"ko":"일출","en":"sunrise","ja":"日の出","zh-Hans":"日出","zh-Hant":"旭日"},"palette":{"a":"#FCBA3A","b":"#888C75","c":"#23689B"},"rows":[
+  "....................",
+  ".........aa.........",
+  "......aa.aa.aa......",
+  "......aaaaaaaa......",
+  "....aaaaaaaaaaaa....",
+  "....aaa......aaa....",
+  "..aaaa........aaaa..",
+  "..aaa..........aaa..",
+  "...aa..........aa...",
+  ".aaaa..........aaaa.",
+  ".aaaa..........aaa..",
+  "...aa..........aa...",
+  "bbbbbccccccccccbbbbb",
+  "cccccccccccccccccccc",
+  "cccccccccccccccccccc",
+  "cccccccccccccccccccc",
+  "cccccccccccccccccccc",
+  "cccccccccccccccccccc",
+  "cccccccccccccccccccc",
+  ".cccccccccccccccccc."
+]}

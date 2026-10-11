@@ -1,0 +1,17 @@
+{"id":"camping-15","name":{"ko":"캠핑","en":"camping","ja":"キャンプ","zh-Hans":"露营","zh-Hant":"露營"},"palette":{"a":"#8EB65C","b":"#F4900C","c":"#5E752B"},"rows":[
+  "..........c....",
+  ".........ccc...",
+  ".........ccc...",
+  ".........cccc..",
+  "........ccccc..",
+  "........cccccc.",
+  ".......acccccc.",
+  "....bbbbbbcccc.",
+  ".....bbbbbccccc",
+  "....abbbbbbc...",
+  "..b.a.bbbbbc...",
+  ".a..c.bbbbbcaa.",
+  "aa.ac.bbbbbbaaa",
+  "aaaac.aaaaaaaaa",
+  ".aaaaaaaaaaaaa."
+]}

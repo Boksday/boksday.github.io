@@ -6,4 +6,4 @@
 - Twemoji 그림: Copyright 2019 Twitter, Inc and other contributors, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 - 퍼즐 이름: [Unicode CLDR](https://cldr.unicode.org/) 이모지 이름(Unicode License v3)
 
-`-5`로 끝나는 퍼즐과 가을 퍼즐(maple-leaf, acorn, pumpkin, crescent-moon)은 직접 그렸다.
+`-5`로 끝나는 퍼즐과 가을 퍼즐(maple-leaf, acorn, pumpkin, crescent-moon), 10×10 퍼즐 strawberry·key·ribbon·light-bulb·goldfish·gift·lollipop·snail·mitten은 직접 그렸다.

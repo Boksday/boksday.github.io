@@ -1,0 +1,22 @@
+{"id":"house-with-garden-20","name":{"ko":"정원이 있는 집","en":"house with garden","ja":"庭付きの家","zh-Hans":"别墅","zh-Hant":"別墅"},"palette":{"a":"#CACFA5","b":"#85B371","c":"#777D5D"},"rows":[
+  "....................",
+  "...........cc.......",
+  "..........cacc......",
+  "..bb..c..ca.acc.....",
+  ".bbb.cc.ca...acc....",
+  ".bbbbccca....accc...",
+  ".bbbbcca....acbacc..",
+  "bbbbbca....acb..acc.",
+  "bbbbca.....cb....ac.",
+  "bbbbb..aaa.a..aaa...",
+  "bbbba..aba....aba...",
+  "bbbba..aa.....aa....",
+  "bbbba...............",
+  ".bbba...............",
+  "..b.ba.aba....aaa.a.",
+  "....bb.bca....aba.bb",
+  "....bb.bca....aa.abb",
+  ".cbccbbccbbbbbbbbbcc",
+  "cccccccccccccccccccc",
+  "...................."
+]}

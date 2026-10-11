@@ -1,0 +1,17 @@
+{"id":"dragon-15","name":{"ko":"용","en":"dragon","ja":"ドラゴン","zh-Hans":"龙","zh-Hant":"龍"},"palette":{"a":"#93BD7A","b":"#77B255","c":"#528732"},"rows":[
+  ".....cc........",
+  "....cbbbc....c.",
+  "...bbccbb...bb.",
+  ".bbbbcbbb..bb..",
+  "bbbaabbbb..bb..",
+  "..cbbbbbb..bb..",
+  ".....bbbb..cbb.",
+  ".....bbbc...bb.",
+  ".ccc.bbb....bb.",
+  "..ccbbbb....bbb",
+  "...cbbbb...cbbb",
+  "....bbbbcccbbb.",
+  "....bbbbbbbbbb.",
+  ".....bbbbbbbb..",
+  "......bbbbbb..."
+]}

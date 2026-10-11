@@ -1,0 +1,22 @@
+{"id":"fountain-20","name":{"ko":"분수","en":"fountain","ja":"噴水","zh-Hans":"喷泉","zh-Hant":"噴泉"},"palette":{"a":"#99AAB5","b":"#86B7DC","c":"#569CD1","d":"#2B76AF"},"rows":[
+  "....cccc...d........",
+  "...cc...cc..dddd....",
+  "..cc.....cddd..dd...",
+  "..c......cd.....dd..",
+  "..c....d.cd......d..",
+  ".....dddddc......d..",
+  ".....d...dcbbb......",
+  "..c.dd...cc..bb..d..",
+  ".........cc...b.....",
+  ".........bb...b.....",
+  "....aaa.abbaaaa.....",
+  "...aaacbcccccc.aa...",
+  "..acccccbbbbccccca..",
+  "..bdccccb..bccccdb..",
+  "aa.bccccccccccccb.aa",
+  "aaaa..abbbbbba..aaaa",
+  ".aaaaaaaaaaaaaaaaaa.",
+  ".aaaaaaaaaaaaaaaaaa.",
+  "..aaaaaaaaaaaaaaaa..",
+  ".....aaaaaaaaaa....."
+]}

@@ -1,8 +1,8 @@
-{"id":"umbrella-on-ground-30","name":{"ko":"땅에 꽂힌 파라솔","en":"umbrella on ground","ja":"パラソル","zh-Hans":"阳伞","zh-Hant":"遮陽傘"},"palette":{"a":"#E1E4E9","b":"#FFAC33","c":"#F5AB5E","d":"#A86D74","e":"#DD2E44","f":"#DC2D44"},"rows":[
+{"id":"umbrella-on-ground-30","name":{"ko":"땅에 꽂힌 파라솔","en":"umbrella on ground","ja":"パラソル","zh-Hans":"阳伞","zh-Hant":"遮陽傘"},"palette":{"a":"#CACDD1","b":"#FFAC33","c":"#F5AB5E","d":"#A86D74","e":"#DD2E44"},"rows":[
   ".................d............",
   "..............c.ddd...........",
   "........eeedaaadeeea..........",
-  "......ffedaaaaeeeeeeaa........",
+  "......eeedaaaaeeeeeeaa........",
   ".....eeecaaaaceeeeeeaaae......",
   "....eeedaaaaaeeeeeeedaace.....",
   "...eeeeaaaaaceeeeeeedaaade....",
@@ -12,9 +12,9 @@
   "..eeeaaaaaadeeeeeeeedaaaaaeee.",
   "......aaaaaeeeeeeeeecaaaaaeee.",
   "............eeeeeeeeaaaaaaeee.",
-  ".............efeeeeeaaaaaaeee.",
+  ".............eeeeeeeaaaaaaeee.",
   "..............ddd....aaaaaeee.",
-  "..............ddd.....aaa.fee.",
+  "..............ddd.....aaa.eee.",
   "..............dd...........e..",
   ".............ddd..............",
   ".............ddd..............",

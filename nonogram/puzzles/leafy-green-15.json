@@ -1,0 +1,17 @@
+{"id":"leafy-green-15","name":{"ko":"녹색 채소","en":"leafy green","ja":"葉野菜","zh-Hans":"绿叶蔬菜","zh-Hant":"綠葉蔬菜"},"palette":{"a":"#92C572","b":"#77B156","c":"#61973F"},"rows":[
+  "......ab.bb....",
+  ".....babbaab...",
+  ".....babaabb...",
+  "....bbaaaaaacc.",
+  "...aabaabbbcccc",
+  "...aaaaaabccccc",
+  "...baabbbccccc.",
+  "...aabbbccccccc",
+  "..baaaaaccccccc",
+  ".baabccccccccc.",
+  ".aaccccccccc...",
+  "baccccccccc....",
+  "abccccc........",
+  "accccc.........",
+  "cccc..........."
+]}

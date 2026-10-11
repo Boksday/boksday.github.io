@@ -1,4 +1,4 @@
-{"id":"military-medal-15","name":{"ko":"무공 훈장","en":"military medal","ja":"勲章","zh-Hans":"军功章","zh-Hant":"軍事獎章"},"palette":{"a":"#FFC764","b":"#FFAE37","c":"#A6B9DA","d":"#DD2E44","e":"#DD2D44"},"rows":[
+{"id":"military-medal-15","name":{"ko":"무공 훈장","en":"military medal","ja":"勲章","zh-Hans":"军功章","zh-Hant":"軍事獎章"},"palette":{"a":"#FFC764","b":"#FFAE37","c":"#A6B9DA","d":"#DD2E44"},"rows":[
   "....ccdddcc....",
   "....ccdddcc....",
   "....ccdddcc....",
@@ -6,7 +6,7 @@
   "....ccdddcc....",
   "....ccdddcc....",
   ".....cdddc.....",
-  "......ede......",
+  "......ddd......",
   "......bbb......",
   ".....baaab.....",
   "....baabaab....",

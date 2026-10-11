@@ -25,8 +25,8 @@ MAX_SIZE = 30
 
 # 이 여유 비율 이상이면 별이 하나씩 는다(★2·★3·★4·★5의 문턱). 앱 logic/difficulty.ts와 같다.
 STAR_THRESHOLDS = (0.22, 0.30, 0.38, 0.46)
-# 5×5보다 큰 판은 이보다 여유가 적으면(별 1개, 이어지는 칸이 대부분) 받지 않는다.
-MIN_SLACK_RATIO = STAR_THRESHOLDS[0]
+# 5×5보다 큰 판은 이보다 여유가 적으면(별 1~2개, 이어지는 칸이 대부분) 받지 않는다.
+MIN_SLACK_RATIO = STAR_THRESHOLDS[1]
 
 
 def slack_ratio(rows):
@@ -72,7 +72,7 @@ def validate(path, puzzle):
     if rows and len(set(map(len, rows))) == 1 and is_solid(rows):
         errors.append('통짜 모양(모든 가로·세로줄이 한 덩어리라 너무 쉬움)')
     elif rows and len(set(map(len, rows))) == 1 and max(len(rows), len(rows[0])) > 5 and slack_ratio(rows) < MIN_SLACK_RATIO:
-        errors.append(f'이어지는 칸이 너무 많음(여유 비율 {slack_ratio(rows):.2f} < {MIN_SLACK_RATIO}, 별 1개)')
+        errors.append(f'이어지는 칸이 너무 많음(여유 비율 {slack_ratio(rows):.2f} < {MIN_SLACK_RATIO}, 별 2개 이하)')
     return errors
 
 

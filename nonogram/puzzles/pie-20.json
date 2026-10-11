@@ -1,0 +1,22 @@
+{"id":"pie-20","name":{"ko":"파이","en":"pie","ja":"パイ","zh-Hans":"派","zh-Hant":"派"},"palette":{"a":"#FCBD3D","b":"#F4910D","c":"#D5541A","d":"#AB0C24"},"rows":[
+  "....................",
+  ".....b..............",
+  "....aaabbbb.........",
+  "...aaabbaaabbb......",
+  "...a..a.....abbb....",
+  ".....aaa..aaaaabb...",
+  "..aaaa.abba.aaabbbb.",
+  "..bbbaaaaaaa.....abb",
+  ".aa..........aaaaabb",
+  ".......aaaaaaabbcccb",
+  ".aaaabbaabbbccddddbb",
+  ".a..abbbccddddddddb.",
+  "bbabccddddddddddddb.",
+  "ccdddddddddddddccbb.",
+  "dddddddddddccbbb....",
+  "ddddddddcbbbb.......",
+  "ddddccbbb...........",
+  "ccbbb...............",
+  ".b..................",
+  "...................."
+]}

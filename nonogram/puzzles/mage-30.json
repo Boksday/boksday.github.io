@@ -1,4 +1,4 @@
-{"id":"mage-30","name":{"ko":"마법사","en":"mage","ja":"魔法使い","zh-Hans":"法师","zh-Hant":"魔術師"},"palette":{"a":"#FADC67","b":"#D3AD84","c":"#FA7A40","d":"#FA743E","e":"#DF7946","f":"#D95620"},"rows":[
+{"id":"mage-30","name":{"ko":"마법사","en":"mage","ja":"魔法使い","zh-Hans":"法师","zh-Hant":"魔術師"},"palette":{"a":"#FADC67","b":"#D3AD84","d":"#FA743E","e":"#DF7946","f":"#D95620"},"rows":[
   "...............d..............",
   "...............dd.............",
   "..............dddd............",
@@ -12,7 +12,7 @@
   "...bb.....ddddddddddd.........",
   "...bb.....dddddddddddd........",
   "...bb....ddddddddddddd........",
-  "...bb.dddddccccccccccddddd....",
+  "...bb.dddddddddddddddddddd....",
   "...bbddfbbaaaaaaaaaaabbedddd..",
   "...bbfffbbaaaeaaaaeaaabefffd..",
   "...bbfffbbaaefaaaafaaabeffff..",
@@ -24,9 +24,9 @@
   "...bb.......aaaaaaaa..........",
   "...aaa...dddaaaaaaadddd.......",
   "..aaaaaddddddaaaaaaddddddd....",
-  "..aaaaaddddddaaaaacdddddddd...",
-  "..aaaaaddddddcaaaaddddddddd...",
-  "..aaaacdddddddcaacddddddddd...",
-  "..dbbcdddddddddacddddddddddd..",
+  "..aaaaaddddddaaaaaddddddddd...",
+  "..aaaaadddddddaaaaddddddddd...",
+  "..aaaadddddddddaadddddddddd...",
+  "..dbbddddddddddadddddddddddd..",
   "..dbbddddddddddddddddddddddd.."
 ]}

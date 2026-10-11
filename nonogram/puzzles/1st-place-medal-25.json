@@ -1,4 +1,4 @@
-{"id":"1st-place-medal-25","name":{"ko":"금메달","en":"1st place medal","ja":"金メダル","zh-Hans":"金牌","zh-Hant":"金牌"},"palette":{"a":"#FFAC33","b":"#FFAC32","c":"#E2AC52","d":"#ED9B29","e":"#4B9CDA","f":"#87683E"},"rows":[
+{"id":"1st-place-medal-25","name":{"ko":"금메달","en":"1st place medal","ja":"金メダル","zh-Hans":"金牌","zh-Hant":"金牌"},"palette":{"a":"#FFAC33","c":"#E2AC52","d":"#ED9B29","e":"#4B9CDA","f":"#87683E"},"rows":[
   "eeeeeeee.........eeeeeeee",
   ".eeeeeeee.......eeeeeeee.",
   "..eeeeeeee.....eeeeeeee..",
@@ -11,17 +11,17 @@
   "........eccccccce........",
   ".........aaaaaaa.........",
   "........aaaaaaaaa........",
-  ".......baaaaaaaaab.......",
+  ".......aaaaaaaaaaa.......",
   "......aaaaadffaaaaa......",
   "......aaaadfffaaaaa......",
-  ".....aaaaadfffaaaaab.....",
-  ".....baaaaadffaaaaaa.....",
+  ".....aaaaadfffaaaaaa.....",
   ".....aaaaaadffaaaaaa.....",
-  ".....baaaaadffaaaaab.....",
-  ".....baaaaadffaaaaab.....",
+  ".....aaaaaadffaaaaaa.....",
+  ".....aaaaaadffaaaaaa.....",
+  ".....aaaaaadffaaaaaa.....",
   "......aaaaadffaaaaa......",
   "......aaaaadffaaaaa......",
   ".......aaaaaaaaaaa.......",
-  "........baaaaaaab........",
-  "..........ababa.........."
+  "........aaaaaaaaa........",
+  "..........aaaaa.........."
 ]}

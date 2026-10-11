@@ -1,4 +1,4 @@
-{"id":"bed-15","name":{"ko":"침대","en":"bed","ja":"ベッド","zh-Hans":"床","zh-Hant":"床"},"palette":{"a":"#55ACEE","b":"#55ABE8","c":"#8091AE","d":"#5C913B","e":"#C1694F","f":"#A37654"},"rows":[
+{"id":"bed-15","name":{"ko":"침대","en":"bed","ja":"ベッド","zh-Hans":"床","zh-Hant":"床"},"palette":{"a":"#55ACEE","c":"#8091AE","d":"#5C913B","e":"#C1694F","f":"#A37654"},"rows":[
   "...............",
   "...............",
   "...............",
@@ -6,7 +6,7 @@
   "e..............",
   "edd............",
   "eddd..........e",
-  "fabbaaaaaaaaaaf",
+  "faaaaaaaaaaaaaf",
   "faaaaaaaaaaaaaf",
   "fcccccccccccccf",
   "eeeeeeeeeeeeeee",

@@ -1,0 +1,22 @@
+{"id":"aerial-tramway-20","name":{"ko":"케이블카","en":"aerial tramway","ja":"ロープウェイ","zh-Hans":"索道","zh-Hant":"空中纜車"},"palette":{"a":"#88C0EA","b":"#828398","c":"#DD2E44","d":"#7B4958"},"rows":[
+  ".ddd..bbbb..........",
+  "...ddbbbbbbb........",
+  ".....bbbbbbbb.......",
+  ".........bbbbbb.....",
+  ".........d..bbddddd.",
+  ".........d........d.",
+  ".......ddddd........",
+  "....ccccccccccc.....",
+  "...bbbddbbbddbbb....",
+  "...aaadbaaadbaaaa...",
+  "...aaadbaaadbaaaa...",
+  "...aaadbaaadbaaaa...",
+  "...aaadbaaadbaaaa...",
+  "...aaadbaaadbaaaa...",
+  "...aaadbaaaddaaaa...",
+  "...cccccccccccccc...",
+  "...cccccccccccccc...",
+  "...cccccccccccccc...",
+  "...ccccccccccccc....",
+  "....cccccccccccc...."
+]}

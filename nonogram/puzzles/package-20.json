@@ -1,0 +1,22 @@
+{"id":"package-20","name":{"ko":"소포","en":"package","ja":"荷物","zh-Hans":"包裹","zh-Hant":"包裹"},"palette":{"a":"#CCB2A7","b":"#D89D81","c":"#C17056","d":"#682315"},"rows":[
+  ".........bb.........",
+  "........bbbb........",
+  "........abbbbb......",
+  ".........abbbbb.....",
+  "....b.....abbbbb....",
+  "...bbba.....abbbb...",
+  "..bbbbba.....abbbb..",
+  "..dcbbbbb.....abbc..",
+  "..ddcbbbbb.....acc..",
+  "..dddcbbbbba...acc..",
+  "..dddddcbbbbaaaacc..",
+  "..ddddddcbbbcaabcc..",
+  "..dddddddcbccacccc..",
+  "..dddddddccccccccc..",
+  "...ddddddcccccccc...",
+  "....dddddccccccc....",
+  ".....ddddcccccc.....",
+  ".......ddcccc.......",
+  "........dccc........",
+  ".........cb........."
+]}

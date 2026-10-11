@@ -1,0 +1,22 @@
+{"id":"tram-car-20","name":{"ko":"트램 차량","en":"tram car","ja":"路面電車","zh-Hans":"有轨电车","zh-Hant":"電纜車"},"palette":{"a":"#749FCA","b":"#CE3B51","c":"#816279","d":"#BE1931"},"rows":[
+  ".........ca.........",
+  "........cccc........",
+  ".......cc..cc.......",
+  ".......cc..c........",
+  ".......aaaaa........",
+  "....................",
+  "....................",
+  "....................",
+  "bbbbbbbbbbbbbbbbbbbb",
+  "aabbccbbbccbbbccbbaa",
+  "aabbaaabaaaabaaabbaa",
+  "aabbaaabaaaabaaabbaa",
+  "aabbaaabcaacbaaabbaa",
+  "aabbbcbddddddbcbbbaa",
+  "ccdbbbbddddddbbbbdcc",
+  "dddddddddddddddddddd",
+  "bbbbbbbbbbbbbbbbbbbb",
+  "....................",
+  "..ccc..........ccc..",
+  "aacccaaaaaaaaaacccaa"
+]}

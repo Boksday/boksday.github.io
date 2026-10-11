@@ -1,0 +1,22 @@
+{"id":"scorpion-20","name":{"ko":"전갈","en":"scorpion","ja":"サソリ","zh-Hans":"蝎子","zh-Hant":"蠍子"},"palette":{"a":"#AF7E57","b":"#7C533E","c":"#3E3330"},"rows":[
+  "....................",
+  "........ccbbbbbbb...",
+  ".......cccbbbbbbbb..",
+  ".......ccc.....bbbc.",
+  ".......ccc......bcc.",
+  "........cc......bbbb",
+  "........c........bbb",
+  ".................bbb",
+  "................bbbb",
+  "................cccc",
+  ".bb............bbbb.",
+  ".bbb.........bbbbbb.",
+  ".bbbb..bcbbbbbbbbbb.",
+  ".bbbbb.bccbbbbbbbbb.",
+  ".bbbbb.bbbbbbbbbbb..",
+  ".aaaaaabbbababaaa...",
+  ".a.aaaaaaabbaaba.a..",
+  ".aaaaaaa.....a.a....",
+  "...aaaa.............",
+  "...................."
+]}

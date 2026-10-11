@@ -1,0 +1,22 @@
+{"id":"hospital-20","name":{"ko":"병원","en":"hospital","ja":"病院","zh-Hans":"医院","zh-Hant":"醫院"},"palette":{"a":"#9CC6E7","b":"#55ACEE","c":"#9A99B1"},"rows":[
+  ".....cccccccccc.....",
+  "....................",
+  ".........cc.........",
+  ".........cc.........",
+  "cccc....cccc....cccc",
+  ".........cc.........",
+  ".aaa.....cc.....aaa.",
+  ".bbba..........abbb.",
+  ".bbbaabbbbbbbbaabbb.",
+  ".....abbbbbbbba.....",
+  ".bbba..........abbb.",
+  ".bbbaabbbbbbbbaabbb.",
+  ".....abbbbbbbba.....",
+  ".aaa............aaa.",
+  ".bbba.aaaaaaaa.abbb.",
+  ".aaa.abbbbbbbba.aaa.",
+  "......aaaaaaaa......",
+  "....................",
+  ".......bbbbbb.......",
+  ".......bbbbbb......."
+]}

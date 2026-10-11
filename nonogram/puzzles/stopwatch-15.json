@@ -1,0 +1,17 @@
+{"id":"stopwatch-15","name":{"ko":"스톱워치","en":"stopwatch","ja":"ストップウォッチ","zh-Hans":"秒表","zh-Hant":"碼錶"},"palette":{"a":"#C6CBCE","b":"#96A3AC","c":"#8F818A","d":"#63727B"},"rows":[
+  ".....bbbbb.....",
+  ".....bcdcb.....",
+  "......ddd......",
+  "....dddddddbb..",
+  "...dca.c.acdb..",
+  "..dda..a..add..",
+  "..dab.....bad..",
+  ".dc.........cd.",
+  ".dbc..acccccbd.",
+  ".dba..cbaaaabd.",
+  ".dc..cb.....cd.",
+  "..dabb...acad..",
+  "..dda..c..add..",
+  "...ddcabacdd...",
+  ".....ddddd....."
+]}

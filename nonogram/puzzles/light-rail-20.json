@@ -1,0 +1,22 @@
+{"id":"light-rail-20","name":{"ko":"경전철","en":"light rail","ja":"ライトレール","zh-Hans":"轻轨","zh-Hant":"輕軌"},"palette":{"a":"#E2B375","b":"#EB911E","c":"#96AEBF","d":"#555A64","e":"#3B88C3"},"rows":[
+  "....................",
+  "....................",
+  "......dddddd........",
+  ".....ddddcc.........",
+  ".....edd..cddddddddd",
+  ".....ed...ddeeeeeeee",
+  "....eed..cdeeeeeeeee",
+  "....edc..cdeeeeeeeee",
+  "....ed...ddeeeeeeeee",
+  "...edd...ddeeeeeeeee",
+  "...ddc...ddddddddddd",
+  "...dc.....dddddddddd",
+  "...aa...............",
+  "...aa...............",
+  "..aaaaaaaaaaaaaaaaaa",
+  ".bbbbbbbbbbbbbbbbbbb",
+  "..bbbbbbbbbbbbbbbbbb",
+  "ccbbbbbbbbbbbbbbbbbb",
+  "....................",
+  "...................."
+]}

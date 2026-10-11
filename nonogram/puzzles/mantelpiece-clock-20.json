@@ -1,4 +1,4 @@
-{"id":"mantelpiece-clock-20","name":{"ko":"벽난로 선반 시계","en":"mantelpiece clock","ja":"置時計","zh-Hans":"座钟","zh-Hant":"座鐘"},"palette":{"a":"#F5F7F9","b":"#E9C096","c":"#964923","d":"#662113","e":"#8D0E1B","f":"#711B15"},"rows":[
+{"id":"mantelpiece-clock-20","name":{"ko":"벽난로 선반 시계","en":"mantelpiece clock","ja":"置時計","zh-Hans":"座钟","zh-Hant":"座鐘"},"palette":{"a":"#D1D2D4","b":"#E9C096","c":"#964923","d":"#662113","e":"#8D0E1B"},"rows":[
   "....................",
   "....................",
   "........dddd........",
@@ -15,7 +15,7 @@
   ".eeeeeecbbbbceeeeee.",
   ".eeeeeeeeeeeeeeeeee.",
   ".dddddddddddddddddd.",
-  "efffff........fffffe",
+  "eddddd........ddddde",
   "eeeee..........eeeee",
   "....................",
   "...................."

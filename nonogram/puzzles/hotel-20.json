@@ -1,0 +1,22 @@
+{"id":"hotel-20","name":{"ko":"호텔","en":"hotel","ja":"ホテル","zh-Hans":"酒店","zh-Hant":"旅館"},"palette":{"a":"#C3B487","b":"#C1694F","c":"#64AAD7"},"rows":[
+  "..........bbbbbbbbb.",
+  ".........bbbbbbbbbbb",
+  ".........aaaaaaaaaaa",
+  "....................",
+  ".bbbbbbbb.cc..c..cc.",
+  "bbbbbbbbb.cc.cc..cc.",
+  "....................",
+  "..a..aa.............",
+  "..ca.ac...cc.cc..cc.",
+  "..caaac...cc..c..cc.",
+  "..ccccc.............",
+  "..ca.ac...cc.cc..cc.",
+  "..ca.ac...cc.cc..cc.",
+  "....................",
+  ".ccc.cca..cc..c..cc.",
+  ".ccc.ccc..cc.cc..cc.",
+  ".aaa.aaa............",
+  ".aaaaaaa............",
+  ".ccccccc....ccccc...",
+  ".ccccccc....ccccc..."
+]}

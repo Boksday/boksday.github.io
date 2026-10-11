@@ -1,4 +1,4 @@
-{"id":"ice-hockey-25","name":{"ko":"아이스 하키와 퍽","en":"ice hockey","ja":"アイスホッケー","zh-Hans":"冰球","zh-Hant":"冰上曲棍球"},"palette":{"a":"#F4900C","b":"#484D4F","c":"#31373D","d":"#30373D","e":"#31363D"},"rows":[
+{"id":"ice-hockey-25","name":{"ko":"아이스 하키와 퍽","en":"ice hockey","ja":"アイスホッケー","zh-Hans":"冰球","zh-Hant":"冰上曲棍球"},"palette":{"a":"#F4900C","b":"#484D4F","c":"#31373D"},"rows":[
   ".........................",
   ".........................",
   "........................a",
@@ -10,18 +10,18 @@
   "...................aaaa..",
   "..................aaaa...",
   "................aaaaa....",
-  ".aaaaeecceeedccbaaaa.....",
+  ".aaaaccccccccccbaaaa.....",
   "aaaaaccccccccccbaaaa.....",
   "aaaaaccccccccccbaaa......",
   "aaaaaccccccccccbaa.......",
-  "aaaaaccccccccceb.........",
-  "..aaaecee................",
+  "aaaaaccccccccccb.........",
+  "..aaacccc................",
   ".........................",
   "............bbbbbbbbb....",
   "............bbbbbbbbbb...",
   "............ccbbbbbccc...",
   "............cccccccccc...",
-  "............cdcccccce....",
+  "............ccccccccc....",
   ".........................",
   "........................."
 ]}

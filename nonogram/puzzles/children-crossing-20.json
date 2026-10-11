@@ -1,0 +1,22 @@
+{"id":"children-crossing-20","name":{"ko":"어린이 보호 구역","en":"children crossing","ja":"児童横断","zh-Hans":"儿童过街","zh-Hant":"小心兒童"},"palette":{"a":"#F6C54A","b":"#BC9639","c":"#4F3F18","d":"#110D05"},"rows":[
+  "....................",
+  ".........cc.........",
+  ".......acddca.......",
+  ".......cdaadc.......",
+  ".....acda..adca.....",
+  "....acca...bcdca....",
+  "....cda....ddbdc....",
+  "..acdaacc..cdaadca..",
+  "..cda.bdd.bddcaadc..",
+  ".cda..bddcddddc.adc.",
+  ".cda.cddcbbddbb.adc.",
+  "..cdbccddabddc.adc..",
+  "..acdadcdbbdbdadca..",
+  "....cddbcbbcbddc....",
+  "....acca....acca....",
+  ".....acda..adca.....",
+  ".......cdaadc.......",
+  ".......acddca.......",
+  ".........cc.........",
+  "...................."
+]}

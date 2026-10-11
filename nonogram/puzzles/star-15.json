@@ -1,17 +1,17 @@
-{"id":"star-15","name":{"ko":"별","en":"star","ja":"スター","zh-Hans":"星星","zh-Hant":"星星"},"palette":{"a":"#FFAD33","b":"#FFAC33","c":"#FFAC32","d":"#FFAB33","e":"#FFAB32"},"rows":[
+{"id":"star-15","name":{"ko":"별","en":"star","ja":"スター","zh-Hans":"星星","zh-Hant":"星星"},"palette":{"b":"#FFAC33"},"rows":[
   ".......b.......",
-  "......aba......",
-  "......cbb......",
   "......bbb......",
-  ".....cbbbe.....",
+  "......bbb......",
+  "......bbb......",
+  ".....bbbbb.....",
   "bbbbbbbbbbbbbbb",
-  "ebbbbbbbbbbbbbe",
-  ".bdbbbbbbbbbdb.",
+  "bbbbbbbbbbbbbbb",
+  ".bbbbbbbbbbbbb.",
   "...bbbbbbbbb...",
   "....bbbbbbb....",
   "...bbbbbbbbb...",
   "...bbbbbbbbb...",
-  "...bbbe.cbbb...",
-  "...bc.....cb...",
-  "...b.......e..."
+  "...bbbb.bbbb...",
+  "...bb.....bb...",
+  "...b.......b..."
 ]}

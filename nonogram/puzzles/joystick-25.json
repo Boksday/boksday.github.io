@@ -1,4 +1,4 @@
-{"id":"joystick-25","name":{"ko":"조이스틱","en":"joystick","ja":"ジョイスティック","zh-Hans":"游戏操控杆","zh-Hant":"搖桿"},"palette":{"a":"#7D8893","b":"#515C65","c":"#31373D","d":"#31373C","e":"#30373D","f":"#C83046"},"rows":[
+{"id":"joystick-25","name":{"ko":"조이스틱","en":"joystick","ja":"ジョイスティック","zh-Hans":"游戏操控杆","zh-Hant":"搖桿"},"palette":{"a":"#7D8893","b":"#515C65","c":"#31373D","f":"#C83046"},"rows":[
   "..........fffff..........",
   "..........fffff..........",
   ".........fffffff.........",
@@ -12,16 +12,16 @@
   "...........aaa...........",
   "...........aaa...........",
   "...........bbb...........",
-  "..........dcccd..........",
-  ".........eccccce.........",
-  "...fff..dcccccccd........",
+  "..........ccccc..........",
+  ".........ccccccc.........",
+  "...fff..ccccccccc........",
   "..fffffccccccccccc.......",
-  ".eccccccccccccccccccccce.",
+  ".ccccccccccccccccccccccc.",
   ".cbbbbbbbbbbbbbbbbbbbbbc.",
   ".baaaaaaaaaaaaaaaaaaaaab.",
   ".ccccccccccccccccccccccc.",
   ".ccccccccccccccccccccccc.",
   ".ccccccccccccccccccccccc.",
   ".ccccccccccccccccccccccc.",
-  "..eccce...........eccce.."
+  "..ccccc...........ccccc.."
 ]}

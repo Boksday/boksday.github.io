@@ -1,4 +1,4 @@
-{"id":"ice-cream-25","name":{"ko":"아이스크림","en":"ice cream","ja":"アイスクリーム","zh-Hans":"冰淇淋","zh-Hant":"冰淇淋"},"palette":{"a":"#F0DEBA","b":"#55ACEE","c":"#55ACED","d":"#54ACED","e":"#A2A6CC","f":"#815A55"},"rows":[
+{"id":"ice-cream-25","name":{"ko":"아이스크림","en":"ice cream","ja":"アイスクリーム","zh-Hans":"冰淇淋","zh-Hant":"冰淇淋"},"palette":{"a":"#E4D2B0","b":"#55ACEE","e":"#A2A6CC","f":"#815A55"},"rows":[
   "..........aaaaa..........",
   "........aaaaaaaaa........",
   "........aaaaaaaaaa.......",
@@ -10,18 +10,18 @@
   "..fffffffffffaaaaaaaaaa..",
   "..fffffffffffaaaaaaaaaa..",
   "..fffffffffffaaaaaaaaaa..",
-  "..dbccfffffffaaaaaeeccb..",
-  "..cbbbbbbbbbbbbbbbbbbbc..",
-  "...dddbbbbbbbbbbbbbbdd...",
-  "...ddddddddddddddddddd...",
-  "....cdddddddddddddddd....",
+  "..bbbbfffffffaaaaaeebbb..",
+  "..bbbbbbbbbbbbbbbbbbbbb..",
+  "...bbbbbbbbbbbbbbbbbbb...",
+  "...bbbbbbbbbbbbbbbbbbb...",
+  "....bbbbbbbbbbbbbbbbb....",
   ".....bbbbbbbbbbbbbbb.....",
-  ".......bbbbbbbbbbdd......",
-  "........dbbbbbbbb........",
-  "..........cbbbc..........",
+  ".......bbbbbbbbbbbb......",
+  "........bbbbbbbbb........",
+  "..........bbbbb..........",
   "...........bbb...........",
   "..........bbbbb..........",
-  "........dbbbbbbbb........",
-  ".......dbbbbbbbbbb.......",
-  ".........cbccbbb........."
+  "........bbbbbbbbb........",
+  ".......bbbbbbbbbbb.......",
+  ".........bbbbbbb........."
 ]}

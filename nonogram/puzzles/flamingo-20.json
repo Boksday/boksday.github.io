@@ -1,0 +1,22 @@
+{"id":"flamingo-20","name":{"ko":"홍학","en":"flamingo","ja":"フラミンゴ","zh-Hans":"火烈鸟","zh-Hant":"紅鶴"},"palette":{"a":"#F1B3C0","b":"#E47F8F","c":"#EA596E","d":"#B64F60"},"rows":[
+  "...cccc.............",
+  "..cdcccc............",
+  "..ddccccc...........",
+  ".aacccccc..cccc.....",
+  "daab..cc.cccccccc...",
+  "dd...ccccccccccccc..",
+  "d....cc.ccccccccccc.",
+  "d...cc..ccccccccccc.",
+  "....cc..cccccbcccccc",
+  "....cc..ccbb.aa...cc",
+  ".....cccc..a...bc...",
+  "...........a..aa....",
+  "...........a.a......",
+  "...........baa......",
+  "...........baba.....",
+  "...........a........",
+  "...........a........",
+  ".........aaa........",
+  ".........baa........",
+  ".........aba........"
+]}

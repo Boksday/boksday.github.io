@@ -1,0 +1,22 @@
+{"id":"coconut-20","name":{"ko":"코코넛","en":"coconut","ja":"ココナツ","zh-Hans":"椰子","zh-Hant":"椰子"},"palette":{"a":"#99AAB5","b":"#9F8369","c":"#8C603E","d":"#724925"},"rows":[
+  ".....ddd............",
+  "....dbaabdd.........",
+  "...d......bdd.......",
+  "..cc..aaa...bcd.....",
+  ".ccd..aaaaa...bd....",
+  ".ccdc.aaaaaaa..bd...",
+  ".cccda.aaaaaaa..cd..",
+  "cccccd..aaaaaaa..cd.",
+  "cccccda.aaaaaaaa..d.",
+  "cccccdc.aaaaaaaaa.c.",
+  "ccccccd..aaaaaaaa.bd",
+  "ccccccdda..aaaaaa.bd",
+  "ccccccccdd..aaaaa.bd",
+  ".ccccccccdc.aaaaa.bd",
+  ".cccccccccdc......c.",
+  "..cccccccccdd....bd.",
+  "...cccccccccdddddd..",
+  "....ccccccccccccc...",
+  ".....cccccccccc.....",
+  "........cccc........"
+]}

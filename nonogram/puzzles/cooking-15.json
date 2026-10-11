@@ -1,0 +1,17 @@
+{"id":"cooking-15","name":{"ko":"프라이팬","en":"cooking","ja":"料理","zh-Hans":"煎蛋","zh-Hant":"煎蛋"},"palette":{"a":"#9F957F","b":"#414A50","c":"#292F33"},"rows":[
+  "....ccccc......",
+  "..ccbaabbc.....",
+  ".cca....abc....",
+  ".cb......abc...",
+  "cba......abc...",
+  "cba......aac...",
+  "cb..aaa.aaabc..",
+  "cb..aaa.aaac...",
+  "cb..aaa.aabc...",
+  ".cb.....abcc...",
+  "..cbaaaabcccc..",
+  "...cccbccccccc.",
+  "......c...ccccc",
+  "...........cccc",
+  "............cc."
+]}

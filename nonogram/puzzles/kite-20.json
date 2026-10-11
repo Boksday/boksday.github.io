@@ -1,0 +1,22 @@
+{"id":"kite-20","name":{"ko":"연","en":"kite","ja":"たこ","zh-Hans":"风筝","zh-Hant":"風箏"},"palette":{"a":"#55ACEE","b":"#7873CC","c":"#307AB1"},"rows":[
+  "...aa...............",
+  "...ccaaa............",
+  "...acaaaaaa.........",
+  "..aaccaaaaaaa...b...",
+  "..aaacaaaaccca..bb..",
+  "..aaaccacccaa...bbb.",
+  ".aaaaacccaaaa...cbbb",
+  ".aaaccccaaaaa...c.bb",
+  ".acccaacaaaaabbbc...",
+  "accaaaaccaaaa.bbbbb.",
+  "aaaaaaaacaaaa..ccb..",
+  "..aaaaaaccaaa...c.b.",
+  "....aaaaacaaa.bbbbb.",
+  ".....aaaaccaa.bbbbb.",
+  ".......aaacaa....c..",
+  "........aacca....c..",
+  "..........aaa..bbb..",
+  "...........ac..bbbbb",
+  "............cccccbbb",
+  "..............cc...."
+]}

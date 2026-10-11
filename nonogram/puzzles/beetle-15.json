@@ -1,0 +1,17 @@
+{"id":"beetle-15","name":{"ko":"딱정벌레","en":"beetle","ja":"カブトムシ","zh-Hans":"甲虫","zh-Hant":"甲蟲"},"palette":{"a":"#77B255","b":"#619740","c":"#417620"},"rows":[
+  "..c...c.c...c..",
+  "..c..ccccc..c..",
+  "..c..ccbcc..c..",
+  "..c.aaaaaaa.c..",
+  "..cbbbbbbbbb...",
+  "...abaabaaba...",
+  "..aabaabaaba...",
+  ".caabaabaababc.",
+  "ccaabaabaabaacc",
+  "..aabaabaabaa..",
+  "..aabaabaabaa..",
+  "..baaaababaac..",
+  "..caabababaac..",
+  ".c..ababbba..c.",
+  ".c...aabaa...c."
+]}

@@ -1,0 +1,22 @@
+{"id":"robot-20","name":{"ko":"로봇 얼굴","en":"robot","ja":"ロボット","zh-Hans":"机器人","zh-Hant":"機器人"},"palette":{"a":"#55ACEE","b":"#678EA2","c":"#71648D"},"rows":[
+  "....................",
+  ".......cccccc.......",
+  "....cccccccccccc....",
+  "...bbbbbbbbbbbbbb...",
+  "..aaaaaaaaaaaaaaaa..",
+  "..baaaaaaaaaaaaaab..",
+  "..baa...aaaa...aab..",
+  "c.ba.cc..aa..cc.ab.c",
+  "c.ba.ccc.aa.ccc.ab.c",
+  "c.ba..c..aa..c..ab.c",
+  "..baa...aaaa...aab..",
+  "..aaaaaaaaaaaaaaaa..",
+  "..aaaaaaaaaaaaaaaa..",
+  "..aa............aa..",
+  "..aa............aa..",
+  "..aaa..........aaa..",
+  "..aaaaaaaaaaaaaaaa..",
+  ".bbbbbbbaaaabbbbbbb.",
+  "bbbbbbbbbaabbbbbbbbb",
+  ".bbbbbbbbbbbbbbbbbb."
+]}

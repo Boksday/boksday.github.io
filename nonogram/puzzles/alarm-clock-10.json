@@ -1,0 +1,12 @@
+{"id":"alarm-clock-10","name":{"ko":"알람 시계","en":"alarm clock","ja":"目覚まし時計","zh-Hans":"闹钟","zh-Hant":"鬧鐘"},"palette":{"a":"#FEC84D","b":"#CBB8BC","c":"#DC8175","d":"#DC3247"},"rows":[
+  ".a..aa..a.",
+  "aacddddcaa",
+  "acdbbbbdca",
+  ".db.bb.bd.",
+  ".d..bb..d.",
+  ".c...cb.c.",
+  ".d......d.",
+  ".dc....bd.",
+  "..dcbbcd..",
+  "..adddda.."
+]}

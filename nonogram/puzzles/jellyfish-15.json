@@ -1,0 +1,17 @@
+{"id":"jellyfish-15","name":{"ko":"해파리","en":"jellyfish","ja":"クラゲ","zh-Hans":"水母","zh-Hant":"水母"},"palette":{"a":"#82C6F6","b":"#44ABF3","c":"#2C88C8"},"rows":[
+  ".....ccccc.....",
+  "..ccbbbbbbbcc..",
+  ".cbaacccccbbbc.",
+  "cbaabbbcbbbbbbc",
+  "caabbbbbbbbbbbc",
+  "caabbbbbbbbbaac",
+  "cbbbbbbbbbbbabc",
+  ".ccccbbbbbcccc.",
+  "..bb.cbbbc.bb..",
+  "..b..bccbb.bb..",
+  "..bb.b...b.b...",
+  "...b.bb.b.bb...",
+  "..bb..b.b..b...",
+  "..b..bb.bb.bb..",
+  ".....b...b....."
+]}

@@ -1,0 +1,22 @@
+{"id":"peacock-20","name":{"ko":"공작","en":"peacock","ja":"クジャク","zh-Hans":"孔雀","zh-Hant":"孔雀"},"palette":{"a":"#A0D088","b":"#74B8AA","c":"#377494"},"rows":[
+  "....................",
+  ".......aaaaaa.......",
+  ".....aabbaabbaa.....",
+  "....aaabbaabbaaa....",
+  "...aaaabaaabaaaaa...",
+  "..abbaaaacaaaaabba..",
+  "..abbaaacccaaaabba..",
+  ".aaaabbaccccabbaaaa.",
+  ".aaaabbaccccccbaaaa.",
+  "bbbaaaaaaccbbaaaabba",
+  "bbbabaaaaccaaaababba",
+  "aaabbaaaaccaaaabaaaa",
+  "aaaaaababccbabaaaaaa",
+  "bbbaaaaaccccaaaaabba",
+  "bbbbbaaccccccbababba",
+  "..aabaaccccccbabaa..",
+  "........cccc........",
+  "........cccc........",
+  "........c..c........",
+  "...................."
+]}

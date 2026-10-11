@@ -1,0 +1,17 @@
+{"id":"desert-island-15","name":{"ko":"사막 섬","en":"desert island","ja":"無人島","zh-Hans":"无人荒岛","zh-Hant":"熱帶小島"},"palette":{"a":"#F69F23","b":"#9C965E","c":"#3E8AC5","d":"#568F4B"},"rows":[
+  "...........ddd.",
+  ".aaaa.dddddd...",
+  ".aaaa..dddddd..",
+  ".aaaa..dddbddd.",
+  "..aa..ddd.b..dd",
+  "......dd..b....",
+  "......d...b....",
+  "......d...b....",
+  ".........bb....",
+  ".........bb....",
+  "....aaaaaaaa...",
+  ".ccaaaaaaaaaaa.",
+  "cccbbbbbbbbbbcc",
+  "ccccccccccccccc",
+  "...ccccccccc..."
+]}

@@ -1,0 +1,17 @@
+{"id":"growing-heart-15","name":{"ko":"커지는 하트","en":"growing heart","ja":"大きくなるハート","zh-Hans":"搏动的心","zh-Hant":"心動"},"palette":{"a":"#F4ABBA","b":"#F08698","c":"#E75065","d":"#DD2F45"},"rows":[
+  "...............",
+  "..aaaa...aaaa..",
+  ".aaabbaaabbaaa.",
+  "aabccccbccccbaa",
+  "aacccddcddcccaa",
+  "aaccdddddddccaa",
+  "aaccdddddddccaa",
+  ".abcdddddddcba.",
+  ".aaccdddddccaa.",
+  "..abcdddddcba..",
+  "...abccdccba...",
+  "....abcccba....",
+  ".....aabaa.....",
+  "......aaa......",
+  "..............."
+]}

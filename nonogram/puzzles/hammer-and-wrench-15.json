@@ -1,0 +1,17 @@
+{"id":"hammer-and-wrench-15","name":{"ko":"망치와 렌치","en":"hammer and wrench","ja":"ハンマーとレンチ","zh-Hans":"锤子与扳手","zh-Hant":"鎚子和扳手"},"palette":{"a":"#F4900C","b":"#D49033","c":"#8899A6","d":"#66747F"},"rows":[
+  "......ddd..c...",
+  "....ddd..ccc...",
+  "...ddd...cc....",
+  "..dddd...cc...c",
+  "dddddba.ccccccc",
+  "ddddbaabcccccc.",
+  ".dd..aaabcc....",
+  ".....cbaab.....",
+  "....cccbaaa....",
+  "...cccccaaaa...",
+  "..ccccc..aaaa..",
+  ".ccccc....aaaa.",
+  ".c.cc......aaaa",
+  ".ccc........aaa",
+  "..............."
+]}
