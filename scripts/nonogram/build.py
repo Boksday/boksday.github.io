@@ -57,7 +57,15 @@ def validate(path, puzzle):
         errors.append('색은 #RRGGBB')
     if any(ch != '.' and ch not in palette for row in rows for ch in row):
         errors.append('팔레트에 없는 글자')
+    if rows and len(set(map(len, rows))) == 1 and is_solid(rows):
+        errors.append('통짜 모양(모든 가로·세로줄이 한 덩어리라 너무 쉬움)')
     return errors
+
+
+def is_solid(rows):
+    """모든 가로줄과 세로줄이 칠한 덩어리 하나 이하인 그림. 구멍이 없어 숫자만 보고 바로 칠해진다."""
+    columns = [''.join(row[c] for row in rows) for c in range(len(rows[0]))]
+    return all(len(re.findall(r'[^.]+', line)) <= 1 for line in rows + columns)
 
 
 def main():
