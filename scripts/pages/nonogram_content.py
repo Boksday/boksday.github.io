@@ -323,7 +323,7 @@ SUPPORT = {
         'faq': [
             ('어떻게 푸나요?', '줄 옆의 숫자는 그 줄에서 <strong>이어서 칠할 칸의 길이</strong>예요. "3 1"이면 3칸을 이어 칠하고, 한 칸 이상 띄운 뒤 1칸을 칠해요. 비어 있는 게 확실한 칸에는 <strong>X 표시</strong>를 하고, 손가락을 끌면 한 줄을 한 번에 칠할 수 있어요.'),
             ('하트를 다 쓰면 어떻게 되나요?', '틀릴 때마다 하트가 하나 줄고, 3개를 다 쓰면 멈춰요. <strong>광고 보고 하트 1개 받기</strong>로 이어서 풀거나, <strong>처음부터</strong> 다시 풀 수 있어요.'),
-            ('힌트는 어떻게 쓰나요?', '한 그림에 <strong>1번</strong> 쓸 수 있어요. 지금 단서로 확실히 알 수 있는 칸 하나를 알려 줘요. 힌트 없이 풀면 \'힌트 없이\' 메달을 받아요.'),
+            ('힌트는 어떻게 쓰나요?', '한 그림에 <strong>1번</strong>은 무료이고, 그 뒤로는 광고를 보면 하나씩 더 받을 수 있어요. 지금 단서로 확실히 알 수 있는 칸 하나를 알려 줘요. 힌트 없이 풀면 \'힌트 없이\' 메달을 받아요.'),
             ('25×25·30×30 판이 너무 작아요.', '두 손가락을 벌려 <strong>확대</strong>하고, 두 손가락으로 끌어 보고 싶은 곳으로 옮겨요. 오므리면 다시 작아져요.'),
             ('앱을 지웠더니 기록이 사라졌어요.', '기록은 폰 안에만 저장돼요. 앱을 삭제하면 기록도 함께 지워지고, 백업이나 다른 폰으로 옮기기는 지원하지 않아요.'),
             ('진동을 끄고 싶어요.', '앱의 <strong>설정 → 진동</strong>에서 끌 수 있어요.'),
@@ -341,7 +341,7 @@ SUPPORT = {
         'faq': [
             ('How do I play?', 'The numbers beside each line are the <strong>lengths of runs of filled cells</strong> in that line. "3 1" means three filled cells in a row, at least one gap, then one more. Use <strong>Mark X</strong> on cells you know are empty, and drag your finger to fill a whole line at once.'),
             ('What happens when I run out of hearts?', 'Each mistake costs a heart, and the game stops after three. Choose <strong>Watch an ad for 1 heart</strong> to keep going, or <strong>Start over</strong>.'),
-            ('How do hints work?', 'You can use <strong>1 hint</strong> per picture. A hint shows one cell the current clues already settle. Solve without hints to earn the No hints medal.'),
+            ('How do hints work?', 'You get <strong>1 free hint</strong> per picture, and can watch an ad for more. A hint shows one cell the current clues already settle. Solve without hints to earn the No hints medal.'),
             ('The 25×25 and 30×30 boards are too small.', 'Spread two fingers to <strong>zoom in</strong> and drag with two fingers to move around. Pinch to zoom back out.'),
             ('My progress is gone after deleting the app.', 'Progress is stored only on your phone. Deleting the app deletes it too, and backup or moving it to another phone is not supported.'),
             ('How do I turn off vibration?', 'Go to <strong>Settings → Vibration</strong> in the app.'),
@@ -359,7 +359,7 @@ SUPPORT = {
         'faq': [
             ('遊び方は?', '列の横の数字は、その列で<strong>続けて塗るマスの長さ</strong>です。「3 1」なら3マス続けて塗り、1マス以上空けて1マス塗ります。空白だと確実なマスには<strong>×をつけ</strong>、指をドラッグすれば1列をまとめて塗れます。'),
             ('ハートがなくなるとどうなりますか?', 'ミスするたびにハートが1つ減り、3つなくなると止まります。<strong>広告を見てハートを1つもらう</strong>で続けるか、<strong>最初から</strong>やり直せます。'),
-            ('ヒントの使い方は?', '1枚の絵につき<strong>1回</strong>使えます。今の手がかりで確定するマスを1つ教えます。ヒントを使わずに解くと「ヒントなし」メダルがもらえます。'),
+            ('ヒントの使い方は?', '1枚の絵につき<strong>1回</strong>は無料で、そのあとは広告を見るともう1回ずつもらえます。今の手がかりで確定するマスを1つ教えます。ヒントを使わずに解くと「ヒントなし」メダルがもらえます。'),
             ('25×25・30×30の盤が小さすぎます。', '2本指で広げて<strong>拡大</strong>し、2本指でドラッグして見たい所へ動かせます。つまむと元に戻ります。'),
             ('アプリを削除したら記録が消えました。', '記録はスマホの中だけに保存されます。アプリを削除すると記録も消え、バックアップや別のスマホへの移行には対応していません。'),
             ('振動をオフにしたいです。', 'アプリの<strong>設定 → 振動</strong>でオフにできます。'),
@@ -377,7 +377,7 @@ SUPPORT = {
         'faq': [
             ('怎么玩？', '每行每列旁的数字表示这一行<strong>连续涂色的格数</strong>。“3 1”表示先连续涂 3 格，至少空一格后再涂 1 格。确定是空白的格子可以<strong>标记 X</strong>，手指拖动可以一次涂满一整行。'),
             ('心用完了会怎样？', '每出错一次失去一颗心，3 颗都用完后本局会暂停。可以选择<strong>看广告获得1颗心</strong>继续，也可以<strong>从头开始</strong>。'),
-            ('提示怎么用？', '每幅图可用 <strong>1 次</strong>。提示会告诉你一个根据当前线索已经能确定的格子。不用提示解开可获得“不用提示”奖牌。'),
+            ('提示怎么用？', '每幅图可免费使用 <strong>1 次</strong>，之后看广告可再获得。提示会告诉你一个根据当前线索已经能确定的格子。不用提示解开可获得“不用提示”奖牌。'),
             ('25×25 和 30×30 的棋盘太小了。', '双指张开即可<strong>放大</strong>，双指拖动可以移动到想看的位置。双指捏合即可缩小。'),
             ('删除应用后记录不见了。', '记录只保存在手机里。删除应用后记录也会一并删除，不支持备份或转移到其他手机。'),
             ('想关闭振动。', '在应用的<strong>设置 → 振动</strong>中关闭。'),
@@ -395,7 +395,7 @@ SUPPORT = {
         'faq': [
             ('怎麼玩？', '每行每列旁的數字表示這一行<strong>連續塗色的格數</strong>。「3 1」表示先連續塗 3 格，至少空一格後再塗 1 格。確定是空白的格子可以<strong>標記 X</strong>，手指拖曳可以一次塗滿一整行。'),
             ('心用完了會怎樣？', '每出錯一次失去一顆心，3 顆都用完後本局會暫停。可以選擇<strong>看廣告獲得1顆心</strong>繼續，也可以<strong>從頭開始</strong>。'),
-            ('提示怎麼用？', '每幅圖可用 <strong>1 次</strong>。提示會告訴你一個依目前線索已經能確定的格子。不用提示解開可獲得「不用提示」獎牌。'),
+            ('提示怎麼用？', '每幅圖可免費使用 <strong>1 次</strong>，之後看廣告可再獲得。提示會告訴你一個依目前線索已經能確定的格子。不用提示解開可獲得「不用提示」獎牌。'),
             ('25×25 和 30×30 的棋盤太小了。', '雙指張開即可<strong>放大</strong>，雙指拖曳可以移動到想看的位置。雙指捏合即可縮小。'),
             ('刪除 App 後紀錄不見了。', '紀錄只儲存在手機裡。刪除 App 後紀錄也會一併刪除，不支援備份或轉移到其他手機。'),
             ('想關閉震動。', '在 App 的<strong>設定 → 震動</strong>中關閉。'),
