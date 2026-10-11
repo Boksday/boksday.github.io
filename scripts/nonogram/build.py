@@ -23,16 +23,28 @@ FORMAT_VERSION = 2
 MAX_SIZE = 30
 
 
-def stars_of(rows, passes, first):
-    """앱의 starsOf(logic/difficulty.ts)와 같은 계산"""
-    size = max(len(rows), len(rows[0]))
-    base = min(max(round((size - 5) / 5) + 1, 1), 5)
-    adjust = 0
-    if passes >= 6 or first < 0.5:
-        adjust = 1
-    elif passes <= 2 and first > 0.95:
-        adjust = -1
-    return min(max(base + adjust, 1), 5)
+# 이 여유 비율 이상이면 별이 하나씩 는다(★2·★3·★4·★5의 문턱). 앱 logic/difficulty.ts와 같다.
+STAR_THRESHOLDS = (0.22, 0.30, 0.38, 0.46)
+# 5×5보다 큰 판은 이보다 여유가 적으면(별 1개, 이어지는 칸이 대부분) 받지 않는다.
+MIN_SLACK_RATIO = STAR_THRESHOLDS[0]
+
+
+def slack_ratio(rows):
+    """줄마다 남는 여유 칸의 평균 비율. 이어지는 칸이 길수록 작다(쉬움). 빈 줄은 0."""
+    columns = [''.join(row[c] for row in rows) for c in range(len(rows[0]))]
+    total = 0.0
+    for line in rows + columns:
+        runs = [len(run) for run in re.findall(r'[^.]+', line)]
+        if runs:
+            total += (len(line) - (sum(runs) + len(runs) - 1)) / len(line)
+    return total / (len(rows) + len(columns))
+
+
+def stars_of(rows):
+    """앱의 starsOf(logic/difficulty.ts)와 같은 계산: 이어지는 칸이 많을수록 별이 적다. 5×5는 최대 2."""
+    ratio = slack_ratio(rows)
+    stars = min(1 + sum(ratio >= t for t in STAR_THRESHOLDS), 5)
+    return min(stars, 2) if max(len(rows), len(rows[0])) <= 5 else stars
 
 
 def validate(path, puzzle):
@@ -59,6 +71,8 @@ def validate(path, puzzle):
         errors.append('팔레트에 없는 글자')
     if rows and len(set(map(len, rows))) == 1 and is_solid(rows):
         errors.append('통짜 모양(모든 가로·세로줄이 한 덩어리라 너무 쉬움)')
+    elif rows and len(set(map(len, rows))) == 1 and max(len(rows), len(rows[0])) > 5 and slack_ratio(rows) < MIN_SLACK_RATIO:
+        errors.append(f'이어지는 칸이 너무 많음(여유 비율 {slack_ratio(rows):.2f} < {MIN_SLACK_RATIO}, 별 1개)')
     return errors
 
 
@@ -74,7 +88,7 @@ def main():
         puzzle = json.load(open(path, encoding='utf-8'))
         errors = validate(path, puzzle)
         if not errors:
-            ok, passes, first, *_ = stats(puzzle['rows'])
+            ok, *_ = stats(puzzle['rows'])
             if not ok:
                 errors.append('줄 추론만으로 안 풀림(답이 여러 개이거나 찍어야 함)')
         if errors:
@@ -93,7 +107,7 @@ def main():
             'file': f'puzzles/{puzzle["id"]}.json',
             'width': len(rows[0]),
             'height': len(rows),
-            'stars': stars_of(rows, passes, first),
+            'stars': stars_of(rows),
             'rev': hashlib.sha1(body.encode()).hexdigest()[:8],
         })
     if failed:
