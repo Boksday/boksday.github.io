@@ -1,4 +1,4 @@
-"""boksday.github.io 의 여비(/trip/)·디데이(/dday/)·스도쿠(/sudoku/) 소개·개인정보·지원 페이지를 5개 언어로 만든다."""
+"""boksday.github.io 의 여비(/trip/)·디데이(/dday/)·스도쿠(/sudoku/)·노노그램(/nonogram/) 소개·개인정보·지원 페이지를 5개 언어로 만든다."""
 import html
 import os
 import sys
@@ -6,6 +6,7 @@ import sys
 sys.path.insert(0, os.path.dirname(__file__))
 import content  # noqa: E402
 import dday_content  # noqa: E402
+import nonogram_content  # noqa: E402
 import sudoku_content  # noqa: E402
 from content import EMAIL, HTML_LANG, LANG_NAME, LANGS  # noqa: E402
 from privacy import PRIVACY as TRIP_PRIVACY  # noqa: E402
@@ -65,6 +66,8 @@ class App:
         if self.slug == 'dday':
             return DDAY_KO_SHOTS if lang == 'ko' else []
         img_dir = os.path.join(SITE, self.slug, 'img', lang)
+        if not os.path.isdir(img_dir):
+            return []
         files = sorted(f[:-4] for f in os.listdir(img_dir) if f[0].isdigit() and f.endswith('.jpg'))
         alts = dict(self.intro[lang]['shots'])
         return [(f'/{self.slug}/img/{lang}/{f}.jpg', alts.get(f, DARK_ALT[lang] if 'dark' in f else '')) for f in files]
@@ -157,6 +160,8 @@ def intro(app, lang):
     n_screens, n_feat, n_support = c['nav']
     f_support, f_privacy, f_contact = c['footer']
     og = '/dday/img/header.jpg' if app.slug == 'dday' else f'/{app.slug}/img/{lang}/header.jpg'
+    if not os.path.isfile(os.path.join(SITE, og.lstrip('/'))):
+        og = f'/{app.slug}/icon.png'  # 공유 이미지가 아직 없으면 아이콘으로 대신한다.
     css = f'/{app.slug}/{app.slug}.css'
     screens_nav = f'<a href="#screens">{e(n_screens)}</a>' if len(shots) > 1 else ''
     hero_shot = (f'<div class="hero-shot"><img src="{shots[0][0]}" width="600" height="1304" alt="{e(shots[0][1])}"></div>'
@@ -280,6 +285,8 @@ APPS = [
     App('dday', dday_content.APP, dday_content.INTRO, dday_content.privacy, dday_content.SUPPORT,
         ('', 'https://play.google.com/store/apps/details?id=com.naegyeot.dday')),
     App('sudoku', sudoku_content.APP, sudoku_content.INTRO, sudoku_content.privacy, sudoku_content.SUPPORT),
+    # /nonogram/ 에는 앱이 받는 index.json·puzzles/·CREDITS.md 가 함께 있다. 여기서는 index.html 만 쓴다.
+    App('nonogram', nonogram_content.APP, nonogram_content.INTRO, nonogram_content.privacy, nonogram_content.SUPPORT),
 ]
 
 for app in APPS:
