@@ -1,0 +1,22 @@
+{"id":"printer-20","name":{"ko":"프린터","en":"printer","ja":"プリンタ","zh-Hans":"打印机","zh-Hant":"印表機"},"palette":{"a":"#5DADEC","b":"#4289C1","c":"#9AAAB4","d":"#67757F","e":"#292F33"},"rows":[
+  "....................",
+  "....................",
+  "...dd..........dd...",
+  "...dd..........dd...",
+  "...dd..........dd...",
+  "...dd..........dd...",
+  "...bbbbbbbbbbbbbb...",
+  "..abbbbbbbbbbbbbba..",
+  ".aabbbbbbbbbbbbbbaa.",
+  ".aaaaaaaaaaaaaaaaaa.",
+  ".aaaaaaaaaaaaaaa..a.",
+  ".aaaaaaaaaaaaaaaaaa.",
+  ".aaaaaaaaaaaaaaaaaa.",
+  ".aaeeeeeeeeeeeeeeaa.",
+  ".aaeecccccccccceeaa.",
+  "..aee..........eea..",
+  "...dd.cccccccc.dd...",
+  "...dd.cccccccc.dd...",
+  "....................",
+  "...................."
+]}

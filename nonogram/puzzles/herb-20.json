@@ -1,0 +1,22 @@
+{"id":"herb-20","name":{"ko":"풀","en":"herb","ja":"ハーブ","zh-Hans":"药草","zh-Hant":"草藥"},"palette":{"a":"#77B255","b":"#A6D388","c":"#A06253"},"rows":[
+  ".....ba.............",
+  "....bbaa......aaaaa.",
+  "....bbaaa....aaaabb.",
+  "....bbbaa....aabbbb.",
+  "....bbbaaa..cbbbbb..",
+  "....bbbaa..ccbbbb...",
+  ".....bbba.c.........",
+  ".aa...bbac..........",
+  ".baa...ccaaaaa......",
+  ".bbaa..ccaaaaaa.....",
+  ".bbba.ccaaaaaaaa....",
+  "..bbacc..aaaaaa.....",
+  "....cc....aaaa......",
+  "....cc.aaa..........",
+  "...ccaaaaaa.........",
+  "..cccaaaaaaa........",
+  "..cc.aaaaaaa........",
+  "..cc...aaa..........",
+  ".ccc................",
+  ".cc................."
+]}

@@ -1,0 +1,17 @@
+{"id":"taxi-15","name":{"ko":"택시","en":"taxi","ja":"タクシー","zh-Hans":"出租车","zh-Hant":"計程車"},"palette":{"a":"#FFCC4D","b":"#F4900C","c":"#292F33","d":"#55ACEE","e":"#CCD6DD"},"rows":[
+  "...............",
+  "...............",
+  "...............",
+  ".......aaaaa...",
+  ".....aaddadda..",
+  ".....adddadda..",
+  "..aaaaaaaaaaaa.",
+  ".aaaaaaaaaaaaaa",
+  ".bbbbbbbbbbbbbb",
+  "aaaccaaaaaccaaa",
+  "aaaeecaaaaeecaa",
+  "...ccc....ccc..",
+  "...............",
+  "...............",
+  "..............."
+]}

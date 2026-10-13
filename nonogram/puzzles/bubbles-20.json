@@ -1,0 +1,22 @@
+{"id":"bubbles-20","name":{"ko":"거품","en":"bubbles","ja":"泡","zh-Hans":"气泡","zh-Hant":"泡泡"},"palette":{"a":"#7CC2F0"},"rows":[
+  ".....aa.............",
+  "..aaaaaaa...........",
+  ".aa....aaa..........",
+  ".a...aaaaaa.........",
+  "aa..aaaaaaaa........",
+  "a..aaaaaaaaa........",
+  "a..aaaaaa.aa..aaaa..",
+  "aaaaaaaaa.aa.aa..aa.",
+  "aaaaaaaa..a.aa...aaa",
+  ".aaaaaa..aa.a..aaaaa",
+  "..aaa...aa..aa.aaa.a",
+  "...aaaaaa...aaaaa..a",
+  ".............aaa..a.",
+  "........aaaa..aaaa..",
+  ".......aa..aa.......",
+  ".......a..aaa.......",
+  ".......a.aa.a.......",
+  ".......aaa..a.......",
+  "........aaaaa.......",
+  ".........aa........."
+]}

@@ -1,0 +1,17 @@
+{"id":"exploding-head-15","name":{"ko":"머리가 터진 얼굴","en":"exploding head","ja":"頭爆発","zh-Hans":"爆炸头","zh-Hant":"一個頭兩個大"},"palette":{"a":"#FFCB4C","b":"#CCD6DD","c":"#F06B24","d":"#65471B"},"rows":[
+  ".....bb........",
+  "...b...bbbbbb..",
+  ".b......bbb.bb.",
+  ".b......bbbbb..",
+  "...cb.bbbbcc...",
+  "..aacccccccaa..",
+  ".aaccaccccacaa.",
+  ".aaaaaaaaaaaaaa",
+  "aaaaddaaaddaaaa",
+  ".aaaaaaaaaaaaa.",
+  ".aaaaadddaaaaa.",
+  ".aaaaadddaaaaa.",
+  "..aaaadddaaaa..",
+  "...aaadddaaa...",
+  ".....aaaaa....."
+]}

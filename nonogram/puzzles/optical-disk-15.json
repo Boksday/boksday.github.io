@@ -1,0 +1,17 @@
+{"id":"optical-disk-15","name":{"ko":"CD","en":"optical disk","ja":"CD","zh-Hans":"光盘","zh-Hant":"光碟"},"palette":{"a":"#8899A6","b":"#CCD6DD"},"rows":[
+  ".....aaaaa.....",
+  "...aa..aaaaa...",
+  "..a....aaaaaa..",
+  ".ab....aaaaaaa.",
+  ".abb...aaaaaaa.",
+  "abbbb..aaaaaaaa",
+  "abbbbba.aaaaaaa",
+  "aaaaaa...aaaaaa",
+  "aaaaaaa.abbbbba",
+  "aaaaaaaa.bbbbba",
+  ".aaaaaaa..bbba.",
+  ".aaaaaaa...bba.",
+  "..aaaaaa....a..",
+  "...aaaaa..aa...",
+  ".....aaaaa....."
+]}

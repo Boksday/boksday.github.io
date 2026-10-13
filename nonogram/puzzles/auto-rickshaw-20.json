@@ -1,0 +1,22 @@
+{"id":"auto-rickshaw-20","name":{"ko":"오토릭샤","en":"auto rickshaw","ja":"三輪タクシー","zh-Hans":"三轮摩托车","zh-Hant":"嘟嘟車"},"palette":{"a":"#3E721D","b":"#FFAC33","c":"#292F33","d":"#99AAB5","e":"#55ACEE"},"rows":[
+  "....................",
+  "....................",
+  ".....bbbbbbbbbbbbbb.",
+  ".....bbbbbbbbbbbbbbb",
+  "....eeb...dd..bbbbbb",
+  "....eeb...dd...bbbbb",
+  "...eeeb...dd...bbbbb",
+  "...bbbb...dd...bbbbb",
+  "...bbbb...aa...bbbbb",
+  "...aaaa...aa...aaaaa",
+  "...aaaa...aa...aaaaa",
+  "...aaaa.aaaa..aaaaaa",
+  "aaaaaaa.aaaa..aaaaaa",
+  "aaaaaaa.aaaa..aaaaaa",
+  ".cccaaa.aaaa..acccaa",
+  "ccddcaaaaaaaaaccddca",
+  "ccddc.aaaaaaa.ccddc.",
+  ".ccc...........ccc..",
+  "....................",
+  "...................."
+]}

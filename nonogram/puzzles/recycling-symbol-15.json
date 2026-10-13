@@ -1,0 +1,17 @@
+{"id":"recycling-symbol-15","name":{"ko":"재활용 표시","en":"recycling symbol","ja":"リサイクルマーク","zh-Hans":"回收标志","zh-Hant":"回收"},"palette":{"a":"#77B255","b":"#3E721D"},"rows":[
+  "......aaaa.....",
+  ".....baaaa.....",
+  "....bbbaaaa....",
+  "....bbbaaaaaa..",
+  "......b.aaaa...",
+  "...aa..aaaaa...",
+  ".aaaaa..aaaa...",
+  "..aaaa......bb.",
+  ".aaaaa.....bbb.",
+  "aaaaa...aa.bbbb",
+  "aaaabb.aaaaaaaa",
+  ".aabbb.aaaaaaaa",
+  ".aabbb.aaaaaaa.",
+  "..abb...aaaaa..",
+  ".........a....."
+]}

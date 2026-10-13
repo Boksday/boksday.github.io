@@ -1,0 +1,12 @@
+{"id":"flag-in-hole-10","name":{"ko":"골프","en":"flag in hole","ja":"ゴルフ","zh-Hans":"高尔夫球洞","zh-Hant":"高爾夫"},"palette":{"a":"#77B255","b":"#DD2E44","c":"#292F33","d":"#FFAC33"},"rows":[
+  "...bb.....",
+  "...bbbb...",
+  "...bb.....",
+  "..........",
+  "..........",
+  "..........",
+  "..aaaaaa..",
+  ".aadaaaaa.",
+  "aacccaaaaa",
+  "aaaaaaaaaa"
+]}

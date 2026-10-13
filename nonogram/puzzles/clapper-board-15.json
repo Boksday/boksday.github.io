@@ -1,0 +1,17 @@
+{"id":"clapper-board-15","name":{"ko":"슬레이트","en":"clapper board","ja":"カチンコ","zh-Hans":"场记板","zh-Hant":"場記板"},"palette":{"a":"#3F7123","b":"#292F33"},"rows":[
+  "...............",
+  ".........bbb...",
+  "...bbb...bbbb..",
+  "...bbbb...bb...",
+  "b...bbbb.......",
+  "bb.............",
+  "bb...bbb...bbb.",
+  "b...bbb...bbb..",
+  "b...bbb...bbb..",
+  "aaaaaaaaaaaaaaa",
+  "aaaaaaaaaaaaaaa",
+  "aaaaaaaaaaaaaaa",
+  "aaaaaaaaaaaaaaa",
+  "aaaaaaaaaaaaaaa",
+  ".aaaaaaaaaaaaa."
+]}

@@ -1,0 +1,22 @@
+{"id":"brain-20","name":{"ko":"뇌","en":"brain","ja":"脳","zh-Hans":"脑","zh-Hant":"腦"},"palette":{"a":"#F4ABBA","b":"#EA596E","c":"#DD2E44"},"rows":[
+  "....................",
+  "....................",
+  "........aaaa........",
+  ".....aaaaaaaaaa.....",
+  "...aabaaaabaaabaa...",
+  "..aaaaaaaabaaaaaaa..",
+  ".aaaaaabaaaaabaaaa..",
+  ".aaaaaabaabaabaaaba.",
+  "aaaabaaaaaaaaaaaaba.",
+  "aaaabaabaaaaaabaabaa",
+  "aabaaaababaaaaaaaaaa",
+  "aabaabaaaaaaaaabaaaa",
+  ".aabbaaaaaabbbbaaaaa",
+  "..aaaaabbbbaaaaaaaaa",
+  "....aaaaaaaaaaaaaaa.",
+  ".....aaaaaacccaaaa..",
+  "......a.cccbbbbbb...",
+  "...........bbbbb....",
+  "....................",
+  "...................."
+]}

@@ -1,0 +1,17 @@
+{"id":"shower-15","name":{"ko":"샤워","en":"shower","ja":"シャワー","zh-Hans":"淋浴","zh-Hant":"淋浴"},"palette":{"a":"#55ACEE","b":"#66757F","c":"#99AAB5"},"rows":[
+  "....ccb........",
+  ".....ccb.......",
+  ".....bccb......",
+  ".....bbccb.....",
+  "...a..bbccb....",
+  "..aa.a.bbccb...",
+  ".aa.a...bbccb..",
+  "aa.a.aa..bbcc..",
+  "a.a.aa.a..bccb.",
+  ".a.aa.a.a...bb.",
+  "a.aa.a.aa....bb",
+  ".aa.a.aa.....bb",
+  "aa.a.aa......bb",
+  "a.a..a.......bb",
+  ".............bb"
+]}

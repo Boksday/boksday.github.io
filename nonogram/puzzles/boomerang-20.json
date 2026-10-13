@@ -1,0 +1,22 @@
+{"id":"boomerang-20","name":{"ko":"부메랑","en":"boomerang","ja":"ブーメラン","zh-Hans":"回旋镖","zh-Hant":"迴力鏢"},"palette":{"a":"#C1694F","b":"#CCD6DD","c":"#FFCC4D","d":"#662113"},"rows":[
+  "...........bbbbbb...",
+  "........bbbb.....b..",
+  ".......bbb..........",
+  ".....bbba...........",
+  "..aacccaaaaaaaaa....",
+  ".aaacccaaaaaaaaaa...",
+  "..dddddaaaaaaaaaa...",
+  "..bb.....dddaaaaaa..",
+  "..bb.........daaaa..",
+  ".bbb..........aaaa..",
+  ".bb......bb...daaa..",
+  ".bb.....bbbb...aaaa.",
+  ".bbb.bbbbbbb...aaaa.",
+  ".bbbbbbbbbb....aaaa.",
+  "..bbbbbbb.......acc.",
+  "....bb..........ccc.",
+  "................ccc.",
+  "................daa.",
+  ".................aa.",
+  ".................d.."
+]}

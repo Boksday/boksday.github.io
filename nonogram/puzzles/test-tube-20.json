@@ -1,0 +1,22 @@
+{"id":"test-tube-20","name":{"ko":"시험관","en":"test tube","ja":"試験管","zh-Hans":"试管","zh-Hant":"試管"},"palette":{"a":"#8899A6","b":"#68E090","c":"#17BF63"},"rows":[
+  ".............aaa....",
+  "............aaa.a...",
+  "...........aaaaa.a..",
+  "..........aaa..aa.a.",
+  ".........aaa....aa..",
+  "........aaa......aaa",
+  ".......aaacccc...aa.",
+  "......aaabbbbcccaa..",
+  ".....aaabbbbbbbaa...",
+  "....aaabbbbbbbaa....",
+  "...aaabbbbcbbaa.....",
+  "..aaabbbbbbbaa......",
+  ".aaabcbbbbbaa.......",
+  "aaabbbbcbbaa........",
+  "aabbbbbbbaa.........",
+  "abbccbbbaa..........",
+  "abbbbbbaa...........",
+  "aabbbbaa............",
+  ".aaaaaa.............",
+  "..aaaa.............."
+]}

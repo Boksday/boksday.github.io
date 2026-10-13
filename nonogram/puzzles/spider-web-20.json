@@ -1,0 +1,22 @@
+{"id":"spider-web-20","name":{"ko":"거미줄","en":"spider web","ja":"クモの巣","zh-Hans":"蜘蛛网","zh-Hant":"蜘蛛網"},"palette":{"a":"#66757F"},"rows":[
+  "....................",
+  ".........aa.........",
+  ".......aa.aaa.......",
+  "...aaaa..aa..aaaa...",
+  "...aa...aaaa...aa...",
+  "...a.aaa....aaa.a...",
+  "...a.aa..aa..aa.a...",
+  "..a..a.aaaaaa.a..a..",
+  "..a.a..aaaaaa..a.a..",
+  ".a.aa.aaa..a.a.aa.a.",
+  ".aaaa.aaa..aaa.aa.a.",
+  "..a.a..aaaaaa..a.a..",
+  "..a..a.aa.aaa.a..a..",
+  "...a.aa..aa..aa.a...",
+  "...a.aaa....aaa.a...",
+  "...aa...aaaa...aa...",
+  "...aaaa..aa..aaaa...",
+  ".......aa..aa.......",
+  ".........aa.........",
+  "...................."
+]}

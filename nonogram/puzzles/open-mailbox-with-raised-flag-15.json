@@ -1,0 +1,17 @@
+{"id":"open-mailbox-with-raised-flag-15","name":{"ko":"편지 온 우편함","en":"open mailbox with raised flag","ja":"開いた郵便受け（手紙あり）","zh-Hans":"有新信件","zh-Hant":"有新郵件"},"palette":{"a":"#99AAB5","b":"#CCD6DD","c":"#C1694F","d":"#DD2E44","e":"#292F33"},"rows":[
+  ".........ddd...",
+  "...eeeaaaddda..",
+  ".......aadddaa.",
+  "........addaaaa",
+  "b.......addaaaa",
+  "bb.....baddaaaa",
+  "bba...abaddaaaa",
+  "bbbbabbaaaaaaaa",
+  "bbbbbbbbaaaaaaa",
+  ".eeeeeeeaaaaaaa",
+  "......cccc.....",
+  "......cccc.....",
+  "......cccc.....",
+  "......cccc.....",
+  "......cccc....."
+]}

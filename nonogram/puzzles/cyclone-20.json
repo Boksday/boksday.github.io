@@ -1,0 +1,22 @@
+{"id":"cyclone-20","name":{"ko":"태풍","en":"cyclone","ja":"渦巻き","zh-Hans":"台风","zh-Hant":"颱風"},"palette":{"a":"#55ACEE"},"rows":[
+  "....................",
+  "....aaaaaaaaa.......",
+  "...aaaa...aaaaa.....",
+  "..aaa........aaa....",
+  ".aa....aaaa...aa....",
+  "aa...aaaaaaaa..aa...",
+  "aa..aaaaaaaaaa.aa...",
+  "....aaaaaaaaaaa.a...",
+  "...aaaaa....aaa.aa..",
+  "...aaaaa....aaaaa...",
+  "...aaaaa....aaaaa...",
+  "...a.aaa....aaaaa...",
+  "...a.aaaaaaaaaaaa...",
+  "...aa.aaaaaaaaaa..aa",
+  "...aa..aaaaaaaa...aa",
+  "....aa...aaaa....aa.",
+  "....aaa........aaa..",
+  ".....aaaaa...aaaa...",
+  ".......aaaaaaaaa....",
+  "...........a........"
+]}

@@ -1,0 +1,12 @@
+{"id":"low-battery-10","name":{"ko":"배터리 부족","en":"low battery","ja":"バッテリー残量低下","zh-Hans":"电池电量不足","zh-Hant":"電量不足"},"palette":{"a":"#D42544","b":"#FF475C","c":"#CCD6DD","d":"#99AAB5"},"rows":[
+  "..ccccc...",
+  "....cc....",
+  "..........",
+  "....d.....",
+  "..........",
+  "..........",
+  "..bbbbbb..",
+  ".abbbbba..",
+  ".aaaaaaa..",
+  "..aaaaaa.."
+]}

@@ -1,0 +1,22 @@
+{"id":"zombie-20","name":{"ko":"좀비","en":"zombie","ja":"ゾンビ","zh-Hans":"僵尸","zh-Hant":"殭屍"},"palette":{"a":"#CCD6DD","b":"#FA743E","c":"#292F33","d":"#99AAB5","e":"#662113","f":"#66757F"},"rows":[
+  "....................",
+  "........ccccc.......",
+  ".....cccccccccc.....",
+  ".....ccccccccccc....",
+  "....cccccccccccc....",
+  "....cccaaccccccc....",
+  "....ccaaaaaacacc....",
+  "....caaddaaddaac....",
+  "....caaeeaaeeaac....",
+  "....caaddaaddaac....",
+  ".....aaaaaaaaaa.....",
+  ".....aaaaaaaaaa.....",
+  "......aafaafaa......",
+  ".......aaaaaa.......",
+  "........aaaa........",
+  "....bbbbaaaabbb.....",
+  "...bbbbbbaabbbbb....",
+  "..bbaabbbbbbbbbbb...",
+  "..baabbbbbbbbbbbbb..",
+  "..bbbbbbbbbbbbbbbb.."
+]}

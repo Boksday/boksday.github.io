@@ -1,0 +1,17 @@
+{"id":"ant-15","name":{"ko":"개미","en":"ant","ja":"アリ","zh-Hans":"蚂蚁","zh-Hant":"螞蟻"},"palette":{"a":"#31373D"},"rows":[
+  "..a............",
+  "...aaa.a.......",
+  "a..aaa.a.......",
+  ".aaaaa.a.aa....",
+  ".aaaaaaaaa.....",
+  ".aaaaaaaa.aa...",
+  "....aaaaaa.....",
+  ".aaaaaaaaaaa...",
+  "....aaaaaaaaa..",
+  "...aa.aaaaaaaa.",
+  "...a.a.aaaaaaa.",
+  ".....a.aaaaaaaa",
+  "........aaaaaaa",
+  ".........aaaaaa",
+  "...........aaaa"
+]}

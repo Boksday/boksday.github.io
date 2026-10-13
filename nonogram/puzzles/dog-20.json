@@ -1,0 +1,22 @@
+{"id":"dog-20","name":{"ko":"개","en":"dog","ja":"イヌ","zh-Hans":"狗","zh-Hant":"狗"},"palette":{"a":"#D99E82","b":"#C1694F","c":"#F4C7B5","d":"#662113","e":"#272B2B"},"rows":[
+  "....................",
+  "....aad.............",
+  "...aaadd........aaa.",
+  "eccaaadd.......aaaaa",
+  "ecccaadd.......a..aa",
+  ".cccaadda..........a",
+  "..ccaaaaaaabbbba..aa",
+  ".....aaaaaabbbaaaaa.",
+  ".....caaaaaaaaaaaa..",
+  ".....caaaaaaaaaaaa..",
+  ".....caaaaaaaaaaaa..",
+  "......caaaaaaaaaaa..",
+  "......caaaaaccaaaa..",
+  "......baacc..bbaaa..",
+  "......baa.....bbaa..",
+  "......bbaa....bbbaa.",
+  "......bbaa.....b.aa.",
+  "......bbaa.....b..a.",
+  ".....bbaaa....bb.aaa",
+  "...................."
+]}

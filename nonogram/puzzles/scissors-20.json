@@ -1,0 +1,22 @@
+{"id":"scissors-20","name":{"ko":"가위","en":"scissors","ja":"はさみ","zh-Hans":"剪刀","zh-Hant":"剪刀"},"palette":{"a":"#DD2E44","b":"#99AAB5","c":"#CCD6DD"},"rows":[
+  "..aaaa........aaaa..",
+  ".aaaaaa......aaaaaa.",
+  ".aa...aa....aa....a.",
+  ".a....aa....aa....a.",
+  ".a....aaa..aaa....a.",
+  ".aa...aaa..aaa...aa.",
+  "..aaaaaaabcaaaaaaa..",
+  "....a..abbcca..a....",
+  ".......bbcccc.......",
+  "........bbbc........",
+  "........cbbb........",
+  "........cccb........",
+  ".......cccbbb.......",
+  "......ccc..bbb......",
+  "......ccc..bbb......",
+  ".....ccc....bbb.....",
+  ".....cc......bb.....",
+  "....ccc......bbb....",
+  "....cc........bb....",
+  "....c..........b...."
+]}

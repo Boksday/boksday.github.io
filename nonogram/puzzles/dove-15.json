@@ -1,0 +1,17 @@
+{"id":"dove-15","name":{"ko":"비둘기","en":"dove","ja":"ハト","zh-Hans":"鸽","zh-Hant":"飛鳥"},"palette":{"a":"#CCD6DD","b":"#99AAB5","c":"#5C913B"},"rows":[
+  ".....bb........",
+  ".....bbb....aa.",
+  ".....bbb....aaa",
+  "......bbb...aa.",
+  "......bbb..aaaa",
+  "......bbb.aaaaa",
+  "...aabbbaaaaaaa",
+  "..aaaabaaaaaaa.",
+  "...caaaaaaaaa..",
+  "...ccaccaaa....",
+  "...caaccaaa....",
+  ".....aaaaaaaaaa",
+  ".......c..aaaa.",
+  ".......c...aaa.",
+  ".......c......."
+]}

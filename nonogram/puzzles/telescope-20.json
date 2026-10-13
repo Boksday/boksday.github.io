@@ -1,0 +1,22 @@
+{"id":"telescope-20","name":{"ko":"망원경","en":"telescope","ja":"望遠鏡","zh-Hans":"望远镜","zh-Hant":"望遠鏡"},"palette":{"a":"#DA2F47","b":"#9AAAB4","c":"#292F33","d":"#9D0522"},"rows":[
+  "..cc................",
+  ".cccca..............",
+  "cccccaa.............",
+  "ccccaaaaa...........",
+  "..ccaaaaaaa.........",
+  "....aaaaaaaa........",
+  ".....aaaaaaada......",
+  ".......aaaaddaaa....",
+  ".........aaaaaaaa...",
+  "........bbb.aaaaaad.",
+  "........bbb...aaaddd",
+  "........bbb.....ddd.",
+  ".......ccccc........",
+  "......ccccccc.......",
+  ".....bb.bbb.bb......",
+  ".....bb.bbb.bb......",
+  "....bbb.bbb.bbb.....",
+  "....bb..bbb..bb.....",
+  "...bbb..bbb..bbb....",
+  "...bb....b....bb...."
+]}

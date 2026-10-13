@@ -1,0 +1,22 @@
+{"id":"fuel-pump-20","name":{"ko":"주유소","en":"fuel pump","ja":"ガソリンスタンド","zh-Hans":"油泵","zh-Hant":"加油站"},"palette":{"a":"#FFAC33","b":"#66757F","c":"#AAB8C2","d":"#BE1931"},"rows":[
+  ".................a..",
+  "..bbbbbbbbbbb....a..",
+  "..bbbbbccccbb...a...",
+  "..bbbbbcccccb...a...",
+  "..bbbbbbbbbbb...d...",
+  "..bbbbbbbbbbb...d...",
+  "..bbbbbbbbbbb..ddd..",
+  "..bbbbbbbbbbb.cccd..",
+  "...bbbbbbbbb...ddd..",
+  ".............c..c...",
+  "...aaaaaaaaaa.ccc...",
+  "...aaaaaaaaaa..cc...",
+  "...aaaaaaaaaa..cc...",
+  "...aaaaaaaaaa.c..c..",
+  "...aaaaaaaaaac...c..",
+  "...aaaaaaaaaac...c..",
+  "...aaaaaaaaaa.c..c..",
+  "...aaaaaaaaa..ccc...",
+  ".ccccccccccccc......",
+  ".ccccccccccccc......"
+]}

@@ -1,0 +1,22 @@
+{"id":"racing-car-20","name":{"ko":"경주용 자동차","en":"racing car","ja":"レーシングカー","zh-Hans":"赛车","zh-Hant":"賽車"},"palette":{"a":"#F4900C","b":"#3B88C3","c":"#231F20","d":"#88C9F9","e":"#58595B","f":"#DD2E44"},"rows":[
+  "....................",
+  "....................",
+  "....................",
+  "....................",
+  ".........aaaaa......",
+  "........addddda..aaa",
+  "......aaddddddaa.ae.",
+  "....aaaaabbbbbbaaaaa",
+  "..aaaaaabbbbbbbaaaaf",
+  ".aaaaaaabb..bbbaaaaf",
+  ".aaaaaaab..c.baaaaaa",
+  ".aacccabb..c.baccaaa",
+  "aacceccbbb..bbccecaa",
+  "aaceeecbbbbbbaceecaa",
+  "aaacccbbbbbbbaccccaa",
+  "....c...........c...",
+  "....................",
+  "....................",
+  "....................",
+  "...................."
+]}

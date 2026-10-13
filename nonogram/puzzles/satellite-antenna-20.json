@@ -1,0 +1,22 @@
+{"id":"satellite-antenna-20","name":{"ko":"위성 안테나","en":"satellite antenna","ja":"パラボラアンテナ","zh-Hans":"卫星天线","zh-Hant":"衛星天線"},"palette":{"a":"#66757F","b":"#CCD6DD","c":"#FFAC33","d":"#99AAB5"},"rows":[
+  "............ccc.....",
+  "..............ccc...",
+  "...aaaa.....cc..cc..",
+  "..aaaaaaa...ccc..c..",
+  "..baaaaaaaa...cc.cc.",
+  ".bbaaaaaaaabbb.cccc.",
+  ".bbaaaaaaaabbb.cccc.",
+  ".bbbaaaaaabbba......",
+  ".bbbaaaaabbaaaa.....",
+  ".bbbbaaabbaaaaa.....",
+  "..bbbbabbaaaaaaa....",
+  "..bbbbaaaaaaaaaa....",
+  "...bbbbaaaaaaaaaa...",
+  "...dbbbbbaaaaaaaa...",
+  "...ddbbbbbaaaaaaa...",
+  "..ddddbbbbbbaaaa....",
+  "..ddddddbbbbbbb.....",
+  ".dddddddddbb........",
+  "..aaaaaaaa..........",
+  "...aaaaaa..........."
+]}

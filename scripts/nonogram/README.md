@@ -17,3 +17,16 @@
 - 앱에 든 퍼즐과 같은 id는 쓸 수 없다(`solver.py`의 `BUILT_IN_IDS`).
 - 퍼즐을 고치면 `rev`가 바뀌어 이미 받은 앱도 그 퍼즐만 다시 받는다.
 - 그림 출처는 `nonogram/CREDITS.md`.
+
+## Twemoji에서 새 퍼즐 만들기
+
+`scripts/nonogram/twemoji/`에 2026-10-13에 229개를 만든 도구가 있다. 먼저 `npm install`을 하고,
+[Twemoji](https://github.com/jdecked/twemoji) 릴리스의 `assets/svg` 폴더를 받아 둔다.
+
+1. `node gen.mjs <svg 폴더> ../../../nonogram/puzzles cands.json`: 그림마다 10~30 크기로 줄여 보고,
+   build.py 기준을 통과한 판만 후보로 남긴다. 이미 있는 퍼즐과 이름이 같은 그림, 피부색·국기·가족 이모지는 뺀다.
+2. `node sheet.mjs cands.json sheet.html max 0 80`: 번호 붙은 썸네일 시트를 만든다. Chrome으로 열어
+   알아보기 쉬운 그림만 골라 `keep-all.txt`에 한 줄에 하나씩 적는다. 남자/여자/사람 버전처럼 같은 그림은 하나만 남긴다.
+3. `node assign.mjs cands.json`: 그림 하나를 한 크기에만 나눈다. 크기별 시트를 다시 보고,
+   그 크기에서 알아보기 어려운 그림은 `forbid.json`(`{"그림": [10, 15]}`)에, 10×10에서 알아볼 수 있는 그림은 `ok10.txt`에 적고 다시 나눈다.
+4. `assign.json`대로 퍼즐 파일을 쓰고 이름을 다듬은 뒤 `python3 scripts/nonogram/build.py`로 검사한다.

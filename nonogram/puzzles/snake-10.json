@@ -1,0 +1,12 @@
+{"id":"snake-10","name":{"ko":"뱀","en":"snake","ja":"ヘビ","zh-Hans":"蛇","zh-Hant":"蛇"},"palette":{"a":"#77B255","b":"#DD2E44"},"rows":[
+  "....aaaaa.",
+  "...baaaaaa",
+  "........aa",
+  "........aa",
+  "..a.....aa",
+  ".a..aa..aa",
+  "aa.aaaa.aa",
+  "aa.aaaa.aa",
+  "aaaa..aaaa",
+  ".aaa..aaa."
+]}

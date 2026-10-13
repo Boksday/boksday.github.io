@@ -1,0 +1,22 @@
+{"id":"fishing-pole-20","name":{"ko":"낚싯대","en":"fishing pole","ja":"釣り","zh-Hans":"钓鱼竿","zh-Hant":"釣魚"},"palette":{"a":"#55ACEE","b":"#662113","c":"#99AAB5","d":"#CCD6DD","e":"#66757F","f":"#000000"},"rows":[
+  "......bbbbbbbb......",
+  "....bb.......bbb....",
+  "....d..........bb...",
+  "....d...........bb..",
+  "....d............bb.",
+  "....d.............b.",
+  "....daa...........b.",
+  "..afaaaa..........b.",
+  ".aaaaafaaa........b.",
+  ".aaaaafaaaa.......b.",
+  ".aaaaaaaaaa.......b.",
+  ".aaeaaeaaa........b.",
+  ".aaeeeeaaa....ccccb.",
+  ".aaaaaaaa.....ceecb.",
+  "..aaaaaaa.....ceecb.",
+  "...aaaaa......ccccb.",
+  "..aaaaaa.........bb.",
+  "..aaaaaaa........bb.",
+  ".aaa...aa........bb.",
+  ".................b.."
+]}
