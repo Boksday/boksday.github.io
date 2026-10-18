@@ -1,24 +1,164 @@
 <!doctype html>
-<html lang="en">
+<html lang="ko">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Daywrap Support</title>
-<style>
-body{font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo",sans-serif;max-width:760px;margin:0 auto;padding:24px 20px 64px;color:#18181A;background:#FAFAF9;line-height:1.6}
-h1{font-size:26px}h2{font-size:19px;margin-top:32px}table{border-collapse:collapse;width:100%;font-size:14px}
-th,td{border:1px solid #E5E5E4;padding:8px;text-align:left;vertical-align:top}th{background:#F1F1F0}
-nav a{margin-right:12px}code{background:#EFEFEE;padding:1px 4px;border-radius:4px}
-@media (prefers-color-scheme:dark){body{background:#0F0F10;color:#F4F4F5}th{background:#1E1E20}th,td{border-color:#2C2C2F}code{background:#252527}}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Daywrap · 하루를 감싸 두는 할 일 달력</title>
+  <meta name="description" content="할 일은 4칸에 나눠 두고, 일정과 루틴은 한 화면에서 봐요. 달력은 스티커와 테두리로 다이어리처럼 꾸며요.">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#FAFAF9" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0F0F10" media="(prefers-color-scheme: dark)">
+  <link rel="canonical" href="https://boksday.github.io/daywrap/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="내곁의">
+  <meta property="og:title" content="Daywrap">
+  <meta property="og:description" content="할 일은 4칸에 나눠 두고, 일정과 루틴은 한 화면에서 봐요. 달력은 스티커와 테두리로 다이어리처럼 꾸며요.">
+  <meta property="og:image" content="https://boksday.github.io/daywrap/icon.png">
+  <meta property="og:url" content="https://boksday.github.io/daywrap/">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" type="image/png" href="/daywrap/icon.png">
+  <link rel="apple-touch-icon" href="/daywrap/icon.png">
+  <link rel="stylesheet" href="/daywrap/daywrap.css">
 </head>
 <body>
-<h1>Daywrap</h1>
-<p>Tasks, events and routines on one screen, with a calendar you can decorate.</p>
-<h2>Support</h2>
-<p>Questions or problems? Email us: ekqlszzzz@naver.com</p>
-<p>문의는 메일로 보내 주세요: ekqlszzzz@naver.com</p>
-<h2>Privacy</h2>
-<p><a href="privacy.html">Privacy Policy · 개인정보 처리방침</a></p>
+  <header class="top">
+    <div class="wrap">
+      <a class="wordmark" href="/">내곁의</a>
+      <nav class="langs" aria-label="언어 · Language">
+        <a href="#ko" hreflang="ko" lang="ko">한국어</a>
+        <a href="#en" hreflang="en" lang="en">English</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="ko">
+    <section class="hero">
+      <div class="wrap">
+        <picture>
+          <source srcset="/daywrap/img/icon-dark.png" media="(prefers-color-scheme: dark)">
+          <img class="app-icon" src="/daywrap/icon.png" alt="Daywrap 앱 아이콘" width="88" height="88">
+        </picture>
+        <p class="app-name">Daywrap</p>
+        <h1>하루를 감싸 두는<br>할 일 달력</h1>
+        <p class="lead">해야 할 일, 일정, 매일 하는 루틴을 한 화면에서 봐요. 달력은 스티커와 테두리로 다이어리처럼 꾸며요.</p>
+        <div class="store-buttons">
+          <span class="store-button pending" aria-disabled="true">곧 App Store에서 만나요</span>
+        </div>
+        <ul class="chips" aria-label="한눈에">
+          <li>4칸 할 일</li>
+          <li>루틴</li>
+          <li>다꾸 달력</li>
+          <li>홈 화면 위젯</li>
+        </ul>
+      </div>
+    </section>
+
+    <div class="wrap">
+      <section class="block" aria-labelledby="quad-title">
+        <h2 id="quad-title">오늘 할 일은 4칸에</h2>
+        <p class="sub">급한 일과 중요한 일을 나눠 보는 아이젠하워 매트릭스를 쉽게 썼어요.</p>
+        <div class="quad" role="img" aria-label="4칸 예시: 먼저 할 일, 차근차근, 금방 끝낼 일, 여유 있을 때">
+          <div class="box ember">
+            <span class="box-title">먼저 할 일</span>
+            <ul><li>보고서 마감</li><li class="done">치과 예약 전화</li></ul>
+          </div>
+          <div class="box honey">
+            <span class="box-title">차근차근</span>
+            <ul><li>영어 공부 한 장</li><li>이사 짐 정리</li></ul>
+          </div>
+          <div class="box sage">
+            <span class="box-title">금방 끝낼 일</span>
+            <ul><li class="done">택배 반품</li><li>메일 답장</li></ul>
+          </div>
+          <div class="box sky">
+            <span class="box-title">여유 있을 때</span>
+            <ul><li>보고 싶던 영화</li></ul>
+          </div>
+        </div>
+        <p class="quad-note">길게 눌러 끌면 다른 칸으로 옮겨요. 칸 이름과 색, 형광펜, 배경 무늬는 칸마다 바꿀 수 있어요.</p>
+      </section>
+
+      <section class="block" aria-labelledby="calendar-title">
+        <div class="split">
+          <figure class="shot">
+            <picture>
+              <source srcset="/daywrap/img/calendar-dark.webp" media="(prefers-color-scheme: dark)">
+              <img src="/daywrap/img/calendar-light.webp" alt="스티커와 테두리로 꾸민 10월 달력" width="880" height="717" loading="lazy">
+            </picture>
+          </figure>
+          <div>
+            <h2 id="calendar-title">다꾸하는 달력</h2>
+            <p class="sub">날짜를 길게 누르면 스티커, 테두리, 배경색으로 꾸며요.</p>
+            <ul>
+              <li>여러 날을 끌어 고르면 기간을 한 번에 꾸며요.</li>
+              <li>아이폰 캘린더에 연결한 구글·iCloud 일정도 함께 보여 줘요. 읽기만 하고 기기 밖으로 보내지 않아요.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="block" aria-labelledby="features-title">
+        <h2 id="features-title">이런 것도 돼요</h2>
+        <p class="sub">로그인하지 않아도 모든 기능을 쓸 수 있어요.</p>
+        <ul class="features">
+          <li><strong>말하듯 적으면 날짜까지</strong><span>'내일 오후 3시 치과', '매주 월수금 운동'처럼 적으면 날짜와 시각, 반복을 알아들어요.</span></li>
+          <li><strong>루틴은 따로</strong><span>물 마시기, 스트레칭 같은 일은 루틴 탭에서 체크해요. 며칠째 이어 하는지 한눈에 봐요.</span></li>
+          <li><strong>홈 화면 위젯</strong><span>오늘 할 일, 오늘 4칸, 루틴, 이번 달을 홈 화면에 둬요.</span></li>
+          <li><strong>내 취향대로</strong><span>테마, 색 팩, 스티커, 앱 아이콘과 글꼴을 골라 써요.</span></li>
+          <li><strong>알림</strong><span>할 일과 일정, 루틴을 정한 시각에 알려 줘요.</span></li>
+          <li><strong>로그인하면 백업</strong><span>기록을 백업하고 다른 기기에서 이어서 써요. 계정은 더보기에서 언제든 지울 수 있어요.</span></li>
+        </ul>
+      </section>
+
+      <section class="block" id="support" aria-labelledby="support-title">
+        <div class="support">
+          <h2 id="support-title">고객 지원</h2>
+          <p>쓰다가 막히거나 고쳤으면 하는 곳이 있으면 메일로 알려 주세요.<br><span class="mail">ekqlszzzz@naver.com</span></p>
+          <p class="actions">
+            <a class="store-button" href="mailto:ekqlszzzz@naver.com?subject=Daywrap">메일 보내기</a>
+            <a class="button-secondary" href="/daywrap/privacy.html">개인정보 처리방침</a>
+          </p>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <section id="en" lang="en" class="en-part">
+    <div class="wrap">
+      <section class="block">
+        <p class="app-name">Daywrap</p>
+        <h2>A to-do calendar that wraps your day</h2>
+        <p class="sub">Tasks, events and routines on one screen, with a calendar you can decorate like a journal.</p>
+        <div class="store-buttons">
+          <span class="store-button pending" aria-disabled="true">Coming soon to the App Store</span>
+        </div>
+        <ul class="features">
+          <li><strong>Four boxes for today</strong><span>First, Steady, Quick and Someday. A simple take on the Eisenhower Matrix. Touch and hold to drag a task to another box.</span></li>
+          <li><strong>Type it like you say it</strong><span>Write "dentist tomorrow 3pm" or "gym every mon wed fri" and the date, time and repeat fill in.</span></li>
+          <li><strong>A calendar you can decorate</strong><span>Touch and hold a day to add a sticker, border or background. Events from your iPhone Calendar show up too.</span></li>
+          <li><strong>Routines on their own tab</strong><span>Daily habits stay off your calendar. See your streak and the last 15 weeks at a glance.</span></li>
+          <li><strong>Home Screen widgets</strong><span>Today, the four boxes, routines and this month.</span></li>
+          <li><strong>Backup when you sign in</strong><span>Every feature works without an account. Sign in to back up and continue on another device.</span></li>
+        </ul>
+      </section>
+
+      <section class="block" aria-labelledby="support-en">
+        <div class="support">
+          <h2 id="support-en">Support</h2>
+          <p>Questions or problems? Email us.<br><span class="mail">ekqlszzzz@naver.com</span></p>
+          <p class="actions">
+            <a class="store-button" href="mailto:ekqlszzzz@naver.com?subject=Daywrap">Email us</a>
+            <a class="button-secondary" href="/daywrap/privacy.html#en">Privacy Policy</a>
+          </p>
+        </div>
+      </section>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap">
+      © 2026 내곁의 · <a href="/daywrap/privacy.html">개인정보 처리방침</a> · <a href="/daywrap/privacy.html#en" lang="en">Privacy Policy</a>
+    </div>
+  </footer>
 </body>
 </html>
