@@ -1,4 +1,4 @@
-/* Daywrap 소개(/daywrap/)·개인정보 처리방침 전용 스타일.
+/* Daywrap 소개(/daywrap/, 앱과 같은 언어)·개인정보 처리방침 전용 스타일.
    색은 앱 src/theme/tokens.ts의 무채색 팔레트를 그대로 쓰고, 색은 4칸 형광펜(categoryPalette)에만 나온다.
    틀(머리·히어로·스토어 버튼·바닥)은 /broke/broke.css·/home.css와 같다. 글꼴은 외부 CDN 없이 시스템 글꼴. */
 :root {
@@ -79,6 +79,54 @@ img { display: block; max-width: 100%; height: auto; }
 }
 .langs a:hover { background: var(--border); }
 
+/* 소개 페이지 언어 고르기: 접힌 칩 하나, 펼치면 두 줄 목록(각 언어 자기 이름) */
+.picker { position: relative; }
+.picker summary {
+  display: inline-flex; align-items: center; gap: 6px; min-height: 48px; padding: 0 14px; border-radius: 999px;
+  background: var(--chip); color: var(--text); font-size: 0.88rem; font-weight: 600; white-space: nowrap; cursor: pointer; list-style: none;
+}
+.picker summary::-webkit-details-marker { display: none; }
+.picker summary:hover { background: var(--border); }
+.picker summary:focus-visible { outline: 2px solid var(--primary); outline-offset: 3px; }
+.picker .chev { transition: transform 0.15s ease; }
+.picker[open] .chev { transform: rotate(180deg); }
+.picker-menu {
+  position: absolute; right: 0; top: calc(100% + 8px); z-index: 10; width: min(320px, calc(100vw - 32px));
+  margin: 0; padding: 8px; list-style: none; display: grid; grid-template-columns: 1fr 1fr; gap: 2px;
+  background: var(--surface); border: 1px solid var(--border); border-radius: 20px; box-shadow: var(--shadow);
+}
+.picker-menu a {
+  display: flex; align-items: center; min-height: 48px; padding: 0 12px; border-radius: 14px;
+  color: var(--text); text-decoration: none; font-size: 0.95rem; line-height: 1.3;
+}
+.picker-menu a:hover { background: var(--panel); }
+.picker-menu a[aria-current] { background: var(--chip); font-weight: 700; }
+
+/* 언어 구역: 스크립트가 있으면 html[data-lang]인 구역만, 없으면 :target 구역(없으면 영어)만 보인다 */
+.lang-part { display: none; scroll-margin-top: 240px; }
+html:not(.js) .lang-part:target,
+html:not(.js):not(:has(.lang-part:target)) #en { display: block; }
+@supports not selector(:has(a)) { html:not(.js) #en { display: block; } }
+html[data-lang="ko"] #ko,
+html[data-lang="en"] #en,
+html[data-lang="ja"] #ja,
+html[data-lang="zh-Hans"] #zh-Hans,
+html[data-lang="zh-Hant"] #zh-Hant,
+html[data-lang="sv"] #sv,
+html[data-lang="da"] #da,
+html[data-lang="nb"] #nb,
+html[data-lang="nl"] #nl,
+html[data-lang="de"] #de,
+html[data-lang="fr"] #fr,
+html[data-lang="es"] #es,
+html[data-lang="pt"] #pt { display: block; }
+/* 좁은 4칸 안의 긴 낱말(독일어 등)만 하이픈으로 끊고, 중국어·일본어는 글자 사이에서 줄을 바꾼다 */
+.box li { hyphens: auto; -webkit-hyphens: auto; }
+:lang(ja), :lang(zh) { word-break: normal; line-break: strict; }
+:lang(ja) { font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", sans-serif; }
+:lang(zh-Hans) { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Noto Sans SC", "Microsoft YaHei", sans-serif; }
+:lang(zh-Hant) { font-family: -apple-system, BlinkMacSystemFont, "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", sans-serif; }
+
 /* 첫 화면 */
 .hero { padding: 32px 0 40px; }
 @media (min-width: 720px) { .hero { padding: 64px 0 56px; } }
@@ -102,7 +150,7 @@ img { display: block; max-width: 100%; height: auto; }
 .block .sub { margin: 0 0 20px; color: var(--muted); }
 
 /* 4칸 보기: panel 위에 흰 카드 넷(앱 오늘 화면과 같은 구성) */
-.quad { background: var(--panel); border-radius: 28px; padding: 12px; display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.quad { background: var(--panel); border-radius: 28px; padding: 12px; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
 @media (min-width: 720px) { .quad { padding: 16px; gap: 12px; } }
 .box { background: var(--surface); border-radius: 20px; padding: 14px 14px 16px; min-height: 148px; }
 .box-title { display: inline; padding: 1px 6px; margin-left: -2px; border-radius: 4px; font-weight: 700; font-size: 0.95rem; color: var(--hl-ink); -webkit-box-decoration-break: clone; box-decoration-break: clone; }
@@ -111,7 +159,7 @@ img { display: block; max-width: 100%; height: auto; }
 .box.sage .box-title { background: var(--hl-sage); }
 .box.sky .box-title { background: var(--hl-sky); }
 .box ul { list-style: none; margin: 12px 0 0; padding: 0; display: grid; gap: 6px; }
-.box li { display: flex; gap: 8px; align-items: flex-start; font-size: 0.9rem; line-height: 1.45; }
+.box li { display: flex; gap: 8px; align-items: flex-start; font-size: 0.9rem; line-height: 1.45; overflow-wrap: anywhere; }
 .box li::before { content: ""; flex: none; width: 16px; height: 16px; margin-top: 2px; border-radius: 50%; border: 1.5px solid var(--subtle); }
 .box li.done { color: var(--subtle); text-decoration: line-through; }
 .box li.done::before { background: var(--check); border-color: var(--check); }
@@ -139,13 +187,11 @@ img { display: block; max-width: 100%; height: auto; }
 .support p { margin: 0 0 16px; color: var(--muted); }
 .support .mail { font-weight: 700; color: var(--text); }
 .support .actions { display: flex; flex-wrap: wrap; gap: 10px; margin: 0; }
+.support .policy-note { margin: 12px 0 0; font-size: 0.88rem; }
 .button-secondary {
   display: inline-flex; align-items: center; justify-content: center; min-height: 52px; padding: 0 22px; border-radius: 999px;
   background: var(--chip); color: var(--text); font-weight: 700; text-decoration: none;
 }
-
-/* 영어 구역 */
-.en-part { border-top: 1px solid var(--border); margin-top: 32px; padding-top: 16px; }
 
 /* 바닥 */
 footer { padding: 32px 0 48px; color: var(--muted); font-size: 0.9rem; }

@@ -1,10 +1,10 @@
 <!doctype html>
-<html lang="ko">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Daywrap · 하루를 감싸 두는 할 일 달력</title>
-  <meta name="description" content="할 일은 4칸에 나눠 두고, 일정과 루틴은 한 화면에서 봐요. 달력은 스티커와 테두리로 다이어리처럼 꾸며요.">
+  <title>Daywrap · A to-do calendar that wraps your day</title>
+  <meta name="description" content="Tasks, events and routines on one screen, with a calendar you can decorate like a journal. In 13 languages, including 한국어, 日本語 and 中文.">
   <meta name="color-scheme" content="light dark">
   <meta name="theme-color" content="#FAFAF9" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#0F0F10" media="(prefers-color-scheme: dark)">
@@ -12,31 +12,101 @@
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="내곁의">
   <meta property="og:title" content="Daywrap">
-  <meta property="og:description" content="할 일은 4칸에 나눠 두고, 일정과 루틴은 한 화면에서 봐요. 달력은 스티커와 테두리로 다이어리처럼 꾸며요.">
+  <meta property="og:description" content="Tasks, events and routines on one screen, with a calendar you can decorate like a journal.">
   <meta property="og:image" content="https://boksday.github.io/daywrap/icon.png">
   <meta property="og:url" content="https://boksday.github.io/daywrap/">
   <meta name="twitter:card" content="summary">
   <link rel="icon" type="image/png" href="/daywrap/icon.png">
   <link rel="apple-touch-icon" href="/daywrap/icon.png">
   <link rel="stylesheet" href="/daywrap/daywrap.css">
+  <script>
+/* 언어 고르기: 주소 해시(#ja)가 먼저, 없으면 브라우저 언어, 맞는 게 없으면 영어. 스크립트가 꺼지면 CSS :target과 영어 구역이 대신한다. */
+(function () {
+  var L = ["ko", "en", "ja", "zh-Hans", "zh-Hant", "sv", "da", "nb", "nl", "de", "fr", "es", "pt"];
+  var d = document, h = d.documentElement, cur;
+  function fit(tag) {
+    var t = String(tag || "").toLowerCase().replace(/_/g, "-"), p = t.split("-")[0];
+    if (p === "zh") return /hant|-tw|-hk|-mo/.test(t) ? "zh-Hant" : "zh-Hans";
+    if (p === "no" || p === "nn") return "nb";
+    for (var i = 0; i < L.length; i++) if (L[i] === p) return p;
+    return null;
+  }
+  function fromHash() { return fit(decodeURIComponent(location.hash.slice(1))); }
+  function fromBrowser() {
+    var list = navigator.languages || [navigator.language];
+    for (var i = 0; i < list.length; i++) { var l = fit(list[i]); if (l) return l; }
+    return "en";
+  }
+  function set(l) { cur = l; h.lang = l; h.setAttribute("data-lang", l); }
+  function sync() {
+    var part = d.getElementById(cur), links = d.querySelectorAll(".picker-menu a");
+    if (part) d.title = part.getAttribute("data-title");
+    for (var i = 0; i < links.length; i++) {
+      var on = links[i].getAttribute("hreflang") === cur;
+      if (on) d.querySelector(".picker-current").textContent = links[i].textContent;
+      if (on) links[i].setAttribute("aria-current", "true"); else links[i].removeAttribute("aria-current");
+    }
+  }
+  function toSupport() {
+    if (location.hash !== "#support") return;
+    var el = d.getElementById(cur === "en" ? "support" : "support-" + cur);
+    if (el) el.scrollIntoView();
+  }
+  h.className += " js";
+  set(fromHash() || fromBrowser());
+  d.addEventListener("DOMContentLoaded", function () {
+    var picker = d.querySelector(".picker");
+    sync();
+    toSupport();
+    addEventListener("hashchange", function () {
+      var l = fromHash();
+      if (l) { set(l); sync(); scrollTo(0, 0); }
+      picker.open = false;
+      toSupport();
+    });
+    picker.addEventListener("click", function (e) { if (e.target.closest(".picker-menu a")) picker.open = false; });
+    d.addEventListener("click", function (e) { if (picker.open && !picker.contains(e.target)) picker.open = false; });
+    d.addEventListener("keydown", function (e) {
+      if (e.key === "Escape" && picker.open) { picker.open = false; picker.querySelector("summary").focus(); }
+    });
+  });
+})();
+  </script>
 </head>
 <body>
   <header class="top">
     <div class="wrap">
-      <a class="wordmark" href="/">내곁의</a>
-      <nav class="langs" aria-label="언어 · Language">
-        <a href="#ko" hreflang="ko" lang="ko">한국어</a>
-        <a href="#en" hreflang="en" lang="en">English</a>
+      <a class="wordmark" href="/" lang="ko">내곁의</a>
+      <nav aria-label="Language · 언어">
+      <details class="picker">
+        <summary><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z"/></svg><span class="picker-current">Language</span><svg class="chev" aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></summary>
+        <ul class="picker-menu">
+          <li><a href="#ko" hreflang="ko" lang="ko">한국어</a></li>
+          <li><a href="#en" hreflang="en" lang="en">English</a></li>
+          <li><a href="#ja" hreflang="ja" lang="ja">日本語</a></li>
+          <li><a href="#zh-Hans" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+          <li><a href="#zh-Hant" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+          <li><a href="#sv" hreflang="sv" lang="sv">Svenska</a></li>
+          <li><a href="#da" hreflang="da" lang="da">Dansk</a></li>
+          <li><a href="#nb" hreflang="nb" lang="nb">Norsk bokmål</a></li>
+          <li><a href="#nl" hreflang="nl" lang="nl">Nederlands</a></li>
+          <li><a href="#de" hreflang="de" lang="de">Deutsch</a></li>
+          <li><a href="#fr" hreflang="fr" lang="fr">Français</a></li>
+          <li><a href="#es" hreflang="es" lang="es">Español</a></li>
+          <li><a href="#pt" hreflang="pt" lang="pt">Português</a></li>
+        </ul>
+      </details>
       </nav>
     </div>
   </header>
 
-  <main id="ko">
+  <main>
+  <div id="ko" lang="ko" class="lang-part" data-title="Daywrap · 하루를 감싸 두는 할 일 달력">
     <section class="hero">
       <div class="wrap">
         <picture>
           <source srcset="/daywrap/img/icon-dark.png" media="(prefers-color-scheme: dark)">
-          <img class="app-icon" src="/daywrap/icon.png" alt="Daywrap 앱 아이콘" width="88" height="88">
+          <img class="app-icon" src="/daywrap/icon.png" alt="" width="88" height="88">
         </picture>
         <p class="app-name">Daywrap</p>
         <h1>하루를 감싸 두는<br>할 일 달력</h1>
@@ -44,20 +114,15 @@
         <div class="store-buttons">
           <span class="store-button pending" aria-disabled="true">곧 App Store에서 만나요</span>
         </div>
-        <ul class="chips" aria-label="한눈에">
-          <li>4칸 할 일</li>
-          <li>루틴</li>
-          <li>다꾸 달력</li>
-          <li>홈 화면 위젯</li>
-        </ul>
+        <ul class="chips"><li>4칸 할 일</li><li>루틴</li><li>다꾸 달력</li><li>홈 화면 위젯</li></ul>
       </div>
     </section>
 
     <div class="wrap">
-      <section class="block" aria-labelledby="quad-title">
-        <h2 id="quad-title">오늘 할 일은 4칸에</h2>
+      <section class="block" aria-labelledby="quad-ko">
+        <h2 id="quad-ko">오늘 할 일은 4칸에</h2>
         <p class="sub">급한 일과 중요한 일을 나눠 보는 아이젠하워 매트릭스를 쉽게 썼어요.</p>
-        <div class="quad" role="img" aria-label="4칸 예시: 먼저 할 일, 차근차근, 금방 끝낼 일, 여유 있을 때">
+        <div class="quad">
           <div class="box ember">
             <span class="box-title">먼저 할 일</span>
             <ul><li>보고서 마감</li><li class="done">치과 예약 전화</li></ul>
@@ -78,7 +143,7 @@
         <p class="quad-note">길게 눌러 끌면 다른 칸으로 옮겨요. 칸 이름과 색, 형광펜, 배경 무늬는 칸마다 바꿀 수 있어요.</p>
       </section>
 
-      <section class="block" aria-labelledby="calendar-title">
+      <section class="block" aria-labelledby="calendar-ko">
         <div class="split">
           <figure class="shot">
             <picture>
@@ -87,7 +152,7 @@
             </picture>
           </figure>
           <div>
-            <h2 id="calendar-title">다꾸하는 달력</h2>
+            <h2 id="calendar-ko">다꾸하는 달력</h2>
             <p class="sub">날짜를 길게 누르면 스티커, 테두리, 배경색으로 꾸며요.</p>
             <ul>
               <li>여러 날을 끌어 고르면 기간을 한 번에 꾸며요.</li>
@@ -97,11 +162,11 @@
         </div>
       </section>
 
-      <section class="block" aria-labelledby="features-title">
-        <h2 id="features-title">이런 것도 돼요</h2>
+      <section class="block" aria-labelledby="features-ko">
+        <h2 id="features-ko">이런 것도 돼요</h2>
         <p class="sub">로그인하지 않아도 모든 기능을 쓸 수 있어요.</p>
         <ul class="features">
-          <li><strong>말하듯 적으면 날짜까지</strong><span>'내일 오후 3시 치과', '매주 월수금 운동'처럼 적으면 날짜와 시각, 반복을 알아들어요.</span></li>
+          <li><strong>말하듯 적으면 날짜까지</strong><span>&#x27;내일 오후 3시 치과&#x27;, &#x27;매주 월수금 운동&#x27;처럼 적으면 날짜와 시각, 반복을 알아들어요.</span></li>
           <li><strong>루틴은 따로</strong><span>물 마시기, 스트레칭 같은 일은 루틴 탭에서 체크해요. 며칠째 이어 하는지 한눈에 봐요.</span></li>
           <li><strong>홈 화면 위젯</strong><span>오늘 할 일, 오늘 4칸, 루틴, 이번 달을 홈 화면에 둬요.</span></li>
           <li><strong>내 취향대로</strong><span>테마, 색 팩, 스티커, 앱 아이콘과 글꼴을 골라 써요.</span></li>
@@ -110,9 +175,9 @@
         </ul>
       </section>
 
-      <section class="block" id="support" aria-labelledby="support-title">
+      <section class="block" id="support-ko" aria-labelledby="support-title-ko">
         <div class="support">
-          <h2 id="support-title">고객 지원</h2>
+          <h2 id="support-title-ko">고객 지원</h2>
           <p>쓰다가 막히거나 고쳤으면 하는 곳이 있으면 메일로 알려 주세요.<br><span class="mail">ekqlszzzz@naver.com</span></p>
           <p class="actions">
             <a class="store-button" href="mailto:ekqlszzzz@naver.com?subject=Daywrap">메일 보내기</a>
@@ -121,30 +186,84 @@
         </div>
       </section>
     </div>
-  </main>
-
-  <section id="en" lang="en" class="en-part">
-    <div class="wrap">
-      <section class="block">
+  </div>
+  <div id="en" lang="en" class="lang-part" data-title="Daywrap · A to-do calendar that wraps your day">
+    <section class="hero">
+      <div class="wrap">
+        <picture>
+          <source srcset="/daywrap/img/icon-dark.png" media="(prefers-color-scheme: dark)">
+          <img class="app-icon" src="/daywrap/icon.png" alt="" width="88" height="88">
+        </picture>
         <p class="app-name">Daywrap</p>
-        <h2>A to-do calendar that wraps your day</h2>
-        <p class="sub">Tasks, events and routines on one screen, with a calendar you can decorate like a journal.</p>
+        <h1>A to-do calendar<br>that wraps your day</h1>
+        <p class="lead">Tasks, events and routines on one screen, with a calendar you can decorate like a journal.</p>
         <div class="store-buttons">
           <span class="store-button pending" aria-disabled="true">Coming soon to the App Store</span>
         </div>
+        <ul class="chips"><li>Four-box tasks</li><li>Routines</li><li>Calendar you can decorate</li><li>Home Screen widgets</li></ul>
+      </div>
+    </section>
+
+    <div class="wrap">
+      <section class="block" aria-labelledby="quad-en">
+        <h2 id="quad-en">Four boxes for today</h2>
+        <p class="sub">A simple take on the Eisenhower Matrix for urgent and important tasks.</p>
+        <div class="quad">
+          <div class="box ember">
+            <span class="box-title">First</span>
+            <ul><li>Report due</li><li class="done">Book the dentist</li></ul>
+          </div>
+          <div class="box honey">
+            <span class="box-title">Steady</span>
+            <ul><li>30 new words</li><li>Find a place to stay</li></ul>
+          </div>
+          <div class="box sage">
+            <span class="box-title">Quick</span>
+            <ul><li class="done">Return a parcel</li><li>Pay the bills</li></ul>
+          </div>
+          <div class="box sky">
+            <span class="box-title">Someday</span>
+            <ul><li>Sort photos</li></ul>
+          </div>
+        </div>
+        <p class="quad-note">Touch and hold to drag a task to another box or reorder it. Change each box&#x27;s name, color, highlighter, background pattern and sticker.</p>
+      </section>
+
+      <section class="block" aria-labelledby="calendar-en">
+        <div class="split">
+          <figure class="shot">
+            <picture>
+              <source srcset="/daywrap/img/calendar-dark.webp" media="(prefers-color-scheme: dark)">
+              <img src="/daywrap/img/calendar-light.webp" alt="October calendar decorated with stickers and borders" width="880" height="717" loading="lazy">
+            </picture>
+          </figure>
+          <div>
+            <h2 id="calendar-en">A calendar you can decorate</h2>
+            <p class="sub">Touch and hold a day to add a sticker, border, background or date mark.</p>
+            <ul>
+              <li>Drag across days to decorate a whole range.</li>
+              <li>See events from the iPhone Calendar (including Google and iCloud calendars you&#x27;ve added) in Daywrap. Read only. Your events stay on this device.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="block" aria-labelledby="features-en">
+        <h2 id="features-en">And more</h2>
+        <p class="sub">Every feature works without signing in.</p>
         <ul class="features">
-          <li><strong>Four boxes for today</strong><span>First, Steady, Quick and Someday. A simple take on the Eisenhower Matrix. Touch and hold to drag a task to another box.</span></li>
-          <li><strong>Type it like you say it</strong><span>Write "dentist tomorrow 3pm" or "gym every mon wed fri" and the date, time and repeat fill in.</span></li>
-          <li><strong>A calendar you can decorate</strong><span>Touch and hold a day to add a sticker, border or background. Events from your iPhone Calendar show up too.</span></li>
+          <li><strong>Type it like you say it</strong><span>Write &quot;dentist tomorrow 3pm&quot; or &quot;gym every mon wed fri&quot; and the date, time and repeat fill in.</span></li>
           <li><strong>Routines on their own tab</strong><span>Daily habits stay off your calendar. See your streak and the last 15 weeks at a glance.</span></li>
           <li><strong>Home Screen widgets</strong><span>Today, the four boxes, routines and this month.</span></li>
-          <li><strong>Backup when you sign in</strong><span>Every feature works without an account. Sign in to back up and continue on another device.</span></li>
+          <li><strong>Make it yours</strong><span>Pick themes, color packs, box patterns, borders and stickers in the store. Change the app icon and font.</span></li>
+          <li><strong>Reminders</strong><span>Get reminded of tasks, events and routines at the time you set.</span></li>
+          <li><strong>Backup when you sign in</strong><span>Sign in with Apple, Google, Kakao or NAVER to back up and continue on another device. Delete your account anytime in More.</span></li>
         </ul>
       </section>
 
-      <section class="block" aria-labelledby="support-en">
+      <section class="block" id="support" aria-labelledby="support-title-en">
         <div class="support">
-          <h2 id="support-en">Support</h2>
+          <h2 id="support-title-en">Support</h2>
           <p>Questions or problems? Email us.<br><span class="mail">ekqlszzzz@naver.com</span></p>
           <p class="actions">
             <a class="store-button" href="mailto:ekqlszzzz@naver.com?subject=Daywrap">Email us</a>
@@ -153,11 +272,966 @@
         </div>
       </section>
     </div>
-  </section>
+  </div>
+  <div id="ja" lang="ja" class="lang-part" data-title="Daywrap · 1日をやさしく包むタスクカレンダー">
+    <section class="hero">
+      <div class="wrap">
+        <picture>
+          <source srcset="/daywrap/img/icon-dark.png" media="(prefers-color-scheme: dark)">
+          <img class="app-icon" src="/daywrap/icon.png" alt="" width="88" height="88">
+        </picture>
+        <p class="app-name">Daywrap</p>
+        <h1>1日をやさしく包む<br>タスクカレンダー</h1>
+        <p class="lead">やること・予定・毎日のルーティンを1画面で見て、カレンダーは手帳のようにシールや枠でデコれます。</p>
+        <div class="store-buttons">
+          <span class="store-button pending" aria-disabled="true">まもなく App Store で公開</span>
+        </div>
+        <ul class="chips"><li>4マスのタスク</li><li>ルーティン</li><li>デコれるカレンダー</li><li>ホーム画面ウィジェット</li></ul>
+      </div>
+    </section>
+
+    <div class="wrap">
+      <section class="block" aria-labelledby="quad-ja">
+        <h2 id="quad-ja">4マスで分ける今日のタスク</h2>
+        <p class="sub">急ぎと大事を分ける優先順位の整理(アイゼンハワーマトリクス)を使いやすくしました。</p>
+        <div class="quad">
+          <div class="box ember">
+            <span class="box-title">まずやること</span>
+            <ul><li>報告書の締切</li><li class="done">歯医者の予約</li></ul>
+          </div>
+          <div class="box honey">
+            <span class="box-title">コツコツ</span>
+            <ul><li>英単語30個</li><li>旅行の宿探し</li></ul>
+          </div>
+          <div class="box sage">
+            <span class="box-title">すぐ終わる</span>
+            <ul><li class="done">宅配の返品</li><li>管理費を払う</li></ul>
+          </div>
+          <div class="box sky">
+            <span class="box-title">余裕があるとき</span>
+            <ul><li>写真の整理</li></ul>
+          </div>
+        </div>
+        <p class="quad-note">長押ししてドラッグすると別のマスへ移動や並べ替え。マスごとに名前・色・蛍光ペン・背景の柄・シールを変えられます。</p>
+      </section>
+
+      <section class="block" aria-labelledby="calendar-ja">
+        <div class="split">
+          <figure class="shot">
+            <picture>
+              <source srcset="/daywrap/img/calendar-dark.webp" media="(prefers-color-scheme: dark)">
+              <img src="/daywrap/img/calendar-light.webp" alt="シールと枠でデコった10月のカレンダー" width="880" height="717" loading="lazy">
+            </picture>
+          </figure>
+          <div>
+            <h2 id="calendar-ja">デコれるカレンダー</h2>
+            <p class="sub">日付を長押しするとシール・枠・背景色・日付マークでデコれます。</p>
+            <ul>
+              <li>何日かをドラッグして選ぶと期間をまとめてデコれます。</li>
+              <li>iPhone のカレンダー(追加した Google・iCloud カレンダーを含む)の予定を Daywrap に一緒に表示します。読み込むだけで、予定はこのデバイスの外に出ません。</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="block" aria-labelledby="features-ja">
+        <h2 id="features-ja">ほかにもできること</h2>
+        <p class="sub">ログインしなくてもすべての機能を使えます。</p>
+        <ul class="features">
+          <li><strong>予定はルーティンと分けて</strong><span>水を飲む・ストレッチのような毎日のことはルーティンに。ルーティンタブでチェックし、カレンダーには表示されません。何日続いているか、今週と直近15週の記録をひと目で見られます。</span></li>
+          <li><strong>ホーム画面ウィジェット</strong><span>今日のタスク、今日の4マス、今日のルーティン、今月。</span></li>
+          <li><strong>自分好みに</strong><span>テーマ・カラーパック・枠の背景・枠線・シールをストアで選べます。アプリアイコンと書体も変えられます。</span></li>
+          <li><strong>通知</strong><span>タスク・予定・ルーティンを決めた時刻にお知らせします。</span></li>
+          <li><strong>ログインでバックアップと同期</strong><span>Apple・Google・Kakao・NAVER でログインすると記録がバックアップされ、ほかのデバイスでも続けて使えます。その他からいつでもアカウントを削除できます。</span></li>
+        </ul>
+      </section>
+
+      <section class="block" id="support-ja" aria-labelledby="support-title-ja">
+        <div class="support">
+          <h2 id="support-title-ja">サポート</h2>
+          <p>お問い合わせは<br><span class="mail">ekqlszzzz@naver.com</span> までお送りください。</p>
+          <p class="actions">
+            <a class="store-button" href="mailto:ekqlszzzz@naver.com?subject=Daywrap">お問い合わせ</a>
+            <a class="button-secondary" href="/daywrap/privacy.html#en">プライバシーポリシー</a>
+          </p>
+          <p class="policy-note">プライバシーポリシーは英語版を基準とします。</p>
+        </div>
+      </section>
+    </div>
+  </div>
+  <div id="zh-Hans" lang="zh-Hans" class="lang-part" data-title="Daywrap · 把一天好好收起来的待办日历">
+    <section class="hero">
+      <div class="wrap">
+        <picture>
+          <source srcset="/daywrap/img/icon-dark.png" media="(prefers-color-scheme: dark)">
+          <img class="app-icon" src="/daywrap/icon.png" alt="" width="88" height="88">
+        </picture>
+        <p class="app-name">Daywrap</p>
+        <h1>把一天好好收起来的<br>待办日历</h1>
+        <p class="lead">在一个画面里看待办、日程和每天的习惯，日历还能像手账一样用贴纸和边框装饰。</p>
+        <div class="store-buttons">
+          <span class="store-button pending" aria-disabled="true">即将上架 App Store</span>
+        </div>
+        <ul class="chips"><li>四格待办</li><li>习惯</li><li>能装饰的日历</li><li>主屏幕小组件</li></ul>
+      </div>
+    </section>
+
+    <div class="wrap">
+      <section class="block" aria-labelledby="quad-zh-Hans">
+        <h2 id="quad-zh-Hans">用四格整理今天的待办</h2>
+        <p class="sub">把紧急和重要分开的四象限（艾森豪威尔矩阵），用起来更简单。</p>
+        <div class="quad">
+          <div class="box ember">
+            <span class="box-title">先做的事</span>
+            <ul><li>报告截止</li><li class="done">预约牙医</li></ul>
+          </div>
+          <div class="box honey">
+            <span class="box-title">慢慢来</span>
+            <ul><li>背30个单词</li><li>找旅行住处</li></ul>
+          </div>
+          <div class="box sage">
+            <span class="box-title">很快做完</span>
+            <ul><li class="done">退快递</li><li>交物业费</li></ul>
+          </div>
+          <div class="box sky">
+            <span class="box-title">有空再做</span>
+            <ul><li>整理照片</li></ul>
+          </div>
+        </div>
+        <p class="quad-note">长按拖动可以移到其他格子或调整顺序。每个格子的名称、颜色、荧光笔、背景图案和贴纸都能改。</p>
+      </section>
+
+      <section class="block" aria-labelledby="calendar-zh-Hans">
+        <div class="split">
+          <figure class="shot">
+            <picture>
+              <source srcset="/daywrap/img/calendar-dark.webp" media="(prefers-color-scheme: dark)">
+              <img src="/daywrap/img/calendar-light.webp" alt="用贴纸和边框装饰的 10 月日历" width="880" height="717" loading="lazy">
+            </picture>
+          </figure>
+          <div>
+            <h2 id="calendar-zh-Hans">能装饰的日历</h2>
+            <p class="sub">长按日期即可加上贴纸、边框、背景色和日期标记。</p>
+            <ul>
+              <li>拖动选择几天，一次装饰整个时间段。</li>
+              <li>把 iPhone 日历（包括已添加的 Google、iCloud 日历）里的日程一起显示在 Daywrap 中。只读取，日程不会离开这台设备。</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="block" aria-labelledby="features-zh-Hans">
+        <h2 id="features-zh-Hans">还能这样用</h2>
+        <p class="sub">不登录也能使用全部功能。</p>
+        <ul class="features">
+          <li><strong>习惯不挤占日历</strong><span>喝水、拉伸这样每天做的事设成习惯，在习惯页打卡，不会显示在日历上。看看连续了几天，以及本周和最近 15 周的记录。</span></li>
+          <li><strong>主屏幕小组件</strong><span>今天的待办、今天的四格、今天的习惯、本月。</span></li>
+          <li><strong>按你的喜好</strong><span>在商店挑选主题、色包、格子背景、边框和贴纸。还能更换应用图标和字体。</span></li>
+          <li><strong>提醒</strong><span>在你设定的时间提醒待办、日程和习惯。</span></li>
+          <li><strong>登录即可备份和同步</strong><span>用 Apple、Google、Kakao 或 NAVER 登录后，记录会被备份，在其他设备上也能接着用。随时可以在“更多”中删除账号。</span></li>
+        </ul>
+      </section>
+
+      <section class="block" id="support-zh-Hans" aria-labelledby="support-title-zh-Hans">
+        <div class="support">
+          <h2 id="support-title-zh-Hans">支持</h2>
+          <p>有问题请发送至<br><span class="mail">ekqlszzzz@naver.com</span></p>
+          <p class="actions">
+            <a class="store-button" href="mailto:ekqlszzzz@naver.com?subject=Daywrap">联系我们</a>
+            <a class="button-secondary" href="/daywrap/privacy.html#en">隐私政策</a>
+          </p>
+          <p class="policy-note">隐私政策以英文版为准。</p>
+        </div>
+      </section>
+    </div>
+  </div>
+  <div id="zh-Hant" lang="zh-Hant" class="lang-part" data-title="Daywrap · 把一天好好收起來的待辦行事曆">
+    <section class="hero">
+      <div class="wrap">
+        <picture>
+          <source srcset="/daywrap/img/icon-dark.png" media="(prefers-color-scheme: dark)">
+          <img class="app-icon" src="/daywrap/icon.png" alt="" width="88" height="88">
+        </picture>
+        <p class="app-name">Daywrap</p>
+        <h1>把一天好好收起來的<br>待辦行事曆</h1>
+        <p class="lead">在一個畫面裡看待辦、行程和每天的習慣，行事曆還能像手帳一樣用貼紙和邊框裝飾。</p>
+        <div class="store-buttons">
+          <span class="store-button pending" aria-disabled="true">即將在 App Store 上架</span>
+        </div>
+        <ul class="chips"><li>四格待辦</li><li>習慣</li><li>能裝飾的行事曆</li><li>主畫面小工具</li></ul>
+      </div>
+    </section>
+
+    <div class="wrap">
+      <section class="block" aria-labelledby="quad-zh-Hant">
+        <h2 id="quad-zh-Hant">用四格整理今天的待辦</h2>
+        <p class="sub">把緊急和重要分開的四象限（艾森豪矩陣），用起來更簡單。</p>
+        <div class="quad">
+          <div class="box ember">
+            <span class="box-title">先做的事</span>
+            <ul><li>報告截止</li><li class="done">預約牙醫</li></ul>
+          </div>
+          <div class="box honey">
+            <span class="box-title">慢慢來</span>
+            <ul><li>背30個單字</li><li>找旅行住宿</li></ul>
+          </div>
+          <div class="box sage">
+            <span class="box-title">很快做完</span>
+            <ul><li class="done">寄退貨</li><li>繳管理費</li></ul>
+          </div>
+          <div class="box sky">
+            <span class="box-title">有空再做</span>
+            <ul><li>整理照片</li></ul>
+          </div>
+        </div>
+        <p class="quad-note">長按拖動可以移到其他格子或調整順序。每個格子的名稱、顏色、螢光筆、背景圖案和貼紙都能改。</p>
+      </section>
+
+      <section class="block" aria-labelledby="calendar-zh-Hant">
+        <div class="split">
+          <figure class="shot">
+            <picture>
+              <source srcset="/daywrap/img/calendar-dark.webp" media="(prefers-color-scheme: dark)">
+              <img src="/daywrap/img/calendar-light.webp" alt="用貼紙和邊框裝飾的 10 月行事曆" width="880" height="717" loading="lazy">
+            </picture>
+          </figure>
+          <div>
+            <h2 id="calendar-zh-Hant">能裝飾的行事曆</h2>
+            <p class="sub">長按日期即可加上貼紙、邊框、背景色和日期標記。</p>
+            <ul>
+              <li>拖動選擇幾天，一次裝飾整個時間段。</li>
+              <li>把 iPhone 行事曆（包括已加入的 Google、iCloud 行事曆）裡的行程一起顯示在 Daywrap 中。只讀取，行程不會離開這台裝置。</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="block" aria-labelledby="features-zh-Hant">
+        <h2 id="features-zh-Hant">還能這樣用</h2>
+        <p class="sub">不登入也能使用全部功能。</p>
+        <ul class="features">
+          <li><strong>習慣不擠占行事曆</strong><span>喝水、伸展這樣每天做的事設成習慣，在習慣頁打勾，不會顯示在行事曆上。看看連續了幾天，以及本週和最近 15 週的紀錄。</span></li>
+          <li><strong>主畫面小工具</strong><span>今天的待辦、今天的四格、今天的習慣、本月。</span></li>
+          <li><strong>照你的喜好</strong><span>在商店挑選主題、色包、格子背景、邊框和貼紙。還能更換 App 圖示和字體。</span></li>
+          <li><strong>提醒</strong><span>在你設定的時間提醒待辦、行程和習慣。</span></li>
+          <li><strong>登入即可備份和同步</strong><span>用 Apple、Google、Kakao 或 NAVER 登入後，紀錄會被備份，在其他裝置上也能接著用。隨時可以在「更多」中刪除帳號。</span></li>
+        </ul>
+      </section>
+
+      <section class="block" id="support-zh-Hant" aria-labelledby="support-title-zh-Hant">
+        <div class="support">
+          <h2 id="support-title-zh-Hant">支援</h2>
+          <p>有問題請寄到<br><span class="mail">ekqlszzzz@naver.com</span></p>
+          <p class="actions">
+            <a class="store-button" href="mailto:ekqlszzzz@naver.com?subject=Daywrap">聯絡我們</a>
+            <a class="button-secondary" href="/daywrap/privacy.html#en">隱私權政策</a>
+          </p>
+          <p class="policy-note">隱私權政策以英文版為準。</p>
+        </div>
+      </section>
+    </div>
+  </div>
+  <div id="sv" lang="sv" class="lang-part" data-title="Daywrap · Daywrap samlar din dag">
+    <section class="hero">
+      <div class="wrap">
+        <picture>
+          <source srcset="/daywrap/img/icon-dark.png" media="(prefers-color-scheme: dark)">
+          <img class="app-icon" src="/daywrap/icon.png" alt="" width="88" height="88">
+        </picture>
+        <p class="app-name">Daywrap</p>
+        <h1>Daywrap samlar din dag</h1>
+        <p class="lead">Uppgifter, händelser och rutiner på en skärm, med en kalender som du dekorerar som en dagbok.</p>
+        <div class="store-buttons">
+          <span class="store-button pending" aria-disabled="true">Snart i App Store</span>
+        </div>
+        <ul class="chips"><li>Uppgifter i fyra rutor</li><li>Rutiner</li><li>En kalender att dekorera</li><li>Widgetar på hemskärmen</li></ul>
+      </div>
+    </section>
+
+    <div class="wrap">
+      <section class="block" aria-labelledby="quad-sv">
+        <h2 id="quad-sv">Fyra rutor för i dag</h2>
+        <p class="sub">Ett enkelt sätt att använda Eisenhowermatrisen för det som är bråttom och det som är viktigt.</p>
+        <div class="quad">
+          <div class="box ember">
+            <span class="box-title">Först</span>
+            <ul><li>Rapporten ska in</li><li class="done">Boka tandläkaren</li></ul>
+          </div>
+          <div class="box honey">
+            <span class="box-title">Stegvis</span>
+            <ul><li>30 nya ord</li><li>Hitta boende</li></ul>
+          </div>
+          <div class="box sage">
+            <span class="box-title">Snabbt</span>
+            <ul><li class="done">Returnera paket</li><li>Betala räkningar</li></ul>
+          </div>
+          <div class="box sky">
+            <span class="box-title">Någon gång</span>
+            <ul><li>Sortera foton</li></ul>
+          </div>
+        </div>
+        <p class="quad-note">Håll ned och dra en uppgift till en annan ruta eller ändra ordningen. Ändra namn, färg, överstrykning, bakgrundsmönster och klistermärke för varje ruta.</p>
+      </section>
+
+      <section class="block" aria-labelledby="calendar-sv">
+        <div class="split">
+          <figure class="shot">
+            <picture>
+              <source srcset="/daywrap/img/calendar-dark.webp" media="(prefers-color-scheme: dark)">
+              <img src="/daywrap/img/calendar-light.webp" alt="Oktoberkalender dekorerad med klistermärken och ramar" width="880" height="717" loading="lazy">
+            </picture>
+          </figure>
+          <div>
+            <h2 id="calendar-sv">En kalender att dekorera</h2>
+            <p class="sub">Håll ned en dag för att lägga till klistermärke, ram, bakgrund eller datummarkering.</p>
+            <ul>
+              <li>Dra över flera dagar för att dekorera en hel period.</li>
+              <li>Se händelser från iPhones Kalender (även Google- och iCloud-kalendrar du har lagt till) i Daywrap. Bara läsning. Dina händelser stannar på enheten.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="block" aria-labelledby="features-sv">
+        <h2 id="features-sv">Och mer</h2>
+        <p class="sub">Alla funktioner fungerar utan inloggning.</p>
+        <ul class="features">
+          <li><strong>Lägg till snabbt</strong><span>Klistra in flera rader från Anteckningar och dela upp dem i separata uppgifter. Spara vanliga uppgifter och lägg till dem på flera dagar samtidigt.</span></li>
+          <li><strong>Rutiner som håller kalendern ren</strong><span>Dagliga vanor som att dricka vatten eller stretcha har en egen flik, Rutiner, och syns inte i kalendern. Se hur många dagar i rad du hållit i, den här veckan och de senaste 15 veckorna.</span></li>
+          <li><strong>Widgetar på hemskärmen</strong><span>I dag, Dagens fyra rutor, Dagens rutiner och Den här månaden.</span></li>
+          <li><strong>Gör den till din</strong><span>Välj teman, färgpaket, rutmönster, ramar och klistermärken i butiken. Byt appikon och typsnitt.</span></li>
+          <li><strong>Påminnelser</strong><span>Få påminnelser om uppgifter, händelser och rutiner vid den tid du väljer.</span></li>
+          <li><strong>Logga in för att säkerhetskopiera och synka</strong><span>Logga in med Apple, Google, Kakao eller NAVER för att säkerhetskopiera och fortsätta på en annan enhet. Radera ditt konto när du vill under Mer.</span></li>
+        </ul>
+      </section>
+
+      <section class="block" id="support-sv" aria-labelledby="support-title-sv">
+        <div class="support">
+          <h2 id="support-title-sv">Support</h2>
+          <p>Frågor? Skriv till<br><span class="mail">ekqlszzzz@naver.com</span></p>
+          <p class="actions">
+            <a class="store-button" href="mailto:ekqlszzzz@naver.com?subject=Daywrap">Kontakta oss</a>
+            <a class="button-secondary" href="/daywrap/privacy.html#en">Integritetspolicy</a>
+          </p>
+          <p class="policy-note">Integritetspolicyn finns på engelska, och den engelska versionen gäller.</p>
+        </div>
+      </section>
+    </div>
+  </div>
+  <div id="da" lang="da" class="lang-part" data-title="Daywrap · Daywrap samler din dag">
+    <section class="hero">
+      <div class="wrap">
+        <picture>
+          <source srcset="/daywrap/img/icon-dark.png" media="(prefers-color-scheme: dark)">
+          <img class="app-icon" src="/daywrap/icon.png" alt="" width="88" height="88">
+        </picture>
+        <p class="app-name">Daywrap</p>
+        <h1>Daywrap samler din dag</h1>
+        <p class="lead">Opgaver, begivenheder og rutiner på én skærm og en kalender, du kan pynte som en dagbog.</p>
+        <div class="store-buttons">
+          <span class="store-button pending" aria-disabled="true">Snart i App Store</span>
+        </div>
+        <ul class="chips"><li>Opgaver i fire felter</li><li>Rutiner</li><li>En kalender, du kan pynte</li><li>Widgets til hjemmeskærmen</li></ul>
+      </div>
+    </section>
+
+    <div class="wrap">
+      <section class="block" aria-labelledby="quad-da">
+        <h2 id="quad-da">Fire felter til i dag</h2>
+        <p class="sub">En enkel udgave af Eisenhower-matricen til det, der haster, og det, der er vigtigt.</p>
+        <div class="quad">
+          <div class="box ember">
+            <span class="box-title">Først</span>
+            <ul><li>Rapportfrist</li><li class="done">Bestil tid hos tandlægen</li></ul>
+          </div>
+          <div class="box honey">
+            <span class="box-title">Roligt</span>
+            <ul><li>30 nye ord</li><li>Find et sted at bo</li></ul>
+          </div>
+          <div class="box sage">
+            <span class="box-title">Hurtigt</span>
+            <ul><li class="done">Returnér pakke</li><li>Betal regninger</li></ul>
+          </div>
+          <div class="box sky">
+            <span class="box-title">En dag</span>
+            <ul><li>Sortér billeder</li></ul>
+          </div>
+        </div>
+        <p class="quad-note">Hold en opgave nede for at trække den til et andet felt eller ændre rækkefølgen. Skift navn, farve, overstregning, baggrundsmønster og klistermærke for hvert felt.</p>
+      </section>
+
+      <section class="block" aria-labelledby="calendar-da">
+        <div class="split">
+          <figure class="shot">
+            <picture>
+              <source srcset="/daywrap/img/calendar-dark.webp" media="(prefers-color-scheme: dark)">
+              <img src="/daywrap/img/calendar-light.webp" alt="Oktoberkalender pyntet med klistermærker og kanter" width="880" height="717" loading="lazy">
+            </picture>
+          </figure>
+          <div>
+            <h2 id="calendar-da">En kalender, du kan pynte</h2>
+            <p class="sub">Hold en dag nede for at tilføje klistermærke, kant, baggrund eller datomarkering.</p>
+            <ul>
+              <li>Træk hen over flere dage for at pynte en hel periode.</li>
+              <li>Se begivenheder fra Kalender på iPhone (også Google- og iCloud-kalendere, du har tilføjet) i Daywrap. Kun læsning. Dine begivenheder bliver på denne enhed.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="block" aria-labelledby="features-da">
+        <h2 id="features-da">Og mere</h2>
+        <p class="sub">Alle funktioner virker uden at logge ind.</p>
+        <ul class="features">
+          <li><strong>Hurtigt ind</strong><span>Indsæt flere linjer fra Noter, og del dem op i separate opgaver. Gem opgaver, du ofte laver, som faste opgaver, og tilføj dem til mange dage på én gang.</span></li>
+          <li><strong>Rutiner, der holder kalenderen ryddelig</strong><span>Daglige vaner som at drikke vand eller strække ud har deres egen fane og vises ikke i kalenderen. Se, hvor mange dage i træk du har holdt dem, denne uge og de seneste 15 uger.</span></li>
+          <li><strong>Widgets til hjemmeskærmen</strong><span>I dag, Dagens fire felter, Dagens rutiner og Denne måned.</span></li>
+          <li><strong>Gør den til din egen</strong><span>Vælg temaer, farvepakker, feltmønstre, kanter og klistermærker i butikken. Skift appikon og skrift.</span></li>
+          <li><strong>Påmindelser</strong><span>Få påmindelser om opgaver, begivenheder og rutiner på det tidspunkt, du vælger.</span></li>
+          <li><strong>Log ind for backup og synkronisering</strong><span>Log ind med Apple, Google, Kakao eller NAVER for at tage backup og fortsætte på en anden enhed. Du kan slette din konto når som helst under Mere.</span></li>
+        </ul>
+      </section>
+
+      <section class="block" id="support-da" aria-labelledby="support-title-da">
+        <div class="support">
+          <h2 id="support-title-da">Support</h2>
+          <p>Har du spørgsmål? Skriv til<br><span class="mail">ekqlszzzz@naver.com</span></p>
+          <p class="actions">
+            <a class="store-button" href="mailto:ekqlszzzz@naver.com?subject=Daywrap">Kontakt os</a>
+            <a class="button-secondary" href="/daywrap/privacy.html#en">Privatlivspolitik</a>
+          </p>
+          <p class="policy-note">Privatlivspolitikken er på engelsk, og den engelske version gælder.</p>
+        </div>
+      </section>
+    </div>
+  </div>
+  <div id="nb" lang="nb" class="lang-part" data-title="Daywrap · Daywrap samler dagen din">
+    <section class="hero">
+      <div class="wrap">
+        <picture>
+          <source srcset="/daywrap/img/icon-dark.png" media="(prefers-color-scheme: dark)">
+          <img class="app-icon" src="/daywrap/icon.png" alt="" width="88" height="88">
+        </picture>
+        <p class="app-name">Daywrap</p>
+        <h1>Daywrap samler dagen din</h1>
+        <p class="lead">Oppgaver, hendelser og rutiner på én skjerm og en kalender du kan pynte som en dagbok.</p>
+        <div class="store-buttons">
+          <span class="store-button pending" aria-disabled="true">Snart i App Store</span>
+        </div>
+        <ul class="chips"><li>Oppgaver i fire ruter</li><li>Rutiner</li><li>En kalender du kan pynte</li><li>Widgeter på Hjem-skjermen</li></ul>
+      </div>
+    </section>
+
+    <div class="wrap">
+      <section class="block" aria-labelledby="quad-nb">
+        <h2 id="quad-nb">Fire ruter for i dag</h2>
+        <p class="sub">En enkel versjon av Eisenhower-matrisen for det som haster, og det som er viktig.</p>
+        <div class="quad">
+          <div class="box ember">
+            <span class="box-title">Først</span>
+            <ul><li>Rapportfrist</li><li class="done">Bestill time hos tannlegen</li></ul>
+          </div>
+          <div class="box honey">
+            <span class="box-title">Rolig</span>
+            <ul><li>30 nye ord</li><li>Finn overnatting</li></ul>
+          </div>
+          <div class="box sage">
+            <span class="box-title">Kjapt</span>
+            <ul><li class="done">Returner pakke</li><li>Betal regninger</li></ul>
+          </div>
+          <div class="box sky">
+            <span class="box-title">En dag</span>
+            <ul><li>Sorter bilder</li></ul>
+          </div>
+        </div>
+        <p class="quad-note">Hold inne en oppgave for å dra den til en annen rute eller endre rekkefølgen. Endre navn, farge, overstreking, bakgrunnsmønster og klistremerke for hver rute.</p>
+      </section>
+
+      <section class="block" aria-labelledby="calendar-nb">
+        <div class="split">
+          <figure class="shot">
+            <picture>
+              <source srcset="/daywrap/img/calendar-dark.webp" media="(prefers-color-scheme: dark)">
+              <img src="/daywrap/img/calendar-light.webp" alt="Oktoberkalender pyntet med klistremerker og kanter" width="880" height="717" loading="lazy">
+            </picture>
+          </figure>
+          <div>
+            <h2 id="calendar-nb">En kalender du kan pynte</h2>
+            <p class="sub">Hold inne en dag for å legge til klistremerke, kant, bakgrunn eller datomarkering.</p>
+            <ul>
+              <li>Dra over flere dager for å pynte en hel periode.</li>
+              <li>Se hendelser fra Kalender på iPhone (også Google- og iCloud-kalendere du har lagt til) i Daywrap. Bare lesing. Hendelsene dine blir på denne enheten.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="block" aria-labelledby="features-nb">
+        <h2 id="features-nb">Og mer</h2>
+        <p class="sub">Alle funksjoner virker uten å logge på.</p>
+        <ul class="features">
+          <li><strong>Raskt inn</strong><span>Lim inn flere linjer fra Notater, og del dem opp i separate oppgaver. Lagre oppgaver du gjør ofte, som faste oppgaver, og legg dem til på mange dager samtidig.</span></li>
+          <li><strong>Rutiner som holder kalenderen ryddig</strong><span>Daglige vaner som å drikke vann eller tøye ut har sin egen fane og vises ikke i kalenderen. Se hvor mange dager på rad du har holdt dem, denne uken og de siste 15 ukene.</span></li>
+          <li><strong>Widgeter på Hjem-skjermen</strong><span>I dag, Dagens fire ruter, Dagens rutiner og Denne måneden.</span></li>
+          <li><strong>Gjør den til din egen</strong><span>Velg temaer, fargepakker, rutemønstre, kanter og klistremerker i butikken. Bytt appikon og skrift.</span></li>
+          <li><strong>Påminnelser</strong><span>Få påminnelser om oppgaver, hendelser og rutiner på tidspunktet du velger.</span></li>
+          <li><strong>Logg på for sikkerhetskopi og synkronisering</strong><span>Logg på med Apple, Google, Kakao eller NAVER for å sikkerhetskopiere og fortsette på en annen enhet. Du kan slette kontoen din når som helst under Mer.</span></li>
+        </ul>
+      </section>
+
+      <section class="block" id="support-nb" aria-labelledby="support-title-nb">
+        <div class="support">
+          <h2 id="support-title-nb">Støtte</h2>
+          <p>Har du spørsmål? Skriv til<br><span class="mail">ekqlszzzz@naver.com</span></p>
+          <p class="actions">
+            <a class="store-button" href="mailto:ekqlszzzz@naver.com?subject=Daywrap">Kontakt oss</a>
+            <a class="button-secondary" href="/daywrap/privacy.html#en">Personvernerklæring</a>
+          </p>
+          <p class="policy-note">Personvernerklæringen er på engelsk, og den engelske versjonen gjelder.</p>
+        </div>
+      </section>
+    </div>
+  </div>
+  <div id="nl" lang="nl" class="lang-part" data-title="Daywrap · Daywrap pakt je dag samen">
+    <section class="hero">
+      <div class="wrap">
+        <picture>
+          <source srcset="/daywrap/img/icon-dark.png" media="(prefers-color-scheme: dark)">
+          <img class="app-icon" src="/daywrap/icon.png" alt="" width="88" height="88">
+        </picture>
+        <p class="app-name">Daywrap</p>
+        <h1>Daywrap pakt je dag samen</h1>
+        <p class="lead">Taken, afspraken en routines op één scherm, met een agenda die je versiert als een dagboek.</p>
+        <div class="store-buttons">
+          <span class="store-button pending" aria-disabled="true">Binnenkort in de App Store</span>
+        </div>
+        <ul class="chips"><li>Taken in vier vakken</li><li>Routines</li><li>Een agenda om te versieren</li><li>Widgets voor het beginscherm</li></ul>
+      </div>
+    </section>
+
+    <div class="wrap">
+      <section class="block" aria-labelledby="quad-nl">
+        <h2 id="quad-nl">Vier vakken voor vandaag</h2>
+        <p class="sub">Een eenvoudige vorm van de Eisenhower-matrix voor dringende en belangrijke taken.</p>
+        <div class="quad">
+          <div class="box ember">
+            <span class="box-title">Eerst</span>
+            <ul><li>Rapport inleveren</li><li class="done">Afspraak bij de tandarts</li></ul>
+          </div>
+          <div class="box honey">
+            <span class="box-title">Rustig aan</span>
+            <ul><li>30 nieuwe woorden</li><li>Verblijf zoeken</li></ul>
+          </div>
+          <div class="box sage">
+            <span class="box-title">Snel</span>
+            <ul><li class="done">Pakket retourneren</li><li>Rekeningen betalen</li></ul>
+          </div>
+          <div class="box sky">
+            <span class="box-title">Ooit</span>
+            <ul><li>Foto’s ordenen</li></ul>
+          </div>
+        </div>
+        <p class="quad-note">Houd een taak ingedrukt en sleep hem naar een ander vak of een andere plek. Verander per vak de naam, kleur, markeerstift, het achtergrondpatroon en de sticker.</p>
+      </section>
+
+      <section class="block" aria-labelledby="calendar-nl">
+        <div class="split">
+          <figure class="shot">
+            <picture>
+              <source srcset="/daywrap/img/calendar-dark.webp" media="(prefers-color-scheme: dark)">
+              <img src="/daywrap/img/calendar-light.webp" alt="Agenda van oktober versierd met stickers en randen" width="880" height="717" loading="lazy">
+            </picture>
+          </figure>
+          <div>
+            <h2 id="calendar-nl">Een agenda om te versieren</h2>
+            <p class="sub">Houd een dag ingedrukt voor een sticker, rand, achtergrond of datummarkering.</p>
+            <ul>
+              <li>Sleep over meerdere dagen om een hele periode te versieren.</li>
+              <li>Zie afspraken uit de iPhone-agenda (ook toegevoegde Google- en iCloud-agenda&#x27;s) in Daywrap. Alleen lezen. Je afspraken blijven op dit apparaat.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="block" aria-labelledby="features-nl">
+        <h2 id="features-nl">En nog meer</h2>
+        <p class="sub">Alle functies werken ook zonder inloggen.</p>
+        <ul class="features">
+          <li><strong>Vaste taken</strong><span>Bewaar taken die je vaak doet en zet ze in één keer op meerdere dagen. Plak een paar regels uit Notities en splits ze in losse taken.</span></li>
+          <li><strong>Routines die je agenda rustig houden</strong><span>Dagelijkse gewoontes zoals water drinken of stretchen hebben een eigen tabblad, Routines, en staan niet in je agenda. Zie je reeks, deze week en de laatste 15 weken in één oogopslag.</span></li>
+          <li><strong>Widgets voor het beginscherm</strong><span>Vandaag, Vier vakken van vandaag, Routines van vandaag en Deze maand.</span></li>
+          <li><strong>Helemaal van jou</strong><span>Kies thema&#x27;s, kleurpakketten, vakpatronen, randen en stickers in de winkel. Verander het appicoon en het lettertype.</span></li>
+          <li><strong>Herinneringen</strong><span>Krijg een herinnering voor taken, afspraken en routines op het tijdstip dat je kiest.</span></li>
+          <li><strong>Log in voor back-up en synchronisatie</strong><span>Log in met Apple, Google, Kakao of NAVER om een back-up te maken en verder te gaan op een ander apparaat. Je account verwijder je wanneer je wilt onder Meer.</span></li>
+        </ul>
+      </section>
+
+      <section class="block" id="support-nl" aria-labelledby="support-title-nl">
+        <div class="support">
+          <h2 id="support-title-nl">Support</h2>
+          <p>Vragen? Schrijf naar<br><span class="mail">ekqlszzzz@naver.com</span></p>
+          <p class="actions">
+            <a class="store-button" href="mailto:ekqlszzzz@naver.com?subject=Daywrap">Contact</a>
+            <a class="button-secondary" href="/daywrap/privacy.html#en">Privacybeleid</a>
+          </p>
+          <p class="policy-note">Het privacybeleid is in het Engels. De Engelse versie is leidend.</p>
+        </div>
+      </section>
+    </div>
+  </div>
+  <div id="de" lang="de" class="lang-part" data-title="Daywrap · Daywrap fasst deinen Tag zusammen">
+    <section class="hero">
+      <div class="wrap">
+        <picture>
+          <source srcset="/daywrap/img/icon-dark.png" media="(prefers-color-scheme: dark)">
+          <img class="app-icon" src="/daywrap/icon.png" alt="" width="88" height="88">
+        </picture>
+        <p class="app-name">Daywrap</p>
+        <h1>Daywrap fasst deinen Tag zusammen</h1>
+        <p class="lead">Aufgaben, Termine und Routinen auf einem Bildschirm, dazu ein Kalender, den du wie ein Tagebuch gestaltest.</p>
+        <div class="store-buttons">
+          <span class="store-button pending" aria-disabled="true">Bald im App Store</span>
+        </div>
+        <ul class="chips"><li>Aufgaben in vier Feldern</li><li>Routinen</li><li>Ein Kalender zum Gestalten</li><li>Widgets für den Home-Bildschirm</li></ul>
+      </div>
+    </section>
+
+    <div class="wrap">
+      <section class="block" aria-labelledby="quad-de">
+        <h2 id="quad-de">Vier Felder für heute</h2>
+        <p class="sub">Eine einfache Form der Eisenhower-Matrix für dringende und wichtige Aufgaben.</p>
+        <div class="quad">
+          <div class="box ember">
+            <span class="box-title">Zuerst</span>
+            <ul><li>Bericht fällig</li><li class="done">Zahnarzttermin machen</li></ul>
+          </div>
+          <div class="box honey">
+            <span class="box-title">In Ruhe</span>
+            <ul><li>30 neue Wörter</li><li>Unterkunft suchen</li></ul>
+          </div>
+          <div class="box sage">
+            <span class="box-title">Schnell</span>
+            <ul><li class="done">Paket zurückschicken</li><li>Rechnungen bezahlen</li></ul>
+          </div>
+          <div class="box sky">
+            <span class="box-title">Irgendwann</span>
+            <ul><li>Fotos sortieren</li></ul>
+          </div>
+        </div>
+        <p class="quad-note">Halte eine Aufgabe gedrückt und zieh sie in ein anderes Feld oder an eine andere Stelle. Name, Farbe, Textmarker, Hintergrundmuster und Sticker lassen sich für jedes Feld ändern.</p>
+      </section>
+
+      <section class="block" aria-labelledby="calendar-de">
+        <div class="split">
+          <figure class="shot">
+            <picture>
+              <source srcset="/daywrap/img/calendar-dark.webp" media="(prefers-color-scheme: dark)">
+              <img src="/daywrap/img/calendar-light.webp" alt="Oktoberkalender, mit Stickern und Rahmen gestaltet" width="880" height="717" loading="lazy">
+            </picture>
+          </figure>
+          <div>
+            <h2 id="calendar-de">Ein Kalender zum Gestalten</h2>
+            <p class="sub">Halte einen Tag gedrückt, um Sticker, Rahmen, Hintergrund oder Datumsmarkierung hinzuzufügen.</p>
+            <ul>
+              <li>Zieh über mehrere Tage, um einen ganzen Zeitraum zu gestalten.</li>
+              <li>Sieh Termine aus dem iPhone-Kalender (auch hinzugefügte Google- und iCloud-Kalender) in Daywrap. Nur lesen. Deine Termine bleiben auf diesem Gerät.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="block" aria-labelledby="features-de">
+        <h2 id="features-de">Und noch mehr</h2>
+        <p class="sub">Alle Funktionen gehen auch ohne Anmeldung.</p>
+        <ul class="features">
+          <li><strong>Häufige Aufgaben</strong><span>Speichere Aufgaben, die du oft erledigst, und füge sie mehreren Tagen auf einmal hinzu. Füge mehrere Zeilen aus Notizen ein und teile sie in einzelne Aufgaben auf.</span></li>
+          <li><strong>Routinen, die deinen Kalender frei halten</strong><span>Tägliche Gewohnheiten wie Wasser trinken oder Dehnen haben einen eigenen Tab „Routinen“ und stehen nicht im Kalender. Sieh deine Serie, diese Woche und die letzten 15 Wochen auf einen Blick.</span></li>
+          <li><strong>Widgets für den Home-Bildschirm</strong><span>Heute, Heute in 4 Feldern, Heutige Routinen und Dieser Monat.</span></li>
+          <li><strong>Ganz nach deinem Geschmack</strong><span>Wähle im Shop Designs, Farbpakete, Feldmuster, Rahmen und Sticker. Ändere App-Icon und Schrift.</span></li>
+          <li><strong>Erinnerungen</strong><span>Erinnerungen an Aufgaben, Termine und Routinen zur gewählten Zeit.</span></li>
+          <li><strong>Anmelden für Backup und Sync</strong><span>Melde dich mit Apple, Google, Kakao oder NAVER an, um deine Einträge zu sichern und auf einem anderen Gerät weiterzumachen. Unter „Mehr“ kannst du deinen Account jederzeit löschen.</span></li>
+        </ul>
+      </section>
+
+      <section class="block" id="support-de" aria-labelledby="support-title-de">
+        <div class="support">
+          <h2 id="support-title-de">Support</h2>
+          <p>Fragen? Schreib bitte an<br><span class="mail">ekqlszzzz@naver.com</span></p>
+          <p class="actions">
+            <a class="store-button" href="mailto:ekqlszzzz@naver.com?subject=Daywrap">Kontakt</a>
+            <a class="button-secondary" href="/daywrap/privacy.html#en">Datenschutzerklärung</a>
+          </p>
+          <p class="policy-note">Die Datenschutzerklärung gibt es auf Englisch, maßgeblich ist die englische Fassung.</p>
+        </div>
+      </section>
+    </div>
+  </div>
+  <div id="fr" lang="fr" class="lang-part" data-title="Daywrap · Daywrap rassemble votre journée">
+    <section class="hero">
+      <div class="wrap">
+        <picture>
+          <source srcset="/daywrap/img/icon-dark.png" media="(prefers-color-scheme: dark)">
+          <img class="app-icon" src="/daywrap/icon.png" alt="" width="88" height="88">
+        </picture>
+        <p class="app-name">Daywrap</p>
+        <h1>Daywrap rassemble votre journée</h1>
+        <p class="lead">Tâches, événements et routines sur un seul écran, avec un calendrier à décorer comme un journal.</p>
+        <div class="store-buttons">
+          <span class="store-button pending" aria-disabled="true">Bientôt sur l’App Store</span>
+        </div>
+        <ul class="chips"><li>Tâches en quatre cases</li><li>Routines</li><li>Calendrier à décorer</li><li>Widgets pour l’écran d’accueil</li></ul>
+      </div>
+    </section>
+
+    <div class="wrap">
+      <section class="block" aria-labelledby="quad-fr">
+        <h2 id="quad-fr">Quatre cases pour aujourd’hui</h2>
+        <p class="sub">Une version simple de la matrice d’Eisenhower pour trier l’urgent et l’important.</p>
+        <div class="quad">
+          <div class="box ember">
+            <span class="box-title">D’abord</span>
+            <ul><li>Rendre le rapport</li><li class="done">Rendez-vous chez le dentiste</li></ul>
+          </div>
+          <div class="box honey">
+            <span class="box-title">Peu à peu</span>
+            <ul><li>30 nouveaux mots</li><li>Trouver un logement</li></ul>
+          </div>
+          <div class="box sage">
+            <span class="box-title">Vite fait</span>
+            <ul><li class="done">Renvoyer un colis</li><li>Payer les factures</li></ul>
+          </div>
+          <div class="box sky">
+            <span class="box-title">Un jour</span>
+            <ul><li>Trier les photos</li></ul>
+          </div>
+        </div>
+        <p class="quad-note">Maintenez le doigt sur une tâche pour la glisser dans une autre case ou changer son ordre. Changez le nom, la couleur, le surlignage, le motif de fond et l’autocollant de chaque case.</p>
+      </section>
+
+      <section class="block" aria-labelledby="calendar-fr">
+        <div class="split">
+          <figure class="shot">
+            <picture>
+              <source srcset="/daywrap/img/calendar-dark.webp" media="(prefers-color-scheme: dark)">
+              <img src="/daywrap/img/calendar-light.webp" alt="Calendrier d’octobre décoré d’autocollants et de bordures" width="880" height="717" loading="lazy">
+            </picture>
+          </figure>
+          <div>
+            <h2 id="calendar-fr">Un calendrier à décorer</h2>
+            <p class="sub">Maintenez le doigt sur un jour pour ajouter un autocollant, une bordure, un fond ou une marque de date.</p>
+            <ul>
+              <li>Faites glisser sur plusieurs jours pour décorer toute une période.</li>
+              <li>Voyez dans Daywrap les événements de l’app Calendrier de l’iPhone (y compris les calendriers Google et iCloud ajoutés). Lecture seule. Vos événements restent sur cet appareil.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="block" aria-labelledby="features-fr">
+        <h2 id="features-fr">Et aussi</h2>
+        <p class="sub">Toutes les fonctions marchent sans connexion.</p>
+        <ul class="features">
+          <li><strong>Tâches fréquentes</strong><span>Collez plusieurs lignes depuis Notes et séparez-les en tâches. Gardez vos tâches fréquentes de côté et ajoutez-les à plusieurs jours d’un coup.</span></li>
+          <li><strong>Des routines qui laissent le calendrier dégagé</strong><span>Les habitudes quotidiennes, comme boire de l’eau ou s’étirer, se cochent dans l’onglet Routines, pas dans le calendrier. Voyez votre série en cours, cette semaine et les 15 dernières semaines d’un coup d’œil.</span></li>
+          <li><strong>Widgets pour l’écran d’accueil</strong><span>Aujourd’hui, Les 4 cases du jour, Routines du jour et Ce mois-ci.</span></li>
+          <li><strong>À votre goût</strong><span>Choisissez dans la boutique des thèmes, des packs de couleurs, des motifs de case, des bordures et des autocollants. Changez l’icône de l’app et la police.</span></li>
+          <li><strong>Rappels</strong><span>Recevez un rappel pour vos tâches, événements et routines à l’heure choisie.</span></li>
+          <li><strong>Connectez-vous pour sauvegarder et synchroniser</strong><span>Connectez-vous avec Apple, Google, Kakao ou NAVER pour sauvegarder vos données et continuer sur un autre appareil. Supprimez votre compte à tout moment dans Plus.</span></li>
+        </ul>
+      </section>
+
+      <section class="block" id="support-fr" aria-labelledby="support-title-fr">
+        <div class="support">
+          <h2 id="support-title-fr">Assistance</h2>
+          <p>Une question ? Écrivez à<br><span class="mail">ekqlszzzz@naver.com</span></p>
+          <p class="actions">
+            <a class="store-button" href="mailto:ekqlszzzz@naver.com?subject=Daywrap">Nous contacter</a>
+            <a class="button-secondary" href="/daywrap/privacy.html#en">Politique de confidentialité</a>
+          </p>
+          <p class="policy-note">La politique de confidentialité est en anglais, et seule la version anglaise fait foi.</p>
+        </div>
+      </section>
+    </div>
+  </div>
+  <div id="es" lang="es" class="lang-part" data-title="Daywrap · Daywrap reúne tu día">
+    <section class="hero">
+      <div class="wrap">
+        <picture>
+          <source srcset="/daywrap/img/icon-dark.png" media="(prefers-color-scheme: dark)">
+          <img class="app-icon" src="/daywrap/icon.png" alt="" width="88" height="88">
+        </picture>
+        <p class="app-name">Daywrap</p>
+        <h1>Daywrap reúne tu día</h1>
+        <p class="lead">Tareas, eventos y rutinas en una sola pantalla, con un calendario que puedes decorar como un diario.</p>
+        <div class="store-buttons">
+          <span class="store-button pending" aria-disabled="true">Pronto en el App Store</span>
+        </div>
+        <ul class="chips"><li>Tareas en cuatro casillas</li><li>Rutinas</li><li>Un calendario para decorar</li><li>Widgets para la pantalla de inicio</li></ul>
+      </div>
+    </section>
+
+    <div class="wrap">
+      <section class="block" aria-labelledby="quad-es">
+        <h2 id="quad-es">Cuatro casillas para hoy</h2>
+        <p class="sub">Una forma sencilla de la matriz de Eisenhower para separar lo urgente de lo importante.</p>
+        <div class="quad">
+          <div class="box ember">
+            <span class="box-title">Primero</span>
+            <ul><li>Entregar el informe</li><li class="done">Pedir cita con el dentista</li></ul>
+          </div>
+          <div class="box honey">
+            <span class="box-title">Con calma</span>
+            <ul><li>30 palabras nuevas</li><li>Buscar alojamiento</li></ul>
+          </div>
+          <div class="box sage">
+            <span class="box-title">Rápido</span>
+            <ul><li class="done">Devolver un paquete</li><li>Pagar las facturas</li></ul>
+          </div>
+          <div class="box sky">
+            <span class="box-title">Algún día</span>
+            <ul><li>Ordenar fotos</li></ul>
+          </div>
+        </div>
+        <p class="quad-note">Mantén presionada una tarea para arrastrarla a otra casilla o cambiar su orden. Cambia el nombre, el color, el resaltado, el patrón de fondo y el sticker de cada casilla.</p>
+      </section>
+
+      <section class="block" aria-labelledby="calendar-es">
+        <div class="split">
+          <figure class="shot">
+            <picture>
+              <source srcset="/daywrap/img/calendar-dark.webp" media="(prefers-color-scheme: dark)">
+              <img src="/daywrap/img/calendar-light.webp" alt="Calendario de octubre decorado con stickers y bordes" width="880" height="717" loading="lazy">
+            </picture>
+          </figure>
+          <div>
+            <h2 id="calendar-es">Un calendario para decorar</h2>
+            <p class="sub">Mantén presionado un día para añadir un sticker, un borde, un fondo o una marca de fecha.</p>
+            <ul>
+              <li>Arrastra sobre varios días para decorar todo un periodo.</li>
+              <li>Mira en Daywrap los eventos de la app Calendario del iPhone (incluidos los calendarios de Google e iCloud que hayas añadido). Solo lectura. Tus eventos se quedan en este dispositivo.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="block" aria-labelledby="features-es">
+        <h2 id="features-es">Y además</h2>
+        <p class="sub">Todas las funciones van sin iniciar sesión.</p>
+        <ul class="features">
+          <li><strong>Tareas frecuentes</strong><span>Pega varias líneas desde Notas y divídelas en tareas. Guarda las tareas frecuentes aparte y añádelas a varios días de una vez.</span></li>
+          <li><strong>Rutinas que no llenan tu calendario</strong><span>Los hábitos diarios, como beber agua o estirarte, se marcan en la pestaña Rutinas, no en el calendario. Mira tu racha, esta semana y las últimas 15 semanas de un vistazo.</span></li>
+          <li><strong>Widgets para la pantalla de inicio</strong><span>Hoy, Las 4 casillas de hoy, Rutinas de hoy y Este mes.</span></li>
+          <li><strong>A tu gusto</strong><span>Elige en la tienda temas, paquetes de colores, patrones de casilla, bordes y stickers. Cambia el icono de la app y el tipo de letra.</span></li>
+          <li><strong>Avisos</strong><span>Recibe avisos de tareas, eventos y rutinas a la hora que elijas.</span></li>
+          <li><strong>Inicia sesión para hacer copias y sincronizar</strong><span>Inicia sesión con Apple, Google, Kakao o NAVER para guardar una copia y seguir en otro dispositivo. Elimina tu cuenta cuando quieras en Más.</span></li>
+        </ul>
+      </section>
+
+      <section class="block" id="support-es" aria-labelledby="support-title-es">
+        <div class="support">
+          <h2 id="support-title-es">Soporte</h2>
+          <p>¿Tienes preguntas? Escribe a<br><span class="mail">ekqlszzzz@naver.com</span></p>
+          <p class="actions">
+            <a class="store-button" href="mailto:ekqlszzzz@naver.com?subject=Daywrap">Contactar</a>
+            <a class="button-secondary" href="/daywrap/privacy.html#en">Política de privacidad</a>
+          </p>
+          <p class="policy-note">La política de privacidad está en inglés, y prevalece la versión en inglés.</p>
+        </div>
+      </section>
+    </div>
+  </div>
+  <div id="pt" lang="pt" class="lang-part" data-title="Daywrap · O Daywrap reúne o seu dia">
+    <section class="hero">
+      <div class="wrap">
+        <picture>
+          <source srcset="/daywrap/img/icon-dark.png" media="(prefers-color-scheme: dark)">
+          <img class="app-icon" src="/daywrap/icon.png" alt="" width="88" height="88">
+        </picture>
+        <p class="app-name">Daywrap</p>
+        <h1>O Daywrap reúne o seu dia</h1>
+        <p class="lead">Tarefas, eventos e rotinas numa só tela, com um calendário que você decora como um diário.</p>
+        <div class="store-buttons">
+          <span class="store-button pending" aria-disabled="true">Em breve na App Store</span>
+        </div>
+        <ul class="chips"><li>Tarefas em quatro quadros</li><li>Rotinas</li><li>Um calendário para decorar</li><li>Widgets na Tela de Início</li></ul>
+      </div>
+    </section>
+
+    <div class="wrap">
+      <section class="block" aria-labelledby="quad-pt">
+        <h2 id="quad-pt">Quatro quadros para hoje</h2>
+        <p class="sub">Um jeito simples de usar a matriz de Eisenhower para separar o urgente do importante.</p>
+        <div class="quad">
+          <div class="box ember">
+            <span class="box-title">Primeiro</span>
+            <ul><li>Entregar o relatório</li><li class="done">Marcar dentista</li></ul>
+          </div>
+          <div class="box honey">
+            <span class="box-title">Aos poucos</span>
+            <ul><li>30 palavras novas</li><li>Achar hospedagem</li></ul>
+          </div>
+          <div class="box sage">
+            <span class="box-title">Rápido</span>
+            <ul><li class="done">Devolver encomenda</li><li>Pagar as contas</li></ul>
+          </div>
+          <div class="box sky">
+            <span class="box-title">Algum dia</span>
+            <ul><li>Organizar fotos</li></ul>
+          </div>
+        </div>
+        <p class="quad-note">Toque e segure para arrastar uma tarefa para outro quadro ou mudar a ordem. Mude o nome, a cor, o destaque, o padrão de fundo e o adesivo de cada quadro.</p>
+      </section>
+
+      <section class="block" aria-labelledby="calendar-pt">
+        <div class="split">
+          <figure class="shot">
+            <picture>
+              <source srcset="/daywrap/img/calendar-dark.webp" media="(prefers-color-scheme: dark)">
+              <img src="/daywrap/img/calendar-light.webp" alt="Calendário de outubro decorado com adesivos e bordas" width="880" height="717" loading="lazy">
+            </picture>
+          </figure>
+          <div>
+            <h2 id="calendar-pt">Um calendário para decorar</h2>
+            <p class="sub">Toque e segure num dia para pôr adesivo, borda, fundo ou marca de data.</p>
+            <ul>
+              <li>Arraste por vários dias para decorar um período inteiro.</li>
+              <li>Veja no Daywrap os eventos do Calendário do iPhone (incluindo calendários do Google e do iCloud que você adicionou). Só leitura. Seus eventos ficam neste aparelho.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="block" aria-labelledby="features-pt">
+        <h2 id="features-pt">E mais</h2>
+        <p class="sub">Todos os recursos funcionam sem entrar.</p>
+        <ul class="features">
+          <li><strong>Adicione rápido</strong><span>Cole várias linhas do Notas e divida em tarefas separadas. Guarde tarefas frequentes e adicione-as a vários dias de uma vez.</span></li>
+          <li><strong>Rotinas que não bagunçam o calendário</strong><span>Hábitos diários, como beber água ou alongar, têm a própria aba Rotinas e não aparecem no calendário. Veja quantos dias seguidos você manteve, esta semana e as últimas 15 semanas.</span></li>
+          <li><strong>Widgets na Tela de Início</strong><span>Hoje, Os 4 quadros de hoje, Rotinas de hoje e Este mês.</span></li>
+          <li><strong>Do seu jeito</strong><span>Escolha temas, pacotes de cores, padrões de quadro, bordas e adesivos na loja. Mude o ícone do app e a fonte.</span></li>
+          <li><strong>Lembretes</strong><span>Receba lembretes de tarefas, eventos e rotinas na hora que você definir.</span></li>
+          <li><strong>Entre para fazer backup e sincronizar</strong><span>Entre com Apple, Google, Kakao ou NAVER para fazer backup e continuar em outro aparelho. Apague sua conta quando quiser em Mais.</span></li>
+        </ul>
+      </section>
+
+      <section class="block" id="support-pt" aria-labelledby="support-title-pt">
+        <div class="support">
+          <h2 id="support-title-pt">Suporte</h2>
+          <p>Dúvidas? Escreva para<br><span class="mail">ekqlszzzz@naver.com</span></p>
+          <p class="actions">
+            <a class="store-button" href="mailto:ekqlszzzz@naver.com?subject=Daywrap">Fale conosco</a>
+            <a class="button-secondary" href="/daywrap/privacy.html#en">Política de Privacidade</a>
+          </p>
+          <p class="policy-note">A Política de Privacidade está em inglês, e vale a versão em inglês.</p>
+        </div>
+      </section>
+    </div>
+  </div>
+  </main>
 
   <footer>
     <div class="wrap">
-      © 2026 내곁의 · <a href="/daywrap/privacy.html">개인정보 처리방침</a> · <a href="/daywrap/privacy.html#en" lang="en">Privacy Policy</a>
+      © 2026 <span lang="ko">내곁의</span> · <a href="/daywrap/privacy.html" lang="ko">개인정보 처리방침</a> · <a href="/daywrap/privacy.html#en" lang="en">Privacy Policy</a>
     </div>
   </footer>
 </body>
