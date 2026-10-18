@@ -97,7 +97,7 @@
               "pt": "Damasco"
             },
             "light": { "dot": "#F6C177", "soft": "#FDF0DC", "text": "#8A5200" },
-            "dark": { "dot": "#F6C177", "soft": "#3A2D1A", "text": "#F9D29C" },
+            "dark": { "dot": "#F6C177", "soft": "#3C2407", "text": "#F9D29C" },
             "near": ["기본 피치 ΔE 5.1"]
           },
           {
@@ -119,7 +119,7 @@
               "pt": "Cáqui"
             },
             "light": { "dot": "#D9C9A8", "soft": "#F5F0E5", "text": "#5E5535" },
-            "dark": { "dot": "#D9C9A8", "soft": "#322E24", "text": "#E3D7BE" },
+            "dark": { "dot": "#D9C9A8", "soft": "#30291A", "text": "#E3D7BE" },
             "near": ["기본 피치 ΔE 5.6", "기본 스톤 ΔE 5.6", "숲 고사리 ΔE 5.4"]
           },
           {
@@ -141,7 +141,7 @@
               "pt": "Cacau"
             },
             "light": { "dot": "#947D77", "soft": "#F8F2F0", "text": "#7E6762" },
-            "dark": { "dot": "#8F7F7B", "soft": "#2D2726", "text": "#E0D5D2" }
+            "dark": { "dot": "#8F7F7B", "soft": "#372520", "text": "#E0D5D2" }
           },
           {
             "id": "calm.mist",
@@ -162,7 +162,7 @@
               "pt": "Névoa"
             },
             "light": { "dot": "#B8C4CF", "soft": "#F1F4F6", "text": "#626D77" },
-            "dark": { "dot": "#B7BFC7", "soft": "#26292C", "text": "#D3D8DD" }
+            "dark": { "dot": "#B7BFC7", "soft": "#252B31", "text": "#D3D8DD" }
           },
           {
             "id": "calm.pebble",
@@ -183,7 +183,7 @@
               "pt": "Seixo"
             },
             "light": { "dot": "#BDB5AA", "soft": "#F5F3F1", "text": "#726B61" },
-            "dark": { "dot": "#BBB5AE", "soft": "#2A2926", "text": "#DAD7D2" }
+            "dark": { "dot": "#BBB5AE", "soft": "#2E2924", "text": "#DAD7D2" }
           },
           {
             "id": "calm.driedrose",
@@ -204,7 +204,7 @@
               "pt": "Rosa seca"
             },
             "light": { "dot": "#D1A8A8", "soft": "#FBF1F1", "text": "#876262" },
-            "dark": { "dot": "#C9ACAB", "soft": "#302626", "text": "#E6D2D2" },
+            "dark": { "dot": "#C9ACAB", "soft": "#382424", "text": "#E6D2D2" },
             "near": ["해 질 녘 코랄 ΔE 5.9", "해 질 녘 자두 ΔE 5.3"]
           }
         ]
@@ -294,7 +294,7 @@
               "pt": "Coral"
             },
             "light": { "dot": "#F2A38C", "soft": "#FCE8E1", "text": "#8E3A22" },
-            "dark": { "dot": "#F5B09C", "soft": "#43271F", "text": "#FFCBBB" },
+            "dark": { "dot": "#F5B09C", "soft": "#411F16", "text": "#FFCBBB" },
             "near": ["차분한 말린 장미 ΔE 5.9"]
           },
           {
@@ -316,7 +316,7 @@
               "pt": "Ameixa"
             },
             "light": { "dot": "#C9A3C8", "soft": "#F3E8F3", "text": "#6E3B6C" },
-            "dark": { "dot": "#D3B0D2", "soft": "#352535", "text": "#EBCDEA" },
+            "dark": { "dot": "#D3B0D2", "soft": "#352334", "text": "#EBCDEA" },
             "near": ["차분한 말린 장미 ΔE 5.3"]
           },
           {
@@ -338,7 +338,7 @@
               "pt": "Tijolo"
             },
             "light": { "dot": "#C97B63", "soft": "#F6E4DD", "text": "#7A3420" },
-            "dark": { "dot": "#D48D77", "soft": "#3A231C", "text": "#F0C2B2" },
+            "dark": { "dot": "#D48D77", "soft": "#411F15", "text": "#F0C2B2" },
             "near": ["사탕 초코 ΔE 4.5"]
           },
           {
@@ -360,7 +360,7 @@
               "pt": "Noite"
             },
             "light": { "dot": "#8E9AB5", "soft": "#E7EAF1", "text": "#323D57" },
-            "dark": { "dot": "#A2ADC5", "soft": "#242A36", "text": "#CBD3E4" }
+            "dark": { "dot": "#A2ADC5", "soft": "#232A39", "text": "#CBD3E4" }
           },
           {
             "id": "dusk.mauve",
@@ -381,7 +381,7 @@
               "pt": "Malva"
             },
             "light": { "dot": "#B88FA8", "soft": "#FAF0F6", "text": "#866077" },
-            "dark": { "dot": "#B093A5", "soft": "#2F252B", "text": "#E5D1DD" },
+            "dark": { "dot": "#B093A5", "soft": "#34242F", "text": "#E5D1DD" },
             "added": true
           },
           {
@@ -403,7 +403,7 @@
               "pt": "Poste de luz"
             },
             "light": { "dot": "#E0AE5E", "soft": "#FDF2E1", "text": "#90640B" },
-            "dark": { "dot": "#D4B27D", "soft": "#322715", "text": "#EBD4B2" },
+            "dark": { "dot": "#D4B27D", "soft": "#382607", "text": "#EBD4B2" },
             "near": ["과일 망고 ΔE 5.7"],
             "added": true
           }
@@ -494,7 +494,7 @@
               "pt": "Musgo"
             },
             "light": { "dot": "#9DB58A", "soft": "#EAF1E4", "text": "#3B5228" },
-            "dark": { "dot": "#AABF98", "soft": "#25301E", "text": "#CBDCBC" }
+            "dark": { "dot": "#AABF98", "soft": "#232E1A", "text": "#CBDCBC" }
           },
           {
             "id": "forest.pine",
@@ -515,7 +515,7 @@
               "pt": "Pinheiro"
             },
             "light": { "dot": "#7FA89A", "soft": "#E3EFEB", "text": "#28503F" },
-            "dark": { "dot": "#8FB5A7", "soft": "#1E302A", "text": "#BFDCD0" }
+            "dark": { "dot": "#8FB5A7", "soft": "#1A2F28", "text": "#BFDCD0" }
           },
           {
             "id": "forest.bark",
@@ -536,7 +536,7 @@
               "pt": "Casca"
             },
             "light": { "dot": "#B89B82", "soft": "#F2EAE3", "text": "#5C4029" },
-            "dark": { "dot": "#C4A890", "soft": "#33281F", "text": "#E2CDBB" }
+            "dark": { "dot": "#C4A890", "soft": "#35271A", "text": "#E2CDBB" }
           },
           {
             "id": "forest.fern",
@@ -557,7 +557,7 @@
               "pt": "Samambaia"
             },
             "light": { "dot": "#C3CF8E", "soft": "#F2F5E2", "text": "#4E5A1C" },
-            "dark": { "dot": "#CCD79C", "soft": "#2E331B", "text": "#DDE5B5" },
+            "dark": { "dot": "#CCD79C", "soft": "#292D0D", "text": "#DDE5B5" },
             "near": ["기본 카키 ΔE 5.4", "차분한 카키 ΔE 5.4"]
           },
           {
@@ -579,7 +579,7 @@
               "pt": "Lago"
             },
             "light": { "dot": "#8FB4C8", "soft": "#EDF5FA", "text": "#4E7184" },
-            "dark": { "dot": "#99B2C0", "soft": "#222A2F", "text": "#CADAE4" },
+            "dark": { "dot": "#99B2C0", "soft": "#1A2D37", "text": "#CADAE4" },
             "added": true
           },
           {
@@ -601,7 +601,7 @@
               "pt": "Fruta silvestre"
             },
             "light": { "dot": "#D98A8A", "soft": "#FFEFEF", "text": "#9F5657" },
-            "dark": { "dot": "#CA9292", "soft": "#362323", "text": "#F3CDCC" },
+            "dark": { "dot": "#CA9292", "soft": "#3D2121", "text": "#F3CDCC" },
             "added": true
           }
         ]
@@ -690,7 +690,7 @@
               "pt": "Rosa-choque"
             },
             "light": { "dot": "#FF4FA3", "soft": "#FFEFF4", "text": "#B14575" },
-            "dark": { "dot": "#E66FA1", "soft": "#3C1E2A", "text": "#FEC5D9" },
+            "dark": { "dot": "#E66FA1", "soft": "#3F1E2B", "text": "#FEC5D9" },
             "near": ["열대 히비스커스 ΔE 5.3"]
           },
           {
@@ -712,7 +712,7 @@
               "pt": "Verde-limão"
             },
             "light": { "dot": "#C6F432", "soft": "#EEF8DB", "text": "#5D7500" },
-            "dark": { "dot": "#ACCD5B", "soft": "#242D0F", "text": "#CCE29F" }
+            "dark": { "dot": "#ACCD5B", "soft": "#252E0D", "text": "#CCE29F" }
           },
           {
             "id": "neon.cyan",
@@ -733,7 +733,7 @@
               "pt": "Ciano"
             },
             "light": { "dot": "#2EE6F0", "soft": "#DDFAFC", "text": "#0F797F" },
-            "dark": { "dot": "#6AD0D7", "soft": "#092F31", "text": "#A8E4E8" }
+            "dark": { "dot": "#6AD0D7", "soft": "#023134", "text": "#A8E4E8" }
           },
           {
             "id": "neon.orange",
@@ -754,7 +754,7 @@
               "pt": "Laranja"
             },
             "light": { "dot": "#FF7A00", "soft": "#FFF0E8", "text": "#AA520F" },
-            "dark": { "dot": "#E78B53", "soft": "#3C2111", "text": "#FECBAF" }
+            "dark": { "dot": "#E78B53", "soft": "#3F210F", "text": "#FECBAF" }
           },
           {
             "id": "neon.yellow",
@@ -775,7 +775,7 @@
               "pt": "Amarelo laser"
             },
             "light": { "dot": "#FFEA1F", "soft": "#F8F5D7", "text": "#786E03" },
-            "dark": { "dot": "#CEC151", "soft": "#2E2A08", "text": "#E2DA98" },
+            "dark": { "dot": "#CEC151", "soft": "#352803", "text": "#E2DA98" },
             "near": ["사탕 레몬 ΔE 5.3"]
           },
           {
@@ -797,7 +797,7 @@
               "pt": "UV"
             },
             "light": { "dot": "#B36BFF", "soft": "#F6F1FF", "text": "#8356B6" },
-            "dark": { "dot": "#AA7CE1", "soft": "#2E223D", "text": "#E1CDFE" }
+            "dark": { "dot": "#AA7CE1", "soft": "#302340", "text": "#E1CDFE" }
           }
         ]
       },
@@ -878,7 +878,7 @@
               "pt": "Vermelho"
             },
             "light": { "dot": "#FF4A3D", "soft": "#FFF0ED", "text": "#B9473B" },
-            "dark": { "dot": "#E36A5C", "soft": "#3E1F1A", "text": "#FEC9C0" },
+            "dark": { "dot": "#E36A5C", "soft": "#411F1A", "text": "#FEC9C0" },
             "near": ["과일 딸기 ΔE 5.3"]
           },
           {
@@ -900,7 +900,7 @@
               "pt": "Amarelo"
             },
             "light": { "dot": "#FFC800", "soft": "#FEF3D7", "text": "#86690F" },
-            "dark": { "dot": "#DEB959", "soft": "#332707", "text": "#EDD59C" }
+            "dark": { "dot": "#DEB959", "soft": "#352803", "text": "#EDD59C" }
           },
           {
             "id": "pop.blue",
@@ -921,7 +921,7 @@
               "pt": "Azul"
             },
             "light": { "dot": "#2FA3FF", "soft": "#EBF5FF", "text": "#1170B5" },
-            "dark": { "dot": "#5EA3E2", "soft": "#132B40", "text": "#B8DCFF" }
+            "dark": { "dot": "#5EA3E2", "soft": "#112C44", "text": "#B8DCFF" }
           },
           {
             "id": "pop.green",
@@ -942,7 +942,7 @@
               "pt": "Verde"
             },
             "light": { "dot": "#2FC24F", "soft": "#E3FBE4", "text": "#117E2D" },
-            "dark": { "dot": "#63BA6D", "soft": "#172F1A", "text": "#B2E8B5" }
+            "dark": { "dot": "#63BA6D", "soft": "#163119", "text": "#B2E8B5" }
           },
           {
             "id": "pop.magenta",
@@ -963,7 +963,7 @@
               "pt": "Magenta"
             },
             "light": { "dot": "#E83FD0", "soft": "#FFEDFA", "text": "#A44A94" },
-            "dark": { "dot": "#D264BF", "soft": "#381F33", "text": "#FDC2F0" }
+            "dark": { "dot": "#D264BF", "soft": "#3A1F35", "text": "#FDC2F0" }
           },
           {
             "id": "pop.teal",
@@ -984,7 +984,7 @@
               "pt": "Verde-azulado"
             },
             "light": { "dot": "#00A8B5", "soft": "#E1F9FB", "text": "#077982" },
-            "dark": { "dot": "#52A3AB", "soft": "#122E31", "text": "#B1E2E7" }
+            "dark": { "dot": "#52A3AB", "soft": "#003135", "text": "#B1E2E7" }
           }
         ]
       },
@@ -1072,7 +1072,7 @@
               "pt": "Morango"
             },
             "light": { "dot": "#FF5C6E", "soft": "#FFEFEF", "text": "#B84450" },
-            "dark": { "dot": "#E5767D", "soft": "#3E1E20", "text": "#FEC8C8" },
+            "dark": { "dot": "#E5767D", "soft": "#411E20", "text": "#FEC8C8" },
             "near": ["팝 빨강 ΔE 5.3", "열대 히비스커스 ΔE 5.4"]
           },
           {
@@ -1094,7 +1094,7 @@
               "pt": "Manga"
             },
             "light": { "dot": "#FFAA1F", "soft": "#FFF1E1", "text": "#94610D" },
-            "dark": { "dot": "#ECB165", "soft": "#382409", "text": "#F7D0A2" },
+            "dark": { "dot": "#ECB165", "soft": "#3B2505", "text": "#F7D0A2" },
             "near": ["해 질 녘 가로등 ΔE 5.7", "열대 파파야 ΔE 4.5"]
           },
           {
@@ -1116,7 +1116,7 @@
               "pt": "Kiwi"
             },
             "light": { "dot": "#8CCB2E", "soft": "#EBF9DD", "text": "#4F770A" },
-            "dark": { "dot": "#99C566", "soft": "#212E12", "text": "#C5E3A7" }
+            "dark": { "dot": "#99C566", "soft": "#212F10", "text": "#C5E3A7" }
           },
           {
             "id": "fruit.blueberry",
@@ -1137,7 +1137,7 @@
               "pt": "Mirtilo"
             },
             "light": { "dot": "#5E86F0", "soft": "#EEF3FF", "text": "#4466C3" },
-            "dark": { "dot": "#6C8AD3", "soft": "#1D2841", "text": "#C6D7FE" }
+            "dark": { "dot": "#6C8AD3", "soft": "#1D2945", "text": "#C6D7FE" }
           },
           {
             "id": "fruit.melon",
@@ -1158,7 +1158,7 @@
               "pt": "Melão"
             },
             "light": { "dot": "#A8E06B", "soft": "#ECF9E0", "text": "#4D7900" },
-            "dark": { "dot": "#A5CC7F", "soft": "#212E13", "text": "#C8E2B0" }
+            "dark": { "dot": "#A5CC7F", "soft": "#212F10", "text": "#C8E2B0" }
           },
           {
             "id": "fruit.fig",
@@ -1179,7 +1179,7 @@
               "pt": "Figo"
             },
             "light": { "dot": "#C25E9E", "soft": "#FFEEF7", "text": "#AA4888" },
-            "dark": { "dot": "#B26D97", "soft": "#38202F", "text": "#F8C7E3" }
+            "dark": { "dot": "#B26D97", "soft": "#3D1E31", "text": "#F8C7E3" }
           }
         ]
       },
@@ -1267,7 +1267,7 @@
               "pt": "Chiclete"
             },
             "light": { "dot": "#FF7EC2", "soft": "#FFEEF6", "text": "#AE467F" },
-            "dark": { "dot": "#EA90BD", "soft": "#3B1E2D", "text": "#FEC4DF" }
+            "dark": { "dot": "#EA90BD", "soft": "#3E1E2E", "text": "#FEC4DF" }
           },
           {
             "id": "candy.mint",
@@ -1288,7 +1288,7 @@
               "pt": "Menta"
             },
             "light": { "dot": "#3FE0B0", "soft": "#DFFBEF", "text": "#067B5E" },
-            "dark": { "dot": "#75D3B1", "soft": "#0E3025", "text": "#ADE6CF" }
+            "dark": { "dot": "#75D3B1", "soft": "#033325", "text": "#ADE6CF" }
           },
           {
             "id": "candy.lemon",
@@ -1309,7 +1309,7 @@
               "pt": "Limão"
             },
             "light": { "dot": "#FFF27A", "soft": "#F7F5DD", "text": "#786E06" },
-            "dark": { "dot": "#C9C174", "soft": "#2D2A0F", "text": "#DFDAAA" },
+            "dark": { "dot": "#C9C174", "soft": "#352803", "text": "#DFDAAA" },
             "near": ["네온 레이저 노랑 ΔE 5.3"]
           },
           {
@@ -1331,7 +1331,7 @@
               "pt": "Soda"
             },
             "light": { "dot": "#5CC2FF", "soft": "#E8F6FF", "text": "#0474A6" },
-            "dark": { "dot": "#7EC0EA", "soft": "#152C3A", "text": "#B5DEFA" }
+            "dark": { "dot": "#7EC0EA", "soft": "#082E42", "text": "#B5DEFA" }
           },
           {
             "id": "candy.lilac",
@@ -1352,7 +1352,7 @@
               "pt": "Lilás"
             },
             "light": { "dot": "#C49BFF", "soft": "#F6F1FF", "text": "#8058B5" },
-            "dark": { "dot": "#BEA3E9", "soft": "#2D243B", "text": "#DFCEFC" }
+            "dark": { "dot": "#BEA3E9", "soft": "#2F2341", "text": "#DFCEFC" }
           },
           {
             "id": "candy.choco",
@@ -1373,7 +1373,7 @@
               "pt": "Chocolate"
             },
             "light": { "dot": "#B27C55", "soft": "#FEF1E8", "text": "#935F39" },
-            "dark": { "dot": "#A78166", "soft": "#33261C", "text": "#ECD2BF" },
+            "dark": { "dot": "#A78166", "soft": "#392516", "text": "#ECD2BF" },
             "near": ["해 질 녘 벽돌 ΔE 4.5"]
           }
         ]
@@ -1462,7 +1462,7 @@
               "pt": "Mamão"
             },
             "light": { "dot": "#FF9A3D", "soft": "#FFF0E6", "text": "#A15A0F" },
-            "dark": { "dot": "#EBA46C", "soft": "#3A230F", "text": "#FCCDA9" },
+            "dark": { "dot": "#EBA46C", "soft": "#3E220B", "text": "#FCCDA9" },
             "near": ["과일 망고 ΔE 4.5"]
           },
           {
@@ -1484,7 +1484,7 @@
               "pt": "Palmeira"
             },
             "light": { "dot": "#13AD86", "soft": "#E2FAF0", "text": "#0E7B5F" },
-            "dark": { "dot": "#55A68A", "soft": "#132F25", "text": "#B2E5D1" }
+            "dark": { "dot": "#55A68A", "soft": "#033325", "text": "#B2E5D1" }
           },
           {
             "id": "tropic.lagoon",
@@ -1505,7 +1505,7 @@
               "pt": "Lagoa"
             },
             "light": { "dot": "#14C4C4", "soft": "#DFFAF9", "text": "#087878" },
-            "dark": { "dot": "#62BDBD", "soft": "#0E2F2E", "text": "#ADE4E3" }
+            "dark": { "dot": "#62BDBD", "soft": "#003232", "text": "#ADE4E3" }
           },
           {
             "id": "tropic.hibiscus",
@@ -1526,7 +1526,7 @@
               "pt": "Hibisco"
             },
             "light": { "dot": "#F5487F", "soft": "#FFEFF1", "text": "#B64464" },
-            "dark": { "dot": "#DC6785", "soft": "#3D1E25", "text": "#FFC6D1" },
+            "dark": { "dot": "#DC6785", "soft": "#401E26", "text": "#FFC6D1" },
             "near": ["네온 핫핑크 ΔE 5.3", "과일 딸기 ΔE 5.4"]
           },
           {
@@ -1548,7 +1548,7 @@
               "pt": "Recife"
             },
             "light": { "dot": "#FF7F66", "soft": "#FFF0EC", "text": "#B74732" },
-            "dark": { "dot": "#E88F7C", "soft": "#3D1F19", "text": "#FEC9BE" }
+            "dark": { "dot": "#E88F7C", "soft": "#411F18", "text": "#FEC9BE" }
           },
           {
             "id": "tropic.orchid",
@@ -1569,7 +1569,7 @@
               "pt": "Orquídea"
             },
             "light": { "dot": "#E07BE0", "soft": "#FFEDFE", "text": "#9C4B9D" },
-            "dark": { "dot": "#D08BD0", "soft": "#362036", "text": "#F4C6F3" }
+            "dark": { "dot": "#D08BD0", "soft": "#382038", "text": "#F4C6F3" }
           }
         ]
       },
