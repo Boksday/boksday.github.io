@@ -3052,30 +3052,30 @@
         "base": "dark",
         "highlightOpacity": 0.42,
         "colors": {
-          "background": "#082A3C",
-          "surface": "#12354A",
-          "surfaceMuted": "#183C52",
-          "panel": "#0C3044",
-          "chip": "#1C4259",
-          "segmentPill": "#2A5269",
+          "background": "#123345",
+          "surface": "#1C3E54",
+          "surfaceMuted": "#22455C",
+          "panel": "#16394E",
+          "chip": "#264B63",
+          "segmentPill": "#345C73",
           "text": "#EAF4F8",
           "textMuted": "#A4BDCB",
           "textSubtle": "#93AEBE",
           "primary": "#8ED3DC",
           "onPrimary": "#082A3C",
           "primaryText": "#8ED3DC",
-          "primarySoft": "#1C4259",
+          "primarySoft": "#264B63",
           "accent": "#8ED3DC",
           "onAccent": "#082A3C",
-          "border": "#1D4258",
-          "floatingBar": "rgba(18, 53, 74, 0.94)"
+          "border": "#274B62",
+          "floatingBar": "rgba(28, 62, 84, 0.94)"
         },
         "pattern": {
           "kind": "svgTile",
-          "tile": 48,
+          "tile": 64,
           "color": "#8ED3DC",
           "opacity": 0.09,
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"48\" height=\"48\" viewBox=\"0 0 48 48\"><g fill=\"none\" stroke=\"#000000\" stroke-width=\"1.5\" stroke-linecap=\"round\"><path d=\"M0 12Q6 8 12 12T24 12T36 12T48 12\"/><path d=\"M-12 36Q-6 32 0 36T12 36T24 36T36 36T48 36T60 36\"/></g></svg>"
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"64\" height=\"64\" viewBox=\"0 0 64 64\"><g fill=\"none\" stroke=\"#000000\" stroke-width=\"1\" stroke-linecap=\"round\"><path d=\"M0 16Q8 12 16 16T32 16T48 16T64 16\"/><path d=\"M-16 48Q-8 44 0 48T16 48T32 48T48 48T64 48T80 48\"/></g></svg>"
         },
         "tabIcons": {
           "set": "basic",
