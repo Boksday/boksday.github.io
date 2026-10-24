@@ -1,0 +1,13 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["5KW76J676S.com.naegyeot.daywrap"],
+        "components": [
+          { "?": { "status": "*" }, "exclude": true },
+          { "/": "/daywrap/s/" }
+        ]
+      }
+    ]
+  }
+}

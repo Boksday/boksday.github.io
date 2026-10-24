@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="referrer" content="no-referrer" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'none'; script-src 'self'; style-src 'self'; connect-src 'none'; base-uri 'none'; form-action 'none'"
+    />
+    <meta name="color-scheme" content="light dark" />
+    <title>Daywrap</title>
+    <link rel="stylesheet" href="./share.css" />
+    <script type="module" src="./page.mjs"></script>
+  </head>
+  <body>
+    <main>
+      <p class="brand">Daywrap</p>
+      <section aria-labelledby="title">
+        <h1 id="title">캘린더 초대를 받았어요</h1>
+        <p id="message">Daywrap에서 초대를 열어 주세요. 캘린더 받기는 무료예요.</p>
+        <p id="resend" hidden>보낸 사람에게 새 초대를 다시 보내 달라고 하세요.</p>
+        <div class="actions">
+          <a id="open" class="button primary" hidden>Daywrap에서 열기</a>
+          <a id="retry" class="retry" hidden>받은 링크 다시 열기</a>
+        </div>
+      </section>
+      <section class="installation" aria-labelledby="install">
+        <h2 id="install">앱이 없으면 설치한 뒤 받은 링크를 다시 눌러 주세요.</h2>
+        <div class="stores">
+          <a class="button" href="https://apps.apple.com/app/id6823854013" rel="noreferrer"
+            >App Store</a
+          >
+          <a
+            class="button"
+            href="https://play.google.com/store/apps/details?id=com.naegyeot.daywrap"
+            rel="noreferrer"
+            >Google Play</a
+          >
+        </div>
+      </section>
+      <p id="verification" class="note">초대 상태는 앱에서 확인해요.</p>
+      <noscript><p>초대를 열려면 JavaScript를 켠 뒤 받은 링크를 다시 눌러 주세요.</p></noscript>
+    </main>
+  </body>
+</html>

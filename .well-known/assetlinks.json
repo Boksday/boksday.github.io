@@ -1,0 +1,20 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.naegyeot.daywrap",
+      "sha256_cert_fingerprints": [
+        "9A:0F:7A:BB:48:31:B3:CC:A8:89:6B:3A:B7:24:28:7F:D6:4F:39:33:55:38:3C:D8:55:72:1B:08:10:76:14:54"
+      ]
+    },
+    "relation_extensions": {
+      "delegate_permission/common.handle_all_urls": {
+        "dynamic_app_link_components": [
+          { "?": { "status": "*" }, "exclude": true },
+          { "/": "/daywrap/s/" }
+        ]
+      }
+    }
+  }
+]
