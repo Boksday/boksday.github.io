@@ -1,8 +1,15 @@
 import { inviteState } from "./share.mjs";
-import { chooseLocale, translations } from "./translations.mjs";
+import { chooseLocale, translations, linkPreviewTitles } from "./translations.mjs";
 
 const locale = chooseLocale(navigator.languages ?? [navigator.language]);
 const copy = translations[locale];
+for (const [property, content] of [
+  ["og:title", linkPreviewTitles[locale]],
+  ["og:description", copy.message],
+]) {
+  const meta = document.querySelector(`meta[property="${property}"]`);
+  if (meta) meta.content = content;
+}
 document.documentElement.lang = locale;
 document.documentElement.dir = locale === "ar" ? "rtl" : "ltr";
 
