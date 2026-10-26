@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Daywrap · Watch the film</title>
+  <meta name="description" content="A short film with real Daywrap screens: calendar decoration, tasks, routines and shared plans, on iPhone, iPad and Apple Watch.">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#f6f3eb">
+  <link rel="canonical" href="https://boksday.github.io/daywrap/film/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Daywrap">
+  <meta property="og:title" content="Daywrap · Watch the film">
+  <meta property="og:description" content="A short film with real Daywrap screens. Watch in English or Korean.">
+  <meta property="og:image" content="https://boksday.github.io/daywrap/film/poster.jpg">
+  <meta property="og:url" content="https://boksday.github.io/daywrap/film/">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" type="image/png" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="./film.css">
+  <script>
+    (function () {
+      var root = document.documentElement;
+      root.classList.add("js");
+      root.dataset.language = location.hash === "#ko" ? "ko" : "en";
+      root.lang = root.dataset.language;
+    })();
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#en" data-copy="en" lang="en">Skip to film</a>
+  <a class="skip-link" href="#ko" data-copy="ko" lang="ko">영상으로 건너뛰기</a>
+  <header class="site-header wrap">
+    <a class="brand" href="../" aria-label="Daywrap home">
+      <img src="../icon.png" width="36" height="36" alt="">
+      <span>Daywrap</span>
+    </a>
+    <nav class="language-picker" aria-label="Film language / 영상 언어">
+      <a href="#en" lang="en" hreflang="en" aria-current="true">English</a>
+      <a href="#ko" lang="ko" hreflang="ko">한국어</a>
+    </nav>
+  </header>
+
+  <main class="wrap" id="film" tabindex="-1">
+    <div class="film-locale" id="ko" lang="ko" tabindex="-1">
+      <div class="intro">
+        <div>
+          <p class="eyebrow">Daywrap Film</p>
+          <h1>Daywrap 영상 보기</h1>
+          <p class="lead">취향대로 꾸민 달력에 오늘 할 일과 함께할 일정을 담아요.</p>
+        </div>
+        <p class="film-meta">실제 앱 화면<span>32초</span></p>
+      </div>
+
+      <figure class="film">
+        <video id="video-ko" controls playsinline preload="metadata" poster="./poster.jpg" width="1920" height="1080" aria-label="Daywrap 소개 영상, 한국어" aria-describedby="caption-ko">
+          <source src="./daywrap-film-ko.mp4" type="video/mp4">
+          <track kind="captions" src="./daywrap-film-ko.vtt" srclang="ko" label="한국어">
+          <track kind="captions" src="./daywrap-film-en.vtt" srclang="en" label="English">
+          <p>이 브라우저에서 영상을 재생할 수 없어요. <a href="./daywrap-film-ko.mp4">한국어 MP4 내려받기</a></p>
+        </video>
+        <figcaption id="caption-ko">
+          <span>차분한 꾸미기부터 귀여운 스티커까지. 할 일과 루틴, 공유 캘린더, iPad와 Apple Watch 화면을 살펴보세요.</span>
+          <span class="caption-label">한국어 버전</span>
+        </figcaption>
+      </figure>
+
+      <div class="film-details">
+        <div class="story">
+          <h2>매일 쓰는 달력을 내 취향으로</h2>
+          <p>날짜에 스티커와 테두리를 더하고, 할 일은 네 칸으로 나눠요. 매일 하는 루틴을 기록하고 공유 캘린더에서 함께할 일정을 확인해요.</p>
+          <p class="purchase-note">일부 꾸미기 상품과 Premium 기능은 별도 구매가 필요해요.</p>
+        </div>
+        <div class="film-actions">
+          <a class="store-link" href="https://apps.apple.com/app/id6823854013">App Store <span aria-hidden="true">↗</span></a>
+          <div class="downloads" aria-label="영상 내려받기">
+            <span class="download-label">MP4 내려받기</span>
+            <a href="./daywrap-film-ko.mp4" download>한국어 <span aria-hidden="true">↓</span></a>
+            <a href="./daywrap-film-en.mp4" download lang="en">English <span aria-hidden="true">↓</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="film-locale" id="en" lang="en" tabindex="-1">
+      <div class="intro">
+        <div>
+          <p class="eyebrow">Daywrap Film</p>
+          <h1>Watch the film</h1>
+          <p class="lead">A calendar in your own style, with room for daily tasks and shared plans.</p>
+        </div>
+        <p class="film-meta">Real app screens<span>32 seconds</span></p>
+      </div>
+
+      <figure class="film">
+        <video id="video-en" controls playsinline preload="metadata" poster="./poster.jpg" width="1920" height="1080" aria-label="Daywrap film, English" aria-describedby="caption-en">
+          <source src="./daywrap-film-en.mp4" type="video/mp4">
+          <track kind="captions" src="./daywrap-film-en.vtt" srclang="en" label="English">
+          <track kind="captions" src="./daywrap-film-ko.vtt" srclang="ko" label="한국어">
+          <p>Your browser cannot play this video. <a href="./daywrap-film-en.mp4">Download the English MP4</a>.</p>
+        </video>
+        <figcaption id="caption-en">
+          <span>From understated decoration to playful stickers. A look at tasks, routines and shared calendars, with views for iPad and Apple Watch.</span>
+          <span class="caption-label">English edition</span>
+        </figcaption>
+      </figure>
+
+      <div class="film-details">
+        <div class="story">
+          <h2>An everyday calendar, made personal</h2>
+          <p>Add stickers and borders to your dates, and arrange tasks in four boxes. Keep a record of your daily routines and make plans together in a shared calendar.</p>
+          <p class="purchase-note">Some decorations and Premium features require a separate purchase.</p>
+        </div>
+        <div class="film-actions">
+          <a class="store-link" href="https://apps.apple.com/app/id6823854013">App Store <span aria-hidden="true">↗</span></a>
+          <div class="downloads" aria-label="Download the film">
+            <span class="download-label">Download MP4</span>
+            <a href="./daywrap-film-en.mp4" download>English <span aria-hidden="true">↓</span></a>
+            <a href="./daywrap-film-ko.mp4" download lang="ko">한국어 <span aria-hidden="true">↓</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer wrap">
+    <a class="return-link" href="../">
+      <span aria-hidden="true">←</span>
+      <span data-copy="en" lang="en">Back to Daywrap</span>
+      <span data-copy="ko" lang="ko">Daywrap 소개로</span>
+    </a>
+    <p>© 2026 <span lang="ko">내곁의</span></p>
+  </footer>
+  <script>
+    (function () {
+      var root = document.documentElement;
+      var links = document.querySelectorAll(".language-picker a");
+      var videos = document.querySelectorAll("video");
+      var description = document.querySelector('meta[name="description"]');
+      function syncLanguage() {
+        var language = location.hash === "#ko" ? "ko" : "en";
+        var changed = root.dataset.language !== language;
+        if (changed) {
+          for (var i = 0; i < videos.length; i++) videos[i].pause();
+        }
+        root.dataset.language = language;
+        root.lang = language;
+        document.title = language === "ko" ? "Daywrap · 소개 영상" : "Daywrap · Watch the film";
+        description.content = language === "ko"
+          ? "실제 Daywrap 화면으로 보는 짧은 영상. 달력 꾸미기, 할 일과 루틴, 공유 일정, iPhone과 iPad, Apple Watch를 소개해요."
+          : "A short film with real Daywrap screens: calendar decoration, tasks, routines and shared plans, on iPhone, iPad and Apple Watch.";
+        document.querySelector(".brand").setAttribute("aria-label", language === "ko" ? "Daywrap 소개" : "Daywrap home");
+        for (var j = 0; j < links.length; j++) {
+          if (links[j].getAttribute("hreflang") === language) links[j].setAttribute("aria-current", "true");
+          else links[j].removeAttribute("aria-current");
+        }
+      }
+      for (var i = 0; i < links.length; i++) {
+        links[i].addEventListener("click", function (event) {
+          event.preventDefault();
+          history.pushState(null, "", this.getAttribute("href"));
+          syncLanguage();
+        });
+      }
+      window.addEventListener("hashchange", syncLanguage);
+      window.addEventListener("popstate", syncLanguage);
+      syncLanguage();
+    })();
+  </script>
+</body>
+</html>
