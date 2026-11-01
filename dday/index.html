@@ -118,5 +118,16 @@
       <a href="/dday/support/">고객 지원</a> · <a href="/dday/privacy/">개인정보처리방침</a> · 문의 <a href="mailto:ekqlszzzz@naver.com">ekqlszzzz@naver.com</a>
     </div>
   </footer>
+  <script>
+    document.querySelectorAll('a.store-button').forEach(function (a) {
+      a.addEventListener('click', function (e) {
+        e.preventDefault();
+        var moved = false;
+        var go = function () { if (!moved) { moved = true; window.location = a.href; } };
+        gtag('event', 'conversion', { send_to: 'AW-18506448288/RkBdCIT57ZgdEKD7x_hE', value: 1.0, currency: 'KRW', event_callback: go });
+        setTimeout(go, 800);
+      });
+    });
+  </script>
 </body>
 </html>

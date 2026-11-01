@@ -90,5 +90,16 @@
       <a href="/dday/support/ja/">サポート</a> · <a href="/dday/privacy/ja/">プライバシーポリシー</a> · お問い合わせ <a href="mailto:ekqlszzzz@naver.com">ekqlszzzz@naver.com</a>
     </div>
   </footer>
+  <script>
+    document.querySelectorAll('a.store-button').forEach(function (a) {
+      a.addEventListener('click', function (e) {
+        e.preventDefault();
+        var moved = false;
+        var go = function () { if (!moved) { moved = true; window.location = a.href; } };
+        gtag('event', 'conversion', { send_to: 'AW-18506448288/RkBdCIT57ZgdEKD7x_hE', value: 1.0, currency: 'KRW', event_callback: go });
+        setTimeout(go, 800);
+      });
+    });
+  </script>
 </body>
 </html>
