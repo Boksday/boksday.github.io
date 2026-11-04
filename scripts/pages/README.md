@@ -13,3 +13,11 @@ python3 scripts/pages/gen.py dday     # 하나만
 - 스토어 주소가 생기면 `gen.py`의 `App(..., store_urls=(App Store, Google Play))`를 채운다.
 - 스크린샷(`<앱>/img/<언어>/01-….jpg`)이 없으면 화면 구역을 빼고, 공유 이미지(`header.jpg`)가 없으면 아이콘을 쓴다.
 - `/nonogram/`에는 앱이 받는 `index.json`·`puzzles/`·`CREDITS.md`가 함께 있다. 생성기는 `index.html`만 덮어쓰고 다른 파일은 건드리지 않는다.
+
+## 루미클린 개인정보처리방침
+
+`/lumiclean/privacy/`는 소개·지원 페이지가 아직 없어 `gen.py`와 따로 만든다. 문구는 `lumiclean_content.py`, 모양은 `/lumiclean/privacy.css`(앱 토큰의 무채색)에 있다.
+
+```
+python3 scripts/pages/lumiclean_privacy.py
+```
