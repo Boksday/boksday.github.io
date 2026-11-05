@@ -140,7 +140,7 @@ INTRO = {
 def privacy(lang):
     p1, p2 = g(lang)
     data = {
-        'ko': ('내곁의 디데이 개인정보처리방침', '시행일: 2026년 10월 9일',
+        'ko': ('내곁의 디데이 개인정보처리방침', '시행일: 2026년 11월 5일',
                "'내곁의 디데이'(이하 \"앱\", Android·iOS)는 이용자의 개인정보를 소중히 다루며, 「개인정보 보호법」 등 관련 법령을 지킵니다. 이 방침은 앱이 어떤 정보를 어떻게 다루는지 설명합니다.", [
             ('1. 앱이 직접 수집하는 정보', [
                 '<p>앱은 회원가입이나 로그인이 없으며, 운영자가 운영하는 서버로 이용자의 정보를 보내지 않습니다.</p>',
@@ -148,9 +148,9 @@ def privacy(lang):
                 '<p>디데이에 사진을 넣으면, 이용자가 고른 사진 한 장의 크기를 줄인 사본이 <strong>앱 안에만 저장</strong>되며 외부로 전송되지 않습니다. 사진 보관함 전체에 접근하지 않고 이용자가 고른 사진만 읽습니다. 공유 카드를 <strong>이미지로 저장</strong>할 때만 사진 보관함에 이미지를 추가합니다.</p>',
                 '<p>이용자가 직접 만드는 <strong>백업 파일</strong>에는 디데이와 함께 앱에 넣은 사진 사본이 들어가며, 보낼 곳은 이용자가 고릅니다. 앱은 기록이 바뀔 때마다 기기 안(iOS 파일 앱의 이 앱 폴더)에 사진을 뺀 자동 백업 파일을 덮어씁니다. 이 파일은 휴대폰 자체 백업(iCloud, Google 백업)에 포함될 수 있으며, 그 백업은 이용자와 Apple·Google 사이의 서비스입니다.</p>',
             ]),
-            ('2. 광고를 위해 제3자가 수집하는 정보', [
+            ('2. 광고와 이용 통계를 위해 제3자가 수집하는 정보', [
                 '<p>앱은 무료로 제공되며, 광고 표시를 위해 Google LLC의 <strong>Google AdMob</strong>을 사용합니다. AdMob은 광고 제공과 측정, 부정 사용 방지를 위해 다음 정보를 수집·처리할 수 있습니다.</p>',
-                '<table><tr><th>수집 주체</th><th>항목</th><th>목적</th></tr><tr><td>Google LLC (AdMob)</td><td>광고 ID(Android 광고 ID, iOS 광고 식별자 IDFA — iOS는 이용자가 추적을 허용한 경우에만), IP 주소, 기기·운영체제 정보, 광고 노출·클릭 등 앱 이용 정보, 대략적인 위치(IP 기반)</td><td>광고 표시·맞춤형 광고, 광고 성과 측정, 부정 클릭 방지</td></tr></table>',
+                '<table><tr><th>수집 주체</th><th>항목</th><th>목적</th></tr><tr><td>Google LLC (AdMob)</td><td>광고 ID(Android 광고 ID, iOS 광고 식별자 IDFA — iOS는 이용자가 추적을 허용한 경우에만), IP 주소, 기기·운영체제 정보, 광고 노출·클릭 등 앱 이용 정보, 대략적인 위치(IP 기반)</td><td>광고 표시·맞춤형 광고, 광고 성과 측정, 부정 클릭 방지</td></tr><tr><td>Google LLC (Google Analytics for Firebase, iOS)</td><td>앱 인스턴스 ID, 광고 ID(IDFA, 이용자가 추적을 허용한 경우에만), 앱 첫 실행·실행 같은 이용 기록, 기기·운영체제 정보, 대략적인 위치(IP 기반)</td><td>앱 이용 통계, 광고 캠페인으로 앱을 설치했는지 측정</td></tr></table>',
                 f'<p>Google의 정보 처리 방식은 <a href="{p1}">Google 파트너 사이트·앱의 데이터 사용 방식</a>과 <a href="{p2}">Google 개인정보처리방침</a>에서 확인할 수 있습니다.</p>',
             ]),
             ('3. 결제(광고 제거)', [
@@ -173,7 +173,7 @@ def privacy(lang):
             ('9. 개인정보 보호책임자·문의', [f'<p>개인정보 보호책임자: 내곁의 운영자<br>연락처: {E}</p>']),
             ('10. 방침의 변경', ['<p>이 방침이 바뀌면 이 페이지에 시행일과 함께 알립니다. 이 방침은 한국어 원문을 기준으로 하며, 다른 언어판과 뜻이 다르면 한국어판을 따릅니다.</p>']),
         ]),
-        'en': ('BySide D-Day Privacy Policy', 'Effective date: October 9, 2026',
+        'en': ('BySide D-Day Privacy Policy', 'Effective date: November 5, 2026',
                'BySide D-Day (내곁의 디데이, the "App", for Android and iOS) respects your privacy. This policy explains what information the App handles and how.', [
             ('1. Information the App collects', [
                 '<p>The App has no sign-up or login, and it does not send your information to any server we run.</p>',
@@ -181,9 +181,9 @@ def privacy(lang):
                 '<p>If you add a photo to a D-Day, a resized copy of the one photo you pick is <strong>stored only inside the App</strong> and is never uploaded. The App does not access your whole photo library; it reads only the photo you choose. It adds an image to your photo library only when you tap <strong>Save image</strong> on a share card.</p>',
                 '<p>A <strong>backup file</strong> you export contains your D-Days and copies of the photos you added, and you choose where it goes. Each time your records change, the App also overwrites an automatic backup file without photos on your device (in the App\'s folder in the iOS Files app). That file may be included in your phone\'s own backup (iCloud or Google backup), which is a service between you and Apple or Google.</p>',
             ]),
-            ('2. Information collected by third parties for ads', [
+            ('2. Information collected by third parties for ads and usage statistics', [
                 '<p>The App is free and uses <strong>Google AdMob</strong> by Google LLC to show ads. AdMob may collect and process the following information to serve and measure ads and prevent fraud.</p>',
-                '<table><tr><th>Collected by</th><th>Data</th><th>Purpose</th></tr><tr><td>Google LLC (AdMob)</td><td>Advertising ID (Android Advertising ID; iOS IDFA only if you allow tracking), IP address, device and OS information, app usage such as ad impressions and clicks, approximate location (based on IP)</td><td>Showing ads and personalized ads, measuring ad performance, preventing invalid clicks</td></tr></table>',
+                '<table><tr><th>Collected by</th><th>Data</th><th>Purpose</th></tr><tr><td>Google LLC (AdMob)</td><td>Advertising ID (Android Advertising ID; iOS IDFA only if you allow tracking), IP address, device and OS information, app usage such as ad impressions and clicks, approximate location (based on IP)</td><td>Showing ads and personalized ads, measuring ad performance, preventing invalid clicks</td></tr><tr><td>Google LLC (Google Analytics for Firebase, iOS)</td><td>App instance ID, IDFA (only if you allow tracking), usage events such as first open and app launches, device and OS information, approximate location (based on IP)</td><td>App usage statistics, measuring whether an ad campaign led to an install</td></tr></table>',
                 f'<p>See <a href="{p1}">How Google uses information from sites or apps that use its services</a> and the <a href="{p2}">Google Privacy Policy</a>.</p>',
             ]),
             ('3. Purchases (Remove ads)', ['<p>Purchases to remove ads and coupon redemptions are handled by Google Play or the App Store. Neither the App nor we receive payment details such as card numbers; the App only checks on your device whether the store reports a purchase. Remove ads is a one-time purchase with no recurring charges.</p>']),
@@ -200,7 +200,7 @@ def privacy(lang):
             ('9. Privacy contact', [f'<p>Privacy officer: BySide (내곁의) developer<br>Email: {E}</p>']),
             ('10. Changes to this policy', ['<p>If this policy changes, we will post the update on this page with a new effective date. The Korean version of this policy is the original; if a translation differs in meaning, the Korean version prevails.</p>']),
         ]),
-        'ja': ('BySide D-Day プライバシーポリシー', '施行日：2026年10月9日',
+        'ja': ('BySide D-Day プライバシーポリシー', '施行日：2026年11月5日',
                '「BySide D-Day」（韓国語名「내곁의 디데이」、以下「本アプリ」、Android・iOS）は、利用者のプライバシーを大切にしています。このポリシーでは、本アプリがどのような情報をどのように扱うかを説明します。', [
             ('1. 本アプリが扱う情報', [
                 '<p>本アプリには会員登録やログインがなく、運営者のサーバーに利用者の情報を送ることはありません。</p>',
@@ -208,9 +208,9 @@ def privacy(lang):
                 '<p>記念日に写真を設定すると、利用者が選んだ写真1枚を縮小したコピーが<strong>アプリの中にだけ保存</strong>され、外部に送られることはありません。写真ライブラリ全体にはアクセスせず、選んだ写真だけを読み込みます。シェアカードの<strong>画像を保存</strong>を押したときだけ、写真ライブラリに画像を追加します。</p>',
                 '<p>利用者が書き出す<strong>バックアップファイル</strong>には、記念日とアプリに設定した写真のコピーが含まれ、保存先は利用者が選びます。また、記録が変わるたびに、写真を含まない自動バックアップファイルを端末内（iOS のファイルアプリの本アプリのフォルダ）に上書き保存します。このファイルは端末自体のバックアップ（iCloud、Google バックアップ）に含まれることがあり、そのバックアップは利用者と Apple・Google との間のサービスです。</p>',
             ]),
-            ('2. 広告のために第三者が収集する情報', [
+            ('2. 広告と利用統計のために第三者が収集する情報', [
                 '<p>本アプリは無料で提供され、広告の表示に Google LLC の <strong>Google AdMob</strong> を使用します。AdMob は広告の配信と効果測定、不正利用の防止のために、次の情報を収集・処理することがあります。</p>',
-                '<table><tr><th>収集者</th><th>項目</th><th>目的</th></tr><tr><td>Google LLC（AdMob）</td><td>広告 ID（Android の広告 ID、iOS の IDFA。iOS は利用者がトラッキングを許可した場合のみ）、IP アドレス、端末・OS の情報、広告の表示・クリックなどの利用情報、おおよその位置（IP に基づく）</td><td>広告の表示・パーソナライズ広告、広告効果の測定、不正クリックの防止</td></tr></table>',
+                '<table><tr><th>収集者</th><th>項目</th><th>目的</th></tr><tr><td>Google LLC（AdMob）</td><td>広告 ID（Android の広告 ID、iOS の IDFA。iOS は利用者がトラッキングを許可した場合のみ）、IP アドレス、端末・OS の情報、広告の表示・クリックなどの利用情報、おおよその位置（IP に基づく）</td><td>広告の表示・パーソナライズ広告、広告効果の測定、不正クリックの防止</td></tr><tr><td>Google LLC（Google Analytics for Firebase、iOS）</td><td>アプリインスタンス ID、IDFA（利用者がトラッキングを許可した場合のみ）、初回起動・起動などの利用記録、端末・OS の情報、おおよその位置（IP に基づく）</td><td>アプリの利用統計、広告キャンペーン経由のインストールの測定</td></tr></table>',
                 f'<p>Google による情報の取り扱いは、<a href="{p1}">Google のサービスを使用するサイトやアプリから収集した情報の Google による使用</a>と<a href="{p2}">Google プライバシーポリシー</a>でご確認いただけます。</p>',
             ]),
             ('3. 決済（広告の削除）', ['<p>広告の削除の購入とクーポンの利用は、Google Play または App Store が処理します。本アプリと運営者はカード番号などの決済情報を受け取らず、ストアが知らせる購入の有無だけを端末で確認します。広告の削除は買い切りの商品で、自動課金はありません。</p>']),
@@ -227,7 +227,7 @@ def privacy(lang):
             ('9. お問い合わせ窓口', [f'<p>個人情報保護責任者：BySide（내곁의）運営者<br>メール：{E}</p>']),
             ('10. ポリシーの変更', ['<p>このポリシーを変更する場合は、施行日とともにこのページでお知らせします。このポリシーは韓国語版を原文とし、翻訳版と意味が異なる場合は韓国語版が優先されます。</p>']),
         ]),
-        'zh-hans': ('BySide D-Day 隐私政策', '生效日期：2026年10月9日',
+        'zh-hans': ('BySide D-Day 隐私政策', '生效日期：2026年11月5日',
                     '“BySide D-Day”（韩文名“내곁의 디데이”，以下简称“本应用”，适用于 Android 和 iOS）重视你的隐私。本政策说明本应用处理哪些信息以及如何处理。', [
             ('1. 本应用处理的信息', [
                 '<p>本应用无需注册或登录，也不会把你的信息发送到我们运营的服务器。</p>',
@@ -235,9 +235,9 @@ def privacy(lang):
                 '<p>为纪念日添加照片时，你选择的那一张照片会被缩小并复制，<strong>只保存在应用内</strong>，不会上传。本应用不会访问整个照片图库，只读取你选择的照片。只有在分享卡片上点按<strong>保存图片</strong>时，才会向照片图库添加图片。</p>',
                 '<p>你导出的<strong>备份文件</strong>包含纪念日和你添加的照片副本，保存位置由你选择。此外，每当记录发生变化，本应用会在设备上（iOS“文件”应用中本应用的文件夹）覆盖保存一个不含照片的自动备份文件。该文件可能包含在手机自带的备份（iCloud、Google 备份）中，这类备份是你与 Apple 或 Google 之间的服务。</p>',
             ]),
-            ('2. 第三方为广告收集的信息', [
+            ('2. 第三方为广告和使用统计收集的信息', [
                 '<p>本应用免费提供，并使用 Google LLC 的 <strong>Google AdMob</strong> 展示广告。AdMob 可能为投放和衡量广告、防止滥用而收集和处理以下信息。</p>',
-                '<table><tr><th>收集方</th><th>项目</th><th>目的</th></tr><tr><td>Google LLC（AdMob）</td><td>广告标识符（Android 广告 ID、iOS IDFA；iOS 仅在你允许跟踪时）、IP 地址、设备和操作系统信息、广告展示和点击等使用信息、大致位置（基于 IP）</td><td>展示广告和个性化广告、衡量广告效果、防止无效点击</td></tr></table>',
+                '<table><tr><th>收集方</th><th>项目</th><th>目的</th></tr><tr><td>Google LLC（AdMob）</td><td>广告标识符（Android 广告 ID、iOS IDFA；iOS 仅在你允许跟踪时）、IP 地址、设备和操作系统信息、广告展示和点击等使用信息、大致位置（基于 IP）</td><td>展示广告和个性化广告、衡量广告效果、防止无效点击</td></tr><tr><td>Google LLC（Google Analytics for Firebase，iOS）</td><td>应用实例 ID、IDFA（仅在你允许跟踪时）、首次打开和启动等使用记录、设备和操作系统信息、大致位置（基于 IP）</td><td>应用使用统计、衡量广告活动带来的安装</td></tr></table>',
                 f'<p>Google 如何处理信息，请参阅<a href="{p1}">Google 如何使用来自使用其服务的网站或应用的信息</a>和<a href="{p2}">Google 隐私权政策</a>。</p>',
             ]),
             ('3. 付款（移除广告）', ['<p>移除广告的购买和兑换码的使用由 Google Play 或 App Store 处理。本应用和我们不会收到银行卡号等付款信息，只在设备上确认商店告知的购买状态。移除广告是一次性购买的项目，没有自动续费。</p>']),
@@ -254,7 +254,7 @@ def privacy(lang):
             ('9. 联系方式', [f'<p>个人信息保护负责人：BySide（내곁의）开发者<br>邮箱：{E}</p>']),
             ('10. 政策变更', ['<p>本政策如有变更，我们会在本页面公布并注明生效日期。本政策以韩文版为准，译文与韩文版含义不一致时，以韩文版为准。</p>']),
         ]),
-        'zh-hant': ('BySide D-Day 隱私權政策', '生效日期：2026年10月9日',
+        'zh-hant': ('BySide D-Day 隱私權政策', '生效日期：2026年11月5日',
                     '「BySide D-Day」（韓文名「내곁의 디데이」，以下簡稱「本 App」，適用於 Android 與 iOS）重視你的隱私。本政策說明本 App 處理哪些資訊以及如何處理。', [
             ('1. 本 App 處理的資訊', [
                 '<p>本 App 不需註冊或登入，也不會把你的資訊傳送到我們經營的伺服器。</p>',
@@ -262,9 +262,9 @@ def privacy(lang):
                 '<p>為紀念日加入照片時，你選擇的那一張照片會縮小並複製，<strong>只儲存在 App 內</strong>，不會上傳。本 App 不會存取整個照片圖庫，只讀取你選擇的照片。只有在分享卡片上點一下<strong>儲存圖片</strong>時，才會在照片圖庫加入圖片。</p>',
                 '<p>你匯出的<strong>備份檔案</strong>包含紀念日和你加入的照片副本，儲存位置由你選擇。此外，每當記錄有變動，本 App 會在裝置上（iOS「檔案」App 中本 App 的資料夾）覆寫一個不含照片的自動備份檔。這個檔案可能包含在手機本身的備份（iCloud、Google 備份）中，這類備份是你與 Apple 或 Google 之間的服務。</p>',
             ]),
-            ('2. 第三方為廣告蒐集的資訊', [
+            ('2. 第三方為廣告與使用統計蒐集的資訊', [
                 '<p>本 App 免費提供，並使用 Google LLC 的 <strong>Google AdMob</strong> 顯示廣告。AdMob 可能為投放與評估廣告、防止濫用而蒐集與處理下列資訊。</p>',
-                '<table><tr><th>蒐集者</th><th>項目</th><th>目的</th></tr><tr><td>Google LLC（AdMob）</td><td>廣告識別碼（Android 廣告 ID、iOS IDFA；iOS 僅在你允許追蹤時）、IP 位址、裝置與作業系統資訊、廣告曝光與點擊等使用資訊、大致位置（依 IP）</td><td>顯示廣告與個人化廣告、評估廣告成效、防止無效點擊</td></tr></table>',
+                '<table><tr><th>蒐集者</th><th>項目</th><th>目的</th></tr><tr><td>Google LLC（AdMob）</td><td>廣告識別碼（Android 廣告 ID、iOS IDFA；iOS 僅在你允許追蹤時）、IP 位址、裝置與作業系統資訊、廣告曝光與點擊等使用資訊、大致位置（依 IP）</td><td>顯示廣告與個人化廣告、評估廣告成效、防止無效點擊</td></tr><tr><td>Google LLC（Google Analytics for Firebase，iOS）</td><td>應用程式執行個體 ID、IDFA（僅在你允許追蹤時）、首次開啟與啟動等使用紀錄、裝置與作業系統資訊、大致位置（依 IP）</td><td>App 使用統計、評估廣告活動帶來的安裝</td></tr></table>',
                 f'<p>Google 如何處理資訊，請參閱<a href="{p1}">Google 如何使用採用其服務的網站或應用程式所提供的資訊</a>及<a href="{p2}">Google 隱私權政策</a>。</p>',
             ]),
             ('3. 付款（移除廣告）', ['<p>移除廣告的購買與兌換碼的使用由 Google Play 或 App Store 處理。本 App 與我們不會收到信用卡號碼等付款資訊，只在裝置上確認商店告知的購買狀態。移除廣告是一次性購買的項目，沒有自動續訂。</p>']),
