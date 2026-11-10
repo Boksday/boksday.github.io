@@ -1,0 +1,149 @@
+{
+  "version": 1,
+  "apps": [
+    {
+      "id": "daywrap",
+      "enabled": true,
+      "weight": 4,
+      "icon": "https://boksday.github.io/house-ads/daywrap.png",
+      "name": {
+        "ko": "Daywrap",
+        "en": "Daywrap",
+        "ja": "Daywrap",
+        "zh-Hans": "Daywrap",
+        "zh-Hant": "Daywrap"
+      },
+      "text": {
+        "ko": "할 일과 루틴, 달력을 한 앱에",
+        "en": "To-dos, routines and a calendar in one app",
+        "ja": "やること、ルーティン、カレンダーをひとつに",
+        "zh-Hans": "待办、习惯和日历都在一个应用里",
+        "zh-Hant": "待辦、習慣和日曆都在一個應用裡"
+      },
+      "ios": "https://apps.apple.com/app/id6823854013",
+      "android": "https://play.google.com/store/apps/details?id=com.naegyeot.daywrap",
+      "video": {
+        "url": "https://boksday.github.io/house-ads/daywrap-15s.mp4",
+        "durationSec": 15
+      }
+    },
+    {
+      "id": "dday",
+      "enabled": true,
+      "weight": 1,
+      "icon": "https://boksday.github.io/house-ads/dday.png",
+      "name": {
+        "ko": "내곁의 디데이",
+        "en": "BySide D-Day",
+        "ja": "BySide D-Day",
+        "zh-Hans": "BySide 倒数日",
+        "zh-Hant": "BySide 倒數日"
+      },
+      "text": {
+        "ko": "기념일과 음력 생일까지 챙겨 주는 디데이",
+        "en": "Count down to birthdays and anniversaries, lunar dates too",
+        "ja": "記念日も旧暦の誕生日も忘れないカウントダウン",
+        "zh-Hans": "纪念日和农历生日都不错过的倒数日",
+        "zh-Hant": "紀念日和農曆生日都不錯過的倒數日"
+      },
+      "ios": "https://apps.apple.com/app/id6819150377",
+      "android": "https://play.google.com/store/apps/details?id=com.naegyeot.dday",
+      "video": {
+        "url": "https://boksday.github.io/house-ads/dday-15s.mp4",
+        "durationSec": 15
+      }
+    },
+    {
+      "id": "exchange",
+      "enabled": true,
+      "weight": 1,
+      "icon": "https://boksday.github.io/house-ads/exchange.png",
+      "name": {
+        "ko": "내곁의 여비",
+        "en": "BySide Trip",
+        "ja": "BySide Trip",
+        "zh-Hans": "BySide 旅费",
+        "zh-Hant": "BySide 旅費"
+      },
+      "text": {
+        "ko": "여행 중 환율 계산과 지출 기록을 한곳에서",
+        "en": "Convert currencies and track trip spending in one place",
+        "ja": "旅先の為替計算と支出記録をひとつに",
+        "zh-Hans": "旅途中的汇率换算和支出记录都在这里",
+        "zh-Hant": "旅途中的匯率換算和支出記錄都在這裡"
+      },
+      "ios": null,
+      "android": "https://play.google.com/store/apps/details?id=com.naegyeot.exchange",
+      "video": {
+        "url": "https://boksday.github.io/house-ads/exchange-15s.mp4",
+        "durationSec": 15
+      }
+    },
+    {
+      "id": "sudoku",
+      "enabled": false,
+      "weight": 1,
+      "icon": "https://boksday.github.io/house-ads/sudoku.png",
+      "name": {
+        "ko": "내곁의 스도쿠",
+        "en": "BySide Sudoku",
+        "ja": "BySide Sudoku",
+        "zh-Hans": "BySide 数独",
+        "zh-Hant": "BySide 數獨"
+      },
+      "text": {
+        "ko": "매일 새 퍼즐로 등급을 올리는 스도쿠",
+        "en": "Climb the ranks with a new puzzle every day",
+        "ja": "毎日の新しいパズルでランクアップ",
+        "zh-Hans": "每天一道新题，一路升级",
+        "zh-Hant": "每天一道新題，一路升級"
+      },
+      "ios": null,
+      "android": null
+    },
+    {
+      "id": "nonogram",
+      "enabled": false,
+      "weight": 1,
+      "icon": "https://boksday.github.io/house-ads/nonogram.png",
+      "name": {
+        "ko": "내곁의 노노그램",
+        "en": "BySide Nonogram",
+        "ja": "BySide Nonogram",
+        "zh-Hans": "BySide 数织",
+        "zh-Hant": "BySide 數織"
+      },
+      "text": {
+        "ko": "숫자 힌트로 칸을 칠해 픽셀 그림을 완성해요",
+        "en": "Fill the grid from number clues and reveal pixel art",
+        "ja": "数字のヒントでマスを塗り、ドット絵を完成",
+        "zh-Hans": "根据数字提示涂格，完成像素画",
+        "zh-Hant": "根據數字提示塗格，完成像素畫"
+      },
+      "ios": null,
+      "android": null
+    },
+    {
+      "id": "broke",
+      "enabled": false,
+      "weight": 1,
+      "icon": "https://boksday.github.io/house-ads/broke.png",
+      "name": {
+        "ko": "텅장탈출",
+        "en": "Broke Escape",
+        "ja": "Broke Escape",
+        "zh-Hans": "Broke Escape",
+        "zh-Hant": "Broke Escape"
+      },
+      "text": {
+        "ko": "월급으로 시작해 인생을 굴리는 경영 게임",
+        "en": "Start on a first paycheck and manage a whole life",
+        "ja": "初任給から人生を動かす経営ゲーム",
+        "zh-Hans": "从第一份工资开始经营人生",
+        "zh-Hant": "從第一份薪水開始經營人生"
+      },
+      "ios": null,
+      "android": null
+    }
+  ]
+}
