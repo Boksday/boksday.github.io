@@ -11581,6 +11581,169 @@
           }
         ]
       }
+    },
+    {
+      "id": "s-satin-ribbons",
+      "kind": "stickers",
+      "name": {
+        "ko": "새틴 리본",
+        "en": "Satin ribbons",
+        "en-GB": "Satin ribbons",
+        "ja": "サテンリボン",
+        "zh-Hans": "缎带蝴蝶结",
+        "zh-Hant": "緞帶蝴蝶結",
+        "sv": "Satinrosetter",
+        "da": "Satinsløjfer",
+        "nb": "Satengsløyfer",
+        "nl": "Satijnen strikken",
+        "de": "Satinschleifen",
+        "fr": "Nœuds de satin",
+        "es": "Lazos de satén",
+        "pt": "Laços de cetim",
+        "it": "Fiocchi di raso",
+        "tr": "Saten fiyonklar",
+        "ru": "Атласные банты",
+        "ar": "عقد ساتان"
+      },
+      "description": {
+        "ko": "접힌 결이 살아 있는 리본 스티커 4종.",
+        "en": "Four ribbon stickers with layered satin folds.",
+        "en-GB": "Four ribbon stickers with layered satin folds.",
+        "ja": "折り目が美しいリボンステッカー4種。",
+        "zh-Hans": "四款带有缎面褶皱的蝴蝶结贴纸。",
+        "zh-Hant": "四款帶有緞面褶皺的蝴蝶結貼紙。",
+        "sv": "Fyra bandklistermärken med satinveck.",
+        "da": "Fire båndklistermærker med satinfolder.",
+        "nb": "Fire båndklistremerker med satengfolder.",
+        "nl": "Vier lintstickers met satijnen plooien.",
+        "de": "Vier Bandsticker mit Satinfalten.",
+        "fr": "Quatre stickers rubans aux plis satinés.",
+        "es": "Cuatro pegatinas de lazos con pliegues de satén.",
+        "pt": "Quatro adesivos de laços com dobras de cetim.",
+        "it": "Quattro adesivi a fiocco con pieghe di raso.",
+        "tr": "Saten kıvrımlı dört fiyonk çıkartması.",
+        "ru": "Четыре наклейки с атласными бантами.",
+        "ar": "أربعة ملصقات لشرائط بطيات ساتان."
+      },
+      "price": 100,
+      "startAt": "2026-11-15",
+      "endAt": null,
+      "rev": null,
+      "minAppVersion": "1.1.6",
+      "asset": "stickers/s-satin-ribbons/",
+      "files": 4,
+      "tags": [
+        "new",
+        "refined"
+      ],
+      "order": 2130,
+      "addedAt": "2026-11-15",
+      "featured": null,
+      "popular": null,
+      "data": {
+        "format": "svg",
+        "size": 360,
+        "maxBytes": 40960,
+        "tintable": false,
+        "stickers": [
+          {
+            "id": "s-satin-ribbons.petite",
+            "file": "s-satin-ribbons/petite.svg",
+            "name": {
+              "ko": "작은 매듭",
+              "en": "Petite bow",
+              "en-GB": "Petite bow",
+              "ja": "小さな結び目",
+              "zh-Hans": "小蝴蝶结",
+              "zh-Hant": "小蝴蝶結",
+              "sv": "Liten rosett",
+              "da": "Lille sløjfe",
+              "nb": "Liten sløyfe",
+              "nl": "Kleine strik",
+              "de": "Kleine Schleife",
+              "fr": "Petit nœud",
+              "es": "Lazo pequeño",
+              "pt": "Laço pequeno",
+              "it": "Fiocchetto",
+              "tr": "Küçük fiyonk",
+              "ru": "Маленький бант",
+              "ar": "عقدة صغيرة"
+            }
+          },
+          {
+            "id": "s-satin-ribbons.long",
+            "file": "s-satin-ribbons/long.svg",
+            "name": {
+              "ko": "긴 꼬리 리본",
+              "en": "Trailing bow",
+              "en-GB": "Trailing bow",
+              "ja": "長いリボン",
+              "zh-Hans": "长尾蝴蝶结",
+              "zh-Hant": "長尾蝴蝶結",
+              "sv": "Rosett med långa band",
+              "da": "Sløjfe med lange bånd",
+              "nb": "Sløyfe med lange bånd",
+              "nl": "Strik met lange linten",
+              "de": "Schleife mit langen Bändern",
+              "fr": "Nœud à longs rubans",
+              "es": "Lazo de cintas largas",
+              "pt": "Laço de fitas longas",
+              "it": "Fiocco a nastri lunghi",
+              "tr": "Uzun kurdeleli fiyonk",
+              "ru": "Бант с длинными лентами",
+              "ar": "عقدة بشرائط طويلة"
+            }
+          },
+          {
+            "id": "s-satin-ribbons.double",
+            "file": "s-satin-ribbons/double.svg",
+            "name": {
+              "ko": "겹 리본",
+              "en": "Double bow",
+              "en-GB": "Double bow",
+              "ja": "重ねリボン",
+              "zh-Hans": "双层蝴蝶结",
+              "zh-Hant": "雙層蝴蝶結",
+              "sv": "Dubbel rosett",
+              "da": "Dobbelt sløjfe",
+              "nb": "Dobbel sløyfe",
+              "nl": "Dubbele strik",
+              "de": "Doppelschleife",
+              "fr": "Double nœud",
+              "es": "Lazo doble",
+              "pt": "Laço duplo",
+              "it": "Doppio fiocco",
+              "tr": "Çift fiyonk",
+              "ru": "Двойной бант",
+              "ar": "عقدة مزدوجة"
+            }
+          },
+          {
+            "id": "s-satin-ribbons.gift",
+            "file": "s-satin-ribbons/gift.svg",
+            "name": {
+              "ko": "선물 리본",
+              "en": "Gift ribbon",
+              "en-GB": "Gift ribbon",
+              "ja": "ギフトリボン",
+              "zh-Hans": "礼物丝带",
+              "zh-Hant": "禮物緞帶",
+              "sv": "Presentband",
+              "da": "Gavebånd",
+              "nb": "Gavebånd",
+              "nl": "Cadeaulint",
+              "de": "Geschenkband",
+              "fr": "Ruban cadeau",
+              "es": "Lazo de regalo",
+              "pt": "Fita de presente",
+              "it": "Nastro regalo",
+              "tr": "Hediye kurdelesi",
+              "ru": "Подарочная лента",
+              "ar": "شريط هدية"
+            }
+          }
+        ]
+      }
     }
   ],
   "banners": [
