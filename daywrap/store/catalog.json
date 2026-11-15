@@ -59,7 +59,9 @@
       "minAppVersion": "1.0.0",
       "asset": "colors/p-calm.json",
       "files": 1,
-      "tags": ["new"],
+      "tags": [
+        "new"
+      ],
       "order": 10,
       "data": {
         "thumbnail": {
@@ -74,8 +76,14 @@
             "calm.pebble",
             "calm.driedrose"
           ],
-          "cap": { "light": "#C9C9C6", "dark": "#6B6B70" },
-          "tab": { "kind": "tubeBodies", "layout": "3x2" }
+          "cap": {
+            "light": "#C9C9C6",
+            "dark": "#6B6B70"
+          },
+          "tab": {
+            "kind": "tubeBodies",
+            "layout": "3x2"
+          }
         },
         "colors": [
           {
@@ -96,9 +104,19 @@
               "es": "Albaricoque",
               "pt": "Damasco"
             },
-            "light": { "dot": "#F6C177", "soft": "#FDF0DC", "text": "#8A5200" },
-            "dark": { "dot": "#F6C177", "soft": "#3C2407", "text": "#F9D29C" },
-            "near": ["기본 피치 ΔE 5.1"]
+            "light": {
+              "dot": "#F6C177",
+              "soft": "#FDF0DC",
+              "text": "#8A5200"
+            },
+            "dark": {
+              "dot": "#F6C177",
+              "soft": "#3C2407",
+              "text": "#F9D29C"
+            },
+            "near": [
+              "기본 피치 ΔE 5.1"
+            ]
           },
           {
             "id": "khaki",
@@ -118,9 +136,21 @@
               "es": "Caqui",
               "pt": "Cáqui"
             },
-            "light": { "dot": "#D9C9A8", "soft": "#F5F0E5", "text": "#5E5535" },
-            "dark": { "dot": "#D9C9A8", "soft": "#30291A", "text": "#E3D7BE" },
-            "near": ["기본 피치 ΔE 5.6", "기본 스톤 ΔE 5.6", "숲 고사리 ΔE 5.4"]
+            "light": {
+              "dot": "#D9C9A8",
+              "soft": "#F5F0E5",
+              "text": "#5E5535"
+            },
+            "dark": {
+              "dot": "#D9C9A8",
+              "soft": "#30291A",
+              "text": "#E3D7BE"
+            },
+            "near": [
+              "기본 피치 ΔE 5.6",
+              "기본 스톤 ΔE 5.6",
+              "숲 고사리 ΔE 5.4"
+            ]
           },
           {
             "id": "calm.cocoa",
@@ -140,8 +170,16 @@
               "es": "Cacao",
               "pt": "Cacau"
             },
-            "light": { "dot": "#947D77", "soft": "#F8F2F0", "text": "#7E6762" },
-            "dark": { "dot": "#8F7F7B", "soft": "#372520", "text": "#E0D5D2" }
+            "light": {
+              "dot": "#947D77",
+              "soft": "#F8F2F0",
+              "text": "#7E6762"
+            },
+            "dark": {
+              "dot": "#8F7F7B",
+              "soft": "#372520",
+              "text": "#E0D5D2"
+            }
           },
           {
             "id": "calm.mist",
@@ -161,8 +199,16 @@
               "es": "Niebla",
               "pt": "Névoa"
             },
-            "light": { "dot": "#B8C4CF", "soft": "#F1F4F6", "text": "#626D77" },
-            "dark": { "dot": "#B7BFC7", "soft": "#252B31", "text": "#D3D8DD" }
+            "light": {
+              "dot": "#B8C4CF",
+              "soft": "#F1F4F6",
+              "text": "#626D77"
+            },
+            "dark": {
+              "dot": "#B7BFC7",
+              "soft": "#252B31",
+              "text": "#D3D8DD"
+            }
           },
           {
             "id": "calm.pebble",
@@ -182,8 +228,16 @@
               "es": "Guijarro",
               "pt": "Seixo"
             },
-            "light": { "dot": "#BDB5AA", "soft": "#F5F3F1", "text": "#726B61" },
-            "dark": { "dot": "#BBB5AE", "soft": "#2E2924", "text": "#DAD7D2" }
+            "light": {
+              "dot": "#BDB5AA",
+              "soft": "#F5F3F1",
+              "text": "#726B61"
+            },
+            "dark": {
+              "dot": "#BBB5AE",
+              "soft": "#2E2924",
+              "text": "#DAD7D2"
+            }
           },
           {
             "id": "calm.driedrose",
@@ -203,9 +257,20 @@
               "es": "Rosa seca",
               "pt": "Rosa seca"
             },
-            "light": { "dot": "#D1A8A8", "soft": "#FBF1F1", "text": "#876262" },
-            "dark": { "dot": "#C9ACAB", "soft": "#382424", "text": "#E6D2D2" },
-            "near": ["해 질 녘 코랄 ΔE 5.9", "해 질 녘 자두 ΔE 5.3"]
+            "light": {
+              "dot": "#D1A8A8",
+              "soft": "#FBF1F1",
+              "text": "#876262"
+            },
+            "dark": {
+              "dot": "#C9ACAB",
+              "soft": "#382424",
+              "text": "#E6D2D2"
+            },
+            "near": [
+              "해 질 녘 코랄 ΔE 5.9",
+              "해 질 녘 자두 ΔE 5.3"
+            ]
           }
         ]
       },
@@ -271,8 +336,14 @@
             "dusk.mauve",
             "dusk.streetlamp"
           ],
-          "cap": { "light": "#C9C9C6", "dark": "#6B6B70" },
-          "tab": { "kind": "tubeBodies", "layout": "3x2" }
+          "cap": {
+            "light": "#C9C9C6",
+            "dark": "#6B6B70"
+          },
+          "tab": {
+            "kind": "tubeBodies",
+            "layout": "3x2"
+          }
         },
         "colors": [
           {
@@ -293,9 +364,19 @@
               "es": "Coral",
               "pt": "Coral"
             },
-            "light": { "dot": "#F2A38C", "soft": "#FCE8E1", "text": "#8E3A22" },
-            "dark": { "dot": "#F5B09C", "soft": "#411F16", "text": "#FFCBBB" },
-            "near": ["차분한 말린 장미 ΔE 5.9"]
+            "light": {
+              "dot": "#F2A38C",
+              "soft": "#FCE8E1",
+              "text": "#8E3A22"
+            },
+            "dark": {
+              "dot": "#F5B09C",
+              "soft": "#411F16",
+              "text": "#FFCBBB"
+            },
+            "near": [
+              "차분한 말린 장미 ΔE 5.9"
+            ]
           },
           {
             "id": "dusk.plum",
@@ -315,9 +396,19 @@
               "es": "Ciruela",
               "pt": "Ameixa"
             },
-            "light": { "dot": "#C9A3C8", "soft": "#F3E8F3", "text": "#6E3B6C" },
-            "dark": { "dot": "#D3B0D2", "soft": "#352334", "text": "#EBCDEA" },
-            "near": ["차분한 말린 장미 ΔE 5.3"]
+            "light": {
+              "dot": "#C9A3C8",
+              "soft": "#F3E8F3",
+              "text": "#6E3B6C"
+            },
+            "dark": {
+              "dot": "#D3B0D2",
+              "soft": "#352334",
+              "text": "#EBCDEA"
+            },
+            "near": [
+              "차분한 말린 장미 ΔE 5.3"
+            ]
           },
           {
             "id": "dusk.brick",
@@ -337,9 +428,19 @@
               "es": "Ladrillo",
               "pt": "Tijolo"
             },
-            "light": { "dot": "#C97B63", "soft": "#F6E4DD", "text": "#7A3420" },
-            "dark": { "dot": "#D48D77", "soft": "#411F15", "text": "#F0C2B2" },
-            "near": ["사탕 초코 ΔE 4.5"]
+            "light": {
+              "dot": "#C97B63",
+              "soft": "#F6E4DD",
+              "text": "#7A3420"
+            },
+            "dark": {
+              "dot": "#D48D77",
+              "soft": "#411F15",
+              "text": "#F0C2B2"
+            },
+            "near": [
+              "사탕 초코 ΔE 4.5"
+            ]
           },
           {
             "id": "dusk.night",
@@ -359,8 +460,16 @@
               "es": "Noche",
               "pt": "Noite"
             },
-            "light": { "dot": "#8E9AB5", "soft": "#E7EAF1", "text": "#323D57" },
-            "dark": { "dot": "#A2ADC5", "soft": "#232A39", "text": "#CBD3E4" }
+            "light": {
+              "dot": "#8E9AB5",
+              "soft": "#E7EAF1",
+              "text": "#323D57"
+            },
+            "dark": {
+              "dot": "#A2ADC5",
+              "soft": "#232A39",
+              "text": "#CBD3E4"
+            }
           },
           {
             "id": "dusk.mauve",
@@ -380,8 +489,16 @@
               "es": "Malva",
               "pt": "Malva"
             },
-            "light": { "dot": "#B88FA8", "soft": "#FAF0F6", "text": "#866077" },
-            "dark": { "dot": "#B093A5", "soft": "#34242F", "text": "#E5D1DD" },
+            "light": {
+              "dot": "#B88FA8",
+              "soft": "#FAF0F6",
+              "text": "#866077"
+            },
+            "dark": {
+              "dot": "#B093A5",
+              "soft": "#34242F",
+              "text": "#E5D1DD"
+            },
             "added": true
           },
           {
@@ -402,9 +519,19 @@
               "es": "Farola",
               "pt": "Poste de luz"
             },
-            "light": { "dot": "#E0AE5E", "soft": "#FDF2E1", "text": "#90640B" },
-            "dark": { "dot": "#D4B27D", "soft": "#382607", "text": "#EBD4B2" },
-            "near": ["과일 망고 ΔE 5.7"],
+            "light": {
+              "dot": "#E0AE5E",
+              "soft": "#FDF2E1",
+              "text": "#90640B"
+            },
+            "dark": {
+              "dot": "#D4B27D",
+              "soft": "#382607",
+              "text": "#EBD4B2"
+            },
+            "near": [
+              "과일 망고 ΔE 5.7"
+            ],
             "added": true
           }
         ]
@@ -471,8 +598,14 @@
             "forest.lake",
             "forest.berry"
           ],
-          "cap": { "light": "#C9C9C6", "dark": "#6B6B70" },
-          "tab": { "kind": "tubeBodies", "layout": "3x2" }
+          "cap": {
+            "light": "#C9C9C6",
+            "dark": "#6B6B70"
+          },
+          "tab": {
+            "kind": "tubeBodies",
+            "layout": "3x2"
+          }
         },
         "colors": [
           {
@@ -493,8 +626,16 @@
               "es": "Musgo",
               "pt": "Musgo"
             },
-            "light": { "dot": "#9DB58A", "soft": "#EAF1E4", "text": "#3B5228" },
-            "dark": { "dot": "#AABF98", "soft": "#232E1A", "text": "#CBDCBC" }
+            "light": {
+              "dot": "#9DB58A",
+              "soft": "#EAF1E4",
+              "text": "#3B5228"
+            },
+            "dark": {
+              "dot": "#AABF98",
+              "soft": "#232E1A",
+              "text": "#CBDCBC"
+            }
           },
           {
             "id": "forest.pine",
@@ -514,8 +655,16 @@
               "es": "Pino",
               "pt": "Pinheiro"
             },
-            "light": { "dot": "#7FA89A", "soft": "#E3EFEB", "text": "#28503F" },
-            "dark": { "dot": "#8FB5A7", "soft": "#1A2F28", "text": "#BFDCD0" }
+            "light": {
+              "dot": "#7FA89A",
+              "soft": "#E3EFEB",
+              "text": "#28503F"
+            },
+            "dark": {
+              "dot": "#8FB5A7",
+              "soft": "#1A2F28",
+              "text": "#BFDCD0"
+            }
           },
           {
             "id": "forest.bark",
@@ -535,8 +684,16 @@
               "es": "Corteza",
               "pt": "Casca"
             },
-            "light": { "dot": "#B89B82", "soft": "#F2EAE3", "text": "#5C4029" },
-            "dark": { "dot": "#C4A890", "soft": "#35271A", "text": "#E2CDBB" }
+            "light": {
+              "dot": "#B89B82",
+              "soft": "#F2EAE3",
+              "text": "#5C4029"
+            },
+            "dark": {
+              "dot": "#C4A890",
+              "soft": "#35271A",
+              "text": "#E2CDBB"
+            }
           },
           {
             "id": "forest.fern",
@@ -556,9 +713,20 @@
               "es": "Helecho",
               "pt": "Samambaia"
             },
-            "light": { "dot": "#C3CF8E", "soft": "#F2F5E2", "text": "#4E5A1C" },
-            "dark": { "dot": "#CCD79C", "soft": "#292D0D", "text": "#DDE5B5" },
-            "near": ["기본 카키 ΔE 5.4", "차분한 카키 ΔE 5.4"]
+            "light": {
+              "dot": "#C3CF8E",
+              "soft": "#F2F5E2",
+              "text": "#4E5A1C"
+            },
+            "dark": {
+              "dot": "#CCD79C",
+              "soft": "#292D0D",
+              "text": "#DDE5B5"
+            },
+            "near": [
+              "기본 카키 ΔE 5.4",
+              "차분한 카키 ΔE 5.4"
+            ]
           },
           {
             "id": "forest.lake",
@@ -578,8 +746,16 @@
               "es": "Lago",
               "pt": "Lago"
             },
-            "light": { "dot": "#8FB4C8", "soft": "#EDF5FA", "text": "#4E7184" },
-            "dark": { "dot": "#99B2C0", "soft": "#1A2D37", "text": "#CADAE4" },
+            "light": {
+              "dot": "#8FB4C8",
+              "soft": "#EDF5FA",
+              "text": "#4E7184"
+            },
+            "dark": {
+              "dot": "#99B2C0",
+              "soft": "#1A2D37",
+              "text": "#CADAE4"
+            },
             "added": true
           },
           {
@@ -600,8 +776,16 @@
               "es": "Mora silvestre",
               "pt": "Fruta silvestre"
             },
-            "light": { "dot": "#D98A8A", "soft": "#FFEFEF", "text": "#9F5657" },
-            "dark": { "dot": "#CA9292", "soft": "#3D2121", "text": "#F3CDCC" },
+            "light": {
+              "dot": "#D98A8A",
+              "soft": "#FFEFEF",
+              "text": "#9F5657"
+            },
+            "dark": {
+              "dot": "#CA9292",
+              "soft": "#3D2121",
+              "text": "#F3CDCC"
+            },
             "added": true
           }
         ]
@@ -652,7 +836,9 @@
       "minAppVersion": "1.0.0",
       "asset": "colors/p-neon.json",
       "files": 1,
-      "tags": ["new"],
+      "tags": [
+        "new"
+      ],
       "order": 40,
       "data": {
         "thumbnail": {
@@ -667,8 +853,14 @@
             "neon.yellow",
             "neon.uv"
           ],
-          "cap": { "light": "#C9C9C6", "dark": "#6B6B70" },
-          "tab": { "kind": "tubeBodies", "layout": "3x2" }
+          "cap": {
+            "light": "#C9C9C6",
+            "dark": "#6B6B70"
+          },
+          "tab": {
+            "kind": "tubeBodies",
+            "layout": "3x2"
+          }
         },
         "colors": [
           {
@@ -689,9 +881,19 @@
               "es": "Rosa intenso",
               "pt": "Rosa-choque"
             },
-            "light": { "dot": "#FF4FA3", "soft": "#FFEFF4", "text": "#B14575" },
-            "dark": { "dot": "#E66FA1", "soft": "#3F1E2B", "text": "#FEC5D9" },
-            "near": ["열대 히비스커스 ΔE 5.3"]
+            "light": {
+              "dot": "#FF4FA3",
+              "soft": "#FFEFF4",
+              "text": "#B14575"
+            },
+            "dark": {
+              "dot": "#E66FA1",
+              "soft": "#3F1E2B",
+              "text": "#FEC5D9"
+            },
+            "near": [
+              "열대 히비스커스 ΔE 5.3"
+            ]
           },
           {
             "id": "neon.lime",
@@ -711,8 +913,16 @@
               "es": "Lima",
               "pt": "Verde-limão"
             },
-            "light": { "dot": "#C6F432", "soft": "#EEF8DB", "text": "#5D7500" },
-            "dark": { "dot": "#ACCD5B", "soft": "#252E0D", "text": "#CCE29F" }
+            "light": {
+              "dot": "#C6F432",
+              "soft": "#EEF8DB",
+              "text": "#5D7500"
+            },
+            "dark": {
+              "dot": "#ACCD5B",
+              "soft": "#252E0D",
+              "text": "#CCE29F"
+            }
           },
           {
             "id": "neon.cyan",
@@ -732,8 +942,16 @@
               "es": "Cian",
               "pt": "Ciano"
             },
-            "light": { "dot": "#2EE6F0", "soft": "#DDFAFC", "text": "#0F797F" },
-            "dark": { "dot": "#6AD0D7", "soft": "#023134", "text": "#A8E4E8" }
+            "light": {
+              "dot": "#2EE6F0",
+              "soft": "#DDFAFC",
+              "text": "#0F797F"
+            },
+            "dark": {
+              "dot": "#6AD0D7",
+              "soft": "#023134",
+              "text": "#A8E4E8"
+            }
           },
           {
             "id": "neon.orange",
@@ -753,8 +971,16 @@
               "es": "Naranja",
               "pt": "Laranja"
             },
-            "light": { "dot": "#FF7A00", "soft": "#FFF0E8", "text": "#AA520F" },
-            "dark": { "dot": "#E78B53", "soft": "#3F210F", "text": "#FECBAF" }
+            "light": {
+              "dot": "#FF7A00",
+              "soft": "#FFF0E8",
+              "text": "#AA520F"
+            },
+            "dark": {
+              "dot": "#E78B53",
+              "soft": "#3F210F",
+              "text": "#FECBAF"
+            }
           },
           {
             "id": "neon.yellow",
@@ -774,9 +1000,19 @@
               "es": "Amarillo láser",
               "pt": "Amarelo laser"
             },
-            "light": { "dot": "#FFEA1F", "soft": "#F8F5D7", "text": "#786E03" },
-            "dark": { "dot": "#CEC151", "soft": "#352803", "text": "#E2DA98" },
-            "near": ["사탕 레몬 ΔE 5.3"]
+            "light": {
+              "dot": "#FFEA1F",
+              "soft": "#F8F5D7",
+              "text": "#786E03"
+            },
+            "dark": {
+              "dot": "#CEC151",
+              "soft": "#352803",
+              "text": "#E2DA98"
+            },
+            "near": [
+              "사탕 레몬 ΔE 5.3"
+            ]
           },
           {
             "id": "neon.uv",
@@ -796,8 +1032,16 @@
               "es": "UV",
               "pt": "UV"
             },
-            "light": { "dot": "#B36BFF", "soft": "#F6F1FF", "text": "#8356B6" },
-            "dark": { "dot": "#AA7CE1", "soft": "#302340", "text": "#E1CDFE" }
+            "light": {
+              "dot": "#B36BFF",
+              "soft": "#F6F1FF",
+              "text": "#8356B6"
+            },
+            "dark": {
+              "dot": "#AA7CE1",
+              "soft": "#302340",
+              "text": "#E1CDFE"
+            }
           }
         ]
       },
@@ -847,16 +1091,31 @@
       "minAppVersion": "1.0.0",
       "asset": "colors/p-pop.json",
       "files": 1,
-      "tags": ["new"],
+      "tags": [
+        "new"
+      ],
       "order": 50,
       "data": {
         "thumbnail": {
           "kind": "tubes",
           "seed": "p-pop",
           "layout": "3x2",
-          "colors": ["pop.red", "pop.yellow", "pop.blue", "pop.green", "pop.magenta", "pop.teal"],
-          "cap": { "light": "#C9C9C6", "dark": "#6B6B70" },
-          "tab": { "kind": "tubeBodies", "layout": "3x2" }
+          "colors": [
+            "pop.red",
+            "pop.yellow",
+            "pop.blue",
+            "pop.green",
+            "pop.magenta",
+            "pop.teal"
+          ],
+          "cap": {
+            "light": "#C9C9C6",
+            "dark": "#6B6B70"
+          },
+          "tab": {
+            "kind": "tubeBodies",
+            "layout": "3x2"
+          }
         },
         "colors": [
           {
@@ -877,9 +1136,19 @@
               "es": "Rojo",
               "pt": "Vermelho"
             },
-            "light": { "dot": "#FF4A3D", "soft": "#FFF0ED", "text": "#B9473B" },
-            "dark": { "dot": "#E36A5C", "soft": "#411F1A", "text": "#FEC9C0" },
-            "near": ["과일 딸기 ΔE 5.3"]
+            "light": {
+              "dot": "#FF4A3D",
+              "soft": "#FFF0ED",
+              "text": "#B9473B"
+            },
+            "dark": {
+              "dot": "#E36A5C",
+              "soft": "#411F1A",
+              "text": "#FEC9C0"
+            },
+            "near": [
+              "과일 딸기 ΔE 5.3"
+            ]
           },
           {
             "id": "pop.yellow",
@@ -899,8 +1168,16 @@
               "es": "Amarillo",
               "pt": "Amarelo"
             },
-            "light": { "dot": "#FFC800", "soft": "#FEF3D7", "text": "#86690F" },
-            "dark": { "dot": "#DEB959", "soft": "#352803", "text": "#EDD59C" }
+            "light": {
+              "dot": "#FFC800",
+              "soft": "#FEF3D7",
+              "text": "#86690F"
+            },
+            "dark": {
+              "dot": "#DEB959",
+              "soft": "#352803",
+              "text": "#EDD59C"
+            }
           },
           {
             "id": "pop.blue",
@@ -920,8 +1197,16 @@
               "es": "Azul",
               "pt": "Azul"
             },
-            "light": { "dot": "#2FA3FF", "soft": "#EBF5FF", "text": "#1170B5" },
-            "dark": { "dot": "#5EA3E2", "soft": "#112C44", "text": "#B8DCFF" }
+            "light": {
+              "dot": "#2FA3FF",
+              "soft": "#EBF5FF",
+              "text": "#1170B5"
+            },
+            "dark": {
+              "dot": "#5EA3E2",
+              "soft": "#112C44",
+              "text": "#B8DCFF"
+            }
           },
           {
             "id": "pop.green",
@@ -941,8 +1226,16 @@
               "es": "Verde",
               "pt": "Verde"
             },
-            "light": { "dot": "#2FC24F", "soft": "#E3FBE4", "text": "#117E2D" },
-            "dark": { "dot": "#63BA6D", "soft": "#163119", "text": "#B2E8B5" }
+            "light": {
+              "dot": "#2FC24F",
+              "soft": "#E3FBE4",
+              "text": "#117E2D"
+            },
+            "dark": {
+              "dot": "#63BA6D",
+              "soft": "#163119",
+              "text": "#B2E8B5"
+            }
           },
           {
             "id": "pop.magenta",
@@ -962,8 +1255,16 @@
               "es": "Magenta",
               "pt": "Magenta"
             },
-            "light": { "dot": "#E83FD0", "soft": "#FFEDFA", "text": "#A44A94" },
-            "dark": { "dot": "#D264BF", "soft": "#3A1F35", "text": "#FDC2F0" }
+            "light": {
+              "dot": "#E83FD0",
+              "soft": "#FFEDFA",
+              "text": "#A44A94"
+            },
+            "dark": {
+              "dot": "#D264BF",
+              "soft": "#3A1F35",
+              "text": "#FDC2F0"
+            }
           },
           {
             "id": "pop.teal",
@@ -983,8 +1284,16 @@
               "es": "Verde azulado",
               "pt": "Verde-azulado"
             },
-            "light": { "dot": "#00A8B5", "soft": "#E1F9FB", "text": "#077982" },
-            "dark": { "dot": "#52A3AB", "soft": "#003135", "text": "#B1E2E7" }
+            "light": {
+              "dot": "#00A8B5",
+              "soft": "#E1F9FB",
+              "text": "#077982"
+            },
+            "dark": {
+              "dot": "#52A3AB",
+              "soft": "#003135",
+              "text": "#B1E2E7"
+            }
           }
         ]
       },
@@ -1034,7 +1343,9 @@
       "minAppVersion": "1.0.0",
       "asset": "colors/p-fruit.json",
       "files": 1,
-      "tags": ["new"],
+      "tags": [
+        "new"
+      ],
       "order": 60,
       "data": {
         "thumbnail": {
@@ -1049,8 +1360,14 @@
             "fruit.melon",
             "fruit.fig"
           ],
-          "cap": { "light": "#C9C9C6", "dark": "#6B6B70" },
-          "tab": { "kind": "tubeBodies", "layout": "3x2" }
+          "cap": {
+            "light": "#C9C9C6",
+            "dark": "#6B6B70"
+          },
+          "tab": {
+            "kind": "tubeBodies",
+            "layout": "3x2"
+          }
         },
         "colors": [
           {
@@ -1071,9 +1388,20 @@
               "es": "Fresa",
               "pt": "Morango"
             },
-            "light": { "dot": "#FF5C6E", "soft": "#FFEFEF", "text": "#B84450" },
-            "dark": { "dot": "#E5767D", "soft": "#411E20", "text": "#FEC8C8" },
-            "near": ["팝 빨강 ΔE 5.3", "열대 히비스커스 ΔE 5.4"]
+            "light": {
+              "dot": "#FF5C6E",
+              "soft": "#FFEFEF",
+              "text": "#B84450"
+            },
+            "dark": {
+              "dot": "#E5767D",
+              "soft": "#411E20",
+              "text": "#FEC8C8"
+            },
+            "near": [
+              "팝 빨강 ΔE 5.3",
+              "열대 히비스커스 ΔE 5.4"
+            ]
           },
           {
             "id": "fruit.mango",
@@ -1093,9 +1421,20 @@
               "es": "Mango",
               "pt": "Manga"
             },
-            "light": { "dot": "#FFAA1F", "soft": "#FFF1E1", "text": "#94610D" },
-            "dark": { "dot": "#ECB165", "soft": "#3B2505", "text": "#F7D0A2" },
-            "near": ["해 질 녘 가로등 ΔE 5.7", "열대 파파야 ΔE 4.5"]
+            "light": {
+              "dot": "#FFAA1F",
+              "soft": "#FFF1E1",
+              "text": "#94610D"
+            },
+            "dark": {
+              "dot": "#ECB165",
+              "soft": "#3B2505",
+              "text": "#F7D0A2"
+            },
+            "near": [
+              "해 질 녘 가로등 ΔE 5.7",
+              "열대 파파야 ΔE 4.5"
+            ]
           },
           {
             "id": "fruit.kiwi",
@@ -1115,8 +1454,16 @@
               "es": "Kiwi",
               "pt": "Kiwi"
             },
-            "light": { "dot": "#8CCB2E", "soft": "#EBF9DD", "text": "#4F770A" },
-            "dark": { "dot": "#99C566", "soft": "#212F10", "text": "#C5E3A7" }
+            "light": {
+              "dot": "#8CCB2E",
+              "soft": "#EBF9DD",
+              "text": "#4F770A"
+            },
+            "dark": {
+              "dot": "#99C566",
+              "soft": "#212F10",
+              "text": "#C5E3A7"
+            }
           },
           {
             "id": "fruit.blueberry",
@@ -1136,8 +1483,16 @@
               "es": "Arándano",
               "pt": "Mirtilo"
             },
-            "light": { "dot": "#5E86F0", "soft": "#EEF3FF", "text": "#4466C3" },
-            "dark": { "dot": "#6C8AD3", "soft": "#1D2945", "text": "#C6D7FE" }
+            "light": {
+              "dot": "#5E86F0",
+              "soft": "#EEF3FF",
+              "text": "#4466C3"
+            },
+            "dark": {
+              "dot": "#6C8AD3",
+              "soft": "#1D2945",
+              "text": "#C6D7FE"
+            }
           },
           {
             "id": "fruit.melon",
@@ -1157,8 +1512,16 @@
               "es": "Melón",
               "pt": "Melão"
             },
-            "light": { "dot": "#A8E06B", "soft": "#ECF9E0", "text": "#4D7900" },
-            "dark": { "dot": "#A5CC7F", "soft": "#212F10", "text": "#C8E2B0" }
+            "light": {
+              "dot": "#A8E06B",
+              "soft": "#ECF9E0",
+              "text": "#4D7900"
+            },
+            "dark": {
+              "dot": "#A5CC7F",
+              "soft": "#212F10",
+              "text": "#C8E2B0"
+            }
           },
           {
             "id": "fruit.fig",
@@ -1178,8 +1541,16 @@
               "es": "Higo",
               "pt": "Figo"
             },
-            "light": { "dot": "#C25E9E", "soft": "#FFEEF7", "text": "#AA4888" },
-            "dark": { "dot": "#B26D97", "soft": "#3D1E31", "text": "#F8C7E3" }
+            "light": {
+              "dot": "#C25E9E",
+              "soft": "#FFEEF7",
+              "text": "#AA4888"
+            },
+            "dark": {
+              "dot": "#B26D97",
+              "soft": "#3D1E31",
+              "text": "#F8C7E3"
+            }
           }
         ]
       },
@@ -1229,7 +1600,9 @@
       "minAppVersion": "1.0.0",
       "asset": "colors/p-candy.json",
       "files": 1,
-      "tags": ["new"],
+      "tags": [
+        "new"
+      ],
       "order": 70,
       "data": {
         "thumbnail": {
@@ -1244,8 +1617,14 @@
             "candy.lilac",
             "candy.choco"
           ],
-          "cap": { "light": "#C9C9C6", "dark": "#6B6B70" },
-          "tab": { "kind": "tubeBodies", "layout": "3x2" }
+          "cap": {
+            "light": "#C9C9C6",
+            "dark": "#6B6B70"
+          },
+          "tab": {
+            "kind": "tubeBodies",
+            "layout": "3x2"
+          }
         },
         "colors": [
           {
@@ -1266,8 +1645,16 @@
               "es": "Chicle",
               "pt": "Chiclete"
             },
-            "light": { "dot": "#FF7EC2", "soft": "#FFEEF6", "text": "#AE467F" },
-            "dark": { "dot": "#EA90BD", "soft": "#3E1E2E", "text": "#FEC4DF" }
+            "light": {
+              "dot": "#FF7EC2",
+              "soft": "#FFEEF6",
+              "text": "#AE467F"
+            },
+            "dark": {
+              "dot": "#EA90BD",
+              "soft": "#3E1E2E",
+              "text": "#FEC4DF"
+            }
           },
           {
             "id": "candy.mint",
@@ -1287,8 +1674,16 @@
               "es": "Menta",
               "pt": "Menta"
             },
-            "light": { "dot": "#3FE0B0", "soft": "#DFFBEF", "text": "#067B5E" },
-            "dark": { "dot": "#75D3B1", "soft": "#033325", "text": "#ADE6CF" }
+            "light": {
+              "dot": "#3FE0B0",
+              "soft": "#DFFBEF",
+              "text": "#067B5E"
+            },
+            "dark": {
+              "dot": "#75D3B1",
+              "soft": "#033325",
+              "text": "#ADE6CF"
+            }
           },
           {
             "id": "candy.lemon",
@@ -1308,9 +1703,19 @@
               "es": "Limón",
               "pt": "Limão"
             },
-            "light": { "dot": "#FFF27A", "soft": "#F7F5DD", "text": "#786E06" },
-            "dark": { "dot": "#C9C174", "soft": "#352803", "text": "#DFDAAA" },
-            "near": ["네온 레이저 노랑 ΔE 5.3"]
+            "light": {
+              "dot": "#FFF27A",
+              "soft": "#F7F5DD",
+              "text": "#786E06"
+            },
+            "dark": {
+              "dot": "#C9C174",
+              "soft": "#352803",
+              "text": "#DFDAAA"
+            },
+            "near": [
+              "네온 레이저 노랑 ΔE 5.3"
+            ]
           },
           {
             "id": "candy.soda",
@@ -1330,8 +1735,16 @@
               "es": "Soda",
               "pt": "Soda"
             },
-            "light": { "dot": "#5CC2FF", "soft": "#E8F6FF", "text": "#0474A6" },
-            "dark": { "dot": "#7EC0EA", "soft": "#082E42", "text": "#B5DEFA" }
+            "light": {
+              "dot": "#5CC2FF",
+              "soft": "#E8F6FF",
+              "text": "#0474A6"
+            },
+            "dark": {
+              "dot": "#7EC0EA",
+              "soft": "#082E42",
+              "text": "#B5DEFA"
+            }
           },
           {
             "id": "candy.lilac",
@@ -1351,8 +1764,16 @@
               "es": "Lila",
               "pt": "Lilás"
             },
-            "light": { "dot": "#C49BFF", "soft": "#F6F1FF", "text": "#8058B5" },
-            "dark": { "dot": "#BEA3E9", "soft": "#2F2341", "text": "#DFCEFC" }
+            "light": {
+              "dot": "#C49BFF",
+              "soft": "#F6F1FF",
+              "text": "#8058B5"
+            },
+            "dark": {
+              "dot": "#BEA3E9",
+              "soft": "#2F2341",
+              "text": "#DFCEFC"
+            }
           },
           {
             "id": "candy.choco",
@@ -1372,9 +1793,19 @@
               "es": "Chocolate",
               "pt": "Chocolate"
             },
-            "light": { "dot": "#B27C55", "soft": "#FEF1E8", "text": "#935F39" },
-            "dark": { "dot": "#A78166", "soft": "#392516", "text": "#ECD2BF" },
-            "near": ["해 질 녘 벽돌 ΔE 4.5"]
+            "light": {
+              "dot": "#B27C55",
+              "soft": "#FEF1E8",
+              "text": "#935F39"
+            },
+            "dark": {
+              "dot": "#A78166",
+              "soft": "#392516",
+              "text": "#ECD2BF"
+            },
+            "near": [
+              "해 질 녘 벽돌 ΔE 4.5"
+            ]
           }
         ]
       },
@@ -1424,7 +1855,9 @@
       "minAppVersion": "1.0.0",
       "asset": "colors/p-tropic.json",
       "files": 1,
-      "tags": ["new"],
+      "tags": [
+        "new"
+      ],
       "order": 80,
       "data": {
         "thumbnail": {
@@ -1439,8 +1872,14 @@
             "tropic.coral",
             "tropic.orchid"
           ],
-          "cap": { "light": "#C9C9C6", "dark": "#6B6B70" },
-          "tab": { "kind": "tubeBodies", "layout": "3x2" }
+          "cap": {
+            "light": "#C9C9C6",
+            "dark": "#6B6B70"
+          },
+          "tab": {
+            "kind": "tubeBodies",
+            "layout": "3x2"
+          }
         },
         "colors": [
           {
@@ -1461,9 +1900,19 @@
               "es": "Papaya",
               "pt": "Mamão"
             },
-            "light": { "dot": "#FF9A3D", "soft": "#FFF0E6", "text": "#A15A0F" },
-            "dark": { "dot": "#EBA46C", "soft": "#3E220B", "text": "#FCCDA9" },
-            "near": ["과일 망고 ΔE 4.5"]
+            "light": {
+              "dot": "#FF9A3D",
+              "soft": "#FFF0E6",
+              "text": "#A15A0F"
+            },
+            "dark": {
+              "dot": "#EBA46C",
+              "soft": "#3E220B",
+              "text": "#FCCDA9"
+            },
+            "near": [
+              "과일 망고 ΔE 4.5"
+            ]
           },
           {
             "id": "tropic.palm",
@@ -1483,8 +1932,16 @@
               "es": "Palmera",
               "pt": "Palmeira"
             },
-            "light": { "dot": "#13AD86", "soft": "#E2FAF0", "text": "#0E7B5F" },
-            "dark": { "dot": "#55A68A", "soft": "#033325", "text": "#B2E5D1" }
+            "light": {
+              "dot": "#13AD86",
+              "soft": "#E2FAF0",
+              "text": "#0E7B5F"
+            },
+            "dark": {
+              "dot": "#55A68A",
+              "soft": "#033325",
+              "text": "#B2E5D1"
+            }
           },
           {
             "id": "tropic.lagoon",
@@ -1504,8 +1961,16 @@
               "es": "Laguna",
               "pt": "Lagoa"
             },
-            "light": { "dot": "#14C4C4", "soft": "#DFFAF9", "text": "#087878" },
-            "dark": { "dot": "#62BDBD", "soft": "#003232", "text": "#ADE4E3" }
+            "light": {
+              "dot": "#14C4C4",
+              "soft": "#DFFAF9",
+              "text": "#087878"
+            },
+            "dark": {
+              "dot": "#62BDBD",
+              "soft": "#003232",
+              "text": "#ADE4E3"
+            }
           },
           {
             "id": "tropic.hibiscus",
@@ -1525,9 +1990,20 @@
               "es": "Hibisco",
               "pt": "Hibisco"
             },
-            "light": { "dot": "#F5487F", "soft": "#FFEFF1", "text": "#B64464" },
-            "dark": { "dot": "#DC6785", "soft": "#401E26", "text": "#FFC6D1" },
-            "near": ["네온 핫핑크 ΔE 5.3", "과일 딸기 ΔE 5.4"]
+            "light": {
+              "dot": "#F5487F",
+              "soft": "#FFEFF1",
+              "text": "#B64464"
+            },
+            "dark": {
+              "dot": "#DC6785",
+              "soft": "#401E26",
+              "text": "#FFC6D1"
+            },
+            "near": [
+              "네온 핫핑크 ΔE 5.3",
+              "과일 딸기 ΔE 5.4"
+            ]
           },
           {
             "id": "tropic.coral",
@@ -1547,8 +2023,16 @@
               "es": "Arrecife",
               "pt": "Recife"
             },
-            "light": { "dot": "#FF7F66", "soft": "#FFF0EC", "text": "#B74732" },
-            "dark": { "dot": "#E88F7C", "soft": "#411F18", "text": "#FEC9BE" }
+            "light": {
+              "dot": "#FF7F66",
+              "soft": "#FFF0EC",
+              "text": "#B74732"
+            },
+            "dark": {
+              "dot": "#E88F7C",
+              "soft": "#411F18",
+              "text": "#FEC9BE"
+            }
           },
           {
             "id": "tropic.orchid",
@@ -1568,8 +2052,16 @@
               "es": "Orquídea",
               "pt": "Orquídea"
             },
-            "light": { "dot": "#E07BE0", "soft": "#FFEDFE", "text": "#9C4B9D" },
-            "dark": { "dot": "#D08BD0", "soft": "#382038", "text": "#F4C6F3" }
+            "light": {
+              "dot": "#E07BE0",
+              "soft": "#FFEDFE",
+              "text": "#9C4B9D"
+            },
+            "dark": {
+              "dot": "#D08BD0",
+              "soft": "#382038",
+              "text": "#F4C6F3"
+            }
           }
         ]
       },
@@ -1620,7 +2112,9 @@
       "minAppVersion": "1.0.0",
       "asset": "themes/t-paper.json",
       "files": 1,
-      "tags": ["refined"],
+      "tags": [
+        "refined"
+      ],
       "order": 90,
       "data": {
         "base": "light",
@@ -1650,22 +2144,46 @@
           "lineJoin": "round",
           "icons": {
             "today": [
-              { "d": "M2.5 12a9.5 9.5 0 1 0 19 0a9.5 9.5 0 1 0 -19 0z", "fill": "none" },
-              { "d": "M8 12.3l2.8 2.8 5.4-5.6", "fill": "none" }
+              {
+                "d": "M2.5 12a9.5 9.5 0 1 0 19 0a9.5 9.5 0 1 0 -19 0z",
+                "fill": "none"
+              },
+              {
+                "d": "M8 12.3l2.8 2.8 5.4-5.6",
+                "fill": "none"
+              }
             ],
             "routine": [
-              { "d": "M20 12a8 8 0 0 0-14.5-4.6", "fill": "none" },
-              { "d": "M5 3.6v4h4", "fill": "none" },
-              { "d": "M4 12a8 8 0 0 0 14.5 4.6", "fill": "none" },
-              { "d": "M19 20.4v-4h-4", "fill": "none" },
-              { "d": "M9.6 12.1l1.7 1.7 3.2-3.3", "fill": "none" }
+              {
+                "d": "M20 12a8 8 0 0 0-14.5-4.6",
+                "fill": "none"
+              },
+              {
+                "d": "M5 3.6v4h4",
+                "fill": "none"
+              },
+              {
+                "d": "M4 12a8 8 0 0 0 14.5 4.6",
+                "fill": "none"
+              },
+              {
+                "d": "M19 20.4v-4h-4",
+                "fill": "none"
+              },
+              {
+                "d": "M9.6 12.1l1.7 1.7 3.2-3.3",
+                "fill": "none"
+              }
             ],
             "calendar": [
               {
                 "d": "M6.5 5h11a3.5 3.5 0 0 1 3.5 3.5v8.5a3.5 3.5 0 0 1 -3.5 3.5h-11a3.5 3.5 0 0 1 -3.5 -3.5v-8.5a3.5 3.5 0 0 1 3.5 -3.5z",
                 "fill": "none"
               },
-              { "d": "M3 10h18M8 3v4M16 3v4", "fill": "none" }
+              {
+                "d": "M3 10h18M8 3v4M16 3v4",
+                "fill": "none"
+              }
             ],
             "settings": [
               {
@@ -1673,7 +2191,12 @@
                 "fill": "stroke"
               }
             ],
-            "plus": [{ "d": "M12 5v14M5 12h14", "fill": "none" }]
+            "plus": [
+              {
+                "d": "M12 5v14M5 12h14",
+                "fill": "none"
+              }
+            ]
           },
           "states": {
             "selected": {
@@ -1689,7 +2212,10 @@
               "label": "textMuted",
               "labelWeight": 400
             },
-            "plus": { "stroke": "onAccent", "background": "accent" }
+            "plus": {
+              "stroke": "onAccent",
+              "background": "accent"
+            }
           }
         }
       },
@@ -1740,7 +2266,9 @@
       "minAppVersion": "1.0.0",
       "asset": "themes/t-slate.json",
       "files": 1,
-      "tags": ["refined"],
+      "tags": [
+        "refined"
+      ],
       "order": 100,
       "data": {
         "base": "dark",
@@ -1772,22 +2300,46 @@
           "lineJoin": "round",
           "icons": {
             "today": [
-              { "d": "M2.5 12a9.5 9.5 0 1 0 19 0a9.5 9.5 0 1 0 -19 0z", "fill": "none" },
-              { "d": "M8 12.3l2.8 2.8 5.4-5.6", "fill": "none" }
+              {
+                "d": "M2.5 12a9.5 9.5 0 1 0 19 0a9.5 9.5 0 1 0 -19 0z",
+                "fill": "none"
+              },
+              {
+                "d": "M8 12.3l2.8 2.8 5.4-5.6",
+                "fill": "none"
+              }
             ],
             "routine": [
-              { "d": "M20 12a8 8 0 0 0-14.5-4.6", "fill": "none" },
-              { "d": "M5 3.6v4h4", "fill": "none" },
-              { "d": "M4 12a8 8 0 0 0 14.5 4.6", "fill": "none" },
-              { "d": "M19 20.4v-4h-4", "fill": "none" },
-              { "d": "M9.6 12.1l1.7 1.7 3.2-3.3", "fill": "none" }
+              {
+                "d": "M20 12a8 8 0 0 0-14.5-4.6",
+                "fill": "none"
+              },
+              {
+                "d": "M5 3.6v4h4",
+                "fill": "none"
+              },
+              {
+                "d": "M4 12a8 8 0 0 0 14.5 4.6",
+                "fill": "none"
+              },
+              {
+                "d": "M19 20.4v-4h-4",
+                "fill": "none"
+              },
+              {
+                "d": "M9.6 12.1l1.7 1.7 3.2-3.3",
+                "fill": "none"
+              }
             ],
             "calendar": [
               {
                 "d": "M6.5 5h11a3.5 3.5 0 0 1 3.5 3.5v8.5a3.5 3.5 0 0 1 -3.5 3.5h-11a3.5 3.5 0 0 1 -3.5 -3.5v-8.5a3.5 3.5 0 0 1 3.5 -3.5z",
                 "fill": "none"
               },
-              { "d": "M3 10h18M8 3v4M16 3v4", "fill": "none" }
+              {
+                "d": "M3 10h18M8 3v4M16 3v4",
+                "fill": "none"
+              }
             ],
             "settings": [
               {
@@ -1795,7 +2347,12 @@
                 "fill": "stroke"
               }
             ],
-            "plus": [{ "d": "M12 5v14M5 12h14", "fill": "none" }]
+            "plus": [
+              {
+                "d": "M12 5v14M5 12h14",
+                "fill": "none"
+              }
+            ]
           },
           "states": {
             "selected": {
@@ -1811,7 +2368,10 @@
               "label": "textMuted",
               "labelWeight": 400
             },
-            "plus": { "stroke": "onAccent", "background": "accent" }
+            "plus": {
+              "stroke": "onAccent",
+              "background": "accent"
+            }
           }
         }
       },
@@ -1861,7 +2421,10 @@
       "minAppVersion": "1.0.0",
       "asset": "themes/t-cloud.json",
       "files": 2,
-      "tags": ["new", "cute"],
+      "tags": [
+        "new",
+        "cute"
+      ],
       "order": 110,
       "data": {
         "base": "light",
@@ -1903,22 +2466,46 @@
                 "d": "M7.2 19h10.3a4.3 4.3 0 0 0 .5-8.57A6 6 0 0 0 6.6 9.3 4.85 4.85 0 0 0 7.2 19z",
                 "fill": "selected"
               },
-              { "d": "M9.4 14.2l1.9 1.9 3.8-3.9", "fill": "none" }
+              {
+                "d": "M9.4 14.2l1.9 1.9 3.8-3.9",
+                "fill": "none"
+              }
             ],
             "routine": [
-              { "d": "M7.6 12a4.4 4.4 0 1 0 8.8 0a4.4 4.4 0 1 0 -8.8 0z", "fill": "selected" },
-              { "d": "M20 12a8 8 0 0 0-14.5-4.6", "fill": "none" },
-              { "d": "M5 3.6v4h4", "fill": "none" },
-              { "d": "M4 12a8 8 0 0 0 14.5 4.6", "fill": "none" },
-              { "d": "M19 20.4v-4h-4", "fill": "none" },
-              { "d": "M9.8 12.3l1.6 1.6 2.9-3", "fill": "none" }
+              {
+                "d": "M7.6 12a4.4 4.4 0 1 0 8.8 0a4.4 4.4 0 1 0 -8.8 0z",
+                "fill": "selected"
+              },
+              {
+                "d": "M20 12a8 8 0 0 0-14.5-4.6",
+                "fill": "none"
+              },
+              {
+                "d": "M5 3.6v4h4",
+                "fill": "none"
+              },
+              {
+                "d": "M4 12a8 8 0 0 0 14.5 4.6",
+                "fill": "none"
+              },
+              {
+                "d": "M19 20.4v-4h-4",
+                "fill": "none"
+              },
+              {
+                "d": "M9.8 12.3l1.6 1.6 2.9-3",
+                "fill": "none"
+              }
             ],
             "calendar": [
               {
                 "d": "M8 5.5h8a5 5 0 0 1 5 5v5a5 5 0 0 1 -5 5h-8a5 5 0 0 1 -5 -5v-5a5 5 0 0 1 5 -5z",
                 "fill": "selected"
               },
-              { "d": "M8 3.5v3.5M16 3.5v3.5", "fill": "none" },
+              {
+                "d": "M8 3.5v3.5M16 3.5v3.5",
+                "fill": "none"
+              },
               {
                 "d": "M12 17.2c-2-1.2-3-2.2-3-3.3 0-.9.7-1.5 1.5-1.5.6 0 1.1.3 1.5.8.4-.5.9-.8 1.5-.8.8 0 1.5.6 1.5 1.5 0 1.1-1 2.1-3 3.3z",
                 "fill": "stroke"
@@ -1930,7 +2517,12 @@
                 "fill": "selected"
               }
             ],
-            "plus": [{ "d": "M12 5.5v13M5.5 12h13", "fill": "none" }]
+            "plus": [
+              {
+                "d": "M12 5.5v13M5.5 12h13",
+                "fill": "none"
+              }
+            ]
           },
           "states": {
             "selected": {
@@ -1946,7 +2538,10 @@
               "label": "textMuted",
               "labelWeight": 400
             },
-            "plus": { "stroke": "onAccent", "background": "accent" }
+            "plus": {
+              "stroke": "onAccent",
+              "background": "accent"
+            }
           }
         }
       },
@@ -1996,7 +2591,10 @@
       "minAppVersion": "1.0.0",
       "asset": "themes/t-peach.json",
       "files": 1,
-      "tags": ["new", "cute"],
+      "tags": [
+        "new",
+        "cute"
+      ],
       "order": 120,
       "data": {
         "base": "light",
@@ -2039,23 +2637,51 @@
                 "d": "M4.5 13.5c0-2.2.6-3.9 1.6-5.1L5.6 3.6l4 2.6a9 9 0 0 1 4.8 0l4-2.6-.5 4.8c1 1.2 1.6 2.9 1.6 5.1 0 4.2-3.4 7.2-7.5 7.2s-7.5-3-7.5-7.2z",
                 "fill": "selected"
               },
-              { "d": "M9 13.6l2 2 4-4.2", "fill": "none" }
+              {
+                "d": "M9 13.6l2 2 4-4.2",
+                "fill": "none"
+              }
             ],
             "routine": [
-              { "d": "M7.6 12a4.4 4.4 0 1 0 8.8 0a4.4 4.4 0 1 0 -8.8 0z", "fill": "selected" },
-              { "d": "M20 12a8 8 0 0 0-14.5-4.6", "fill": "none" },
-              { "d": "M5 3.6v4h4", "fill": "none" },
-              { "d": "M4 12a8 8 0 0 0 14.5 4.6", "fill": "none" },
-              { "d": "M19 20.4v-4h-4", "fill": "none" },
-              { "d": "M9.8 12.3l1.6 1.6 2.9-3", "fill": "none" }
+              {
+                "d": "M7.6 12a4.4 4.4 0 1 0 8.8 0a4.4 4.4 0 1 0 -8.8 0z",
+                "fill": "selected"
+              },
+              {
+                "d": "M20 12a8 8 0 0 0-14.5-4.6",
+                "fill": "none"
+              },
+              {
+                "d": "M5 3.6v4h4",
+                "fill": "none"
+              },
+              {
+                "d": "M4 12a8 8 0 0 0 14.5 4.6",
+                "fill": "none"
+              },
+              {
+                "d": "M19 20.4v-4h-4",
+                "fill": "none"
+              },
+              {
+                "d": "M9.8 12.3l1.6 1.6 2.9-3",
+                "fill": "none"
+              }
             ],
             "calendar": [
               {
                 "d": "M7 7.5h10a4 4 0 0 1 4 4v5a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4v-5a4 4 0 0 1 4 -4z",
                 "fill": "selected"
               },
-              { "d": "M5.6 8 6.2 3.6l3.6 3.9M18.4 8l-.6-4.4-3.6 3.9", "fill": "none" },
-              { "d": "M8 14h.01M12 14h.01M16 14h.01", "fill": "none", "strokeWidth": 3 }
+              {
+                "d": "M5.6 8 6.2 3.6l3.6 3.9M18.4 8l-.6-4.4-3.6 3.9",
+                "fill": "none"
+              },
+              {
+                "d": "M8 14h.01M12 14h.01M16 14h.01",
+                "fill": "none",
+                "strokeWidth": 3
+              }
             ],
             "settings": [
               {
@@ -2063,7 +2689,12 @@
                 "fill": "stroke"
               }
             ],
-            "plus": [{ "d": "M12 5.5v13M5.5 12h13", "fill": "none" }]
+            "plus": [
+              {
+                "d": "M12 5.5v13M5.5 12h13",
+                "fill": "none"
+              }
+            ]
           },
           "states": {
             "selected": {
@@ -2079,7 +2710,10 @@
               "label": "textMuted",
               "labelWeight": 400
             },
-            "plus": { "stroke": "onAccent", "background": "accent" }
+            "plus": {
+              "stroke": "onAccent",
+              "background": "accent"
+            }
           }
         }
       },
@@ -2129,7 +2763,10 @@
       "minAppVersion": "1.0.0",
       "asset": "themes/t-picnic.json",
       "files": 1,
-      "tags": ["new", "cute"],
+      "tags": [
+        "new",
+        "cute"
+      ],
       "order": 130,
       "data": {
         "base": "light",
@@ -2171,23 +2808,51 @@
                 "d": "M4.5 13.5c0-2.2.6-3.9 1.6-5.1L5.6 3.6l4 2.6a9 9 0 0 1 4.8 0l4-2.6-.5 4.8c1 1.2 1.6 2.9 1.6 5.1 0 4.2-3.4 7.2-7.5 7.2s-7.5-3-7.5-7.2z",
                 "fill": "selected"
               },
-              { "d": "M9 13.6l2 2 4-4.2", "fill": "none" }
+              {
+                "d": "M9 13.6l2 2 4-4.2",
+                "fill": "none"
+              }
             ],
             "routine": [
-              { "d": "M7.6 12a4.4 4.4 0 1 0 8.8 0a4.4 4.4 0 1 0 -8.8 0z", "fill": "selected" },
-              { "d": "M20 12a8 8 0 0 0-14.5-4.6", "fill": "none" },
-              { "d": "M5 3.6v4h4", "fill": "none" },
-              { "d": "M4 12a8 8 0 0 0 14.5 4.6", "fill": "none" },
-              { "d": "M19 20.4v-4h-4", "fill": "none" },
-              { "d": "M9.8 12.3l1.6 1.6 2.9-3", "fill": "none" }
+              {
+                "d": "M7.6 12a4.4 4.4 0 1 0 8.8 0a4.4 4.4 0 1 0 -8.8 0z",
+                "fill": "selected"
+              },
+              {
+                "d": "M20 12a8 8 0 0 0-14.5-4.6",
+                "fill": "none"
+              },
+              {
+                "d": "M5 3.6v4h4",
+                "fill": "none"
+              },
+              {
+                "d": "M4 12a8 8 0 0 0 14.5 4.6",
+                "fill": "none"
+              },
+              {
+                "d": "M19 20.4v-4h-4",
+                "fill": "none"
+              },
+              {
+                "d": "M9.8 12.3l1.6 1.6 2.9-3",
+                "fill": "none"
+              }
             ],
             "calendar": [
               {
                 "d": "M7 7.5h10a4 4 0 0 1 4 4v5a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4v-5a4 4 0 0 1 4 -4z",
                 "fill": "selected"
               },
-              { "d": "M5.6 8 6.2 3.6l3.6 3.9M18.4 8l-.6-4.4-3.6 3.9", "fill": "none" },
-              { "d": "M8 14h.01M12 14h.01M16 14h.01", "fill": "none", "strokeWidth": 3 }
+              {
+                "d": "M5.6 8 6.2 3.6l3.6 3.9M18.4 8l-.6-4.4-3.6 3.9",
+                "fill": "none"
+              },
+              {
+                "d": "M8 14h.01M12 14h.01M16 14h.01",
+                "fill": "none",
+                "strokeWidth": 3
+              }
             ],
             "settings": [
               {
@@ -2195,7 +2860,12 @@
                 "fill": "stroke"
               }
             ],
-            "plus": [{ "d": "M12 5.5v13M5.5 12h13", "fill": "none" }]
+            "plus": [
+              {
+                "d": "M12 5.5v13M5.5 12h13",
+                "fill": "none"
+              }
+            ]
           },
           "states": {
             "selected": {
@@ -2211,7 +2881,10 @@
               "label": "textMuted",
               "labelWeight": 400
             },
-            "plus": { "stroke": "onAccent", "background": "accent" }
+            "plus": {
+              "stroke": "onAccent",
+              "background": "accent"
+            }
           }
         }
       },
@@ -2261,7 +2934,10 @@
       "minAppVersion": "1.0.0",
       "asset": "themes/t-firefly.json",
       "files": 2,
-      "tags": ["new", "cute"],
+      "tags": [
+        "new",
+        "cute"
+      ],
       "order": 140,
       "data": {
         "base": "dark",
@@ -2303,23 +2979,51 @@
                 "d": "M4.5 13.5c0-2.2.6-3.9 1.6-5.1L5.6 3.6l4 2.6a9 9 0 0 1 4.8 0l4-2.6-.5 4.8c1 1.2 1.6 2.9 1.6 5.1 0 4.2-3.4 7.2-7.5 7.2s-7.5-3-7.5-7.2z",
                 "fill": "selected"
               },
-              { "d": "M9 13.6l2 2 4-4.2", "fill": "none" }
+              {
+                "d": "M9 13.6l2 2 4-4.2",
+                "fill": "none"
+              }
             ],
             "routine": [
-              { "d": "M7.6 12a4.4 4.4 0 1 0 8.8 0a4.4 4.4 0 1 0 -8.8 0z", "fill": "selected" },
-              { "d": "M20 12a8 8 0 0 0-14.5-4.6", "fill": "none" },
-              { "d": "M5 3.6v4h4", "fill": "none" },
-              { "d": "M4 12a8 8 0 0 0 14.5 4.6", "fill": "none" },
-              { "d": "M19 20.4v-4h-4", "fill": "none" },
-              { "d": "M9.8 12.3l1.6 1.6 2.9-3", "fill": "none" }
+              {
+                "d": "M7.6 12a4.4 4.4 0 1 0 8.8 0a4.4 4.4 0 1 0 -8.8 0z",
+                "fill": "selected"
+              },
+              {
+                "d": "M20 12a8 8 0 0 0-14.5-4.6",
+                "fill": "none"
+              },
+              {
+                "d": "M5 3.6v4h4",
+                "fill": "none"
+              },
+              {
+                "d": "M4 12a8 8 0 0 0 14.5 4.6",
+                "fill": "none"
+              },
+              {
+                "d": "M19 20.4v-4h-4",
+                "fill": "none"
+              },
+              {
+                "d": "M9.8 12.3l1.6 1.6 2.9-3",
+                "fill": "none"
+              }
             ],
             "calendar": [
               {
                 "d": "M7 7.5h10a4 4 0 0 1 4 4v5a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4v-5a4 4 0 0 1 4 -4z",
                 "fill": "selected"
               },
-              { "d": "M5.6 8 6.2 3.6l3.6 3.9M18.4 8l-.6-4.4-3.6 3.9", "fill": "none" },
-              { "d": "M8 14h.01M12 14h.01M16 14h.01", "fill": "none", "strokeWidth": 3 }
+              {
+                "d": "M5.6 8 6.2 3.6l3.6 3.9M18.4 8l-.6-4.4-3.6 3.9",
+                "fill": "none"
+              },
+              {
+                "d": "M8 14h.01M12 14h.01M16 14h.01",
+                "fill": "none",
+                "strokeWidth": 3
+              }
             ],
             "settings": [
               {
@@ -2327,7 +3031,12 @@
                 "fill": "stroke"
               }
             ],
-            "plus": [{ "d": "M12 5.5v13M5.5 12h13", "fill": "none" }]
+            "plus": [
+              {
+                "d": "M12 5.5v13M5.5 12h13",
+                "fill": "none"
+              }
+            ]
           },
           "states": {
             "selected": {
@@ -2343,7 +3052,10 @@
               "label": "textMuted",
               "labelWeight": 400
             },
-            "plus": { "stroke": "onAccent", "background": "accent" }
+            "plus": {
+              "stroke": "onAccent",
+              "background": "accent"
+            }
           }
         }
       },
@@ -2393,7 +3105,10 @@
       "minAppVersion": "1.0.0",
       "asset": "themes/t-ink.json",
       "files": 3,
-      "tags": ["new", "refined"],
+      "tags": [
+        "new",
+        "refined"
+      ],
       "order": 150,
       "data": {
         "base": "light",
@@ -2421,7 +3136,10 @@
           "kind": "pngTile",
           "tile": 128,
           "asset": "textures/t-ink-grain@3x.png",
-          "assets": { "2x": "textures/t-ink-grain@2x.png", "3x": "textures/t-ink-grain@3x.png" },
+          "assets": {
+            "2x": "textures/t-ink-grain@2x.png",
+            "3x": "textures/t-ink-grain@3x.png"
+          },
           "color": "#3A3022",
           "opacity": 0.15
         },
@@ -2436,22 +3154,46 @@
                 "d": "M2.6999999999999993 12a9.3 9.3 0 1 0 18.6 0a9.3 9.3 0 1 0 -18.6 0z",
                 "fill": "none"
               },
-              { "d": "M8.3 12.2l2.6 2.6 4.9-5.1", "fill": "none" }
+              {
+                "d": "M8.3 12.2l2.6 2.6 4.9-5.1",
+                "fill": "none"
+              }
             ],
             "routine": [
-              { "d": "M20 12a8 8 0 0 0-14.5-4.6", "fill": "none" },
-              { "d": "M5 3.6v4h4", "fill": "none" },
-              { "d": "M4 12a8 8 0 0 0 14.5 4.6", "fill": "none" },
-              { "d": "M19 20.4v-4h-4", "fill": "none" },
-              { "d": "M9.8 12.2l1.6 1.6 3-3.1", "fill": "none" }
+              {
+                "d": "M20 12a8 8 0 0 0-14.5-4.6",
+                "fill": "none"
+              },
+              {
+                "d": "M5 3.6v4h4",
+                "fill": "none"
+              },
+              {
+                "d": "M4 12a8 8 0 0 0 14.5 4.6",
+                "fill": "none"
+              },
+              {
+                "d": "M19 20.4v-4h-4",
+                "fill": "none"
+              },
+              {
+                "d": "M9.8 12.2l1.6 1.6 3-3.1",
+                "fill": "none"
+              }
             ],
             "calendar": [
               {
                 "d": "M5 5h14a1.5 1.5 0 0 1 1.5 1.5v12.5a1.5 1.5 0 0 1 -1.5 1.5h-14a1.5 1.5 0 0 1 -1.5 -1.5v-12.5a1.5 1.5 0 0 1 1.5 -1.5z",
                 "fill": "none"
               },
-              { "d": "M3.5 9.5h17M8 3v3.5M16 3v3.5", "fill": "none" },
-              { "d": "M14.5 13.5h3v3h-3z", "fill": "stroke" }
+              {
+                "d": "M3.5 9.5h17M8 3v3.5M16 3v3.5",
+                "fill": "none"
+              },
+              {
+                "d": "M14.5 13.5h3v3h-3z",
+                "fill": "stroke"
+              }
             ],
             "settings": [
               {
@@ -2459,7 +3201,12 @@
                 "fill": "stroke"
               }
             ],
-            "plus": [{ "d": "M12 6v12M6 12h12", "fill": "none" }]
+            "plus": [
+              {
+                "d": "M12 6v12M6 12h12",
+                "fill": "none"
+              }
+            ]
           },
           "states": {
             "selected": {
@@ -2475,7 +3222,10 @@
               "label": "textMuted",
               "labelWeight": 400
             },
-            "plus": { "stroke": "onAccent", "background": "accent" }
+            "plus": {
+              "stroke": "onAccent",
+              "background": "accent"
+            }
           }
         }
       },
@@ -2525,7 +3275,10 @@
       "minAppVersion": "1.0.0",
       "asset": "themes/t-grid.json",
       "files": 1,
-      "tags": ["new", "refined"],
+      "tags": [
+        "new",
+        "refined"
+      ],
       "order": 160,
       "data": {
         "base": "light",
@@ -2567,22 +3320,46 @@
                 "d": "M2.6999999999999993 12a9.3 9.3 0 1 0 18.6 0a9.3 9.3 0 1 0 -18.6 0z",
                 "fill": "none"
               },
-              { "d": "M8.3 12.2l2.6 2.6 4.9-5.1", "fill": "none" }
+              {
+                "d": "M8.3 12.2l2.6 2.6 4.9-5.1",
+                "fill": "none"
+              }
             ],
             "routine": [
-              { "d": "M20 12a8 8 0 0 0-14.5-4.6", "fill": "none" },
-              { "d": "M5 3.6v4h4", "fill": "none" },
-              { "d": "M4 12a8 8 0 0 0 14.5 4.6", "fill": "none" },
-              { "d": "M19 20.4v-4h-4", "fill": "none" },
-              { "d": "M9.8 12.2l1.6 1.6 3-3.1", "fill": "none" }
+              {
+                "d": "M20 12a8 8 0 0 0-14.5-4.6",
+                "fill": "none"
+              },
+              {
+                "d": "M5 3.6v4h4",
+                "fill": "none"
+              },
+              {
+                "d": "M4 12a8 8 0 0 0 14.5 4.6",
+                "fill": "none"
+              },
+              {
+                "d": "M19 20.4v-4h-4",
+                "fill": "none"
+              },
+              {
+                "d": "M9.8 12.2l1.6 1.6 3-3.1",
+                "fill": "none"
+              }
             ],
             "calendar": [
               {
                 "d": "M5 5h14a1.5 1.5 0 0 1 1.5 1.5v12.5a1.5 1.5 0 0 1 -1.5 1.5h-14a1.5 1.5 0 0 1 -1.5 -1.5v-12.5a1.5 1.5 0 0 1 1.5 -1.5z",
                 "fill": "none"
               },
-              { "d": "M3.5 9.5h17M8 3v3.5M16 3v3.5", "fill": "none" },
-              { "d": "M14.5 13.5h3v3h-3z", "fill": "stroke" }
+              {
+                "d": "M3.5 9.5h17M8 3v3.5M16 3v3.5",
+                "fill": "none"
+              },
+              {
+                "d": "M14.5 13.5h3v3h-3z",
+                "fill": "stroke"
+              }
             ],
             "settings": [
               {
@@ -2590,7 +3367,12 @@
                 "fill": "stroke"
               }
             ],
-            "plus": [{ "d": "M12 6v12M6 12h12", "fill": "none" }]
+            "plus": [
+              {
+                "d": "M12 6v12M6 12h12",
+                "fill": "none"
+              }
+            ]
           },
           "states": {
             "selected": {
@@ -2606,7 +3388,10 @@
               "label": "textMuted",
               "labelWeight": 400
             },
-            "plus": { "stroke": "onAccent", "background": "accent" }
+            "plus": {
+              "stroke": "onAccent",
+              "background": "accent"
+            }
           }
         }
       },
@@ -2656,7 +3441,10 @@
       "minAppVersion": "1.0.0",
       "asset": "themes/t-pinstripe.json",
       "files": 1,
-      "tags": ["new", "refined"],
+      "tags": [
+        "new",
+        "refined"
+      ],
       "order": 170,
       "data": {
         "base": "light",
@@ -2699,22 +3487,46 @@
                 "d": "M2.6999999999999993 12a9.3 9.3 0 1 0 18.6 0a9.3 9.3 0 1 0 -18.6 0z",
                 "fill": "none"
               },
-              { "d": "M8.3 12.2l2.6 2.6 4.9-5.1", "fill": "none" }
+              {
+                "d": "M8.3 12.2l2.6 2.6 4.9-5.1",
+                "fill": "none"
+              }
             ],
             "routine": [
-              { "d": "M20 12a8 8 0 0 0-14.5-4.6", "fill": "none" },
-              { "d": "M5 3.6v4h4", "fill": "none" },
-              { "d": "M4 12a8 8 0 0 0 14.5 4.6", "fill": "none" },
-              { "d": "M19 20.4v-4h-4", "fill": "none" },
-              { "d": "M9.8 12.2l1.6 1.6 3-3.1", "fill": "none" }
+              {
+                "d": "M20 12a8 8 0 0 0-14.5-4.6",
+                "fill": "none"
+              },
+              {
+                "d": "M5 3.6v4h4",
+                "fill": "none"
+              },
+              {
+                "d": "M4 12a8 8 0 0 0 14.5 4.6",
+                "fill": "none"
+              },
+              {
+                "d": "M19 20.4v-4h-4",
+                "fill": "none"
+              },
+              {
+                "d": "M9.8 12.2l1.6 1.6 3-3.1",
+                "fill": "none"
+              }
             ],
             "calendar": [
               {
                 "d": "M5 5h14a1.5 1.5 0 0 1 1.5 1.5v12.5a1.5 1.5 0 0 1 -1.5 1.5h-14a1.5 1.5 0 0 1 -1.5 -1.5v-12.5a1.5 1.5 0 0 1 1.5 -1.5z",
                 "fill": "none"
               },
-              { "d": "M3.5 9.5h17M8 3v3.5M16 3v3.5", "fill": "none" },
-              { "d": "M14.5 13.5h3v3h-3z", "fill": "stroke" }
+              {
+                "d": "M3.5 9.5h17M8 3v3.5M16 3v3.5",
+                "fill": "none"
+              },
+              {
+                "d": "M14.5 13.5h3v3h-3z",
+                "fill": "stroke"
+              }
             ],
             "settings": [
               {
@@ -2722,7 +3534,12 @@
                 "fill": "stroke"
               }
             ],
-            "plus": [{ "d": "M12 6v12M6 12h12", "fill": "none" }]
+            "plus": [
+              {
+                "d": "M12 6v12M6 12h12",
+                "fill": "none"
+              }
+            ]
           },
           "states": {
             "selected": {
@@ -2738,7 +3555,10 @@
               "label": "textMuted",
               "labelWeight": 400
             },
-            "plus": { "stroke": "onAccent", "background": "accent" }
+            "plus": {
+              "stroke": "onAccent",
+              "background": "accent"
+            }
           }
         }
       },
@@ -2788,7 +3608,10 @@
       "minAppVersion": "1.0.0",
       "asset": "themes/t-latte.json",
       "files": 1,
-      "tags": ["new", "refined"],
+      "tags": [
+        "new",
+        "refined"
+      ],
       "order": 180,
       "data": {
         "base": "light",
@@ -2824,22 +3647,46 @@
                 "d": "M2.6999999999999993 12a9.3 9.3 0 1 0 18.6 0a9.3 9.3 0 1 0 -18.6 0z",
                 "fill": "none"
               },
-              { "d": "M8.3 12.2l2.6 2.6 4.9-5.1", "fill": "none" }
+              {
+                "d": "M8.3 12.2l2.6 2.6 4.9-5.1",
+                "fill": "none"
+              }
             ],
             "routine": [
-              { "d": "M20 12a8 8 0 0 0-14.5-4.6", "fill": "none" },
-              { "d": "M5 3.6v4h4", "fill": "none" },
-              { "d": "M4 12a8 8 0 0 0 14.5 4.6", "fill": "none" },
-              { "d": "M19 20.4v-4h-4", "fill": "none" },
-              { "d": "M9.8 12.2l1.6 1.6 3-3.1", "fill": "none" }
+              {
+                "d": "M20 12a8 8 0 0 0-14.5-4.6",
+                "fill": "none"
+              },
+              {
+                "d": "M5 3.6v4h4",
+                "fill": "none"
+              },
+              {
+                "d": "M4 12a8 8 0 0 0 14.5 4.6",
+                "fill": "none"
+              },
+              {
+                "d": "M19 20.4v-4h-4",
+                "fill": "none"
+              },
+              {
+                "d": "M9.8 12.2l1.6 1.6 3-3.1",
+                "fill": "none"
+              }
             ],
             "calendar": [
               {
                 "d": "M5 5h14a1.5 1.5 0 0 1 1.5 1.5v12.5a1.5 1.5 0 0 1 -1.5 1.5h-14a1.5 1.5 0 0 1 -1.5 -1.5v-12.5a1.5 1.5 0 0 1 1.5 -1.5z",
                 "fill": "none"
               },
-              { "d": "M3.5 9.5h17M8 3v3.5M16 3v3.5", "fill": "none" },
-              { "d": "M14.5 13.5h3v3h-3z", "fill": "stroke" }
+              {
+                "d": "M3.5 9.5h17M8 3v3.5M16 3v3.5",
+                "fill": "none"
+              },
+              {
+                "d": "M14.5 13.5h3v3h-3z",
+                "fill": "stroke"
+              }
             ],
             "settings": [
               {
@@ -2847,7 +3694,12 @@
                 "fill": "stroke"
               }
             ],
-            "plus": [{ "d": "M12 6v12M6 12h12", "fill": "none" }]
+            "plus": [
+              {
+                "d": "M12 6v12M6 12h12",
+                "fill": "none"
+              }
+            ]
           },
           "states": {
             "selected": {
@@ -2863,7 +3715,10 @@
               "label": "textMuted",
               "labelWeight": 400
             },
-            "plus": { "stroke": "onAccent", "background": "accent" }
+            "plus": {
+              "stroke": "onAccent",
+              "background": "accent"
+            }
           }
         }
       },
@@ -2913,7 +3768,10 @@
       "minAppVersion": "1.0.0",
       "asset": "themes/t-mint.json",
       "files": 1,
-      "tags": ["new", "cute"],
+      "tags": [
+        "new",
+        "cute"
+      ],
       "order": 190,
       "data": {
         "base": "light",
@@ -2956,23 +3814,51 @@
                 "d": "M4.5 13.5c0-2.2.6-3.9 1.6-5.1L5.6 3.6l4 2.6a9 9 0 0 1 4.8 0l4-2.6-.5 4.8c1 1.2 1.6 2.9 1.6 5.1 0 4.2-3.4 7.2-7.5 7.2s-7.5-3-7.5-7.2z",
                 "fill": "selected"
               },
-              { "d": "M9 13.6l2 2 4-4.2", "fill": "none" }
+              {
+                "d": "M9 13.6l2 2 4-4.2",
+                "fill": "none"
+              }
             ],
             "routine": [
-              { "d": "M7.6 12a4.4 4.4 0 1 0 8.8 0a4.4 4.4 0 1 0 -8.8 0z", "fill": "selected" },
-              { "d": "M20 12a8 8 0 0 0-14.5-4.6", "fill": "none" },
-              { "d": "M5 3.6v4h4", "fill": "none" },
-              { "d": "M4 12a8 8 0 0 0 14.5 4.6", "fill": "none" },
-              { "d": "M19 20.4v-4h-4", "fill": "none" },
-              { "d": "M9.8 12.3l1.6 1.6 2.9-3", "fill": "none" }
+              {
+                "d": "M7.6 12a4.4 4.4 0 1 0 8.8 0a4.4 4.4 0 1 0 -8.8 0z",
+                "fill": "selected"
+              },
+              {
+                "d": "M20 12a8 8 0 0 0-14.5-4.6",
+                "fill": "none"
+              },
+              {
+                "d": "M5 3.6v4h4",
+                "fill": "none"
+              },
+              {
+                "d": "M4 12a8 8 0 0 0 14.5 4.6",
+                "fill": "none"
+              },
+              {
+                "d": "M19 20.4v-4h-4",
+                "fill": "none"
+              },
+              {
+                "d": "M9.8 12.3l1.6 1.6 2.9-3",
+                "fill": "none"
+              }
             ],
             "calendar": [
               {
                 "d": "M7 7.5h10a4 4 0 0 1 4 4v5a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4v-5a4 4 0 0 1 4 -4z",
                 "fill": "selected"
               },
-              { "d": "M5.6 8 6.2 3.6l3.6 3.9M18.4 8l-.6-4.4-3.6 3.9", "fill": "none" },
-              { "d": "M8 14h.01M12 14h.01M16 14h.01", "fill": "none", "strokeWidth": 3 }
+              {
+                "d": "M5.6 8 6.2 3.6l3.6 3.9M18.4 8l-.6-4.4-3.6 3.9",
+                "fill": "none"
+              },
+              {
+                "d": "M8 14h.01M12 14h.01M16 14h.01",
+                "fill": "none",
+                "strokeWidth": 3
+              }
             ],
             "settings": [
               {
@@ -2980,7 +3866,12 @@
                 "fill": "stroke"
               }
             ],
-            "plus": [{ "d": "M12 5.5v13M5.5 12h13", "fill": "none" }]
+            "plus": [
+              {
+                "d": "M12 5.5v13M5.5 12h13",
+                "fill": "none"
+              }
+            ]
           },
           "states": {
             "selected": {
@@ -2996,7 +3887,10 @@
               "label": "textMuted",
               "labelWeight": 400
             },
-            "plus": { "stroke": "onAccent", "background": "accent" }
+            "plus": {
+              "stroke": "onAccent",
+              "background": "accent"
+            }
           }
         }
       },
@@ -3046,7 +3940,10 @@
       "minAppVersion": "1.0.0",
       "asset": "themes/t-ocean.json",
       "files": 2,
-      "tags": ["new", "cute"],
+      "tags": [
+        "new",
+        "cute"
+      ],
       "order": 200,
       "data": {
         "base": "dark",
@@ -3084,22 +3981,46 @@
           "lineJoin": "round",
           "icons": {
             "today": [
-              { "d": "M2.5 12a9.5 9.5 0 1 0 19 0a9.5 9.5 0 1 0 -19 0z", "fill": "none" },
-              { "d": "M8 12.3l2.8 2.8 5.4-5.6", "fill": "none" }
+              {
+                "d": "M2.5 12a9.5 9.5 0 1 0 19 0a9.5 9.5 0 1 0 -19 0z",
+                "fill": "none"
+              },
+              {
+                "d": "M8 12.3l2.8 2.8 5.4-5.6",
+                "fill": "none"
+              }
             ],
             "routine": [
-              { "d": "M20 12a8 8 0 0 0-14.5-4.6", "fill": "none" },
-              { "d": "M5 3.6v4h4", "fill": "none" },
-              { "d": "M4 12a8 8 0 0 0 14.5 4.6", "fill": "none" },
-              { "d": "M19 20.4v-4h-4", "fill": "none" },
-              { "d": "M9.6 12.1l1.7 1.7 3.2-3.3", "fill": "none" }
+              {
+                "d": "M20 12a8 8 0 0 0-14.5-4.6",
+                "fill": "none"
+              },
+              {
+                "d": "M5 3.6v4h4",
+                "fill": "none"
+              },
+              {
+                "d": "M4 12a8 8 0 0 0 14.5 4.6",
+                "fill": "none"
+              },
+              {
+                "d": "M19 20.4v-4h-4",
+                "fill": "none"
+              },
+              {
+                "d": "M9.6 12.1l1.7 1.7 3.2-3.3",
+                "fill": "none"
+              }
             ],
             "calendar": [
               {
                 "d": "M6.5 5h11a3.5 3.5 0 0 1 3.5 3.5v8.5a3.5 3.5 0 0 1 -3.5 3.5h-11a3.5 3.5 0 0 1 -3.5 -3.5v-8.5a3.5 3.5 0 0 1 3.5 -3.5z",
                 "fill": "none"
               },
-              { "d": "M3 10h18M8 3v4M16 3v4", "fill": "none" }
+              {
+                "d": "M3 10h18M8 3v4M16 3v4",
+                "fill": "none"
+              }
             ],
             "settings": [
               {
@@ -3107,7 +4028,12 @@
                 "fill": "stroke"
               }
             ],
-            "plus": [{ "d": "M12 5v14M5 12h14", "fill": "none" }]
+            "plus": [
+              {
+                "d": "M12 5v14M5 12h14",
+                "fill": "none"
+              }
+            ]
           },
           "states": {
             "selected": {
@@ -3123,7 +4049,10 @@
               "label": "textMuted",
               "labelWeight": 400
             },
-            "plus": { "stroke": "onAccent", "background": "accent" }
+            "plus": {
+              "stroke": "onAccent",
+              "background": "accent"
+            }
           }
         }
       },
@@ -3173,7 +4102,10 @@
       "minAppVersion": "1.0.0",
       "asset": "themes/t-lemon.json",
       "files": 2,
-      "tags": ["new", "cute"],
+      "tags": [
+        "new",
+        "cute"
+      ],
       "order": 210,
       "data": {
         "base": "light",
@@ -3215,23 +4147,51 @@
                 "d": "M4.5 13.5c0-2.2.6-3.9 1.6-5.1L5.6 3.6l4 2.6a9 9 0 0 1 4.8 0l4-2.6-.5 4.8c1 1.2 1.6 2.9 1.6 5.1 0 4.2-3.4 7.2-7.5 7.2s-7.5-3-7.5-7.2z",
                 "fill": "selected"
               },
-              { "d": "M9 13.6l2 2 4-4.2", "fill": "none" }
+              {
+                "d": "M9 13.6l2 2 4-4.2",
+                "fill": "none"
+              }
             ],
             "routine": [
-              { "d": "M7.6 12a4.4 4.4 0 1 0 8.8 0a4.4 4.4 0 1 0 -8.8 0z", "fill": "selected" },
-              { "d": "M20 12a8 8 0 0 0-14.5-4.6", "fill": "none" },
-              { "d": "M5 3.6v4h4", "fill": "none" },
-              { "d": "M4 12a8 8 0 0 0 14.5 4.6", "fill": "none" },
-              { "d": "M19 20.4v-4h-4", "fill": "none" },
-              { "d": "M9.8 12.3l1.6 1.6 2.9-3", "fill": "none" }
+              {
+                "d": "M7.6 12a4.4 4.4 0 1 0 8.8 0a4.4 4.4 0 1 0 -8.8 0z",
+                "fill": "selected"
+              },
+              {
+                "d": "M20 12a8 8 0 0 0-14.5-4.6",
+                "fill": "none"
+              },
+              {
+                "d": "M5 3.6v4h4",
+                "fill": "none"
+              },
+              {
+                "d": "M4 12a8 8 0 0 0 14.5 4.6",
+                "fill": "none"
+              },
+              {
+                "d": "M19 20.4v-4h-4",
+                "fill": "none"
+              },
+              {
+                "d": "M9.8 12.3l1.6 1.6 2.9-3",
+                "fill": "none"
+              }
             ],
             "calendar": [
               {
                 "d": "M7 7.5h10a4 4 0 0 1 4 4v5a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4v-5a4 4 0 0 1 4 -4z",
                 "fill": "selected"
               },
-              { "d": "M5.6 8 6.2 3.6l3.6 3.9M18.4 8l-.6-4.4-3.6 3.9", "fill": "none" },
-              { "d": "M8 14h.01M12 14h.01M16 14h.01", "fill": "none", "strokeWidth": 3 }
+              {
+                "d": "M5.6 8 6.2 3.6l3.6 3.9M18.4 8l-.6-4.4-3.6 3.9",
+                "fill": "none"
+              },
+              {
+                "d": "M8 14h.01M12 14h.01M16 14h.01",
+                "fill": "none",
+                "strokeWidth": 3
+              }
             ],
             "settings": [
               {
@@ -3239,7 +4199,12 @@
                 "fill": "stroke"
               }
             ],
-            "plus": [{ "d": "M12 5.5v13M5.5 12h13", "fill": "none" }]
+            "plus": [
+              {
+                "d": "M12 5.5v13M5.5 12h13",
+                "fill": "none"
+              }
+            ]
           },
           "states": {
             "selected": {
@@ -3255,7 +4220,10 @@
               "label": "textMuted",
               "labelWeight": 400
             },
-            "plus": { "stroke": "onAccent", "background": "accent" }
+            "plus": {
+              "stroke": "onAccent",
+              "background": "accent"
+            }
           }
         }
       },
@@ -3305,7 +4273,10 @@
       "minAppVersion": "1.0.0",
       "asset": "themes/t-terracotta.json",
       "files": 2,
-      "tags": ["new", "refined"],
+      "tags": [
+        "new",
+        "refined"
+      ],
       "order": 220,
       "data": {
         "base": "light",
@@ -3348,22 +4319,46 @@
                 "d": "M2.6999999999999993 12a9.3 9.3 0 1 0 18.6 0a9.3 9.3 0 1 0 -18.6 0z",
                 "fill": "none"
               },
-              { "d": "M8.3 12.2l2.6 2.6 4.9-5.1", "fill": "none" }
+              {
+                "d": "M8.3 12.2l2.6 2.6 4.9-5.1",
+                "fill": "none"
+              }
             ],
             "routine": [
-              { "d": "M20 12a8 8 0 0 0-14.5-4.6", "fill": "none" },
-              { "d": "M5 3.6v4h4", "fill": "none" },
-              { "d": "M4 12a8 8 0 0 0 14.5 4.6", "fill": "none" },
-              { "d": "M19 20.4v-4h-4", "fill": "none" },
-              { "d": "M9.8 12.2l1.6 1.6 3-3.1", "fill": "none" }
+              {
+                "d": "M20 12a8 8 0 0 0-14.5-4.6",
+                "fill": "none"
+              },
+              {
+                "d": "M5 3.6v4h4",
+                "fill": "none"
+              },
+              {
+                "d": "M4 12a8 8 0 0 0 14.5 4.6",
+                "fill": "none"
+              },
+              {
+                "d": "M19 20.4v-4h-4",
+                "fill": "none"
+              },
+              {
+                "d": "M9.8 12.2l1.6 1.6 3-3.1",
+                "fill": "none"
+              }
             ],
             "calendar": [
               {
                 "d": "M5 5h14a1.5 1.5 0 0 1 1.5 1.5v12.5a1.5 1.5 0 0 1 -1.5 1.5h-14a1.5 1.5 0 0 1 -1.5 -1.5v-12.5a1.5 1.5 0 0 1 1.5 -1.5z",
                 "fill": "none"
               },
-              { "d": "M3.5 9.5h17M8 3v3.5M16 3v3.5", "fill": "none" },
-              { "d": "M14.5 13.5h3v3h-3z", "fill": "stroke" }
+              {
+                "d": "M3.5 9.5h17M8 3v3.5M16 3v3.5",
+                "fill": "none"
+              },
+              {
+                "d": "M14.5 13.5h3v3h-3z",
+                "fill": "stroke"
+              }
             ],
             "settings": [
               {
@@ -3371,7 +4366,12 @@
                 "fill": "stroke"
               }
             ],
-            "plus": [{ "d": "M12 6v12M6 12h12", "fill": "none" }]
+            "plus": [
+              {
+                "d": "M12 6v12M6 12h12",
+                "fill": "none"
+              }
+            ]
           },
           "states": {
             "selected": {
@@ -3387,7 +4387,10 @@
               "label": "textMuted",
               "labelWeight": 400
             },
-            "plus": { "stroke": "onAccent", "background": "accent" }
+            "plus": {
+              "stroke": "onAccent",
+              "background": "accent"
+            }
           }
         }
       },
@@ -3437,7 +4440,10 @@
       "minAppVersion": "1.0.0",
       "asset": "themes/t-accent-teal.json",
       "files": 1,
-      "tags": ["new", "accent"],
+      "tags": [
+        "new",
+        "accent"
+      ],
       "order": 230,
       "data": {
         "base": "light",
@@ -3459,22 +4465,46 @@
           "lineJoin": "round",
           "icons": {
             "today": [
-              { "d": "M2.5 12a9.5 9.5 0 1 0 19 0a9.5 9.5 0 1 0 -19 0z", "fill": "none" },
-              { "d": "M8 12.3l2.8 2.8 5.4-5.6", "fill": "none" }
+              {
+                "d": "M2.5 12a9.5 9.5 0 1 0 19 0a9.5 9.5 0 1 0 -19 0z",
+                "fill": "none"
+              },
+              {
+                "d": "M8 12.3l2.8 2.8 5.4-5.6",
+                "fill": "none"
+              }
             ],
             "routine": [
-              { "d": "M20 12a8 8 0 0 0-14.5-4.6", "fill": "none" },
-              { "d": "M5 3.6v4h4", "fill": "none" },
-              { "d": "M4 12a8 8 0 0 0 14.5 4.6", "fill": "none" },
-              { "d": "M19 20.4v-4h-4", "fill": "none" },
-              { "d": "M9.6 12.1l1.7 1.7 3.2-3.3", "fill": "none" }
+              {
+                "d": "M20 12a8 8 0 0 0-14.5-4.6",
+                "fill": "none"
+              },
+              {
+                "d": "M5 3.6v4h4",
+                "fill": "none"
+              },
+              {
+                "d": "M4 12a8 8 0 0 0 14.5 4.6",
+                "fill": "none"
+              },
+              {
+                "d": "M19 20.4v-4h-4",
+                "fill": "none"
+              },
+              {
+                "d": "M9.6 12.1l1.7 1.7 3.2-3.3",
+                "fill": "none"
+              }
             ],
             "calendar": [
               {
                 "d": "M6.5 5h11a3.5 3.5 0 0 1 3.5 3.5v8.5a3.5 3.5 0 0 1 -3.5 3.5h-11a3.5 3.5 0 0 1 -3.5 -3.5v-8.5a3.5 3.5 0 0 1 3.5 -3.5z",
                 "fill": "none"
               },
-              { "d": "M3 10h18M8 3v4M16 3v4", "fill": "none" }
+              {
+                "d": "M3 10h18M8 3v4M16 3v4",
+                "fill": "none"
+              }
             ],
             "settings": [
               {
@@ -3482,7 +4512,12 @@
                 "fill": "stroke"
               }
             ],
-            "plus": [{ "d": "M12 5v14M5 12h14", "fill": "none" }]
+            "plus": [
+              {
+                "d": "M12 5v14M5 12h14",
+                "fill": "none"
+              }
+            ]
           },
           "states": {
             "selected": {
@@ -3498,7 +4533,10 @@
               "label": "textMuted",
               "labelWeight": 400
             },
-            "plus": { "stroke": "onAccent", "background": "accent" }
+            "plus": {
+              "stroke": "onAccent",
+              "background": "accent"
+            }
           }
         }
       },
@@ -3548,7 +4586,10 @@
       "minAppVersion": "1.0.0",
       "asset": "themes/t-accent-ocean.json",
       "files": 1,
-      "tags": ["new", "accent"],
+      "tags": [
+        "new",
+        "accent"
+      ],
       "order": 240,
       "data": {
         "base": "light",
@@ -3570,22 +4611,46 @@
           "lineJoin": "round",
           "icons": {
             "today": [
-              { "d": "M2.5 12a9.5 9.5 0 1 0 19 0a9.5 9.5 0 1 0 -19 0z", "fill": "none" },
-              { "d": "M8 12.3l2.8 2.8 5.4-5.6", "fill": "none" }
+              {
+                "d": "M2.5 12a9.5 9.5 0 1 0 19 0a9.5 9.5 0 1 0 -19 0z",
+                "fill": "none"
+              },
+              {
+                "d": "M8 12.3l2.8 2.8 5.4-5.6",
+                "fill": "none"
+              }
             ],
             "routine": [
-              { "d": "M20 12a8 8 0 0 0-14.5-4.6", "fill": "none" },
-              { "d": "M5 3.6v4h4", "fill": "none" },
-              { "d": "M4 12a8 8 0 0 0 14.5 4.6", "fill": "none" },
-              { "d": "M19 20.4v-4h-4", "fill": "none" },
-              { "d": "M9.6 12.1l1.7 1.7 3.2-3.3", "fill": "none" }
+              {
+                "d": "M20 12a8 8 0 0 0-14.5-4.6",
+                "fill": "none"
+              },
+              {
+                "d": "M5 3.6v4h4",
+                "fill": "none"
+              },
+              {
+                "d": "M4 12a8 8 0 0 0 14.5 4.6",
+                "fill": "none"
+              },
+              {
+                "d": "M19 20.4v-4h-4",
+                "fill": "none"
+              },
+              {
+                "d": "M9.6 12.1l1.7 1.7 3.2-3.3",
+                "fill": "none"
+              }
             ],
             "calendar": [
               {
                 "d": "M6.5 5h11a3.5 3.5 0 0 1 3.5 3.5v8.5a3.5 3.5 0 0 1 -3.5 3.5h-11a3.5 3.5 0 0 1 -3.5 -3.5v-8.5a3.5 3.5 0 0 1 3.5 -3.5z",
                 "fill": "none"
               },
-              { "d": "M3 10h18M8 3v4M16 3v4", "fill": "none" }
+              {
+                "d": "M3 10h18M8 3v4M16 3v4",
+                "fill": "none"
+              }
             ],
             "settings": [
               {
@@ -3593,7 +4658,12 @@
                 "fill": "stroke"
               }
             ],
-            "plus": [{ "d": "M12 5v14M5 12h14", "fill": "none" }]
+            "plus": [
+              {
+                "d": "M12 5v14M5 12h14",
+                "fill": "none"
+              }
+            ]
           },
           "states": {
             "selected": {
@@ -3609,7 +4679,10 @@
               "label": "textMuted",
               "labelWeight": 400
             },
-            "plus": { "stroke": "onAccent", "background": "accent" }
+            "plus": {
+              "stroke": "onAccent",
+              "background": "accent"
+            }
           }
         }
       },
@@ -3659,7 +4732,10 @@
       "minAppVersion": "1.0.0",
       "asset": "themes/t-accent-forest.json",
       "files": 1,
-      "tags": ["new", "accent"],
+      "tags": [
+        "new",
+        "accent"
+      ],
       "order": 250,
       "data": {
         "base": "light",
@@ -3681,22 +4757,46 @@
           "lineJoin": "round",
           "icons": {
             "today": [
-              { "d": "M2.5 12a9.5 9.5 0 1 0 19 0a9.5 9.5 0 1 0 -19 0z", "fill": "none" },
-              { "d": "M8 12.3l2.8 2.8 5.4-5.6", "fill": "none" }
+              {
+                "d": "M2.5 12a9.5 9.5 0 1 0 19 0a9.5 9.5 0 1 0 -19 0z",
+                "fill": "none"
+              },
+              {
+                "d": "M8 12.3l2.8 2.8 5.4-5.6",
+                "fill": "none"
+              }
             ],
             "routine": [
-              { "d": "M20 12a8 8 0 0 0-14.5-4.6", "fill": "none" },
-              { "d": "M5 3.6v4h4", "fill": "none" },
-              { "d": "M4 12a8 8 0 0 0 14.5 4.6", "fill": "none" },
-              { "d": "M19 20.4v-4h-4", "fill": "none" },
-              { "d": "M9.6 12.1l1.7 1.7 3.2-3.3", "fill": "none" }
+              {
+                "d": "M20 12a8 8 0 0 0-14.5-4.6",
+                "fill": "none"
+              },
+              {
+                "d": "M5 3.6v4h4",
+                "fill": "none"
+              },
+              {
+                "d": "M4 12a8 8 0 0 0 14.5 4.6",
+                "fill": "none"
+              },
+              {
+                "d": "M19 20.4v-4h-4",
+                "fill": "none"
+              },
+              {
+                "d": "M9.6 12.1l1.7 1.7 3.2-3.3",
+                "fill": "none"
+              }
             ],
             "calendar": [
               {
                 "d": "M6.5 5h11a3.5 3.5 0 0 1 3.5 3.5v8.5a3.5 3.5 0 0 1 -3.5 3.5h-11a3.5 3.5 0 0 1 -3.5 -3.5v-8.5a3.5 3.5 0 0 1 3.5 -3.5z",
                 "fill": "none"
               },
-              { "d": "M3 10h18M8 3v4M16 3v4", "fill": "none" }
+              {
+                "d": "M3 10h18M8 3v4M16 3v4",
+                "fill": "none"
+              }
             ],
             "settings": [
               {
@@ -3704,7 +4804,12 @@
                 "fill": "stroke"
               }
             ],
-            "plus": [{ "d": "M12 5v14M5 12h14", "fill": "none" }]
+            "plus": [
+              {
+                "d": "M12 5v14M5 12h14",
+                "fill": "none"
+              }
+            ]
           },
           "states": {
             "selected": {
@@ -3720,7 +4825,10 @@
               "label": "textMuted",
               "labelWeight": 400
             },
-            "plus": { "stroke": "onAccent", "background": "accent" }
+            "plus": {
+              "stroke": "onAccent",
+              "background": "accent"
+            }
           }
         }
       },
@@ -3770,7 +4878,10 @@
       "minAppVersion": "1.0.0",
       "asset": "themes/t-accent-berry.json",
       "files": 1,
-      "tags": ["new", "accent"],
+      "tags": [
+        "new",
+        "accent"
+      ],
       "order": 260,
       "data": {
         "base": "light",
@@ -3792,22 +4903,46 @@
           "lineJoin": "round",
           "icons": {
             "today": [
-              { "d": "M2.5 12a9.5 9.5 0 1 0 19 0a9.5 9.5 0 1 0 -19 0z", "fill": "none" },
-              { "d": "M8 12.3l2.8 2.8 5.4-5.6", "fill": "none" }
+              {
+                "d": "M2.5 12a9.5 9.5 0 1 0 19 0a9.5 9.5 0 1 0 -19 0z",
+                "fill": "none"
+              },
+              {
+                "d": "M8 12.3l2.8 2.8 5.4-5.6",
+                "fill": "none"
+              }
             ],
             "routine": [
-              { "d": "M20 12a8 8 0 0 0-14.5-4.6", "fill": "none" },
-              { "d": "M5 3.6v4h4", "fill": "none" },
-              { "d": "M4 12a8 8 0 0 0 14.5 4.6", "fill": "none" },
-              { "d": "M19 20.4v-4h-4", "fill": "none" },
-              { "d": "M9.6 12.1l1.7 1.7 3.2-3.3", "fill": "none" }
+              {
+                "d": "M20 12a8 8 0 0 0-14.5-4.6",
+                "fill": "none"
+              },
+              {
+                "d": "M5 3.6v4h4",
+                "fill": "none"
+              },
+              {
+                "d": "M4 12a8 8 0 0 0 14.5 4.6",
+                "fill": "none"
+              },
+              {
+                "d": "M19 20.4v-4h-4",
+                "fill": "none"
+              },
+              {
+                "d": "M9.6 12.1l1.7 1.7 3.2-3.3",
+                "fill": "none"
+              }
             ],
             "calendar": [
               {
                 "d": "M6.5 5h11a3.5 3.5 0 0 1 3.5 3.5v8.5a3.5 3.5 0 0 1 -3.5 3.5h-11a3.5 3.5 0 0 1 -3.5 -3.5v-8.5a3.5 3.5 0 0 1 3.5 -3.5z",
                 "fill": "none"
               },
-              { "d": "M3 10h18M8 3v4M16 3v4", "fill": "none" }
+              {
+                "d": "M3 10h18M8 3v4M16 3v4",
+                "fill": "none"
+              }
             ],
             "settings": [
               {
@@ -3815,7 +4950,12 @@
                 "fill": "stroke"
               }
             ],
-            "plus": [{ "d": "M12 5v14M5 12h14", "fill": "none" }]
+            "plus": [
+              {
+                "d": "M12 5v14M5 12h14",
+                "fill": "none"
+              }
+            ]
           },
           "states": {
             "selected": {
@@ -3831,7 +4971,10 @@
               "label": "textMuted",
               "labelWeight": 400
             },
-            "plus": { "stroke": "onAccent", "background": "accent" }
+            "plus": {
+              "stroke": "onAccent",
+              "background": "accent"
+            }
           }
         }
       },
@@ -3881,7 +5024,10 @@
       "minAppVersion": "1.0.0",
       "asset": "themes/t-accent-cocoa.json",
       "files": 1,
-      "tags": ["new", "accent"],
+      "tags": [
+        "new",
+        "accent"
+      ],
       "order": 270,
       "data": {
         "base": "light",
@@ -3903,22 +5049,46 @@
           "lineJoin": "round",
           "icons": {
             "today": [
-              { "d": "M2.5 12a9.5 9.5 0 1 0 19 0a9.5 9.5 0 1 0 -19 0z", "fill": "none" },
-              { "d": "M8 12.3l2.8 2.8 5.4-5.6", "fill": "none" }
+              {
+                "d": "M2.5 12a9.5 9.5 0 1 0 19 0a9.5 9.5 0 1 0 -19 0z",
+                "fill": "none"
+              },
+              {
+                "d": "M8 12.3l2.8 2.8 5.4-5.6",
+                "fill": "none"
+              }
             ],
             "routine": [
-              { "d": "M20 12a8 8 0 0 0-14.5-4.6", "fill": "none" },
-              { "d": "M5 3.6v4h4", "fill": "none" },
-              { "d": "M4 12a8 8 0 0 0 14.5 4.6", "fill": "none" },
-              { "d": "M19 20.4v-4h-4", "fill": "none" },
-              { "d": "M9.6 12.1l1.7 1.7 3.2-3.3", "fill": "none" }
+              {
+                "d": "M20 12a8 8 0 0 0-14.5-4.6",
+                "fill": "none"
+              },
+              {
+                "d": "M5 3.6v4h4",
+                "fill": "none"
+              },
+              {
+                "d": "M4 12a8 8 0 0 0 14.5 4.6",
+                "fill": "none"
+              },
+              {
+                "d": "M19 20.4v-4h-4",
+                "fill": "none"
+              },
+              {
+                "d": "M9.6 12.1l1.7 1.7 3.2-3.3",
+                "fill": "none"
+              }
             ],
             "calendar": [
               {
                 "d": "M6.5 5h11a3.5 3.5 0 0 1 3.5 3.5v8.5a3.5 3.5 0 0 1 -3.5 3.5h-11a3.5 3.5 0 0 1 -3.5 -3.5v-8.5a3.5 3.5 0 0 1 3.5 -3.5z",
                 "fill": "none"
               },
-              { "d": "M3 10h18M8 3v4M16 3v4", "fill": "none" }
+              {
+                "d": "M3 10h18M8 3v4M16 3v4",
+                "fill": "none"
+              }
             ],
             "settings": [
               {
@@ -3926,7 +5096,12 @@
                 "fill": "stroke"
               }
             ],
-            "plus": [{ "d": "M12 5v14M5 12h14", "fill": "none" }]
+            "plus": [
+              {
+                "d": "M12 5v14M5 12h14",
+                "fill": "none"
+              }
+            ]
           },
           "states": {
             "selected": {
@@ -3942,7 +5117,10 @@
               "label": "textMuted",
               "labelWeight": 400
             },
-            "plus": { "stroke": "onAccent", "background": "accent" }
+            "plus": {
+              "stroke": "onAccent",
+              "background": "accent"
+            }
           }
         }
       },
@@ -3992,7 +5170,10 @@
       "minAppVersion": "1.0.0",
       "asset": "themes/t-accent-cobalt.json",
       "files": 1,
-      "tags": ["new", "accent"],
+      "tags": [
+        "new",
+        "accent"
+      ],
       "order": 280,
       "data": {
         "base": "light",
@@ -4014,22 +5195,46 @@
           "lineJoin": "round",
           "icons": {
             "today": [
-              { "d": "M2.5 12a9.5 9.5 0 1 0 19 0a9.5 9.5 0 1 0 -19 0z", "fill": "none" },
-              { "d": "M8 12.3l2.8 2.8 5.4-5.6", "fill": "none" }
+              {
+                "d": "M2.5 12a9.5 9.5 0 1 0 19 0a9.5 9.5 0 1 0 -19 0z",
+                "fill": "none"
+              },
+              {
+                "d": "M8 12.3l2.8 2.8 5.4-5.6",
+                "fill": "none"
+              }
             ],
             "routine": [
-              { "d": "M20 12a8 8 0 0 0-14.5-4.6", "fill": "none" },
-              { "d": "M5 3.6v4h4", "fill": "none" },
-              { "d": "M4 12a8 8 0 0 0 14.5 4.6", "fill": "none" },
-              { "d": "M19 20.4v-4h-4", "fill": "none" },
-              { "d": "M9.6 12.1l1.7 1.7 3.2-3.3", "fill": "none" }
+              {
+                "d": "M20 12a8 8 0 0 0-14.5-4.6",
+                "fill": "none"
+              },
+              {
+                "d": "M5 3.6v4h4",
+                "fill": "none"
+              },
+              {
+                "d": "M4 12a8 8 0 0 0 14.5 4.6",
+                "fill": "none"
+              },
+              {
+                "d": "M19 20.4v-4h-4",
+                "fill": "none"
+              },
+              {
+                "d": "M9.6 12.1l1.7 1.7 3.2-3.3",
+                "fill": "none"
+              }
             ],
             "calendar": [
               {
                 "d": "M6.5 5h11a3.5 3.5 0 0 1 3.5 3.5v8.5a3.5 3.5 0 0 1 -3.5 3.5h-11a3.5 3.5 0 0 1 -3.5 -3.5v-8.5a3.5 3.5 0 0 1 3.5 -3.5z",
                 "fill": "none"
               },
-              { "d": "M3 10h18M8 3v4M16 3v4", "fill": "none" }
+              {
+                "d": "M3 10h18M8 3v4M16 3v4",
+                "fill": "none"
+              }
             ],
             "settings": [
               {
@@ -4037,7 +5242,12 @@
                 "fill": "stroke"
               }
             ],
-            "plus": [{ "d": "M12 5v14M5 12h14", "fill": "none" }]
+            "plus": [
+              {
+                "d": "M12 5v14M5 12h14",
+                "fill": "none"
+              }
+            ]
           },
           "states": {
             "selected": {
@@ -4053,7 +5263,10 @@
               "label": "textMuted",
               "labelWeight": 400
             },
-            "plus": { "stroke": "onAccent", "background": "accent" }
+            "plus": {
+              "stroke": "onAccent",
+              "background": "accent"
+            }
           }
         }
       },
@@ -4103,7 +5316,9 @@
       "minAppVersion": "1.0.0",
       "asset": "stickers/s-cat-day/",
       "files": 12,
-      "tags": ["new"],
+      "tags": [
+        "new"
+      ],
       "order": 290,
       "data": {
         "format": "svg",
@@ -4399,7 +5614,9 @@
       "minAppVersion": "1.0.0",
       "asset": "stickers/s-weather/",
       "files": 8,
-      "tags": ["new"],
+      "tags": [
+        "new"
+      ],
       "order": 300,
       "data": {
         "format": "svg",
@@ -4615,7 +5832,9 @@
       "minAppVersion": "1.0.0",
       "asset": "stickers/s-life/",
       "files": 8,
-      "tags": ["new"],
+      "tags": [
+        "new"
+      ],
       "order": 310,
       "data": {
         "format": "svg",
@@ -4831,7 +6050,9 @@
       "minAppVersion": "1.0.0",
       "asset": "stickers/s-party/",
       "files": 8,
-      "tags": ["new"],
+      "tags": [
+        "new"
+      ],
       "order": 320,
       "data": {
         "format": "svg",
@@ -5047,7 +6268,9 @@
       "minAppVersion": "1.0.0",
       "asset": "stickers/s-dog-walk/",
       "files": 12,
-      "tags": ["new"],
+      "tags": [
+        "new"
+      ],
       "order": 330,
       "data": {
         "format": "svg",
@@ -5343,7 +6566,9 @@
       "minAppVersion": "1.0.0",
       "asset": "stickers/s-food/",
       "files": 12,
-      "tags": ["new"],
+      "tags": [
+        "new"
+      ],
       "order": 340,
       "data": {
         "format": "svg",
@@ -5639,7 +6864,9 @@
       "minAppVersion": "1.0.0",
       "asset": "stickers/s-study/",
       "files": 8,
-      "tags": ["new"],
+      "tags": [
+        "new"
+      ],
       "order": 350,
       "data": {
         "format": "svg",
@@ -5855,7 +7082,9 @@
       "minAppVersion": "1.0.0",
       "asset": "stickers/s-travel/",
       "files": 8,
-      "tags": ["new"],
+      "tags": [
+        "new"
+      ],
       "order": 360,
       "data": {
         "format": "svg",
@@ -6071,7 +7300,9 @@
       "minAppVersion": "1.0.0",
       "asset": "borders/b-lines.json",
       "files": 1,
-      "tags": ["new"],
+      "tags": [
+        "new"
+      ],
       "order": 370,
       "data": {
         "styles": [
@@ -6199,7 +7430,9 @@
       "minAppVersion": "1.0.0",
       "asset": "borders/b-crafts.json",
       "files": 1,
-      "tags": ["new"],
+      "tags": [
+        "new"
+      ],
       "order": 380,
       "data": {
         "styles": [
@@ -6293,10 +7526,16 @@
               "pt": "Costurada"
             },
             "inset": 4,
-            "dash": [3.5, 3],
+            "dash": [
+              3.5,
+              3
+            ],
             "cap": "round",
             "minWidth": 1.5,
-            "edge": { "width": 1, "tone": "soft" }
+            "edge": {
+              "width": 1,
+              "tone": "soft"
+            }
           }
         ]
       },
@@ -6346,7 +7585,9 @@
       "minAppVersion": "1.0.0",
       "asset": "borders/b-cute.json",
       "files": 1,
-      "tags": ["new"],
+      "tags": [
+        "new"
+      ],
       "order": 390,
       "data": {
         "styles": [
@@ -6474,7 +7715,9 @@
       "minAppVersion": "1.0.0",
       "asset": "borders/b-neon.json",
       "files": 1,
-      "tags": ["new"],
+      "tags": [
+        "new"
+      ],
       "order": 400,
       "data": {
         "styles": [
@@ -6602,7 +7845,9 @@
       "minAppVersion": "1.0.0",
       "asset": "borders/b-corner.json",
       "files": 1,
-      "tags": ["new"],
+      "tags": [
+        "new"
+      ],
       "order": 410,
       "data": {
         "styles": [
@@ -6730,7 +7975,9 @@
       "minAppVersion": "1.0.0",
       "asset": "borders/b-nature.json",
       "files": 1,
-      "tags": ["new"],
+      "tags": [
+        "new"
+      ],
       "order": 420,
       "data": {
         "styles": [
@@ -6858,7 +8105,9 @@
       "minAppVersion": "1.0.0",
       "asset": null,
       "files": 0,
-      "tags": ["new"],
+      "tags": [
+        "new"
+      ],
       "order": 430,
       "data": {
         "styles": [
@@ -6986,7 +8235,9 @@
       "minAppVersion": "1.0.0",
       "asset": null,
       "files": 0,
-      "tags": ["new"],
+      "tags": [
+        "new"
+      ],
       "order": 440,
       "data": {
         "styles": [
@@ -7114,7 +8365,9 @@
       "minAppVersion": "1.0.0",
       "asset": null,
       "files": 0,
-      "tags": ["new"],
+      "tags": [
+        "new"
+      ],
       "order": 450,
       "data": {
         "styles": [
@@ -7242,7 +8495,9 @@
       "minAppVersion": "1.0.0",
       "asset": null,
       "files": 0,
-      "tags": ["new"],
+      "tags": [
+        "new"
+      ],
       "order": 460,
       "data": {
         "styles": [
@@ -7370,7 +8625,9 @@
       "minAppVersion": "1.0.0",
       "asset": null,
       "files": 0,
-      "tags": ["new"],
+      "tags": [
+        "new"
+      ],
       "order": 470,
       "data": {
         "styles": [
@@ -7498,7 +8755,9 @@
       "minAppVersion": "1.0.0",
       "asset": null,
       "files": 0,
-      "tags": ["new"],
+      "tags": [
+        "new"
+      ],
       "order": 480,
       "data": {
         "styles": [
@@ -7626,7 +8885,9 @@
       "minAppVersion": "1.0.0",
       "asset": null,
       "files": 0,
-      "tags": ["new"],
+      "tags": [
+        "new"
+      ],
       "order": 490,
       "data": {
         "styles": [
@@ -7754,7 +9015,9 @@
       "minAppVersion": "1.0.0",
       "asset": null,
       "files": 0,
-      "tags": ["new"],
+      "tags": [
+        "new"
+      ],
       "order": 500,
       "data": {
         "styles": [
@@ -7882,7 +9145,9 @@
       "minAppVersion": "1.0.0",
       "asset": null,
       "files": 0,
-      "tags": ["new"],
+      "tags": [
+        "new"
+      ],
       "order": 510,
       "data": {
         "styles": [
@@ -8010,7 +9275,9 @@
       "minAppVersion": "1.0.0",
       "asset": "qbg/q-note.json",
       "files": 1,
-      "tags": ["new"],
+      "tags": [
+        "new"
+      ],
       "order": 520,
       "data": {
         "thumbnail": {
@@ -8020,11 +9287,20 @@
           "radius": 10,
           "background": "panel",
           "variants": "first4",
-          "colors": ["ember", "sky", "sage", "honey"],
+          "colors": [
+            "ember",
+            "sky",
+            "sage",
+            "honey"
+          ],
           "area": "all"
         },
         "calendar": {
-          "fills": ["full", "top", "bottom"],
+          "fills": [
+            "full",
+            "top",
+            "bottom"
+          ],
           "cell": {
             "width": 56,
             "height": 100,
@@ -8059,8 +9335,14 @@
           "bandTileMax": 25,
           "minStroke": 0.5,
           "anchor": "weekRowOrigin",
-          "notUnder": ["todayCircle", "sticker"],
-          "over": ["eventBar", "numberMark"]
+          "notUnder": [
+            "todayCircle",
+            "sticker"
+          ],
+          "over": [
+            "eventBar",
+            "numberMark"
+          ]
         },
         "variants": [
           {
@@ -8158,7 +9440,10 @@
             "kind": "grid",
             "tile": 12,
             "stroke": 0.5,
-            "major": { "every": 4, "stroke": 1 },
+            "major": {
+              "every": 4,
+              "stroke": 1
+            },
             "maxOpacity": 0.4,
             "fullCover": true
           },
@@ -8234,7 +9519,9 @@
       "minAppVersion": "1.0.0",
       "asset": "qbg/q-stripe.json",
       "files": 1,
-      "tags": ["new"],
+      "tags": [
+        "new"
+      ],
       "order": 530,
       "data": {
         "thumbnail": {
@@ -8244,11 +9531,20 @@
           "radius": 10,
           "background": "panel",
           "variants": "first4",
-          "colors": ["ember", "sky", "sage", "honey"],
+          "colors": [
+            "ember",
+            "sky",
+            "sage",
+            "honey"
+          ],
           "area": "all"
         },
         "calendar": {
-          "fills": ["full", "top", "bottom"],
+          "fills": [
+            "full",
+            "top",
+            "bottom"
+          ],
           "cell": {
             "width": 56,
             "height": 100,
@@ -8283,8 +9579,14 @@
           "bandTileMax": 25,
           "minStroke": 0.5,
           "anchor": "weekRowOrigin",
-          "notUnder": ["todayCircle", "sticker"],
-          "over": ["eventBar", "numberMark"]
+          "notUnder": [
+            "todayCircle",
+            "sticker"
+          ],
+          "over": [
+            "eventBar",
+            "numberMark"
+          ]
         },
         "variants": [
           {
@@ -8435,7 +9737,9 @@
       "minAppVersion": "1.0.0",
       "asset": "qbg/q-dots.json",
       "files": 1,
-      "tags": ["new"],
+      "tags": [
+        "new"
+      ],
       "order": 540,
       "data": {
         "thumbnail": {
@@ -8445,11 +9749,20 @@
           "radius": 10,
           "background": "panel",
           "variants": "first4",
-          "colors": ["ember", "sky", "sage", "honey"],
+          "colors": [
+            "ember",
+            "sky",
+            "sage",
+            "honey"
+          ],
           "area": "all"
         },
         "calendar": {
-          "fills": ["full", "top", "bottom"],
+          "fills": [
+            "full",
+            "top",
+            "bottom"
+          ],
           "cell": {
             "width": 56,
             "height": 100,
@@ -8484,8 +9797,14 @@
           "bandTileMax": 25,
           "minStroke": 0.5,
           "anchor": "weekRowOrigin",
-          "notUnder": ["todayCircle", "sticker"],
-          "over": ["eventBar", "numberMark"]
+          "notUnder": [
+            "todayCircle",
+            "sticker"
+          ],
+          "over": [
+            "eventBar",
+            "numberMark"
+          ]
         },
         "variants": [
           {
@@ -8636,7 +9955,9 @@
       "minAppVersion": "1.0.0",
       "asset": "qbg/q-check.json",
       "files": 1,
-      "tags": ["new"],
+      "tags": [
+        "new"
+      ],
       "order": 550,
       "data": {
         "thumbnail": {
@@ -8646,11 +9967,20 @@
           "radius": 10,
           "background": "panel",
           "variants": "first4",
-          "colors": ["ember", "sky", "sage", "honey"],
+          "colors": [
+            "ember",
+            "sky",
+            "sage",
+            "honey"
+          ],
           "area": "all"
         },
         "calendar": {
-          "fills": ["full", "top", "bottom"],
+          "fills": [
+            "full",
+            "top",
+            "bottom"
+          ],
           "cell": {
             "width": 56,
             "height": 100,
@@ -8685,8 +10015,14 @@
           "bandTileMax": 25,
           "minStroke": 0.5,
           "anchor": "weekRowOrigin",
-          "notUnder": ["todayCircle", "sticker"],
-          "over": ["eventBar", "numberMark"]
+          "notUnder": [
+            "todayCircle",
+            "sticker"
+          ],
+          "over": [
+            "eventBar",
+            "numberMark"
+          ]
         },
         "variants": [
           {
@@ -8833,7 +10169,9 @@
       "minAppVersion": "1.0.0",
       "asset": "qbg/q-cute.json",
       "files": 1,
-      "tags": ["new"],
+      "tags": [
+        "new"
+      ],
       "order": 560,
       "data": {
         "thumbnail": {
@@ -8843,11 +10181,20 @@
           "radius": 10,
           "background": "panel",
           "variants": "first4",
-          "colors": ["ember", "sky", "sage", "honey"],
+          "colors": [
+            "ember",
+            "sky",
+            "sage",
+            "honey"
+          ],
           "area": "all"
         },
         "calendar": {
-          "fills": ["full", "top", "bottom"],
+          "fills": [
+            "full",
+            "top",
+            "bottom"
+          ],
           "cell": {
             "width": 56,
             "height": 100,
@@ -8882,8 +10229,14 @@
           "bandTileMax": 25,
           "minStroke": 0.5,
           "anchor": "weekRowOrigin",
-          "notUnder": ["todayCircle", "sticker"],
-          "over": ["eventBar", "numberMark"]
+          "notUnder": [
+            "todayCircle",
+            "sticker"
+          ],
+          "over": [
+            "eventBar",
+            "numberMark"
+          ]
         },
         "variants": [
           {
@@ -9050,7 +10403,9 @@
       "minAppVersion": "1.0.0",
       "asset": "qbg/q-paper.json",
       "files": 9,
-      "tags": ["new"],
+      "tags": [
+        "new"
+      ],
       "order": 570,
       "data": {
         "thumbnail": {
@@ -9060,11 +10415,20 @@
           "radius": 10,
           "background": "panel",
           "variants": "first4",
-          "colors": ["ember", "sky", "sage", "honey"],
+          "colors": [
+            "ember",
+            "sky",
+            "sage",
+            "honey"
+          ],
           "area": "all"
         },
         "calendar": {
-          "fills": ["full", "top", "bottom"],
+          "fills": [
+            "full",
+            "top",
+            "bottom"
+          ],
           "cell": {
             "width": 56,
             "height": 100,
@@ -9099,8 +10463,14 @@
           "bandTileMax": 25,
           "minStroke": 0.5,
           "anchor": "weekRowOrigin",
-          "notUnder": ["todayCircle", "sticker"],
-          "over": ["eventBar", "numberMark"]
+          "notUnder": [
+            "todayCircle",
+            "sticker"
+          ],
+          "over": [
+            "eventBar",
+            "numberMark"
+          ]
         },
         "variants": [
           {
@@ -9267,7 +10637,9 @@
       "minAppVersion": "1.0.0",
       "asset": "qbg/q-night.json",
       "files": 1,
-      "tags": ["new"],
+      "tags": [
+        "new"
+      ],
       "data": {
         "thumbnail": {
           "layout": "2x2",
@@ -9276,11 +10648,20 @@
           "radius": 10,
           "background": "panel",
           "variants": "first4",
-          "colors": ["ember", "sky", "sage", "honey"],
+          "colors": [
+            "ember",
+            "sky",
+            "sage",
+            "honey"
+          ],
           "area": "all"
         },
         "calendar": {
-          "fills": ["full", "top", "bottom"],
+          "fills": [
+            "full",
+            "top",
+            "bottom"
+          ],
           "cell": {
             "width": 56,
             "height": 100,
@@ -9315,8 +10696,14 @@
           "bandTileMax": 25,
           "minStroke": 0.5,
           "anchor": "weekRowOrigin",
-          "notUnder": ["todayCircle", "sticker"],
-          "over": ["eventBar", "numberMark"]
+          "notUnder": [
+            "todayCircle",
+            "sticker"
+          ],
+          "over": [
+            "eventBar",
+            "numberMark"
+          ]
         },
         "variants": [
           {
@@ -9460,7 +10847,9 @@
       "minAppVersion": "1.0.0",
       "asset": "qbg/q-flower.json",
       "files": 1,
-      "tags": ["new"],
+      "tags": [
+        "new"
+      ],
       "data": {
         "thumbnail": {
           "layout": "2x2",
@@ -9469,11 +10858,20 @@
           "radius": 10,
           "background": "panel",
           "variants": "first4",
-          "colors": ["ember", "sky", "sage", "honey"],
+          "colors": [
+            "ember",
+            "sky",
+            "sage",
+            "honey"
+          ],
           "area": "all"
         },
         "calendar": {
-          "fills": ["full", "top", "bottom"],
+          "fills": [
+            "full",
+            "top",
+            "bottom"
+          ],
           "cell": {
             "width": 56,
             "height": 100,
@@ -9508,8 +10906,14 @@
           "bandTileMax": 25,
           "minStroke": 0.5,
           "anchor": "weekRowOrigin",
-          "notUnder": ["todayCircle", "sticker"],
-          "over": ["eventBar", "numberMark"]
+          "notUnder": [
+            "todayCircle",
+            "sticker"
+          ],
+          "over": [
+            "eventBar",
+            "numberMark"
+          ]
         },
         "variants": [
           {
@@ -9610,7 +11014,629 @@
       "addedAt": "2026-11-20",
       "featured": null,
       "popular": null
+    },
+    {
+      "id": "t-paper-marble",
+      "kind": "theme",
+      "name": {
+        "ko": "페이퍼 마블",
+        "en": "Paper Marble",
+        "en-GB": "Paper Marble",
+        "ja": "ペーパーマーブル",
+        "zh-Hans": "纸上大理石纹",
+        "zh-Hant": "紙上大理石紋",
+        "sv": "Marmorerat papper",
+        "da": "Marmoreret papir",
+        "nb": "Marmorert papir",
+        "nl": "Gemarmerd papier",
+        "de": "Marmorpapier",
+        "fr": "Papier marbré",
+        "es": "Papel marmoleado",
+        "pt": "Papel marmorizado",
+        "it": "Carta marmorizzata",
+        "tr": "Ebru kâğıdı",
+        "ru": "Мраморная бумага",
+        "ar": "ورق رخامي"
+      },
+      "description": {
+        "ko": "흰 종이 위에 흐르는 파스텔 마블. 전용 탭 아이콘과 잉크빛 포인트를 함께 입혀요.",
+        "en": "Flowing pastel marble on white paper, with matching tab icons and ink-blue accents.",
+        "en-GB": "Flowing pastel marble on white paper, with matching tab icons and ink-blue accents.",
+        "ja": "白い紙に流れるパステルのマーブル。専用タブアイコンとインクブルーのアクセント付き。",
+        "zh-Hans": "白纸上的柔和大理石纹，配有专属标签图标和墨蓝色点缀。",
+        "zh-Hant": "白紙上的柔和大理石紋，搭配專屬分頁圖示與墨藍色點綴。",
+        "sv": "Pastellmarmor på vitt papper med matchande flikikoner och bläckblå accenter.",
+        "da": "Pastelmarmor på hvidt papir med matchende faneikoner og blækblå detaljer.",
+        "nb": "Pastellmarmor på hvitt papir med matchende faneikoner og blekkblå detaljer.",
+        "nl": "Pastelmarmer op wit papier met bijpassende tabiconen en inktblauwe accenten.",
+        "de": "Pastellmarmor auf weißem Papier mit passenden Tab-Symbolen und tintenblauen Akzenten.",
+        "fr": "Marbrures pastel sur papier blanc, icônes assorties et touches bleu encre.",
+        "es": "Mármol pastel sobre papel blanco, con iconos a juego y detalles azul tinta.",
+        "pt": "Mármore pastel em papel branco, com ícones a condizer e detalhes azul-tinta.",
+        "it": "Marmo pastello su carta bianca, con icone abbinate e accenti blu inchiostro.",
+        "tr": "Beyaz kâğıtta pastel ebru, uyumlu sekme simgeleri ve mürekkep mavisi vurgular.",
+        "ru": "Пастельный мрамор на белой бумаге, особые значки вкладок и чернильно-синие акценты.",
+        "ar": "رخام باستيل على ورق أبيض مع أيقونات متناسقة ولمسات أزرق الحبر."
+      },
+      "price": 250,
+      "startAt": null,
+      "endAt": null,
+      "rev": null,
+      "minAppVersion": "1.1.7",
+      "asset": "themes/t-paper-marble.json",
+      "files": 2,
+      "tags": [
+        "new",
+        "refined"
+      ],
+      "order": 2100,
+      "addedAt": "2026-11-15",
+      "featured": null,
+      "popular": null,
+      "data": {
+        "base": "light",
+        "highlightOpacity": 0.45,
+        "colors": {
+          "background": "#FFFEFC",
+          "surface": "#FFFFFF",
+          "surfaceMuted": "#EDF1F6",
+          "panel": "#F5F5F7",
+          "chip": "#E8EDF4",
+          "segmentPill": "#FFFFFF",
+          "text": "#202F45",
+          "textMuted": "#52637B",
+          "textSubtle": "#52637B",
+          "primary": "#36587F",
+          "onPrimary": "#FFFFFF",
+          "primaryText": "#36587F",
+          "primarySoft": "#E5EDF6",
+          "accent": "#36587F",
+          "onAccent": "#FFFFFF",
+          "todayRing": "#36587F",
+          "onPastel": "#202F45",
+          "border": "#DAE2EC",
+          "floatingBar": "rgba(255, 254, 252, 0.96)"
+        },
+        "pattern": {
+          "kind": "pngTile",
+          "tile": 256,
+          "asset": "textures/paper-marble-theme.png",
+          "preserveColors": true,
+          "color": "#D9E5EF",
+          "opacity": 0.24
+        },
+        "tabIcons": {
+          "name": "Paper Marble",
+          "strokeWidth": 1.45,
+          "lineCap": "round",
+          "lineJoin": "round",
+          "states": {
+            "selected": {
+              "stroke": "primaryText",
+              "fill": "primarySoft",
+              "label": "primaryText",
+              "labelWeight": 600,
+              "pill": "primarySoft"
+            },
+            "unselected": {
+              "stroke": "textMuted",
+              "fill": "none",
+              "label": "textMuted",
+              "labelWeight": 400
+            },
+            "plus": {
+              "stroke": "onAccent",
+              "background": "accent"
+            }
+          },
+          "icons": {
+            "today": [
+              {
+                "d": "M5 3.5H15.5L19.5 7.5V20.5H5Z",
+                "fill": "selected"
+              },
+              {
+                "d": "M15.5 3.5V7.5H19.5M8.2 12.5L10.5 14.8L15.8 9.5M8.2 18H15.5",
+                "fill": "none"
+              }
+            ],
+            "routine": [
+              {
+                "d": "M7 4.5H17L20 7.5V19.5H7ZM17 4.5V7.5H20",
+                "fill": "selected"
+              },
+              {
+                "d": "M4 7.5V21.5H16M10 11.5C11.3 9.2 15.4 9.3 17 12M17 9.5V12H14.5M17 15C15.6 17.3 11.6 17.3 10 14.5M10 17V14.5H12.5",
+                "fill": "none"
+              }
+            ],
+            "calendar": [
+              {
+                "d": "M4 5.5H20V16.5L16 20.5H4Z",
+                "fill": "selected"
+              },
+              {
+                "d": "M16 20.5V16.5H20M8 3V7.5M16 3V7.5M4 10H20M8 13.5H10M13.5 13.5H16M8 17H10",
+                "fill": "none"
+              }
+            ],
+            "settings": [
+              {
+                "d": "M3 7H21M3 17H21M7 4V10M17 14V20",
+                "fill": "none"
+              },
+              {
+                "d": "M5.5 5.5H8.5V8.5H5.5ZM15.5 15.5H18.5V18.5H15.5Z",
+                "fill": "selected"
+              }
+            ],
+            "plus": [
+              {
+                "d": "M12 5V19M5 12H19M15.5 4H20V8.5M20 4L16.5 7.5",
+                "fill": "none"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "q-paper-marble",
+      "kind": "quadrantBg",
+      "name": {
+        "ko": "마블 무늬",
+        "en": "Marble patterns",
+        "en-GB": "Marble patterns",
+        "ja": "マーブル模様",
+        "zh-Hans": "大理石纹样",
+        "zh-Hant": "大理石紋樣",
+        "sv": "Marmormönster",
+        "da": "Marmormønstre",
+        "nb": "Marmormønstre",
+        "nl": "Marmerpatronen",
+        "de": "Marmormuster",
+        "fr": "Motifs marbrés",
+        "es": "Patrones marmoleados",
+        "pt": "Padrões marmorizados",
+        "it": "Motivi marmorizzati",
+        "tr": "Ebru desenleri",
+        "ru": "Мраморные узоры",
+        "ar": "نقوش رخامية"
+      },
+      "description": {
+        "ko": "로즈·블루·민트·라일락 마블 4종. 할 일 칸 전체나 제목 줄, 달력 날짜 배경에 입혀요.",
+        "en": "Four marble patterns in rose, blue, mint and lilac for task panels, headers and calendar cells.",
+        "en-GB": "Four marble patterns in rose, blue, mint and lilac for task panels, headers and calendar cells.",
+        "ja": "ローズ・ブルー・ミント・ライラックの4柄。タスクの枠や見出し、カレンダーの日付背景に。",
+        "zh-Hans": "玫瑰粉、浅蓝、薄荷绿和淡紫四种纹样，可用于任务区、标题栏及日历日期背景。",
+        "zh-Hant": "玫瑰粉、淺藍、薄荷綠與淡紫四種紋樣，可用於待辦區、標題列及日曆日期背景。",
+        "sv": "Fyra marmormönster i rosa, blått, mint och lila för uppgiftsrutor, rubriker och kalenderdagar.",
+        "da": "Fire marmormønstre i rosa, blå, mint og lilla til opgavefelter, overskrifter og kalenderdage.",
+        "nb": "Fire marmormønstre i rosa, blått, mynte og lilla til oppgaveruter, overskrifter og kalenderdager.",
+        "nl": "Vier marmerpatronen in roze, blauw, mint en lila voor taken, koppen en kalenderdagen.",
+        "de": "Vier Marmormuster in Rosa, Blau, Mint und Flieder für Aufgabenfelder, Überschriften und Kalendertage.",
+        "fr": "Quatre marbrures rose, bleu, menthe et lilas pour les tâches, en-têtes et cases du calendrier.",
+        "es": "Cuatro patrones en rosa, azul, menta y lila para tareas, encabezados y casillas del calendario.",
+        "pt": "Quatro padrões em rosa, azul, menta e lilás para tarefas, cabeçalhos e dias do calendário.",
+        "it": "Quattro motivi rosa, blu, menta e lilla per attività, intestazioni e celle del calendario.",
+        "tr": "Görev alanları, başlıklar ve takvim hücreleri için pembe, mavi, nane ve lila dört ebru deseni.",
+        "ru": "Четыре мраморных узора для задач, заголовков и ячеек календаря: розовый, голубой, мятный и сиреневый.",
+        "ar": "أربعة نقوش رخامية وردية وزرقاء ونعناعية وأرجوانية للمهام والعناوين وخلايا التقويم."
+      },
+      "price": 120,
+      "startAt": null,
+      "endAt": null,
+      "rev": null,
+      "minAppVersion": "1.1.7",
+      "asset": null,
+      "files": 0,
+      "tags": [
+        "new",
+        "refined"
+      ],
+      "order": 2110,
+      "addedAt": "2026-11-15",
+      "featured": null,
+      "popular": null,
+      "data": {
+        "thumbnail": {
+          "layout": "2x2",
+          "size": 120,
+          "gap": 4,
+          "radius": 10,
+          "background": "panel",
+          "variants": "first4",
+          "colors": [
+            "ember",
+            "sky",
+            "sage",
+            "honey"
+          ],
+          "area": "all"
+        },
+        "calendar": {
+          "fills": [
+            "full",
+            "top",
+            "bottom"
+          ],
+          "cell": {
+            "width": 56,
+            "height": 100,
+            "inset": 3,
+            "radius": 8,
+            "bandRatio": 0.25,
+            "bandRadius": 6
+          },
+          "maxContrast": {
+            "light": 1.08,
+            "dark": 1.2,
+            "fullCoverLight": 1.06,
+            "fullCoverDark": 1.12,
+            "textureDark": 1.08
+          },
+          "tileScale": {
+            "lines": 0.75,
+            "grid": 0.75,
+            "dots": 0.75,
+            "gingham": 0.6,
+            "svgTile": 0.6,
+            "pngTile": 0.5
+          },
+          "minTile": {
+            "lines": 10,
+            "grid": 10,
+            "dots": 10,
+            "gingham": 12,
+            "svgTile": 22,
+            "pngTile": 48
+          },
+          "bandTileMax": 25,
+          "minStroke": 0.5,
+          "anchor": "weekRowOrigin",
+          "notUnder": [
+            "todayCircle",
+            "sticker"
+          ],
+          "over": [
+            "eventBar",
+            "numberMark"
+          ]
+        },
+        "variants": [
+          {
+            "key": "pink",
+            "name": {
+              "ko": "로즈 마블",
+              "en": "Rose marble",
+              "en-GB": "Rose marble",
+              "ja": "ローズマーブル",
+              "zh-Hans": "玫瑰粉纹",
+              "zh-Hant": "玫瑰粉紋",
+              "sv": "Rosamarmor",
+              "da": "Rosamarmor",
+              "nb": "Rosamarmor",
+              "nl": "Roze marmer",
+              "de": "Rosa Marmor",
+              "fr": "Marbre rose",
+              "es": "Mármol rosa",
+              "pt": "Mármore rosa",
+              "it": "Marmo rosa",
+              "tr": "Pembe ebru",
+              "ru": "Розовый мрамор",
+              "ar": "رخام وردي"
+            },
+            "kind": "pngTile",
+            "tile": 256,
+            "asset": "textures/paper-marble-pink.png",
+            "preserveColors": true,
+            "maxOpacity": 0.7,
+            "fullCover": false,
+            "ink": "dot"
+          },
+          {
+            "key": "blue",
+            "name": {
+              "ko": "블루 마블",
+              "en": "Blue marble",
+              "en-GB": "Blue marble",
+              "ja": "ブルーマーブル",
+              "zh-Hans": "浅蓝纹",
+              "zh-Hant": "淺藍紋",
+              "sv": "Blå marmor",
+              "da": "Blå marmor",
+              "nb": "Blå marmor",
+              "nl": "Blauw marmer",
+              "de": "Blauer Marmor",
+              "fr": "Marbre bleu",
+              "es": "Mármol azul",
+              "pt": "Mármore azul",
+              "it": "Marmo blu",
+              "tr": "Mavi ebru",
+              "ru": "Голубой мрамор",
+              "ar": "رخام أزرق"
+            },
+            "kind": "pngTile",
+            "tile": 256,
+            "asset": "textures/paper-marble-blue.png",
+            "preserveColors": true,
+            "maxOpacity": 0.7,
+            "fullCover": false,
+            "ink": "dot"
+          },
+          {
+            "key": "mint",
+            "name": {
+              "ko": "민트 마블",
+              "en": "Mint marble",
+              "en-GB": "Mint marble",
+              "ja": "ミントマーブル",
+              "zh-Hans": "薄荷绿纹",
+              "zh-Hant": "薄荷綠紋",
+              "sv": "Mintmarmor",
+              "da": "Mintmarmor",
+              "nb": "Myntemarmor",
+              "nl": "Mintmarmer",
+              "de": "Mintmarmor",
+              "fr": "Marbre menthe",
+              "es": "Mármol menta",
+              "pt": "Mármore menta",
+              "it": "Marmo menta",
+              "tr": "Nane ebrusu",
+              "ru": "Мятный мрамор",
+              "ar": "رخام نعناعي"
+            },
+            "kind": "pngTile",
+            "tile": 256,
+            "asset": "textures/paper-marble-mint.png",
+            "preserveColors": true,
+            "maxOpacity": 0.7,
+            "fullCover": false,
+            "ink": "dot"
+          },
+          {
+            "key": "lilac",
+            "name": {
+              "ko": "라일락 마블",
+              "en": "Lilac marble",
+              "en-GB": "Lilac marble",
+              "ja": "ライラックマーブル",
+              "zh-Hans": "淡紫纹",
+              "zh-Hant": "淡紫紋",
+              "sv": "Lila marmor",
+              "da": "Lilla marmor",
+              "nb": "Lilla marmor",
+              "nl": "Lila marmer",
+              "de": "Fliederfarbener Marmor",
+              "fr": "Marbre lilas",
+              "es": "Mármol lila",
+              "pt": "Mármore lilás",
+              "it": "Marmo lilla",
+              "tr": "Lila ebru",
+              "ru": "Сиреневый мрамор",
+              "ar": "رخام أرجواني فاتح"
+            },
+            "kind": "pngTile",
+            "tile": 256,
+            "asset": "textures/paper-marble-lilac.png",
+            "preserveColors": true,
+            "maxOpacity": 0.7,
+            "fullCover": false,
+            "ink": "dot"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b-ribbon-marble",
+      "kind": "borders",
+      "name": {
+        "ko": "리본 테두리",
+        "en": "Ribbon frames",
+        "en-GB": "Ribbon frames",
+        "ja": "リボンの枠",
+        "zh-Hans": "丝带边框",
+        "zh-Hant": "緞帶邊框",
+        "sv": "Bandramar",
+        "da": "Båndrammer",
+        "nb": "Båndrammer",
+        "nl": "Lintkaders",
+        "de": "Schleifenrahmen",
+        "fr": "Cadres à rubans",
+        "es": "Marcos de lazo",
+        "pt": "Molduras de laço",
+        "it": "Cornici con fiocchi",
+        "tr": "Kurdele çerçeveler",
+        "ru": "Рамки с лентами",
+        "ar": "إطارات بشرائط"
+      },
+      "description": {
+        "ko": "매듭·모서리·감싸기·스티치 리본 4종. 고른 색으로 특별한 날짜를 둘러요.",
+        "en": "Four ribbon frames: bow knot, corner bows, wrapped and stitched. Frame dates in your chosen color.",
+        "en-GB": "Four ribbon frames: bow knot, corner bows, wrapped and stitched. Frame dates in your chosen color.",
+        "ja": "結び・角・包み・ステッチの4種類。好きな色で大切な日を囲みます。",
+        "zh-Hans": "结饰、角饰、环绕及缝线四款丝带边框，用喜欢的颜色标记日期。",
+        "zh-Hant": "結飾、角飾、環繞及縫線四款緞帶邊框，用喜歡的顏色標記日期。",
+        "sv": "Fyra bandramar: knut, hörn, omslutande och sydd. Rama in datum i din valda färg.",
+        "da": "Fire båndrammer: knude, hjørner, omsluttende og syet. Indram datoer i din valgte farve.",
+        "nb": "Fire båndrammer: knute, hjørner, omsluttende og sydd. Ram inn datoer i din valgte farge.",
+        "nl": "Vier lintkaders: strik, hoeken, omwikkeld en gestikt. Omlijst datums in je eigen kleur.",
+        "de": "Vier Bandrahmen: Knoten, Ecken, gewickelt und genäht. Umrahme Daten in deiner Wunschfarbe.",
+        "fr": "Quatre cadres à rubans : nœud, coins, enveloppant et cousu. Choisissez la couleur de vos dates.",
+        "es": "Cuatro marcos: nudo, esquinas, envolvente y cosido. Enmarca fechas con tu color elegido.",
+        "pt": "Quatro molduras: nó, cantos, envolvente e costurada. Marca datas na cor escolhida.",
+        "it": "Quattro cornici: nodo, angoli, avvolgente e cucita. Incornicia le date nel colore che scegli.",
+        "tr": "Düğüm, köşe, sarma ve dikiş olmak üzere dört kurdele çerçeve. Tarihleri seçtiğin renkle çerçevele.",
+        "ru": "Четыре рамки: бант, уголки, обёртка и стежки. Выберите цвет для особых дат.",
+        "ar": "أربعة إطارات: عقدة وزوايا والتفاف وخياطة. أحط التواريخ بلونك المختار."
+      },
+      "price": 120,
+      "startAt": null,
+      "endAt": null,
+      "rev": null,
+      "minAppVersion": "1.1.7",
+      "asset": null,
+      "files": 0,
+      "tags": [
+        "new",
+        "refined"
+      ],
+      "order": 2120,
+      "addedAt": "2026-11-15",
+      "featured": null,
+      "popular": null,
+      "data": {
+        "styles": [
+          {
+            "key": "ribbon-bow",
+            "name": {
+              "ko": "매듭 리본",
+              "en": "Bow knot",
+              "en-GB": "Bow knot",
+              "ja": "結びリボン",
+              "zh-Hans": "蝴蝶结",
+              "zh-Hant": "蝴蝶結",
+              "sv": "Rosettknut",
+              "da": "Sløjfeknude",
+              "nb": "Sløyfeknute",
+              "nl": "Strik",
+              "de": "Schleifenknoten",
+              "fr": "Nœud de ruban",
+              "es": "Lazo anudado",
+              "pt": "Laço atado",
+              "it": "Fiocco",
+              "tr": "Kurdele düğümü",
+              "ru": "Бант",
+              "ar": "عقدة شريط"
+            }
+          },
+          {
+            "key": "ribbon-corners",
+            "name": {
+              "ko": "모서리 리본",
+              "en": "Corner bows",
+              "en-GB": "Corner bows",
+              "ja": "角のリボン",
+              "zh-Hans": "角落蝴蝶结",
+              "zh-Hant": "角落蝴蝶結",
+              "sv": "Hörnrosetter",
+              "da": "Hjørnesløjfer",
+              "nb": "Hjørnesløyfer",
+              "nl": "Hoekstrikken",
+              "de": "Eckschleifen",
+              "fr": "Nœuds aux coins",
+              "es": "Lazos en esquinas",
+              "pt": "Laços nos cantos",
+              "it": "Fiocchi agli angoli",
+              "tr": "Köşe fiyonkları",
+              "ru": "Банты по углам",
+              "ar": "أقواس الزوايا"
+            }
+          },
+          {
+            "key": "ribbon-wrap",
+            "name": {
+              "ko": "감싼 리본",
+              "en": "Wrapped ribbon",
+              "en-GB": "Wrapped ribbon",
+              "ja": "包みリボン",
+              "zh-Hans": "环绕丝带",
+              "zh-Hant": "環繞緞帶",
+              "sv": "Omslutande band",
+              "da": "Omsluttende bånd",
+              "nb": "Omsluttende bånd",
+              "nl": "Omwikkeld lint",
+              "de": "Wickelband",
+              "fr": "Ruban enveloppant",
+              "es": "Cinta envolvente",
+              "pt": "Fita envolvente",
+              "it": "Nastro avvolgente",
+              "tr": "Saran kurdele",
+              "ru": "Обёрнутая лента",
+              "ar": "شريط ملتف"
+            }
+          },
+          {
+            "key": "ribbon-stitch",
+            "name": {
+              "ko": "스티치 리본",
+              "en": "Stitched ribbon",
+              "en-GB": "Stitched ribbon",
+              "ja": "ステッチリボン",
+              "zh-Hans": "缝线丝带",
+              "zh-Hant": "縫線緞帶",
+              "sv": "Sytt band",
+              "da": "Syet bånd",
+              "nb": "Sydd bånd",
+              "nl": "Gestikt lint",
+              "de": "Genähtes Band",
+              "fr": "Ruban cousu",
+              "es": "Cinta cosida",
+              "pt": "Fita costurada",
+              "it": "Nastro cucito",
+              "tr": "Dikişli kurdele",
+              "ru": "Прошитая лента",
+              "ar": "شريط مخيط"
+            }
+          }
+        ]
+      }
     }
   ],
-  "banners": []
+  "banners": [
+    {
+      "id": "paper-marble-launch",
+      "image": {
+        "2x": "banners/paper-marble@2x.webp",
+        "3x": "banners/paper-marble@3x.webp"
+      },
+      "alt": {
+        "ko": "흰 종이 위에 흐르는 파스텔 마블. 전용 탭 아이콘과 잉크빛 포인트를 함께 입혀요.",
+        "en": "Flowing pastel marble on white paper, with matching tab icons and ink-blue accents.",
+        "en-GB": "Flowing pastel marble on white paper, with matching tab icons and ink-blue accents.",
+        "ja": "白い紙に流れるパステルのマーブル。専用タブアイコンとインクブルーのアクセント付き。",
+        "zh-Hans": "白纸上的柔和大理石纹，配有专属标签图标和墨蓝色点缀。",
+        "zh-Hant": "白紙上的柔和大理石紋，搭配專屬分頁圖示與墨藍色點綴。",
+        "sv": "Pastellmarmor på vitt papper med matchande flikikoner och bläckblå accenter.",
+        "da": "Pastelmarmor på hvidt papir med matchende faneikoner og blækblå detaljer.",
+        "nb": "Pastellmarmor på hvitt papir med matchende faneikoner og blekkblå detaljer.",
+        "nl": "Pastelmarmer op wit papier met bijpassende tabiconen en inktblauwe accenten.",
+        "de": "Pastellmarmor auf weißem Papier mit passenden Tab-Symbolen und tintenblauen Akzenten.",
+        "fr": "Marbrures pastel sur papier blanc, icônes assorties et touches bleu encre.",
+        "es": "Mármol pastel sobre papel blanco, con iconos a juego y detalles azul tinta.",
+        "pt": "Mármore pastel em papel branco, com ícones a condizer e detalhes azul-tinta.",
+        "it": "Marmo pastello su carta bianca, con icone abbinate e accenti blu inchiostro.",
+        "tr": "Beyaz kâğıtta pastel ebru, uyumlu sekme simgeleri ve mürekkep mavisi vurgular.",
+        "ru": "Пастельный мрамор на белой бумаге, особые значки вкладок и чернильно-синие акценты.",
+        "ar": "رخام باستيل على ورق أبيض مع أيقونات متناسقة ولمسات أزرق الحبر."
+      },
+      "title": {
+        "ko": "페이퍼 마블",
+        "en": "Paper Marble",
+        "en-GB": "Paper Marble",
+        "ja": "ペーパーマーブル",
+        "zh-Hans": "纸上大理石纹",
+        "zh-Hant": "紙上大理石紋",
+        "sv": "Marmorerat papper",
+        "da": "Marmoreret papir",
+        "nb": "Marmorert papir",
+        "nl": "Gemarmerd papier",
+        "de": "Marmorpapier",
+        "fr": "Papier marbré",
+        "es": "Papel marmoleado",
+        "pt": "Papel marmorizado",
+        "it": "Carta marmorizzata",
+        "tr": "Ebru kâğıdı",
+        "ru": "Мраморная бумага",
+        "ar": "ورق رخامي"
+      },
+      "target": {
+        "item": "t-paper-marble"
+      },
+      "startAt": null,
+      "endAt": null,
+      "minAppVersion": "1.1.7",
+      "order": 0
+    }
+  ]
 }
