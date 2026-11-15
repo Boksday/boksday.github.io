@@ -1046,7 +1046,7 @@
         ]
       },
       "addedAt": "2026-11-20",
-      "featured": 3,
+      "featured": 4,
       "popular": null
     },
     {
@@ -2546,7 +2546,7 @@
         }
       },
       "addedAt": "2026-11-20",
-      "featured": 1,
+      "featured": 2,
       "popular": null
     },
     {
@@ -4057,7 +4057,7 @@
         }
       },
       "addedAt": "2026-11-20",
-      "featured": 2,
+      "featured": 3,
       "popular": null
     },
     {
@@ -5569,7 +5569,7 @@
         ]
       },
       "addedAt": "2026-11-20",
-      "featured": 6,
+      "featured": 7,
       "popular": 14
     },
     {
@@ -8840,7 +8840,7 @@
         ]
       },
       "addedAt": "2026-11-20",
-      "featured": 4,
+      "featured": 5,
       "popular": 5
     },
     {
@@ -9474,7 +9474,7 @@
         ]
       },
       "addedAt": "2026-11-20",
-      "featured": 5,
+      "featured": 6,
       "popular": null
     },
     {
@@ -11626,7 +11626,7 @@
         "ar": "أربعة ملصقات لشرائط بطيات ساتان."
       },
       "price": 100,
-      "startAt": "2026-11-15",
+      "startAt": null,
       "endAt": null,
       "rev": null,
       "minAppVersion": "1.1.6",
@@ -11648,7 +11648,6 @@
         "stickers": [
           {
             "id": "s-satin-ribbons.petite",
-            "file": "s-satin-ribbons/petite.svg",
             "name": {
               "ko": "작은 매듭",
               "en": "Petite bow",
@@ -11668,11 +11667,11 @@
               "tr": "Küçük fiyonk",
               "ru": "Маленький бант",
               "ar": "عقدة صغيرة"
-            }
+            },
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"360\" viewBox=\"0 0 96 96\"><g stroke=\"#8B5066\" stroke-width=\"1.1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M42 46L26 71L38 68L43 77L51 48Z\" fill=\"#DE9FAE\"/><path d=\"M51 47L58 77L64 68L77 72L57 44Z\" fill=\"#DE9FAE\"/><path d=\"M46 50L38 67M54 50L62 66\" fill=\"none\" stroke=\"#BA748A\" stroke-width=\"2\"/><path d=\"M46 43C33 25 17 23 17 37C16 50 32 59 47 47Z\" fill=\"#DE9FAE\"/><path d=\"M51 43C62 25 79 22 80 37C81 51 65 59 51 47Z\" fill=\"#DE9FAE\"/><path d=\"M43 43C34 36 23 32 21 36C19 42 29 48 42 46Z\" fill=\"#BA748A\" stroke=\"none\"/><path d=\"M55 43C65 34 75 31 76 36C79 43 68 48 56 47Z\" fill=\"#BA748A\" stroke=\"none\"/><path d=\"M21 31C29 28 38 36 43 41M57 40C64 31 72 28 77 31\" fill=\"none\" stroke=\"#F8D9E1\" stroke-width=\"2.6\"/><path d=\"M41 39Q48 36 55 39L56 50Q49 54 42 50Z\" fill=\"#DE9FAE\"/><path d=\"M45 40L46 49\" stroke=\"#F8D9E1\" stroke-width=\"2.5\"/><path d=\"M52 40L53 49\" stroke=\"#BA748A\" stroke-width=\"1.5\"/></g></svg>"
           },
           {
             "id": "s-satin-ribbons.long",
-            "file": "s-satin-ribbons/long.svg",
             "name": {
               "ko": "긴 꼬리 리본",
               "en": "Trailing bow",
@@ -11692,11 +11691,11 @@
               "tr": "Uzun kurdeleli fiyonk",
               "ru": "Бант с длинными лентами",
               "ar": "عقدة بشرائط طويلة"
-            }
+            },
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"360\" viewBox=\"0 0 96 96\"><g stroke=\"#486D89\" stroke-width=\"1.1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M43 44C41 57 27 63 29 85L38 79L44 86C40 68 54 58 51 46Z\" fill=\"#9DBBCF\"/><path d=\"M52 44C54 57 70 64 65 87L59 80L50 85C57 69 47 58 46 46Z\" fill=\"#9DBBCF\"/><path d=\"M46 49C45 65 35 69 35 79M51 49C54 65 62 71 60 79\" fill=\"none\" stroke=\"#7196B3\" stroke-width=\"2\"/><path d=\"M46 43C33 25 17 23 17 37C16 50 32 59 47 47Z\" fill=\"#9DBBCF\"/><path d=\"M51 43C62 25 79 22 80 37C81 51 65 59 51 47Z\" fill=\"#9DBBCF\"/><path d=\"M43 43C34 36 23 32 21 36C19 42 29 48 42 46Z\" fill=\"#7196B3\" stroke=\"none\"/><path d=\"M55 43C65 34 75 31 76 36C79 43 68 48 56 47Z\" fill=\"#7196B3\" stroke=\"none\"/><path d=\"M21 31C29 28 38 36 43 41M57 40C64 31 72 28 77 31\" fill=\"none\" stroke=\"#DCEBF3\" stroke-width=\"2.6\"/><path d=\"M41 39Q48 36 55 39L56 50Q49 54 42 50Z\" fill=\"#9DBBCF\"/><path d=\"M45 40L46 49\" stroke=\"#DCEBF3\" stroke-width=\"2.5\"/><path d=\"M52 40L53 49\" stroke=\"#7196B3\" stroke-width=\"1.5\"/></g></svg>"
           },
           {
             "id": "s-satin-ribbons.double",
-            "file": "s-satin-ribbons/double.svg",
             "name": {
               "ko": "겹 리본",
               "en": "Double bow",
@@ -11716,11 +11715,11 @@
               "tr": "Çift fiyonk",
               "ru": "Двойной бант",
               "ar": "عقدة مزدوجة"
-            }
+            },
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"360\" viewBox=\"0 0 96 96\"><g stroke=\"#567756\" stroke-width=\"1.1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M42 46L26 71L38 68L43 77L51 48Z\" fill=\"#AABFA8\"/><path d=\"M51 47L58 77L64 68L77 72L57 44Z\" fill=\"#AABFA8\"/><path d=\"M46 50L38 67M54 50L62 66\" fill=\"none\" stroke=\"#7F9C7F\" stroke-width=\"2\"/><path d=\"M47 43C31 17 12 20 14 40C14 54 34 57 48 48C65 58 85 55 83 38C82 20 64 18 50 43Z\" fill=\"#7F9C7F\"/><path d=\"M19 35C24 27 34 34 41 43M77 32C69 28 60 35 55 43\" fill=\"none\" stroke=\"#E1EADB\" stroke-width=\"2\"/><path d=\"M46 43C33 25 17 23 17 37C16 50 32 59 47 47Z\" fill=\"#AABFA8\"/><path d=\"M51 43C62 25 79 22 80 37C81 51 65 59 51 47Z\" fill=\"#AABFA8\"/><path d=\"M43 43C34 36 23 32 21 36C19 42 29 48 42 46Z\" fill=\"#7F9C7F\" stroke=\"none\"/><path d=\"M55 43C65 34 75 31 76 36C79 43 68 48 56 47Z\" fill=\"#7F9C7F\" stroke=\"none\"/><path d=\"M21 31C29 28 38 36 43 41M57 40C64 31 72 28 77 31\" fill=\"none\" stroke=\"#E1EADB\" stroke-width=\"2.6\"/><path d=\"M41 39Q48 36 55 39L56 50Q49 54 42 50Z\" fill=\"#AABFA8\"/><path d=\"M45 40L46 49\" stroke=\"#E1EADB\" stroke-width=\"2.5\"/><path d=\"M52 40L53 49\" stroke=\"#7F9C7F\" stroke-width=\"1.5\"/></g></svg>"
           },
           {
             "id": "s-satin-ribbons.gift",
-            "file": "s-satin-ribbons/gift.svg",
             "name": {
               "ko": "선물 리본",
               "en": "Gift ribbon",
@@ -11740,7 +11739,8 @@
               "tr": "Hediye kurdelesi",
               "ru": "Подарочная лента",
               "ar": "شريط هدية"
-            }
+            },
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"360\" viewBox=\"0 0 96 96\"><g stroke=\"#8B7149\" stroke-width=\"1.1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M19 43C32 45 53 52 78 48L77 57C53 61 31 54 18 53Z\" fill=\"#B89B6D\"/><path d=\"M42 16L53 14L61 80L50 82Z\" fill=\"#E1CCA4\"/><path d=\"M46 18L54 78\" fill=\"none\" stroke=\"#FFF0D4\" stroke-width=\"2\"/><path d=\"M42 46L26 71L38 68L43 77L51 48Z\" fill=\"#E1CCA4\"/><path d=\"M51 47L58 77L64 68L77 72L57 44Z\" fill=\"#E1CCA4\"/><path d=\"M46 50L38 67M54 50L62 66\" fill=\"none\" stroke=\"#B89B6D\" stroke-width=\"2\"/><path d=\"M46 43C33 25 17 23 17 37C16 50 32 59 47 47Z\" fill=\"#E1CCA4\"/><path d=\"M51 43C62 25 79 22 80 37C81 51 65 59 51 47Z\" fill=\"#E1CCA4\"/><path d=\"M43 43C34 36 23 32 21 36C19 42 29 48 42 46Z\" fill=\"#B89B6D\" stroke=\"none\"/><path d=\"M55 43C65 34 75 31 76 36C79 43 68 48 56 47Z\" fill=\"#B89B6D\" stroke=\"none\"/><path d=\"M21 31C29 28 38 36 43 41M57 40C64 31 72 28 77 31\" fill=\"none\" stroke=\"#FFF0D4\" stroke-width=\"2.6\"/><path d=\"M41 39Q48 36 55 39L56 50Q49 54 42 50Z\" fill=\"#E1CCA4\"/><path d=\"M45 40L46 49\" stroke=\"#FFF0D4\" stroke-width=\"2.5\"/><path d=\"M52 40L53 49\" stroke=\"#B89B6D\" stroke-width=\"1.5\"/></g></svg>"
           }
         ]
       }
@@ -11799,7 +11799,7 @@
       "startAt": null,
       "endAt": null,
       "minAppVersion": "1.1.7",
-      "order": 0
+      "order": 1
     }
   ]
 }
