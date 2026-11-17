@@ -55,7 +55,7 @@
     },
     {
       "id": "exchange",
-      "enabled": true,
+      "enabled": false,
       "weight": 1,
       "icon": "https://boksday.github.io/house-ads/exchange.png",
       "name": {
