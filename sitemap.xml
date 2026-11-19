@@ -1,21 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://bysideapps.com/</loc></url>
-  <url><loc>https://bysideapps.com/broke/</loc></url>
-  <url><loc>https://bysideapps.com/broke/en/</loc></url>
-  <url><loc>https://bysideapps.com/broke/ja/</loc></url>
-  <url><loc>https://bysideapps.com/broke/privacy/</loc></url>
-  <url><loc>https://bysideapps.com/broke/privacy/en/</loc></url>
-  <url><loc>https://bysideapps.com/broke/privacy/ja/</loc></url>
-  <url><loc>https://bysideapps.com/broke/privacy/zh-hans/</loc></url>
-  <url><loc>https://bysideapps.com/broke/privacy/zh-hant/</loc></url>
-  <url><loc>https://bysideapps.com/broke/support/</loc></url>
-  <url><loc>https://bysideapps.com/broke/support/en/</loc></url>
-  <url><loc>https://bysideapps.com/broke/support/ja/</loc></url>
-  <url><loc>https://bysideapps.com/broke/support/zh-hans/</loc></url>
-  <url><loc>https://bysideapps.com/broke/support/zh-hant/</loc></url>
-  <url><loc>https://bysideapps.com/broke/zh-hans/</loc></url>
-  <url><loc>https://bysideapps.com/broke/zh-hant/</loc></url>
   <url><loc>https://bysideapps.com/daywrap/</loc></url>
   <url><loc>https://bysideapps.com/daywrap/film/</loc></url>
   <url><loc>https://bysideapps.com/dday/</loc></url>
@@ -51,21 +36,6 @@
   <url><loc>https://bysideapps.com/lumiclean/privacy/tr/</loc></url>
   <url><loc>https://bysideapps.com/lumiclean/privacy/zh-hans/</loc></url>
   <url><loc>https://bysideapps.com/lumiclean/privacy/zh-hant/</loc></url>
-  <url><loc>https://bysideapps.com/nonogram/</loc></url>
-  <url><loc>https://bysideapps.com/nonogram/en/</loc></url>
-  <url><loc>https://bysideapps.com/nonogram/ja/</loc></url>
-  <url><loc>https://bysideapps.com/nonogram/privacy/</loc></url>
-  <url><loc>https://bysideapps.com/nonogram/privacy/en/</loc></url>
-  <url><loc>https://bysideapps.com/nonogram/privacy/ja/</loc></url>
-  <url><loc>https://bysideapps.com/nonogram/privacy/zh-hans/</loc></url>
-  <url><loc>https://bysideapps.com/nonogram/privacy/zh-hant/</loc></url>
-  <url><loc>https://bysideapps.com/nonogram/support/</loc></url>
-  <url><loc>https://bysideapps.com/nonogram/support/en/</loc></url>
-  <url><loc>https://bysideapps.com/nonogram/support/ja/</loc></url>
-  <url><loc>https://bysideapps.com/nonogram/support/zh-hans/</loc></url>
-  <url><loc>https://bysideapps.com/nonogram/support/zh-hant/</loc></url>
-  <url><loc>https://bysideapps.com/nonogram/zh-hans/</loc></url>
-  <url><loc>https://bysideapps.com/nonogram/zh-hant/</loc></url>
   <url><loc>https://bysideapps.com/sudoku/</loc></url>
   <url><loc>https://bysideapps.com/sudoku/en/</loc></url>
   <url><loc>https://bysideapps.com/sudoku/ja/</loc></url>
@@ -97,3 +67,4 @@
   <url><loc>https://bysideapps.com/trip/zh-hans/</loc></url>
   <url><loc>https://bysideapps.com/trip/zh-hant/</loc></url>
 </urlset>
+
