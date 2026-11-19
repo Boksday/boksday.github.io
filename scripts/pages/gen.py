@@ -13,7 +13,7 @@ from privacy import PRIVACY as TRIP_PRIVACY  # noqa: E402
 from support import SUPPORT as TRIP_SUPPORT  # noqa: E402
 
 SITE = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
-BASE = 'https://boksday.github.io'
+BASE = 'https://bysideapps.com'
 
 DARK_ALT = {
     'ko': '다크 모드 지출 화면',
