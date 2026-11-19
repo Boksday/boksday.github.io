@@ -41,7 +41,7 @@ ANALYTICS['tr'] = ('Uygulamada kayıt veya oturum açma yoktur ve sunucu işletm
 del ANALYTICS[' tr']
 
 SITE = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
-BASE = 'https://boksday.github.io'
+BASE = 'https://bysideapps.com'
 CURRENT = ' aria-current="page"'
 LANG_LABEL = {'ko': '언어', 'en': 'Language', 'ja': '言語', 'zh-hans': '语言', 'zh-hant': '語言', 'en-gb': 'Language', 'sv': 'Språk', 'da': 'Sprog', 'nb': 'Språk', 'nl': 'Taal', 'de': 'Sprache', 'fr': 'Langue', 'es': 'Idioma', 'pt': 'Idioma', 'it': 'Lingua', 'tr': 'Dil', 'ru': 'Язык', 'ar': 'اللغة'}
 
@@ -95,6 +95,7 @@ def page(lang):
   <meta name="theme-color" content="#0F0F10" media="(prefers-color-scheme: dark)">
   <title>{e(p['title'])}</title>
   <meta name="description" content="{e(p['summary'][0])}">
+  <link rel="canonical" href="{BASE}{path(lang)}">
   {alternates}
   <link rel="icon" href="/lumiclean/icon.png">
   <link rel="apple-touch-icon" href="/lumiclean/icon.png">

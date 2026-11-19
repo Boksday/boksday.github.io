@@ -127,6 +127,7 @@ def head(app, lang, section, title, desc, css, og_image=None):
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{e(title)}</title>
   <meta name="description" content="{e(desc)}">{og}
+  <link rel="canonical" href="{BASE}{app.path(section, lang)}">
   {alternates(app, section)}
   <link rel="icon" href="/{app.slug}/icon.png">
   <link rel="stylesheet" href="{css}">{redirect}
