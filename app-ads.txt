@@ -1,2 +1,6 @@
 google.com, pub-8663707140300350, DIRECT, f08c47fec0942fa0
 facebook.com, 3701936093315861, DIRECT, c3e20eee3f780d68
+appodeal.com, 442581, DIRECT
+bidmachine.io, 1, DIRECT
+bidmachine.io, 466, DIRECT
+facebook.com, 3701936093315861, RESELLER, c3e20eee3f780d68
